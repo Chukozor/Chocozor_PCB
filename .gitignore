@@ -24,3 +24,7 @@ images/*
 # Unnecessary files
 plate/*/*.kicad_prl
 bottom/*/*.kicad_prl
+
+# Private files
+*kicad_pcb.lck
+
