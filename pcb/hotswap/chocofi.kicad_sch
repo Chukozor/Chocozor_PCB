@@ -2835,6 +2835,12 @@
 		(uuid "01e54f9b-b8ca-4a89-8495-b5305fd76dae")
 	)
 	(junction
+		(at 33.655 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "088cb418-cc9f-4b2b-bb8e-24b01af94663")
+	)
+	(junction
 		(at 48.895 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2893,6 +2899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cf88dff-9581-4224-9f5f-bb1af9828c95")
+	)
+	(junction
+		(at 66.675 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d2b8a7f-91d7-4b52-9194-37997608621f")
 	)
 	(junction
 		(at 220.98 73.025)
@@ -3013,6 +3025,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3f6a648-f5a5-42a4-b5b2-ace878c7659a")
+	)
+	(junction
+		(at 51.435 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9904357-a5e8-4c70-ba1b-cd86a657e0d0")
 	)
 	(junction
 		(at 228.6 78.74)
@@ -3179,6 +3197,16 @@
 			(type default)
 		)
 		(uuid "1ba8fa39-8d9f-40ff-9449-e25f75340254")
+	)
+	(wire
+		(pts
+			(xy 51.435 54.61) (xy 51.435 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210f0d05-fdb3-48c6-a41e-5027f9e9a80d")
 	)
 	(wire
 		(pts
@@ -3682,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 54.61) (xy 33.655 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8039be-e7d6-41b1-89cf-aa7abd8b6e7a")
+	)
+	(wire
+		(pts
 			(xy 48.895 62.23) (xy 66.675 62.23)
 		)
 		(stroke
@@ -3812,6 +3850,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.675 77.47) (xy 84.455 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9263fd12-9bc3-418f-8575-10e1622ffc47")
+	)
+	(wire
+		(pts
 			(xy 29.21 46.99) (xy 48.895 46.99)
 		)
 		(stroke
@@ -3899,6 +3947,16 @@
 			(type default)
 		)
 		(uuid "a8eb7f8d-5b0c-4d0c-adf8-5d75b04b94db")
+	)
+	(wire
+		(pts
+			(xy 29.21 77.47) (xy 66.675 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9897b7-c707-48c6-8408-7afb6ad34f11")
 	)
 	(wire
 		(pts
@@ -4082,16 +4140,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 77.47) (xy 84.455 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d287cd7f-cd93-4e39-9758-f7f36c402d3a")
-	)
-	(wire
-		(pts
 			(xy 151.765 71.755) (xy 151.765 74.295)
 		)
 		(stroke
@@ -4209,6 +4257,16 @@
 			(type solid)
 		)
 		(uuid "eb6fbf6f-1f6c-44c0-981c-47890d51b274")
+	)
+	(wire
+		(pts
+			(xy 33.655 54.61) (xy 34.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee074f1f-66ab-4bb3-82d9-8b64ace16f4c")
 	)
 	(wire
 		(pts
@@ -4795,7 +4853,7 @@
 	)
 	(global_label "row3"
 		(shape input)
-		(at 80.01 77.47 180)
+		(at 29.21 77.47 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4804,7 +4862,7 @@
 		)
 		(uuid "a8100ceb-d9f4-499a-a0b7-ebcb4598e671")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 77.47 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,6 +9001,73 @@
 		)
 	)
 	(symbol
+		(lib_id "chocofi-rescue:D-Device")
+		(at 66.675 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "258ebaa4-472a-4c48-9b7f-d00144211e03")
+		(property "Reference" "D1"
+			(at 64.135 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 69.215 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbd:D3_TH_SMD"
+			(at 66.675 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.675 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.675 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "128f3651-1de2-468d-b401-7e2cd5da23af")
+		)
+		(pin "2"
+			(uuid "b7b6e476-32de-4fcb-85a1-f08a1965ecd1")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 165.735 78.105 270)
 		(unit 1)
@@ -9967,6 +10092,72 @@
 			(project "nijuni"
 				(path "/8a50fdbf-5eb1-4f58-981d-060e7424b472"
 					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(at 59.055 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6208c2b-c957-4a13-92bd-8ad89c1b167b")
+		(property "Reference" "SW22"
+			(at 62.865 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 59.055 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+			(at 59.055 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.055 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.055 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2daff4d6-8b03-43cf-b60a-fbacfd667f9f")
+		)
+		(pin "2"
+			(uuid "1a623b64-d2db-4731-9e68-23238f86994f")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "SW22")
 					(unit 1)
 				)
 			)
