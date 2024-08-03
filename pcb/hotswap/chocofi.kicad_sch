@@ -2997,6 +2997,12 @@
 		(uuid "94369ada-8e1e-4fbd-89b6-d5ac002ea066")
 	)
 	(junction
+		(at 218.44 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "970494c1-5234-468d-b491-20a6a4b18a3f")
+	)
+	(junction
 		(at 51.435 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3104,10 +3110,6 @@
 		(at 220.98 86.36)
 		(uuid "370a3485-85e7-4d69-a4c7-cb678bd1dc06")
 	)
-	(no_connect
-		(at 140.335 50.165)
-		(uuid "3ce1346a-eb96-49d3-83b6-8b30cd974058")
-	)
 	(wire
 		(pts
 			(xy 179.705 71.755) (xy 179.705 74.295)
@@ -3157,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "1019da4a-167e-4860-b1cc-e9be61e62a48")
+	)
+	(wire
+		(pts
+			(xy 218.44 105.41) (xy 218.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1120fbf8-074c-462e-b183-fc5371258825")
 	)
 	(wire
 		(pts
@@ -3387,6 +3399,26 @@
 			(type solid)
 		)
 		(uuid "43dd0d20-8774-48f0-b756-d43837c8fa25")
+	)
+	(wire
+		(pts
+			(xy 218.44 115.57) (xy 226.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a2c03b-b701-4637-a170-80083f4b7360")
+	)
+	(wire
+		(pts
+			(xy 218.44 114.3) (xy 218.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451d5b12-29b2-4f8c-9342-44537ddf2649")
 	)
 	(wire
 		(pts
@@ -3930,6 +3962,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 115.57) (xy 218.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ba6227-c8e3-43da-9497-10cb195ab419")
+	)
+	(wire
+		(pts
 			(xy 119.38 133.35) (xy 123.19 133.35)
 		)
 		(stroke
@@ -3977,6 +4019,16 @@
 			(type default)
 		)
 		(uuid "b6642c97-54ca-4bc3-a20c-0118e87f9c2d")
+	)
+	(wire
+		(pts
+			(xy 218.44 124.46) (xy 218.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73b2d2a-affe-4223-ba97-a3ca5003f22a")
 	)
 	(wire
 		(pts
@@ -4358,6 +4410,37 @@
 		)
 		(uuid "ff38a0c8-ea9a-43e2-af5f-8cd008e90846")
 	)
+	(text "Left\n(B.Cu)"
+		(exclude_from_sim no)
+		(at 213.36 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24ad4fdd-c8e3-4bb7-b704-05d3010d1528")
+	)
+	(text "Right\n(F.Cu)"
+		(exclude_from_sim no)
+		(at 213.36 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c21b68f7-c5ca-426a-bb9f-29cf4e5da959")
+	)
+	(label "Handedness"
+		(at 226.06 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58122904-0a74-462a-a415-bca3e77d4a44")
+	)
 	(global_label "row3"
 		(shape input)
 		(at 140.335 45.085 180)
@@ -4575,6 +4658,26 @@
 		(uuid "5bb6fc2c-bbd1-4b75-8dc1-20646abc971b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.335 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Handedness"
+		(shape input)
+		(at 140.335 50.165 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d754c74-886c-4237-90b4-a141757a21dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.335 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,6 +9171,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 218.44 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c98c17c-8799-4145-942d-3010af4ac2a3")
+		(property "Reference" "R6"
+			(at 220.98 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 220.98 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistances_Chukozor:R_0805"
+			(at 216.662 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Handedness pin resistor for right hand"
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f123ade-af76-4438-860b-33532c1eeb98")
+		)
+		(pin "1"
+			(uuid "7c530bbd-00a4-4168-b722-d7de6615015d")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 165.735 78.105 270)
 		(unit 1)
@@ -9138,6 +9311,76 @@
 			(project "nijuni"
 				(path "/8a50fdbf-5eb1-4f58-981d-060e7424b472"
 					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33802103-4c7e-4d32-9a50-19d893a19409")
+		(property "Reference" "R5"
+			(at 220.98 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 220.98 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistances_Chukozor:R_0805"
+			(at 216.662 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Handedness pin resistor for left hand"
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3f167ee-1018-4dbc-bbe4-29b5cbe7f8f1")
+		)
+		(pin "1"
+			(uuid "5c96ba2a-6cb0-49c5-b7cf-a77f897b53ac")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9312,7 +9555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 139.7 126.9999 0)
 			(effects
 				(font
@@ -9321,7 +9564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistances-Chukozor:R_0805"
+		(property "Footprint" "Resistances_Chukozor:R_0805"
 			(at 135.382 125.73 90)
 			(effects
 				(font
@@ -9382,7 +9625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 130.81 126.9999 0)
 			(effects
 				(font
@@ -9391,7 +9634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistances-Chukozor:R_0805"
+		(property "Footprint" "Resistances_Chukozor:R_0805"
 			(at 126.492 125.73 90)
 			(effects
 				(font
@@ -10098,6 +10341,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b44f6b6b-5be6-4db0-8006-5686f74eccbd")
+		(property "Reference" "#PWR018"
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7966dbe0-5062-4621-a4ec-85a176350f3b")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
 		(at 59.055 69.85 0)
 		(unit 1)
@@ -10334,7 +10643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 148.59 126.9999 0)
 			(effects
 				(font
@@ -10343,7 +10652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistances-Chukozor:R_0805"
+		(property "Footprint" "Resistances_Chukozor:R_0805"
 			(at 144.272 125.73 90)
 			(effects
 				(font
@@ -10380,6 +10689,71 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chocofi-rescue:VCC-power")
+		(at 218.44 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d319904f-1710-48eb-9b74-c13a9b142e92")
+		(property "Reference" "#PWR019"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5825cc2-eb61-47a6-b148-c57ca9844ea7")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10828,7 +11202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 121.92 126.9999 0)
 			(effects
 				(font
@@ -10837,7 +11211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistances-Chukozor:R_0805"
+		(property "Footprint" "Resistances_Chukozor:R_0805"
 			(at 117.602 125.73 90)
 			(effects
 				(font
