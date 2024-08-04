@@ -1077,6 +1077,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -2604,7 +2686,7 @@
 		(uuid "388d9f39-898d-442c-b7e2-8cff9a3d651d")
 	)
 	(junction
-		(at 123.19 133.35)
+		(at 172.72 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39aa0a96-c0bb-4232-9844-a347f8cd7e89")
@@ -2634,7 +2716,7 @@
 		(uuid "3eee05d3-26cf-4f45-8969-ffbcace055f7")
 	)
 	(junction
-		(at 140.97 133.35)
+		(at 190.5 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4028e8d8-e709-4693-b0cd-5250fc023fc8")
@@ -2652,7 +2734,7 @@
 		(uuid "464b4818-63cc-4c03-8664-5d7cb7777346")
 	)
 	(junction
-		(at 128.27 120.65)
+		(at 177.8 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c6a18a9-c8be-4f98-8534-53354ff35c10")
@@ -2670,7 +2752,7 @@
 		(uuid "52a017c7-22f3-405c-a12c-5795ca7745c6")
 	)
 	(junction
-		(at 137.16 120.65)
+		(at 186.69 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "593e1355-1f49-4269-b1c3-bf993d8ebafa")
@@ -2766,7 +2848,7 @@
 		(uuid "ba4ce1fc-ba15-4e45-bee1-236c211a1e64")
 	)
 	(junction
-		(at 119.38 120.65)
+		(at 168.91 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb734d01-bd40-4853-bb26-3733eadffc65")
@@ -2873,7 +2955,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 120.65) (xy 146.05 120.65)
+			(xy 186.69 120.65) (xy 195.58 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 119.38 133.35)
+			(xy 168.91 129.54) (xy 168.91 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2913,7 +2995,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 133.35) (xy 140.97 133.35)
+			(xy 186.69 133.35) (xy 190.5 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3213,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 120.65) (xy 119.38 121.92)
+			(xy 168.91 120.65) (xy 168.91 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3223,7 +3305,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 120.65) (xy 137.16 121.92)
+			(xy 186.69 120.65) (xy 186.69 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3233,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 133.35) (xy 137.16 129.54)
+			(xy 186.69 133.35) (xy 186.69 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3263,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 120.65) (xy 137.16 120.65)
+			(xy 177.8 120.65) (xy 186.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3333,7 +3415,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 133.35) (xy 123.19 134.62)
+			(xy 172.72 133.35) (xy 172.72 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3393,7 +3475,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 120.65) (xy 128.27 121.92)
+			(xy 177.8 120.65) (xy 177.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3483,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 129.54) (xy 146.05 133.35)
+			(xy 195.58 129.54) (xy 195.58 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3493,7 +3575,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 133.35) (xy 140.97 133.35)
+			(xy 195.58 133.35) (xy 190.5 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3523,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 125.73) (xy 69.85 125.73)
+			(xy 110.49 125.73) (xy 119.38 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3693,7 +3775,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 133.35) (xy 123.19 133.35)
+			(xy 168.91 133.35) (xy 172.72 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3723,7 +3805,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 120.65) (xy 128.27 120.65)
+			(xy 168.91 120.65) (xy 177.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3761,9 +3843,19 @@
 		)
 		(uuid "b7893603-5350-47d3-b6cd-b7d900166142")
 	)
+	(polyline
+		(pts
+			(xy 234.95 29.21) (xy 287.02 29.21)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "bbd2ca06-f09e-4882-997d-fb1a0748f9c4")
+	)
 	(wire
 		(pts
-			(xy 146.05 120.65) (xy 146.05 121.92)
+			(xy 195.58 120.65) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3833,7 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 133.35) (xy 128.27 133.35)
+			(xy 172.72 133.35) (xy 177.8 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3873,13 +3965,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 120.65) (xy 118.11 120.65)
+			(xy 168.91 120.65) (xy 167.64 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cde5c6c2-3ac5-4c62-83e7-c3a2a3706e86")
+	)
+	(polyline
+		(pts
+			(xy 284.48 44.45) (xy 287.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ce263e04-3f77-46f7-aa62-95a9f91934fa")
 	)
 	(polyline
 		(pts
@@ -3953,7 +4055,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 140.97 134.62)
+			(xy 190.5 133.35) (xy 190.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3973,7 +4075,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 133.35) (xy 128.27 129.54)
+			(xy 177.8 133.35) (xy 177.8 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4204,7 +4306,7 @@
 	)
 	(global_label "ENCA"
 		(shape input)
-		(at 69.85 123.19 180)
+		(at 119.38 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4214,7 +4316,7 @@
 		)
 		(uuid "3194a7e2-c39c-4cd7-bc19-4a59930b59c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.0267 123.19 0)
+			(at 111.5567 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4718,7 @@
 	)
 	(global_label "push_encoder"
 		(shape input)
-		(at 85.09 123.19 0)
+		(at 134.62 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4625,7 +4727,7 @@
 		)
 		(uuid "9c7830de-e442-4b28-b07d-45cbf4da8acb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 123.19 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +4839,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 123.19 134.62 270)
+		(at 172.72 134.62 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4746,7 +4848,7 @@
 		)
 		(uuid "ae31423f-9201-4559-8b2a-9a88a87962b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2694 142.1252 90)
+			(at 172.7994 142.1252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +4920,7 @@
 	)
 	(global_label "ENCB"
 		(shape input)
-		(at 69.85 128.27 180)
+		(at 119.38 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4828,7 +4930,7 @@
 		)
 		(uuid "c63dd59a-f018-4c2d-bcac-b5faf10c10a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.8453 128.27 0)
+			(at 111.3753 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +5043,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 140.97 134.62 270)
+		(at 190.5 134.62 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4950,7 +5052,7 @@
 		)
 		(uuid "d41e8fe7-3b41-4016-afaa-bc075d74df27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.8906 142.0647 90)
+			(at 190.4206 142.0647 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,17 +9287,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 125.73 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 243.84 59.69 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e4eae6-8795-45b6-8dc2-563dbb8e2140")
-		(property "Reference" "R3"
-			(at 139.7 124.4599 0)
+		(uuid "46d6fe7f-d7cc-4441-8928-fc2b4fb1b3b8")
+		(property "Reference" "H12"
+			(at 242.57 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,17 +9304,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 139.7 126.9999 0)
+		(property "Value" "MountingHole"
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 			)
 		)
-		(property "Footprint" "Resistances_Chukozor:R_0805"
-			(at 135.382 125.73 90)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 243.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9323,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 125.73 0)
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e4eae6-8795-45b6-8dc2-563dbb8e2140")
+		(property "Reference" "R3"
+			(at 189.23 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 189.23 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistances_Chukozor:R_0805"
+			(at 184.912 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9396,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 125.73 0)
+			(at 186.69 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9421,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 125.73 0)
+		(at 177.8 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9265,7 +9430,7 @@
 		(fields_autoplaced yes)
 		(uuid "488114bb-0c63-4dcb-a058-9c846d8b25a9")
 		(property "Reference" "R2"
-			(at 130.81 124.4599 0)
+			(at 180.34 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9439,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 130.81 126.9999 0)
+			(at 180.34 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +9448,7 @@
 			)
 		)
 		(property "Footprint" "Resistances_Chukozor:R_0805"
-			(at 126.492 125.73 90)
+			(at 176.022 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 125.73 0)
+			(at 177.8 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9466,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 125.73 0)
+			(at 177.8 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,6 +9484,69 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 35.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d1ba8ee-d1a1-428d-b058-71b89d3bd3c3")
+		(property "Reference" "H2"
+			(at 256.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9473,7 +9701,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 77.47 125.73 0)
+		(at 127 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9482,7 +9710,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e05a382-c9c8-4fce-8700-264b094d06bc")
 		(property "Reference" "SW13"
-			(at 77.47 115.57 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9718,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 77.47 118.11 0)
+			(at 127 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9726,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
-			(at 73.66 121.666 0)
+			(at 123.19 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 119.126 0)
+			(at 127 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9744,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 77.47 125.73 0)
+			(at 127 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +9854,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:VCC-power")
-		(at 118.11 120.65 90)
+		(at 167.64 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9634,7 +9862,7 @@
 		(dnp no)
 		(uuid "7ec34c81-ffbb-4abe-8557-b7e48f5f947b")
 		(property "Reference" "#PWR015"
-			(at 121.92 120.65 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9871,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 114.3 120.65 0)
+			(at 163.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 120.65 0)
+			(at 167.64 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +9888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 120.65 0)
+			(at 167.64 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9669,7 +9897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 120.65 0)
+			(at 167.64 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,6 +9994,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 271.78 35.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "95f1ab51-ae8b-410d-8978-b67f3e9c434c")
+		(property "Reference" "H3"
+			(at 270.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 271.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 271.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 215.9 70.485 0)
 		(unit 1)
@@ -9790,7 +10081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Buttons_Switches:SW_SPDT+H-MSK12C01_hor(7pin_SMD)"
+		(property "Footprint" "kbd:SW_SPDT+H-MSK12C01_hor(7pin_SMD)_REV"
 			(at 215.9 70.485 0)
 			(effects
 				(font
@@ -9907,6 +10198,69 @@
 			(project "nijuni"
 				(path "/8a50fdbf-5eb1-4f58-981d-060e7424b472"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 243.84 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aacfe3ca-2a43-4595-9cbc-80932696fe62")
+		(property "Reference" "H4"
+			(at 242.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10121,6 +10475,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 271.78 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bba705b6-a387-4602-bb3f-754b432dfd29")
+		(property "Reference" "H6"
+			(at 270.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 224.79 81.28 180)
 		(unit 1)
@@ -10191,6 +10608,69 @@
 			(project "nijuni"
 				(path "/8a50fdbf-5eb1-4f58-981d-060e7424b472"
 					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 243.84 35.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce4ab53f-1851-4b17-b85f-da1583930658")
+		(property "Reference" "H1"
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -10274,7 +10754,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 125.73 0)
+		(at 195.58 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10283,7 +10763,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1b85387-91a7-4bd9-8214-5bd06463ef2c")
 		(property "Reference" "R4"
-			(at 148.59 124.4599 0)
+			(at 198.12 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10772,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 148.59 126.9999 0)
+			(at 198.12 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10781,7 @@
 			)
 		)
 		(property "Footprint" "Resistances_Chukozor:R_0805"
-			(at 144.272 125.73 90)
+			(at 193.802 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,7 +10790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 125.73 0)
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10799,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 125.73 0)
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +10889,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
-		(at 60.96 125.73 270)
+		(at 110.49 125.73 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10418,7 +10898,7 @@
 		(dnp no)
 		(uuid "d93d2ae9-bfb3-442f-9bb6-86ee9288fa2c")
 		(property "Reference" "#PWR014"
-			(at 54.61 125.73 0)
+			(at 104.14 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 125.73 0)
+			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +10915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 125.73 0)
+			(at 110.49 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +10924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 125.73 0)
+			(at 110.49 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +10933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 125.73 0)
+			(at 110.49 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,6 +11024,132 @@
 			(project "nijuni"
 				(path "/8a50fdbf-5eb1-4f58-981d-060e7424b472"
 					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 243.84 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0fd46a9-891a-4d33-bc82-fb4a067027bd")
+		(property "Reference" "H7"
+			(at 242.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 243.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 243.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 243.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1e8eef2-27f6-4b10-8ae6-df41075d8476")
+		(property "Reference" "H8"
+			(at 256.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 257.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -10692,7 +11298,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 128.27 90)
+		(at 134.62 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10700,7 +11306,7 @@
 		(dnp no)
 		(uuid "eac1799c-82b7-4a96-ab96-8af12240f8e2")
 		(property "Reference" "#PWR016"
-			(at 91.44 128.27 0)
+			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,7 +11315,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 128.27 0)
+			(at 139.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +11323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 128.27 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +11332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 128.27 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +11341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 128.27 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,6 +11356,69 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 271.78 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f00ef827-9ada-4278-99a7-3ea1460bda23")
+		(property "Reference" "H9"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -10780,7 +11449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Buttons_Switches:SW_SPDT+H-MSK12C01_hor(7pin_SMD)"
+		(property "Footprint" "kbd:SW_SPDT+H-MSK12C01_hor(7pin_SMD)_REV"
 			(at 215.9 83.82 0)
 			(effects
 				(font
@@ -10833,7 +11502,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 125.73 0)
+		(at 168.91 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10842,7 +11511,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5e1df40-3ecd-4217-95c7-ded38523f90d")
 		(property "Reference" "R1"
-			(at 121.92 124.4599 0)
+			(at 171.45 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +11520,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 121.92 126.9999 0)
+			(at 171.45 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,7 +11529,7 @@
 			)
 		)
 		(property "Footprint" "Resistances_Chukozor:R_0805"
-			(at 117.602 125.73 90)
+			(at 167.132 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10869,7 +11538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 125.73 0)
+			(at 168.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +11547,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 125.73 0)
+			(at 168.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,6 +11565,69 @@
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f776d229-a07c-4a71-9eb8-665a72497e92")
+		(property "Reference" "H5"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 257.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "H5")
 					(unit 1)
 				)
 			)
