@@ -2720,12 +2720,6 @@
 		(uuid "01e54f9b-b8ca-4a89-8495-b5305fd76dae")
 	)
 	(junction
-		(at 33.655 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "088cb418-cc9f-4b2b-bb8e-24b01af94663")
-	)
-	(junction
 		(at 48.895 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2858,6 +2852,12 @@
 		(uuid "61bd6299-13ad-4c9c-b036-17ad980d6ca0")
 	)
 	(junction
+		(at 33.655 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64acbd13-3a42-4ab8-bff4-cca33264c705")
+	)
+	(junction
 		(at 33.655 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2981,7 +2981,7 @@
 		(at 33.655 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fda385a5-20c1-4793-acb1-100499605447")
+		(uuid "f9752021-569c-45c5-9f44-7fa649ffa13f")
 	)
 	(junction
 		(at 86.995 54.61)
@@ -3000,6 +3000,10 @@
 	(no_connect
 		(at 220.98 86.36)
 		(uuid "370a3485-85e7-4d69-a4c7-cb678bd1dc06")
+	)
+	(no_connect
+		(at 140.335 47.625)
+		(uuid "c4302b24-3891-40ea-8978-0ea7d587a15c")
 	)
 	(wire
 		(pts
@@ -3020,6 +3024,16 @@
 			(type solid)
 		)
 		(uuid "02780ff4-5fb4-4820-a4b0-72caf0321558")
+	)
+	(wire
+		(pts
+			(xy 33.655 39.37) (xy 33.655 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0670f8e0-e6a0-48dc-a1bf-04c4f95ac6a9")
 	)
 	(wire
 		(pts
@@ -3090,6 +3104,16 @@
 			(type default)
 		)
 		(uuid "14d5b50a-075a-4190-8003-be1d98bacede")
+	)
+	(wire
+		(pts
+			(xy 33.655 54.61) (xy 33.655 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185e87d5-0794-4659-a56f-4ddc506d6f84")
 	)
 	(wire
 		(pts
@@ -3633,16 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 54.61) (xy 33.655 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8039be-e7d6-41b1-89cf-aa7abd8b6e7a")
-	)
-	(wire
-		(pts
 			(xy 48.895 62.23) (xy 66.675 62.23)
 		)
 		(stroke
@@ -3693,7 +3707,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 125.73) (xy 119.38 125.73)
+			(xy 34.29 110.49) (xy 43.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4243,16 +4257,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 54.61) (xy 34.29 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee074f1f-66ab-4bb3-82d9-8b64ace16f4c")
-	)
-	(wire
-		(pts
 			(xy 142.875 71.755) (xy 142.875 74.295)
 		)
 		(stroke
@@ -4290,16 +4294,6 @@
 			(type default)
 		)
 		(uuid "f9338d8b-c04e-48bb-9535-db72a3b61f5b")
-	)
-	(wire
-		(pts
-			(xy 33.655 39.37) (xy 33.655 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9c8e4d3-7400-4f10-b212-16c7570427b2")
 	)
 	(wire
 		(pts
@@ -4392,6 +4386,26 @@
 			)
 		)
 	)
+	(global_label "row3"
+		(shape input)
+		(at 66.04 113.03 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "1a740fee-c083-45be-991d-18d9cd6e9f97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "data"
 		(shape input)
 		(at 140.335 24.765 180)
@@ -4412,9 +4426,29 @@
 			)
 		)
 	)
+	(global_label "push_encoder"
+		(shape input)
+		(at 33.655 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e9f4ecb-76c9-4615-8550-bdba5341c04e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.655 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENCA"
 		(shape input)
-		(at 119.38 123.19 180)
+		(at 43.18 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4424,7 +4458,7 @@
 		)
 		(uuid "3194a7e2-c39c-4cd7-bc19-4a59930b59c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.5567 123.19 0)
+			(at 35.3567 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,26 +4521,6 @@
 		(uuid "4845050a-a71a-4188-9a80-028dd17edaa7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.335 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "push_encoder"
-		(shape input)
-		(at 140.335 47.625 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4968fafd-2c1a-406c-9a4d-c2285daf1c65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.335 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,6 +4734,26 @@
 			)
 		)
 	)
+	(global_label "push_encoder"
+		(shape input)
+		(at 58.42 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77131f62-a0ad-4ef6-ab9a-172070fa3932")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "data"
 		(shape input)
 		(at 222.25 46.99 0)
@@ -4820,27 +4854,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "push_encoder"
-		(shape input)
-		(at 134.62 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c7830de-e442-4b28-b07d-45cbf4da8acb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5028,7 +5041,7 @@
 	)
 	(global_label "ENCB"
 		(shape input)
-		(at 119.38 128.27 180)
+		(at 43.18 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5038,7 +5051,7 @@
 		)
 		(uuid "c63dd59a-f018-4c2d-bcac-b5faf10c10a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.3753 128.27 0)
+			(at 35.1753 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +9953,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 127 125.73 0)
+		(at 50.8 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9949,7 +9962,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e05a382-c9c8-4fce-8700-264b094d06bc")
 		(property "Reference" "SW13"
-			(at 127 115.57 0)
+			(at 50.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +9970,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 127 118.11 0)
+			(at 50.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,7 +9978,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
-			(at 123.19 121.666 0)
+			(at 46.99 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9974,7 +9987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 119.126 0)
+			(at 50.8 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9983,7 +9996,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 127 125.73 0)
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,6 +10240,73 @@
 			(project "nijuni"
 				(path "/8a50fdbf-5eb1-4f58-981d-060e7424b472"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chocofi-rescue:D-Device")
+		(at 62.23 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f2ec65c-0dd2-4ab2-90f4-c8ce2baac2e5")
+		(property "Reference" "D7"
+			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 62.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbd:D3_TH_SMD"
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512093b7-6f36-4f2f-8f00-0677415b64de")
+		)
+		(pin "2"
+			(uuid "237b3399-044d-48aa-baa2-6e639a2a8151")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11193,7 +11273,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
-		(at 110.49 125.73 270)
+		(at 34.29 110.49 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11202,7 +11282,7 @@
 		(dnp no)
 		(uuid "d93d2ae9-bfb3-442f-9bb6-86ee9288fa2c")
 		(property "Reference" "#PWR014"
-			(at 104.14 125.73 0)
+			(at 27.94 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +11291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 125.73 0)
+			(at 30.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +11299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 125.73 0)
+			(at 34.29 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +11308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 125.73 0)
+			(at 34.29 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,7 +11317,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 125.73 0)
+			(at 34.29 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11595,71 +11675,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eac1799c-82b7-4a96-ab96-8af12240f8e2")
-		(property "Reference" "#PWR016"
-			(at 140.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8cd2b64-8a9c-4870-ac79-62564967ff8f")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
