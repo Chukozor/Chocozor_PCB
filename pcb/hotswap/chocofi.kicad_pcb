@@ -32037,7 +32037,7 @@
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D7"
-			(at 0.55 0 360)
+			(at 0.55 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df5ba616-1dce-446d-900d-f956f8ece975")
@@ -32049,7 +32049,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at -0.55 0 360)
+			(at -0.55 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56652f94-e606-4e93-a64a-6a7c30257d51")
@@ -32061,7 +32061,7 @@
 			)
 		)
 		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "04d82863-fc60-4f11-9d8f-f9ccf457f8f5")
@@ -32073,7 +32073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2222a706-4a09-4c3a-a7c1-0a010819b8f8")
@@ -32085,7 +32085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8791677-0562-4665-b0a4-933029b6cdd2")
@@ -36476,7 +36476,7 @@
 			(net 52 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "7c4cded7-3a15-4a93-8d8e-b1d2dd8779e4")
+			(uuid "cea69c71-7e72-4914-b07a-c3759e0838c7")
 		)
 	)
 	(footprint ""
@@ -36484,7 +36484,7 @@
 		(uuid "a587a6ae-15ac-4a58-aabd-f44803a13d14")
 		(at 140.25 105.225)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "0495c307-f972-417b-8223-b357df204451")
 			(effects
@@ -36496,7 +36496,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "a357c881-616a-4a3a-abf9-cd5199ffd6df")
 			(effects
@@ -36508,7 +36508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "20ff0bfb-a96b-4cd4-8fd0-55c1f9bf3d08")
@@ -36521,7 +36521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f4b0d180-f8fc-4643-8c7b-dd1aeb2d8444")
@@ -36534,7 +36534,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7d2305fe-6af9-4a94-8515-014f8222721b")
@@ -36553,7 +36553,7 @@
 			(net 51 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "2030a08e-42e9-4053-b19c-cbc6307fd1e0")
+			(uuid "86c89472-1dab-4f8d-b125-757862237f3c")
 		)
 	)
 	(footprint "kbd:Jumper"
@@ -36707,7 +36707,7 @@
 		(uuid "b8bf2e1d-c2ec-4a23-ad2e-0d288404baa8")
 		(at 136.7 105.225)
 		(property "Reference" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "c1d91660-f2c3-47ed-84c8-ad5709458d86")
 			(effects
@@ -36719,7 +36719,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "15dc7707-96f8-4222-b232-37cf4df5ed07")
 			(effects
@@ -36731,7 +36731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "25c9a443-d1d6-44d3-aa00-9fd93ce527cd")
@@ -36744,7 +36744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b48d0c1f-6c59-4b3e-b3e7-c2ae51f2e1c7")
@@ -36757,7 +36757,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "70c7f6b4-b21f-43dd-baf7-dfaf5947525a")
@@ -36776,7 +36776,7 @@
 			(net 5 "row3")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "d4908179-6c0c-4ed9-958f-9beb6bce4d51")
+			(uuid "f6f0cbf5-6d8e-4ab0-8ce1-8134f4cfbbf4")
 		)
 	)
 	(footprint "Resistances_Chukozor:R_0805"
@@ -37438,7 +37438,7 @@
 			(net 5 "row3")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "ba8326aa-9d67-47e9-910e-18bca0ee9d8e")
+			(uuid "583de8d8-2785-406d-a336-b80ee21b7c85")
 		)
 	)
 	(gr_rect
