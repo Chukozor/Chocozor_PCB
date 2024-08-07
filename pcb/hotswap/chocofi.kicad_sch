@@ -3024,14 +3024,6 @@
 		(uuid "0cff500b-7096-4b42-917a-ae86251e30af")
 	)
 	(no_connect
-		(at 240.03 133.35)
-		(uuid "264669a3-94cf-4b4b-b005-42ad2bdc9d8c")
-	)
-	(no_connect
-		(at 240.03 151.765)
-		(uuid "370a3485-85e7-4d69-a4c7-cb678bd1dc06")
-	)
-	(no_connect
 		(at 161.29 49.53)
 		(uuid "c4302b24-3891-40ea-8978-0ea7d587a15c")
 	)
@@ -3787,6 +3779,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 133.35) (xy 241.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80313c83-370c-4654-899c-9eaf99194ddf")
+	)
+	(wire
+		(pts
+			(xy 240.03 151.765) (xy 242.57 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ab51f0-3309-4b6f-9124-d5fb79522fa0")
+	)
+	(wire
+		(pts
 			(xy 234.95 19.685) (xy 238.76 19.685)
 		)
 		(stroke
@@ -4007,6 +4019,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 130.175) (xy 242.57 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7e72ce-b7c2-431e-922e-e291a85c6b9c")
+	)
+	(wire
+		(pts
 			(xy 21.59 64.77) (xy 48.26 64.77)
 		)
 		(stroke
@@ -4124,6 +4146,16 @@
 			(type default)
 		)
 		(uuid "bbfa1f8d-777c-49ce-9a89-e1f590b20e26")
+	)
+	(wire
+		(pts
+			(xy 241.3 133.35) (xy 241.3 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf0fca7-4eff-43c2-8e57-a27ae08050c6")
 	)
 	(wire
 		(pts
@@ -4576,6 +4608,26 @@
 		)
 		(uuid "58122904-0a74-462a-a415-bca3e77d4a44")
 	)
+	(global_label "Battery 5v"
+		(shape input)
+		(at 242.57 130.175 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14a65778-c933-4a96-814e-08567d04b073")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row3"
 		(shape input)
 		(at 161.29 46.99 180)
@@ -4674,6 +4726,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Battery 5v"
+		(shape input)
+		(at 242.57 151.765 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "374b2ce4-e9b6-4ad8-ad3f-f8f0c50d96e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
