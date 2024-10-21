@@ -11,6 +11,190 @@
 		(company "pashutk & krikun98 & vaarai & chukozor")
 	)
 	(lib_symbols
+		(symbol "Chukozor_symbols:SW_Chuk"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 2.286 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Chuk"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Chuk_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 8.89 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 8.89 -2.54) (xy 7.62 -5.08) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Chuk_1_1"
+				(pin passive line
+					(at 7.62 0 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Female"
 			(pin_names
 				(offset 1.016) hide)
@@ -2714,16 +2898,16 @@
 		)
 	)
 	(junction
-		(at 66.04 49.53)
+		(at 83.82 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01e54f9b-b8ca-4a89-8495-b5305fd76dae")
+		(uuid "049d9852-d44e-4698-a9a2-cd28998ac616")
 	)
 	(junction
-		(at 66.04 64.77)
+		(at 101.6 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0adc4508-de88-4110-9998-4df1ca9d3bce")
+		(uuid "10939f38-b320-4625-aeaf-9d179aad3d5a")
 	)
 	(junction
 		(at 68.58 41.91)
@@ -2744,10 +2928,22 @@
 		(uuid "186a4b06-ed4f-459f-93dc-a6a7a5c53a62")
 	)
 	(junction
-		(at 83.82 49.53)
+		(at 66.04 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e835e42-bc58-4d96-bd4f-ead57b41f531")
+		(uuid "19f5d716-1c73-432e-887f-8f30a517a354")
+	)
+	(junction
+		(at 119.38 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bedf279-da6a-4629-9d0e-5352059222ca")
+	)
+	(junction
+		(at 101.6 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c01247-20ff-4121-bf97-a6ee55c23dce")
 	)
 	(junction
 		(at 199.39 96.52)
@@ -2768,34 +2964,16 @@
 		(uuid "2c6cd2cb-2d38-4fa0-97a0-1aa4f2a03f39")
 	)
 	(junction
-		(at 119.38 49.53)
+		(at 83.82 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d3887f8-648e-43fb-aba2-7cfff8496df2")
-	)
-	(junction
-		(at 119.38 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "388d9f39-898d-442c-b7e2-8cff9a3d651d")
+		(uuid "3136a3fd-d342-424b-9d68-6a4579729fb9")
 	)
 	(junction
 		(at 121.92 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3addc350-d23d-44d5-b268-454efb95fa01")
-	)
-	(junction
-		(at 119.38 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cf88dff-9581-4224-9f5f-bb1af9828c95")
-	)
-	(junction
-		(at 83.82 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d2b8a7f-91d7-4b52-9194-37997608621f")
 	)
 	(junction
 		(at 240.03 138.43)
@@ -2808,6 +2986,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4028e8d8-e709-4693-b0cd-5250fc023fc8")
+	)
+	(junction
+		(at 119.38 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40e61595-56c1-4ffa-ad1b-f4d41faa9735")
 	)
 	(junction
 		(at 158.75 31.75)
@@ -2840,6 +3024,12 @@
 		(uuid "52a017c7-22f3-405c-a12c-5795ca7745c6")
 	)
 	(junction
+		(at 48.26 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5431d8a3-50e9-48f8-85f2-8900fb7ab822")
+	)
+	(junction
 		(at 121.92 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2870,10 +3060,10 @@
 		(uuid "69b64974-cb3d-4736-8f5e-0a88231426aa")
 	)
 	(junction
-		(at 48.26 64.77)
+		(at 101.6 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e41132f-cb95-4682-99b0-7ab26eb4ec37")
+		(uuid "72fb0448-9439-46bc-9930-f027575f236a")
 	)
 	(junction
 		(at 104.14 26.67)
@@ -2888,10 +3078,22 @@
 		(uuid "804feb11-29d1-4d07-8bd1-3382a1e3c328")
 	)
 	(junction
+		(at 119.38 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89b22051-2dd7-4a4b-98cb-d07543e7baf3")
+	)
+	(junction
 		(at 190.5 96.52)
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "89b870df-3161-42a2-9b0b-15de252dcb83")
+	)
+	(junction
+		(at 48.26 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fca3472-909c-4017-9981-62c9e0a4ece1")
 	)
 	(junction
 		(at 240.03 146.685)
@@ -2900,10 +3102,10 @@
 		(uuid "94369ada-8e1e-4fbd-89b6-d5ac002ea066")
 	)
 	(junction
-		(at 48.26 34.29)
+		(at 83.82 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9785dcad-08d5-40ed-a9a7-8a6be287b974")
+		(uuid "98027523-8ffd-4aba-87f0-87e144b40194")
 	)
 	(junction
 		(at 226.06 29.845)
@@ -2918,28 +3120,22 @@
 		(uuid "a1cbf6c5-41bb-4534-a09e-38ee7c30c2a8")
 	)
 	(junction
-		(at 119.38 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8646133-5728-4bae-8f13-7be0c52bb491")
-	)
-	(junction
 		(at 171.45 96.52)
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "aa8bc3e2-5f41-4836-b7c3-32ce61da7641")
 	)
 	(junction
+		(at 83.82 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aabb7d3f-ac7b-4504-a0ae-93f283e78a2b")
+	)
+	(junction
 		(at 104.14 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aec75507-6829-427c-b24b-2fa6e6033c96")
-	)
-	(junction
-		(at 101.6 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3f6a648-f5a5-42a4-b5b2-ace878c7659a")
 	)
 	(junction
 		(at 68.58 57.15)
@@ -2954,10 +3150,10 @@
 		(uuid "ba4ce1fc-ba15-4e45-bee1-236c211a1e64")
 	)
 	(junction
-		(at 48.26 49.53)
+		(at 66.04 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb1c5844-0fed-44ff-92e8-c3a87c8b9e65")
+		(uuid "bc86fc10-788d-4c58-b2cb-409f502272ab")
 	)
 	(junction
 		(at 33.02 41.91)
@@ -2966,46 +3162,34 @@
 		(uuid "c37ff8b6-2d41-4947-b54b-ff75a4718c29")
 	)
 	(junction
-		(at 101.6 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5a2ad65-91ab-4b39-ab19-7e7cd532f4aa")
-	)
-	(junction
-		(at 83.82 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c60c30a8-134e-4b8f-bd24-640772fd5073")
-	)
-	(junction
-		(at 101.6 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd4399d5-93b1-44ba-9b5b-6a6bf0de1a3a")
-	)
-	(junction
 		(at 33.02 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cff5108a-fa72-4cea-b0f5-79a7992e81d8")
 	)
 	(junction
-		(at 101.6 80.01)
+		(at 101.6 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebd1777c-6ee7-4ed0-b9ee-b1da1b286e64")
+		(uuid "d4408c07-fd82-4675-b260-1cf86bad67d0")
 	)
 	(junction
-		(at 66.04 34.29)
+		(at 119.38 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eee8fbd4-9a74-48a7-8501-bcaf7521b552")
+		(uuid "e2783d55-8ec9-46be-8f8f-19d8f8850446")
 	)
 	(junction
-		(at 83.82 64.77)
+		(at 48.26 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8fbcb88-614f-4007-ab31-912a3045e155")
+		(uuid "e9476bb3-0c6d-4bc9-9209-e982fa2025f5")
+	)
+	(junction
+		(at 66.04 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c69781-b0bc-4f8a-87bf-ecc078369a2e")
 	)
 	(junction
 		(at 50.8 41.91)
@@ -3069,13 +3253,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 34.29) (xy 66.04 34.29)
+			(xy 101.6 64.77) (xy 119.38 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0aed524c-c179-4c31-8710-5b0e945ff1d0")
+		(uuid "097620d7-99a0-43c6-a808-433768a10c8b")
 	)
 	(wire
 		(pts
@@ -3106,16 +3290,6 @@
 			(type default)
 		)
 		(uuid "1120fbf8-074c-462e-b183-fc5371258825")
-	)
-	(wire
-		(pts
-			(xy 119.38 80.01) (xy 137.16 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b77b77-1754-45ff-9ed9-47b160f6f7c7")
 	)
 	(wire
 		(pts
@@ -3159,6 +3333,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 49.53) (xy 137.16 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20db6723-1cdf-4990-a0af-4333fd63b2aa")
+	)
+	(wire
+		(pts
 			(xy 68.58 57.15) (xy 68.58 72.39)
 		)
 		(stroke
@@ -3189,6 +3373,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 80.01) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23936862-f4e1-4ee4-9105-4654eba94ab2")
+	)
+	(wire
+		(pts
+			(xy 83.82 64.77) (xy 101.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261e57b6-269b-4c01-9b26-3da191cca358")
+	)
+	(wire
+		(pts
 			(xy 187.96 93.98) (xy 187.96 96.52)
 		)
 		(stroke
@@ -3196,6 +3400,16 @@
 			(type solid)
 		)
 		(uuid "263f5af5-8f27-4e55-b79c-e5ccd34cbb55")
+	)
+	(wire
+		(pts
+			(xy 101.6 80.01) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f7f096-0b37-4448-a1d5-a83d6cc5c49b")
 	)
 	(wire
 		(pts
@@ -3287,16 +3501,6 @@
 		)
 		(uuid "2e24e2d6-7361-490b-a792-b5ea32aa4a75")
 	)
-	(wire
-		(pts
-			(xy 48.26 64.77) (xy 66.04 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b4737c-9320-4d88-bcb1-d7c27ae5c4eb")
-	)
 	(polyline
 		(pts
 			(xy 143.51 10.16) (xy 143.51 90.17)
@@ -3306,16 +3510,6 @@
 			(type dash)
 		)
 		(uuid "31743000-c2f3-405c-b178-9bf7a6719630")
-	)
-	(wire
-		(pts
-			(xy 66.04 34.29) (xy 83.82 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3247a37b-df43-49d9-9134-a7ef19feddbd")
 	)
 	(wire
 		(pts
@@ -3336,6 +3530,16 @@
 			(type default)
 		)
 		(uuid "346d6fc8-c7c3-4c51-ad20-810bb79293c8")
+	)
+	(wire
+		(pts
+			(xy 119.38 34.29) (xy 137.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3602807d-98c8-418d-a9cd-46f366048d9b")
 	)
 	(polyline
 		(pts
@@ -3429,7 +3633,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 80.01) (xy 119.38 80.01)
+			(xy 21.59 80.01) (xy 83.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3456,16 +3660,6 @@
 			(type default)
 		)
 		(uuid "4ebca11b-f1f9-48fa-aa3e-1629d7482b4c")
-	)
-	(wire
-		(pts
-			(xy 101.6 64.77) (xy 119.38 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed8a66c-b9d1-4fa6-b5b8-23ce4512aa07")
 	)
 	(wire
 		(pts
@@ -3619,13 +3813,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 34.29) (xy 101.6 34.29)
+			(xy 66.04 34.29) (xy 83.82 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ef01d83-0d25-4d70-8fc1-ed1d72feaa03")
+		(uuid "5e67687e-973e-4d97-b939-72ee27388b34")
 	)
 	(wire
 		(pts
@@ -3639,13 +3833,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 34.29) (xy 119.38 34.29)
+			(xy 66.04 64.77) (xy 83.82 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6510bc53-9340-483f-9d3d-517b730395fd")
+		(uuid "62c4d68a-485e-4458-b10a-bad95ebab67a")
 	)
 	(polyline
 		(pts
@@ -3677,6 +3871,16 @@
 		)
 		(uuid "6688cd0b-2ebb-40af-9679-bb9e48972d53")
 	)
+	(wire
+		(pts
+			(xy 48.26 64.77) (xy 66.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6761b2b0-adee-4a54-8be7-34661e60d637")
+	)
 	(polyline
 		(pts
 			(xy 143.51 66.04) (xy 254 66.04)
@@ -3686,6 +3890,16 @@
 			(type dash)
 		)
 		(uuid "6c78a210-6935-4e53-9989-c5de25e8a7bb")
+	)
+	(wire
+		(pts
+			(xy 83.82 34.29) (xy 101.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d48c12d-5d68-4e68-99b9-2df70982d631")
 	)
 	(wire
 		(pts
@@ -3709,6 +3923,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 49.53) (xy 101.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2c342e-8134-46c8-9732-8bf1c232b318")
+	)
+	(wire
+		(pts
 			(xy 179.07 96.52) (xy 181.61 96.52)
 		)
 		(stroke
@@ -3716,6 +3940,16 @@
 			(type solid)
 		)
 		(uuid "70108f04-e861-416f-b388-beed2208e518")
+	)
+	(wire
+		(pts
+			(xy 119.38 64.77) (xy 137.16 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7060aaf1-0336-4009-9a69-e4bc73ab16ac")
 	)
 	(wire
 		(pts
@@ -3729,16 +3963,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 49.53) (xy 101.6 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d5fa8a-65b8-450d-96fd-9eeab8d38c7f")
-	)
-	(wire
-		(pts
 			(xy 48.26 71.12) (xy 50.8 71.12)
 		)
 		(stroke
@@ -3746,16 +3970,6 @@
 			(type default)
 		)
 		(uuid "755cf29b-7475-4092-854c-bb620feb8727")
-	)
-	(wire
-		(pts
-			(xy 66.04 49.53) (xy 83.82 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770b3f0e-5967-44ee-baf6-c0df8b0fda10")
 	)
 	(polyline
 		(pts
@@ -3766,16 +3980,6 @@
 			(type dash)
 		)
 		(uuid "7a6dbada-d506-4529-a155-44ab0077b202")
-	)
-	(wire
-		(pts
-			(xy 66.04 64.77) (xy 83.82 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fb1213d-2610-430e-a057-e41e2b4e3cb8")
 	)
 	(wire
 		(pts
@@ -3939,16 +4143,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 80.01) (xy 101.6 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9263fd12-9bc3-418f-8575-10e1622ffc47")
-	)
-	(wire
-		(pts
 			(xy 21.59 49.53) (xy 48.26 49.53)
 		)
 		(stroke
@@ -3956,6 +4150,16 @@
 			(type default)
 		)
 		(uuid "9505c7b8-fc27-4d7d-93e9-8bd97eab9d10")
+	)
+	(wire
+		(pts
+			(xy 66.04 49.53) (xy 83.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d41d5f-f982-4362-9ffc-40ead53154d0")
 	)
 	(wire
 		(pts
@@ -4069,13 +4273,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 80.01) (xy 83.82 80.01)
+			(xy 101.6 49.53) (xy 119.38 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa9897b7-c707-48c6-8408-7afb6ad34f11")
+		(uuid "abce2204-e491-4daa-86fc-5f60f181827e")
 	)
 	(wire
 		(pts
@@ -4086,16 +4290,6 @@
 			(type default)
 		)
 		(uuid "ace15730-4acc-4fb1-acd1-bae89788acbc")
-	)
-	(wire
-		(pts
-			(xy 119.38 34.29) (xy 137.16 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6642c97-54ca-4bc3-a20c-0118e87f9c2d")
 	)
 	(wire
 		(pts
@@ -4179,16 +4373,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 49.53) (xy 137.16 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ebefde-b836-4b5c-b819-66b7bd27d3df")
-	)
-	(wire
-		(pts
 			(xy 104.14 26.67) (xy 104.14 41.91)
 		)
 		(stroke
@@ -4259,13 +4443,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 49.53) (xy 66.04 49.53)
+			(xy 48.26 34.29) (xy 66.04 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cca281d8-ea06-4b03-9484-212cf14c32bf")
+		(uuid "cd7fd963-01fc-4ee3-91bf-eaa24035a04b")
 	)
 	(polyline
 		(pts
@@ -4399,6 +4583,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 49.53) (xy 66.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa3b1a8-7f16-4c67-9995-7ad9ef55e031")
+	)
+	(wire
+		(pts
 			(xy 238.76 29.845) (xy 234.95 29.845)
 		)
 		(stroke
@@ -4446,16 +4640,6 @@
 			(type default)
 		)
 		(uuid "e72f0e17-0cfa-4ebe-b8a0-8902803b8264")
-	)
-	(wire
-		(pts
-			(xy 101.6 49.53) (xy 119.38 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f1a633-d8f9-4eab-9cd2-7686b5b091f6")
 	)
 	(wire
 		(pts
@@ -4539,13 +4723,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 64.77) (xy 101.6 64.77)
+			(xy 101.6 34.29) (xy 119.38 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb15e42e-63fa-4c81-97c5-6d7ffe265958")
+		(uuid "fab1b54f-8187-4103-8c60-9f839beb4495")
 	)
 	(wire
 		(pts
@@ -4569,13 +4753,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 64.77) (xy 137.16 64.77)
+			(xy 119.38 80.01) (xy 137.16 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff38a0c8-ea9a-43e2-af5f-8cd008e90846")
+		(uuid "ff0b7e3f-fc23-4f13-af22-b73fdd744bfe")
 	)
 	(text "Left\n(B.Cu)"
 		(exclude_from_sim no)
@@ -5719,7 +5903,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 58.42 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5728,14 +5913,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e2699")
 		(property "Reference" "SW2"
-			(at 62.23 23.876 0)
+			(at 60.706 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 58.42 28.702 0)
 			(effects
 				(font
@@ -5743,7 +5928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_shortened_Chukozor"
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_shortenedbis"
 			(at 58.42 26.67 0)
 			(effects
 				(font
@@ -5775,6 +5960,12 @@
 		(pin "2"
 			(uuid "4db14546-e8e3-4a5b-9634-d0065f628bab")
 		)
+		(pin "3"
+			(uuid "089f2eb8-264b-4cca-a798-ea79e236fb2f")
+		)
+		(pin "2"
+			(uuid "f49eed14-0b6d-45d6-9690-95ce4bb6dac0")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -5785,74 +5976,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 66.04 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e26c6")
-		(property "Reference" "D2"
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 68.58 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 66.04 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "941ba165-a9e4-4a70-a314-c08e60de9e9f")
-		)
-		(pin "2"
-			(uuid "4a182587-b1d4-4631-8812-fa7885778fa7")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 76.2 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5861,14 +5986,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e27f9")
 		(property "Reference" "SW3"
-			(at 80.01 23.876 0)
+			(at 78.486 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 76.2 28.702 0)
 			(effects
 				(font
@@ -5876,7 +6001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_shortened_Chukozor"
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_shortenedbis"
 			(at 76.2 26.67 0)
 			(effects
 				(font
@@ -5908,6 +6033,12 @@
 		(pin "2"
 			(uuid "4dbca517-2274-4d9d-b6e1-71aedef0e103")
 		)
+		(pin "3"
+			(uuid "09c067e6-a7f2-43f8-bcb2-f1dbc97d03d8")
+		)
+		(pin "2"
+			(uuid "58cd63d8-8ba1-4eee-9d7e-ded0a08cf143")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -5918,74 +6049,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 83.82 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e281f")
-		(property "Reference" "D3"
-			(at 81.28 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 86.36 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 83.82 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "983afc1e-3903-4c8d-b586-c729f2ef06e8")
-		)
-		(pin "2"
-			(uuid "29f53beb-6e89-499b-8ad6-dd3657134daa")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 93.98 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5994,14 +6059,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e2908")
 		(property "Reference" "SW4"
-			(at 97.79 23.876 0)
+			(at 96.266 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 93.98 28.702 0)
 			(effects
 				(font
@@ -6041,6 +6106,12 @@
 		(pin "2"
 			(uuid "b05777be-9445-4bb8-ba4e-ab902b38068c")
 		)
+		(pin "2"
+			(uuid "ce35e18b-e8f0-4f8c-b990-7750fd5e4f84")
+		)
+		(pin "3"
+			(uuid "79c37306-87e5-4acc-a1b8-40c446d201b4")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -6051,7 +6122,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 111.76 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6060,14 +6132,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e2933")
 		(property "Reference" "SW5"
-			(at 115.57 23.876 0)
+			(at 114.046 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 111.76 28.702 0)
 			(effects
 				(font
@@ -6107,6 +6179,12 @@
 		(pin "2"
 			(uuid "eb9cabe5-f44e-407d-8fbf-6bf84f253a5e")
 		)
+		(pin "3"
+			(uuid "0a313a05-de04-4866-b4f7-525b18567ccd")
+		)
+		(pin "2"
+			(uuid "df09f336-7947-4d85-a586-d0e58243e7f4")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -6117,7 +6195,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 129.54 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6126,14 +6205,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e295e")
 		(property "Reference" "SW6"
-			(at 133.35 23.876 0)
+			(at 131.826 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 129.54 28.702 0)
 			(effects
 				(font
@@ -6173,6 +6252,12 @@
 		(pin "2"
 			(uuid "079c5932-7454-4722-8582-f6d7bb48bfb2")
 		)
+		(pin "2"
+			(uuid "5fcd0c17-da0a-4f98-8819-528c8b922002")
+		)
+		(pin "3"
+			(uuid "4bcc1c21-5088-4edc-8150-93e1f7af0dfa")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -6183,208 +6268,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 101.6 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e29bf")
-		(property "Reference" "D4"
-			(at 99.06 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 104.14 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21048c6c-a121-4aa7-b288-e193fe81c5da")
-		)
-		(pin "2"
-			(uuid "4dfc941d-6432-41a6-9453-4de3926d3e2e")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 119.38 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e29f2")
-		(property "Reference" "D5"
-			(at 116.84 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 119.38 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f12d61b0-c5c1-4c5c-86ea-bc0181f36f2a")
-		)
-		(pin "2"
-			(uuid "bce979bd-6cd3-458c-89a4-ed1f343904db")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 137.16 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e2a33")
-		(property "Reference" "D6"
-			(at 134.62 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 139.7 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63d60bc0-62b8-4e9a-831e-93350ffa4f3d")
-		)
-		(pin "2"
-			(uuid "5b78cfd0-25c8-49c9-8ab8-3e3bd333c9d3")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 58.42 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6393,14 +6278,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e2d26")
 		(property "Reference" "SW8"
-			(at 62.23 39.116 0)
+			(at 60.706 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 58.42 43.942 0)
 			(effects
 				(font
@@ -6408,7 +6293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_shortened_Chukozor"
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_shortenedbis"
 			(at 58.42 41.91 0)
 			(effects
 				(font
@@ -6440,6 +6325,12 @@
 		(pin "2"
 			(uuid "5d71d3d0-267e-4900-8b73-dc28be88f6e2")
 		)
+		(pin "2"
+			(uuid "d61daff0-0167-4bd5-868f-a756461db04c")
+		)
+		(pin "3"
+			(uuid "02eb026d-a9eb-4de2-9932-1e1d85fda5dc")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -6450,74 +6341,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 66.04 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e2d2c")
-		(property "Reference" "D8"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 68.58 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 66.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fa591a3-8afd-47ed-9a3b-0c89e6c4ff71")
-		)
-		(pin "2"
-			(uuid "a890e702-fabe-4075-bb1b-c2eb2ea81a69")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 76.2 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6526,14 +6351,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e2d32")
 		(property "Reference" "SW9"
-			(at 80.01 39.116 0)
+			(at 78.486 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 76.2 43.942 0)
 			(effects
 				(font
@@ -6573,6 +6398,12 @@
 		(pin "2"
 			(uuid "24b824c6-2dea-4fa6-b9e8-5a8149363dda")
 		)
+		(pin "2"
+			(uuid "cd0f6656-acb8-4092-a590-3afb0b02560d")
+		)
+		(pin "3"
+			(uuid "97cd626e-c4c6-4e7e-b672-9db315951869")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -6583,74 +6414,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 83.82 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e2d38")
-		(property "Reference" "D9"
-			(at 81.28 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 86.36 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 83.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0bad583-ec54-4a7e-a039-0c08d5609703")
-		)
-		(pin "2"
-			(uuid "b23df768-3877-46c8-9ad3-d5865ddf29cf")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 93.98 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6659,14 +6424,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e2d3e")
 		(property "Reference" "SW10"
-			(at 97.79 39.116 0)
+			(at 96.266 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 93.98 43.942 0)
 			(effects
 				(font
@@ -6706,6 +6471,12 @@
 		(pin "2"
 			(uuid "8a8d1c53-af37-4964-b075-7f28f86e3f3c")
 		)
+		(pin "3"
+			(uuid "3fd0fe95-14ce-417f-9b05-49ac2c22c783")
+		)
+		(pin "2"
+			(uuid "f1daa2e2-c426-415c-a27e-2d1e4520e394")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -6716,7 +6487,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 111.76 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6725,14 +6497,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e2d44")
 		(property "Reference" "SW11"
-			(at 115.57 39.116 0)
+			(at 114.046 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 111.76 43.942 0)
 			(effects
 				(font
@@ -6772,6 +6544,12 @@
 		(pin "2"
 			(uuid "0c8b9c10-d0e9-4a14-af44-269681001cce")
 		)
+		(pin "3"
+			(uuid "4fc6fa2f-00e3-4e6f-8126-b00358ea8147")
+		)
+		(pin "2"
+			(uuid "975539c4-4b9c-40a0-aba3-e395c9d3c564")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -6782,7 +6560,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 129.54 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6791,14 +6570,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e2d4a")
 		(property "Reference" "SW12"
-			(at 133.35 39.116 0)
+			(at 131.826 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 129.54 43.942 0)
 			(effects
 				(font
@@ -6838,6 +6617,12 @@
 		(pin "2"
 			(uuid "34988f6a-d594-41da-8105-7d2209fc1319")
 		)
+		(pin "2"
+			(uuid "6f57fe58-debf-4ac8-b59b-599eda632f4b")
+		)
+		(pin "3"
+			(uuid "21c20141-0116-4882-94b2-8b2a9183e9d8")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -6848,208 +6633,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 101.6 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e2d56")
-		(property "Reference" "D10"
-			(at 99.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 104.14 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 101.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fdeb573-4a5f-412a-9c95-afa87e521f41")
-		)
-		(pin "2"
-			(uuid "efef3645-d875-4435-ae0a-f5cbc809b7b9")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 119.38 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e2d5c")
-		(property "Reference" "D11"
-			(at 116.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3099e59a-60e3-4f7e-b983-06c0a2c70399")
-		)
-		(pin "2"
-			(uuid "efe64a80-b5a7-4809-b03c-81d9202d2bdb")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 137.16 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e2d62")
-		(property "Reference" "D12"
-			(at 134.62 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 139.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0599c01-faf7-4a0c-8aa7-c99b446b7628")
-		)
-		(pin "2"
-			(uuid "754f197b-e5ff-4c0c-ad78-aa5bdf9bebae")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 58.42 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7058,14 +6643,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e35b1")
 		(property "Reference" "SW14"
-			(at 62.23 54.356 0)
+			(at 60.706 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 58.42 59.182 0)
 			(effects
 				(font
@@ -7073,7 +6658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_shortened_Chukozor"
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_shortenedbis"
 			(at 58.42 57.15 0)
 			(effects
 				(font
@@ -7105,6 +6690,12 @@
 		(pin "2"
 			(uuid "974ce3dd-0bfd-4637-8a0e-59abfe7e45f2")
 		)
+		(pin "3"
+			(uuid "98b1bd02-2a1a-4a81-8594-2533a38acbe8")
+		)
+		(pin "2"
+			(uuid "a144fdac-c29a-4712-b3c7-ce9534963f38")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -7115,74 +6706,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 66.04 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e35b7")
-		(property "Reference" "D14"
-			(at 63.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 68.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 66.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7f9a195-2523-4565-b277-faf615e6b22a")
-		)
-		(pin "2"
-			(uuid "15e09045-69e2-4864-a306-dc18ccee548d")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 76.2 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7191,14 +6716,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e35bd")
 		(property "Reference" "SW15"
-			(at 80.01 54.356 0)
+			(at 78.486 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 76.2 59.182 0)
 			(effects
 				(font
@@ -7238,6 +6763,12 @@
 		(pin "2"
 			(uuid "5682ac7b-854c-4659-84dc-5329d90494e5")
 		)
+		(pin "3"
+			(uuid "590d861c-3f95-41e2-97f4-331b8c64db59")
+		)
+		(pin "2"
+			(uuid "bfcd9862-fd12-477a-8e8f-02c84b45e789")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -7248,74 +6779,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 83.82 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e35c3")
-		(property "Reference" "D15"
-			(at 81.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 86.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ec8b2d4-8f5e-4225-8aec-8912452a1af9")
-		)
-		(pin "2"
-			(uuid "d2bd9994-c914-4555-a7ae-2e16db5b3846")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 93.98 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7324,14 +6789,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e35c9")
 		(property "Reference" "SW16"
-			(at 97.79 54.356 0)
+			(at 96.266 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 93.98 59.182 0)
 			(effects
 				(font
@@ -7371,6 +6836,12 @@
 		(pin "2"
 			(uuid "0cc36eee-af70-4db2-b191-165ea44184a0")
 		)
+		(pin "2"
+			(uuid "a083de4d-208b-48bb-9443-d6c55a4fbdd8")
+		)
+		(pin "3"
+			(uuid "d781cc91-6972-48f9-91f8-19de7feced67")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -7381,7 +6852,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 111.76 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7390,14 +6862,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e35cf")
 		(property "Reference" "SW17"
-			(at 115.57 54.356 0)
+			(at 114.046 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 111.76 59.182 0)
 			(effects
 				(font
@@ -7437,6 +6909,12 @@
 		(pin "2"
 			(uuid "f40f9f07-bc4c-4440-9d99-efbc53d41e3d")
 		)
+		(pin "2"
+			(uuid "89084ceb-0a1f-437c-8025-e1dbafcee97d")
+		)
+		(pin "3"
+			(uuid "13e938e5-77dc-4b16-a885-35b8516290be")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -7447,7 +6925,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 129.54 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7456,14 +6935,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e35d5")
 		(property "Reference" "SW18"
-			(at 133.35 54.356 0)
+			(at 131.826 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 129.54 59.182 0)
 			(effects
 				(font
@@ -7503,6 +6982,12 @@
 		(pin "2"
 			(uuid "6c98d14b-6458-40c0-9c66-3273b0931e4b")
 		)
+		(pin "2"
+			(uuid "bb4da0c9-97f6-41e8-980f-af46e1ad9f32")
+		)
+		(pin "3"
+			(uuid "cdef13c6-71a8-4dfd-9c8f-9de303130b86")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -7513,208 +6998,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 101.6 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e35e1")
-		(property "Reference" "D16"
-			(at 99.06 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 104.14 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a925b9b-fb61-4ba7-89db-205b570f5cf0")
-		)
-		(pin "2"
-			(uuid "ea12b1b2-ff16-4e14-a8f0-cbec7653a10c")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 119.38 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e35e7")
-		(property "Reference" "D17"
-			(at 116.84 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 119.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "700ace4e-eb7c-4119-ad94-267b8e8b05e5")
-		)
-		(pin "2"
-			(uuid "a8866fd2-f8d9-4a0b-addb-63ccb5dc2968")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 137.16 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e35ed")
-		(property "Reference" "D18"
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 139.7 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4acbfbec-fcbe-49ca-8bed-9bc169b18aa8")
-		)
-		(pin "2"
-			(uuid "d0462f3b-70c9-4b10-bc9c-630c9a525867")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 111.76 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7723,14 +7008,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e37a4")
 		(property "Reference" "SW20"
-			(at 115.57 69.596 0)
+			(at 114.046 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 111.76 74.422 0)
 			(effects
 				(font
@@ -7770,6 +7055,12 @@
 		(pin "2"
 			(uuid "73f9bc03-580d-4d0b-a71e-7aaecf08d1ad")
 		)
+		(pin "2"
+			(uuid "52a44217-6078-412e-a30e-dff04215cd33")
+		)
+		(pin "3"
+			(uuid "e073a2e1-dc65-4996-8e36-517bcff873aa")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -7780,74 +7071,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 119.38 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e37aa")
-		(property "Reference" "D20"
-			(at 116.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e0e2d49-55b2-4938-91f7-5a0fccc18ca6")
-		)
-		(pin "2"
-			(uuid "3eda4e50-06d1-424f-ab35-25ed457a35bd")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 129.54 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7856,14 +7081,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e37b0")
 		(property "Reference" "SW21"
-			(at 133.35 69.596 0)
+			(at 131.826 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 129.54 74.422 0)
 			(effects
 				(font
@@ -7903,6 +7128,12 @@
 		(pin "2"
 			(uuid "1ef89611-631a-4d74-892f-aa5ac988cf80")
 		)
+		(pin "2"
+			(uuid "96a558d1-694c-440f-86ea-28b1c7cb19e3")
+		)
+		(pin "3"
+			(uuid "53f4c0ed-99c3-47de-b0e0-cea52a09c24a")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
@@ -7913,74 +7144,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 137.16 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e37b6")
-		(property "Reference" "D21"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 139.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 137.16 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "782d2289-3a71-4bbb-a554-c1914dc0658d")
-		)
-		(pin "2"
-			(uuid "67995356-e229-4915-9351-07076eae9c1a")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 93.98 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7989,14 +7154,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5e37ec")
 		(property "Reference" "SW19"
-			(at 97.79 69.596 0)
+			(at 96.266 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 93.98 74.422 0)
 			(effects
 				(font
@@ -8036,77 +7201,16 @@
 		(pin "2"
 			(uuid "77c1c49d-6a14-4ad2-8a02-2a511f78da99")
 		)
+		(pin "2"
+			(uuid "bde13705-69a3-4fd4-b31a-e18c5271a8d0")
+		)
+		(pin "3"
+			(uuid "c5816d78-d469-4d3a-ad18-72a7a8ba4660")
+		)
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 101.6 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5e37f2")
-		(property "Reference" "D19"
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c6db50c-2020-494d-af8b-df80265504ca")
-		)
-		(pin "2"
-			(uuid "a1cb8263-f635-4d5a-9280-3835ffb85a69")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -9120,7 +8224,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 40.64 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9129,14 +8234,14 @@
 		(dnp no)
 		(uuid "118e6044-ac96-4118-9946-eef693dbf717")
 		(property "Reference" "SW24"
-			(at 44.45 39.116 0)
+			(at 42.926 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 40.64 43.942 0)
 			(effects
 				(font
@@ -9144,7 +8249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_shortened_Chukozor"
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_shortenedbis"
 			(at 40.64 41.91 0)
 			(effects
 				(font
@@ -9175,6 +8280,12 @@
 		)
 		(pin "2"
 			(uuid "b85cac07-1e90-4141-a704-7c9a9a99df6a")
+		)
+		(pin "3"
+			(uuid "5f421049-cd7f-431e-b747-2e7ff6f7c7ed")
+		)
+		(pin "2"
+			(uuid "b22c7c90-e776-4821-b430-24abb8821da0")
 		)
 		(instances
 			(project "chocofi"
@@ -9409,74 +8520,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 83.82 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "258ebaa4-472a-4c48-9b7f-d00144211e03")
-		(property "Reference" "D1"
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 86.36 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 83.82 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "128f3651-1de2-468d-b401-7e2cd5da23af")
-		)
-		(pin "2"
-			(uuid "b7b6e476-32de-4fcb-85a1-f08a1965ecd1")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 40.64 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9485,14 +8530,14 @@
 		(dnp no)
 		(uuid "297ced79-e746-4cfe-9031-4bacd398eb39")
 		(property "Reference" "SW23"
-			(at 44.45 23.876 0)
+			(at 42.926 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 40.64 28.702 0)
 			(effects
 				(font
@@ -9500,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_shortened_Chukozor"
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_shortenedbis"
 			(at 40.64 26.67 0)
 			(effects
 				(font
@@ -9531,6 +8576,12 @@
 		)
 		(pin "2"
 			(uuid "45fe23d2-bd3e-4d62-8911-57808416dc41")
+		)
+		(pin "2"
+			(uuid "b8436790-b400-45ef-94ae-2c41d5a380fb")
+		)
+		(pin "3"
+			(uuid "92e34342-0758-473b-94de-879b6b9a1bd8")
 		)
 		(instances
 			(project "chocofi"
@@ -10165,73 +9216,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 48.26 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51025cca-ce06-4d52-a673-16e6b0068416")
-		(property "Reference" "D23"
-			(at 45.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 50.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62babe1d-823d-4f4a-9859-05562dda2715")
-		)
-		(pin "2"
-			(uuid "82c64193-fa3e-47e1-afa2-757c27135085")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -11013,73 +9997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 48.26 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e014ead-0da4-446e-b0e0-08166ab2b09b")
-		(property "Reference" "D13"
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 50.8 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 48.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b313217-6915-4fbf-b4a6-cfb5cfc2e4bc")
-		)
-		(pin "2"
-			(uuid "1f8f0a07-465e-4735-9276-6372c64965dc")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 77.47 180)
 		(unit 1)
@@ -11279,7 +10196,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 40.64 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11288,14 +10206,14 @@
 		(dnp no)
 		(uuid "ac2c46dd-4f6a-461c-a431-3c7bb237fbf6")
 		(property "Reference" "SW25"
-			(at 44.45 54.356 0)
+			(at 42.926 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 40.64 59.182 0)
 			(effects
 				(font
@@ -11303,7 +10221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_shortened_Chukozor"
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_shortenedbis"
 			(at 40.64 57.15 0)
 			(effects
 				(font
@@ -11334,6 +10252,12 @@
 		)
 		(pin "2"
 			(uuid "b4f845ba-121a-4a2b-9e64-2c83b46c8117")
+		)
+		(pin "3"
+			(uuid "c13aba6b-4c07-43cb-99fb-364821778a2f")
+		)
+		(pin "2"
+			(uuid "ca843ded-ea42-4096-ab39-dcb02cbeb6b0")
 		)
 		(instances
 			(project "chocofi"
@@ -11486,7 +10410,8 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(lib_name "Chukozor_symbols:SW_Chuk")
+		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 76.2 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11495,14 +10420,14 @@
 		(dnp no)
 		(uuid "b6208c2b-c957-4a13-92bd-8ad89c1b167b")
 		(property "Reference" "SW22"
-			(at 80.01 69.596 0)
+			(at 78.486 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH"
+		(property "Value" "SW_Chuk"
 			(at 76.2 74.422 0)
 			(effects
 				(font
@@ -11541,6 +10466,12 @@
 		)
 		(pin "2"
 			(uuid "1a623b64-d2db-4731-9e68-23238f86994f")
+		)
+		(pin "2"
+			(uuid "fc1bf3c2-6519-4672-9624-881a877a3b14")
+		)
+		(pin "3"
+			(uuid "9c441080-2d34-498d-843f-19a574d35f7f")
 		)
 		(instances
 			(project "chocofi"
@@ -11893,73 +10824,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "chocofi-rescue:D-Device")
-		(at 48.26 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d314bece-ec98-4db1-9d89-3b3bb9c6bc8f")
-		(property "Reference" "D22"
-			(at 45.72 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:D3_TH_SMD"
-			(at 48.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9f94bf4-7918-4347-83cd-9c1e1c4b8d39")
-		)
-		(pin "2"
-			(uuid "3175afb2-361a-4617-8f73-91de1ac7fa57")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D22")
 					(unit 1)
 				)
 			)
