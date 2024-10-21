@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "SW_PUSH_Chukozor"
+	(symbol "SW_Chuk"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -10,14 +10,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 3.81 2.794 0)
+			(at 2.286 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_PUSH_Chukozor"
+		(property "Value" "SW_Chuk"
 			(at 0 -2.032 0)
 			(effects
 				(font
@@ -50,10 +50,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_PUSH_Chukozor_0_1"
+		(symbol "SW_Chuk_0_1"
 			(rectangle
 				(start -4.318 1.27)
 				(end 4.318 1.524)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -5.08) (xy 8.89 -5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 7.62 -5.08)
+				)
 				(stroke
 					(width 0)
 					(type solid)
@@ -68,6 +92,18 @@
 				)
 				(stroke
 					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -2.54) (xy 8.89 -2.54) (xy 7.62 -5.08) (xy 6.35 -2.54)
+				)
+				(stroke
+					(width 0.2032)
 					(type solid)
 				)
 				(fill
@@ -92,6 +128,26 @@
 					)
 				)
 			)
+		)
+		(symbol "SW_Chuk_1_1"
+			(pin passive line
+				(at 7.62 0 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive inverted
 				(at 7.62 0 180)
 				(length 5.08)
@@ -103,6 +159,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -7.62 90)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
