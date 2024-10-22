@@ -3223,6 +3223,10 @@
 		(at 161.29 49.53)
 		(uuid "c4302b24-3891-40ea-8978-0ea7d587a15c")
 	)
+	(no_connect
+		(at 29.845 156.21)
+		(uuid "c7755335-f27e-46d2-ae16-7e30d1d2a469")
+	)
 	(wire
 		(pts
 			(xy 201.93 83.82) (xy 201.93 86.36)
@@ -8998,7 +9002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46d6fe7f-d7cc-4441-8928-fc2b4fb1b3b8")
-		(property "Reference" "H8"
+		(property "Reference" "H6"
 			(at 32.385 174.625 0)
 			(effects
 				(font
@@ -9046,7 +9050,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H8")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -9191,69 +9195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 34.29 160.02 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d1ba8ee-d1a1-428d-b058-71b89d3bd3c3")
-		(property "Reference" "H2"
-			(at 33.02 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 34.29 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
-			(at 34.29 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 34.29 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
 		(at 48.26 177.165 0)
@@ -9263,7 +9204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "562b1704-7334-4349-aa32-90862fceb461")
-		(property "Reference" "H9"
+		(property "Reference" "H7"
 			(at 46.99 174.625 0)
 			(effects
 				(font
@@ -9311,7 +9252,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H9")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -9834,7 +9775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95f1ab51-ae8b-410d-8978-b67f3e9c434c")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 46.99 157.48 0)
 			(effects
 				(font
@@ -9882,7 +9823,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10109,7 +10050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aacfe3ca-2a43-4595-9cbc-80932696fe62")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 19.05 166.37 0)
 			(effects
 				(font
@@ -10157,7 +10098,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -10532,7 +10473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bba705b6-a387-4602-bb3f-754b432dfd29")
-		(property "Reference" "H5"
+		(property "Reference" "H4"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -10580,7 +10521,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H5")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10945,7 +10886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4c1e567-0228-40d8-9b58-81e84e2e9ed3")
-		(property "Reference" "H10"
+		(property "Reference" "H8"
 			(at 18.415 183.515 0)
 			(effects
 				(font
@@ -10993,7 +10934,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H10")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -11150,7 +11091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0fd46a9-891a-4d33-bc82-fb4a067027bd")
-		(property "Reference" "H6"
+		(property "Reference" "H5"
 			(at 46.99 166.37 0)
 			(effects
 				(font
@@ -11198,70 +11139,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 20.32 177.165 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1e8eef2-27f6-4b10-8ae6-df41075d8476")
-		(property "Reference" "H7"
-			(at 19.05 174.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 20.32 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "Mounting_hole_Chukozor:LEGO_HOLE_chukozor"
-			(at 20.32 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 20.32 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
