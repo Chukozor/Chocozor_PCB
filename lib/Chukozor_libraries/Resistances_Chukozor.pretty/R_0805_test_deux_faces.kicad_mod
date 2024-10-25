@@ -66,6 +66,41 @@
 			)
 		)
 	)
+	(property "F.Silkscreen_Value" "${VALUE}"
+		(at -0.08 -2.95 0)
+		(layer "F.SilkS")
+		(uuid "2bb0a7be-6b51-4bd0-a59b-afd0e3c3161e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "B.Silkscreen_Ref" "${REFERENCE}"
+		(at 0 -3 0)
+		(layer "B.SilkS")
+		(uuid "3fcbf060-204d-4a9a-935f-a08cb11ced14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "B.Silkscreen_Value" "${VALUE}"
+		(at 0 -1.67 0)
+		(layer "B.SilkS")
+		(uuid "8948f03c-5165-466c-89df-09eec9d31034")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start -0.227064 -0.74)
@@ -266,19 +301,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "fe9d62b8-c669-40f7-9f74-a73c83a94bab")
-	)
-	(fp_text user "REF**"
-		(at 2.29 -1.06 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "e5696853-8bb2-4234-9b6b-311f8c662ca8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.16)
-			)
-			(justify left bottom mirror)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -0.005 0)
