@@ -5388,7 +5388,7 @@
 			)
 		)
 	)
-	(global_label "RAW"
+	(global_label "VBUS"
 		(shape input)
 		(at 197.485 26.035 0)
 		(fields_autoplaced yes)
@@ -5400,7 +5400,7 @@
 		)
 		(uuid "a1c4c0e9-8d98-452f-85bc-1f7690e9624e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.7975 26.035 0)
+			(at 204.8954 26.035 0)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -5757,7 +5757,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 58.42 26.67 0)
 		(unit 1)
@@ -5830,7 +5829,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 76.2 26.67 0)
 		(unit 1)
@@ -5903,7 +5901,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 93.98 26.67 0)
 		(unit 1)
@@ -5976,7 +5973,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 111.76 26.67 0)
 		(unit 1)
@@ -6049,7 +6045,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 129.54 26.67 0)
 		(unit 1)
@@ -6122,7 +6117,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 58.42 41.91 0)
 		(unit 1)
@@ -6195,7 +6189,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 76.2 41.91 0)
 		(unit 1)
@@ -6268,7 +6261,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 93.98 41.91 0)
 		(unit 1)
@@ -6341,7 +6333,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 111.76 41.91 0)
 		(unit 1)
@@ -6414,7 +6405,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 129.54 41.91 0)
 		(unit 1)
@@ -6487,7 +6477,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 58.42 57.15 0)
 		(unit 1)
@@ -6560,7 +6549,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 76.2 57.15 0)
 		(unit 1)
@@ -6633,7 +6621,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 93.98 57.15 0)
 		(unit 1)
@@ -6706,7 +6693,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 111.76 57.15 0)
 		(unit 1)
@@ -6779,7 +6765,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 129.54 57.15 0)
 		(unit 1)
@@ -6852,7 +6837,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 111.76 72.39 0)
 		(unit 1)
@@ -6925,7 +6909,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 129.54 72.39 0)
 		(unit 1)
@@ -6998,7 +6981,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 93.98 72.39 0)
 		(unit 1)
@@ -7665,7 +7647,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 40.64 41.91 0)
 		(unit 1)
@@ -8056,7 +8037,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 40.64 26.67 0)
 		(unit 1)
@@ -9199,7 +9179,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 40.64 57.15 0)
 		(unit 1)
@@ -9338,7 +9317,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 40.64 72.39 0)
 		(unit 1)
@@ -9411,7 +9389,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Chukozor_symbols:SW_Chuk")
 		(lib_id "Chukozor_symbols:SW_Chuk")
 		(at 76.2 72.39 0)
 		(unit 1)
