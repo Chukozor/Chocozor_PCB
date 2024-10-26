@@ -4240,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.676 181.864) (xy 328.676 183.134)
+			(xy 258.826 188.976) (xy 258.826 190.246)
 		)
 		(stroke
 			(width 0)
@@ -6120,7 +6120,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.676 190.754) (xy 328.676 192.024)
+			(xy 258.826 197.866) (xy 258.826 199.136)
 		)
 		(stroke
 			(width 0)
@@ -8401,7 +8401,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 328.676 181.864 90)
+		(at 258.826 188.976 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8411,7 +8411,7 @@
 		)
 		(uuid "d4f13118-fbb4-4583-a65b-e25256adbb30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 328.676 174.4536 90)
+			(at 258.826 181.5656 90)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -12958,7 +12958,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
-		(at 328.676 192.024 0)
+		(at 258.826 199.136 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12966,7 +12966,7 @@
 		(dnp no)
 		(uuid "8a47329f-ae17-4339-b492-5ec3dfbb2979")
 		(property "Reference" "#PWR043"
-			(at 328.676 198.374 0)
+			(at 258.826 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12975,7 +12975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 328.676 195.834 0)
+			(at 258.826 202.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,7 +12983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.676 192.024 0)
+			(at 258.826 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12992,7 +12992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.676 192.024 0)
+			(at 258.826 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13001,7 +13001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 328.676 192.024 0)
+			(at 258.826 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14483,7 +14483,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 328.676 186.944 0)
+		(at 258.826 194.056 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14492,7 +14492,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbbfe0d3-ef6d-4786-b8e1-35968f04aace")
 		(property "Reference" "C1"
-			(at 332.486 185.6739 0)
+			(at 262.636 192.7859 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14501,7 +14501,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 332.486 188.2139 0)
+			(at 262.636 195.3259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,7 +14510,7 @@
 			)
 		)
 		(property "Footprint" "cornia-footprints:C_0805"
-			(at 329.6412 190.754 0)
+			(at 259.7912 197.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14519,7 +14519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 328.676 186.944 0)
+			(at 258.826 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14528,7 +14528,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 328.676 186.944 0)
+			(at 258.826 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
