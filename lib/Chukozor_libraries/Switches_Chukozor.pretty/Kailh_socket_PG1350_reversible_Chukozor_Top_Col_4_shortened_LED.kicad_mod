@@ -1,4 +1,4 @@
-(footprint "Kailh_socket_PG1350_reversible_Chukozor_LED"
+(footprint "Kailh_socket_PG1350_reversible_Chukozor_Top_Col_4_shortened_LED"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Kailh_socket_PG1350_reversible_Chukozor_LED"
+	(property "Value" "Kailh_socket_PG1350_reversible_Chukozor_Top_Col_4_shortened_LED"
 		(at 0 8.89 0)
 		(layer "F.Fab")
 		(uuid "cec80c3d-3e7a-4579-a2ff-998f1029edda")
@@ -255,8 +255,8 @@
 		(uuid "5b5afcf4-f96f-4d35-9298-245568bf099e")
 	)
 	(fp_line
-		(start 7.199999 -7.37)
-		(end 7.199999 -1.97)
+		(start 7.199999 -9.37)
+		(end 7.199999 -3.97)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -265,8 +265,8 @@
 		(uuid "54c5ae4f-9648-4d06-b642-bbf252da0259")
 	)
 	(fp_line
-		(start 7.199999 -1.97)
-		(end 8.7 -1.97)
+		(start 7.199999 -3.97)
+		(end 8.7 -3.97)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -275,8 +275,8 @@
 		(uuid "f71b823c-51b6-4716-8ab2-abcfe531239a")
 	)
 	(fp_line
-		(start 7.45 -4.17)
-		(end 7.95 -5.07)
+		(start 7.45 -6.17)
+		(end 7.95 -7.07)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -285,8 +285,8 @@
 		(uuid "c0e49569-006e-4636-b82f-18ae36ee2cbf")
 	)
 	(fp_line
-		(start 7.95 -5.07)
-		(end 8.449999 -4.17)
+		(start 7.95 -7.07)
+		(end 8.449999 -6.17)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -295,8 +295,8 @@
 		(uuid "e0ded11a-5c37-4af4-9842-c883b842d5e6")
 	)
 	(fp_line
-		(start 8.449999 -4.17)
-		(end 7.45 -4.17)
+		(start 8.449999 -6.17)
+		(end 7.45 -6.17)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -305,8 +305,8 @@
 		(uuid "2b31dc93-2585-4d0e-b2f3-fcd06f0b4b31")
 	)
 	(fp_line
-		(start 8.45 -5.17)
-		(end 7.45 -5.17)
+		(start 8.45 -7.17)
+		(end 7.45 -7.17)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -315,8 +315,8 @@
 		(uuid "2075337a-1aa1-402b-8972-c4d8a5b1a459")
 	)
 	(fp_line
-		(start 8.699999 -7.37)
-		(end 7.199999 -7.37)
+		(start 8.699999 -9.37)
+		(end 7.199999 -9.37)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -325,8 +325,8 @@
 		(uuid "6777467d-5920-43c9-b5ea-5a4fa3b912cb")
 	)
 	(fp_line
-		(start 8.7 -1.97)
-		(end 8.699999 -7.37)
+		(start 8.7 -3.97)
+		(end 8.699999 -9.37)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -559,8 +559,8 @@
 		(uuid "73c56d0e-8be4-4936-abb0-b0d1146c161b")
 	)
 	(fp_line
-		(start 7.199999 -7.37)
-		(end 7.199999 -1.97)
+		(start 7.199999 -9.37)
+		(end 7.199999 -3.97)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -569,8 +569,8 @@
 		(uuid "77ecbdc1-95f2-4a3c-90b2-d787c9c41b11")
 	)
 	(fp_line
-		(start 7.199999 -1.97)
-		(end 8.7 -1.97)
+		(start 7.199999 -3.97)
+		(end 8.7 -3.97)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -579,8 +579,8 @@
 		(uuid "8c09ae2a-a230-454a-83fa-e89cd3de98b4")
 	)
 	(fp_line
-		(start 7.45 -4.17)
-		(end 7.95 -5.07)
+		(start 7.45 -6.17)
+		(end 7.95 -7.07)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -589,8 +589,8 @@
 		(uuid "6329614c-ec47-4865-ab8a-532f6ea4c6be")
 	)
 	(fp_line
-		(start 7.95 -5.07)
-		(end 8.449999 -4.17)
+		(start 7.95 -7.07)
+		(end 8.449999 -6.17)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -599,8 +599,8 @@
 		(uuid "68370ad6-82c1-4d25-afaf-0a98324c61b6")
 	)
 	(fp_line
-		(start 8.449999 -4.17)
-		(end 7.45 -4.17)
+		(start 8.449999 -6.17)
+		(end 7.45 -6.17)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -609,8 +609,8 @@
 		(uuid "d7a36a67-8e35-49ff-ba5a-f0e95d1c7d31")
 	)
 	(fp_line
-		(start 8.45 -5.17)
-		(end 7.45 -5.17)
+		(start 8.45 -7.17)
+		(end 7.45 -7.17)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -619,8 +619,8 @@
 		(uuid "53207c5d-574c-487d-8fed-a8dc44d93e9b")
 	)
 	(fp_line
-		(start 8.699999 -7.37)
-		(end 7.199999 -7.37)
+		(start 8.699999 -9.37)
+		(end 7.199999 -9.37)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -629,8 +629,8 @@
 		(uuid "3f22e9b5-c822-49e0-98d5-5c41479421e6")
 	)
 	(fp_line
-		(start 8.7 -1.97)
-		(end 8.699999 -7.37)
+		(start 8.7 -3.97)
+		(end 8.699999 -9.37)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -1453,10 +1453,10 @@
 		(uuid "065c0534-f9e3-4f30-8569-30b29f047cf7")
 	)
 	(pad "1" smd rect
-		(at -8.275 3.75)
-		(size 2.6 2.6)
+		(at -7.9 3.75)
+		(size 1.85 2.6)
 		(layers "B.Cu" "B.Paste" "B.Mask")
-		(uuid "682464c1-22fd-415d-88ae-5cadef13b89d")
+		(uuid "51007c55-53f3-4dd2-b0ca-6a056b50c4b1")
 	)
 	(pad "1" smd rect
 		(at -6.7 5.25 315)
@@ -1520,8 +1520,14 @@
 		(thermal_bridge_angle 45)
 		(uuid "a262f67c-9798-4cac-b3a3-4b732b5f59b3")
 	)
+	(pad "2" smd rect
+		(at 7.9 3.75)
+		(size 1.85 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2931b200-34f5-491a-8237-2262b9a5595f")
+	)
 	(pad "2" thru_hole circle
-		(at 7.95 -2.895 270)
+		(at 7.95 -4.895 270)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
@@ -1529,34 +1535,28 @@
 		(uuid "b290f997-ae52-4af1-8ca6-a6b3994e796b")
 	)
 	(pad "2" smd rect
-		(at 7.95 -2.895 270)
+		(at 7.95 -4.895 270)
 		(size 1.3 0.95)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6a35f2e8-c88a-4288-9c17-0e27fcc9c9bf")
 	)
 	(pad "2" smd rect
-		(at 7.95 -2.895 270)
+		(at 7.95 -4.895 270)
 		(size 1.3 0.95)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "4fa7cdf4-3d44-439d-8f8e-3c8696161864")
 	)
 	(pad "2" smd roundrect
-		(at 7.95 0.1 90)
-		(size 5 0.25)
+		(at 7.95 -0.875 90)
+		(size 6.95 0.25)
 		(layers "F.Cu")
 		(roundrect_rratio 0.25)
 		(clearance 0.2)
 		(thermal_bridge_angle 45)
 		(uuid "a77528bb-6060-428a-b21c-8d985ffd795f")
 	)
-	(pad "2" smd rect
-		(at 8.275 3.75)
-		(size 2.6 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "4b7a2a84-79d0-4e63-8690-cea3baf2ce5d")
-	)
 	(pad "3" thru_hole circle
-		(at 7.95 -6.445 270)
+		(at 7.95 -8.445 270)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
@@ -1564,13 +1564,13 @@
 		(uuid "83264e78-b6a0-46c7-a5f0-98c182063177")
 	)
 	(pad "3" smd rect
-		(at 7.95 -6.445 270)
+		(at 7.95 -8.445 270)
 		(size 1.3 0.95)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "43332891-2b10-4b31-9f60-9414b7e7241a")
 	)
 	(pad "3" smd rect
-		(at 7.95 -6.445 270)
+		(at 7.95 -8.445 270)
 		(size 1.3 0.95)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "15c0369c-2358-4c70-b313-306a112c64ff")
