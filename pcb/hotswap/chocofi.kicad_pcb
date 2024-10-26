@@ -81,7 +81,7 @@
 		(solder_mask_min_width 0.1)
 		(allow_soldermask_bridges_in_footprints no)
 		(aux_axis_origin 145.73 12.66)
-		(grid_origin 67.91 73.4)
+		(grid_origin 85.91 104.4)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -39167,7 +39167,7 @@
 			)
 		)
 		(fp_text user "3V3"
-			(at -2.8 0 360)
+			(at -2.8 0 0)
 			(layer "F.SilkS")
 			(uuid "8850ee9d-bff7-4c68-9a1e-76de5a39927e")
 			(effects
@@ -39178,7 +39178,7 @@
 			)
 		)
 		(fp_text user "5V"
-			(at 2.9 0 360)
+			(at 2.9 0 0)
 			(layer "F.SilkS")
 			(uuid "ce0e01ea-a6f9-491c-b265-fb80a0e6f72c")
 			(effects
@@ -40051,7 +40051,7 @@
 	(footprint "Resistances_Chukozor:R_0805_double_face_Chukozor"
 		(layer "B.Cu")
 		(uuid "713561f9-cf44-4bf5-9830-5fcea27782e8")
-		(at 166.66 111.4 180)
+		(at 166.41 111.65 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -41157,9 +41157,9 @@
 		(uuid "10285b3e-44b5-4e5d-9d14-b1ba29c0355d")
 	)
 	(gr_arc
-		(start 75.11 107.4)
-		(mid 76.01 106.5)
-		(end 76.91 107.4)
+		(start 75.161285 113.629813)
+		(mid 75.364373 113.071344)
+		(end 75.91 112.835923)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -41187,17 +41187,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "1b110ba6-0836-4322-9e8f-49de36845628")
-	)
-	(gr_arc
-		(start 76.91 100.1)
-		(mid 76.01 101)
-		(end 75.11 100.1)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "2641a9f5-1f72-45e7-b90a-42dc67593af8")
 	)
 	(gr_arc
 		(start 202.8 146.6)
@@ -41242,28 +41231,8 @@
 		(uuid "424d8fcc-2cfe-4930-b454-d90b94764920")
 	)
 	(gr_line
-		(start 76.91 100.1)
-		(end 76.91 90.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4c4e9391-3e99-433c-81eb-5add6ba6fb73")
-	)
-	(gr_line
-		(start 75.11 100.1)
-		(end 75.11 90.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "5765bdd6-0e75-4fd5-a714-2ff59143bf99")
-	)
-	(gr_line
-		(start 74.41 115.9)
-		(end 59.41 115.9)
+		(start 74.46 115.85)
+		(end 59.42 115.849999)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -41291,20 +41260,10 @@
 		(layer "Edge.Cuts")
 		(uuid "66f40cb9-0636-4937-9e78-2a070af2480e")
 	)
-	(gr_line
-		(start 76.91 107.4)
-		(end 76.916573 112.2)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6b19f15b-7e05-49ce-90db-3ad6cae3cff7")
-	)
 	(gr_arc
-		(start 59.41 115.9)
-		(mid 59.056447 115.753553)
-		(end 58.91 115.4)
+		(start 59.42 115.849999)
+		(mid 59.061397 115.705644)
+		(end 58.909901 115.35)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -41334,7 +41293,7 @@
 	)
 	(gr_arc
 		(start 93.220002 112.835923)
-		(mid 93.733256 113.007332)
+		(mid 93.726065 113.015312)
 		(end 93.95706 113.5)
 		(stroke
 			(width 0.15)
@@ -41343,10 +41302,20 @@
 		(layer "Edge.Cuts")
 		(uuid "79eaa741-25e3-4107-8abe-4949e32d83d4")
 	)
+	(gr_line
+		(start 93.220002 112.835923)
+		(end 75.91 112.835923)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7b4ee91e-d3ce-492d-bc54-65949de310e0")
+	)
 	(gr_arc
-		(start 77.51 112.793427)
-		(mid 77.090384 112.619616)
-		(end 76.916573 112.2)
+		(start 75.986189 114.069616)
+		(mid 76.16 113.65)
+		(end 76.579616 113.476189)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -41366,6 +41335,16 @@
 		(uuid "a007a70c-1e7f-4cd0-9826-9d75a2ddddca")
 	)
 	(gr_line
+		(start 75.161285 113.629813)
+		(end 75.16 115.15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a92a2756-6377-416a-969f-b6cba3ed8db3")
+	)
+	(gr_line
 		(start 75.11 83.2)
 		(end 75.11 73.5)
 		(stroke
@@ -41376,20 +41355,9 @@
 		(uuid "ae6061cd-7166-4bf5-b868-9e2d606aa227")
 	)
 	(gr_arc
-		(start 75.11 90.5)
-		(mid 76.01 89.6)
-		(end 76.91 90.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b0b942fe-e0e2-48cf-84ff-5368225d80f6")
-	)
-	(gr_arc
-		(start 75.11 115.2)
-		(mid 74.904975 115.694975)
-		(end 74.41 115.9)
+		(start 75.16 115.15)
+		(mid 74.954975 115.644975)
+		(end 74.46 115.85)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -41432,7 +41400,7 @@
 	)
 	(gr_line
 		(start 58.91 65.4)
-		(end 58.91 115.4)
+		(end 58.909901 115.35)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -41470,16 +41438,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e60c43d3-e7fb-4866-9663-7be3dbb59ea1")
-	)
-	(gr_line
-		(start 77.51 112.793427)
-		(end 93.21 112.835923)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f05252e0-7b79-497c-830e-c91523aedba7")
 	)
 	(gr_line
 		(start 166.358677 130.72242)
