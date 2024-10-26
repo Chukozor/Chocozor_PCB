@@ -565,34 +565,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 6.35 -7.62) (xy 8.89 -7.62)
-				)
-				(stroke
-					(width 0.2032)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -5.08) (xy 7.62 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -2.54) (xy 7.62 -5.08)
-				)
+			(rectangle
+				(start -3.81 -20.32)
+				(end 3.81 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -605,29 +580,6 @@
 				(pts
 					(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
 				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -5.08) (xy 8.89 -5.08) (xy 7.62 -7.62) (xy 6.35 -5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 31.75 1.27)
-				(end 39.37 -6.35)
 				(stroke
 					(width 0)
 					(type solid)
@@ -658,7 +610,7 @@
 		(symbol "SW_Chuk_LED_1_1"
 			(polyline
 				(pts
-					(xy 38.1 1.27) (xy 39.37 0) (xy 39.37 1.27) (xy 38.1 1.27)
+					(xy 2.54 -20.32) (xy 3.81 -21.59) (xy 3.81 -20.32) (xy 2.54 -20.32)
 				)
 				(stroke
 					(width 0)
@@ -666,24 +618,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(pin passive line
-				(at 7.62 0 270)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive inverted
@@ -704,28 +638,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 -12.7 90)
-				(length 2.54)
-				(name "3"
+			(pin power_in line
+				(at -5.08 -26.67 0)
+				(length 1.1938)
+				(name "VDD"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.7112 0.7112)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.7112 0.7112)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at 30.48 -5.08 0)
+			(pin output line
+				(at -5.08 -21.59 0)
 				(length 1.1938)
-				(name "VDD"
+				(name "DOUT"
 					(effects
 						(font
 							(size 0.7112 0.7112)
@@ -740,10 +674,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 30.48 0 0)
+			(pin power_in line
+				(at 5.08 -21.59 180)
 				(length 1.1938)
-				(name "DOUT"
+				(name "VSS"
 					(effects
 						(font
 							(size 0.7112 0.7112)
@@ -758,26 +692,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 40.64 0 180)
-				(length 1.1938)
-				(name "VSS"
-					(effects
-						(font
-							(size 0.7112 0.7112)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.7112 0.7112)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 40.64 -5.08 180)
+				(at 5.08 -26.67 180)
 				(length 1.1938)
 				(name "DIN"
 					(effects
@@ -786,7 +702,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "6"
 					(effects
 						(font
 							(size 0.7112 0.7112)
