@@ -4339,16 +4339,6 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 107.95) (xy 384.81 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a41a0e3-c45b-4260-a1a4-d305d0a9b606")
-	)
-	(wire
-		(pts
 			(xy 337.82 93.98) (xy 337.82 106.68)
 		)
 		(stroke
@@ -4509,6 +4499,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 44.45) (xy 406.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3facff-29ef-4362-a53f-6fc7f2563869")
+	)
+	(wire
+		(pts
 			(xy 250.825 73.66) (xy 250.825 57.15)
 		)
 		(stroke
@@ -4569,7 +4569,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 93.98) (xy 403.86 93.98)
+			(xy 397.51 93.98) (xy 406.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4616,6 +4616,16 @@
 			(type default)
 		)
 		(uuid "2c713006-debe-4fa2-9dcd-b5c750256f92")
+	)
+	(wire
+		(pts
+			(xy 69.85 25.4) (xy 61.595 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e541365-07f5-4d08-b2d7-f4571219a090")
 	)
 	(wire
 		(pts
@@ -4779,7 +4789,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 44.45) (xy 384.81 44.45)
+			(xy 384.81 44.45) (xy 406.4 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4806,16 +4816,6 @@
 			(type default)
 		)
 		(uuid "47dcb9c7-c9ea-41e3-9410-64198ed77707")
-	)
-	(wire
-		(pts
-			(xy 403.86 93.98) (xy 403.86 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a3f081-d305-4fea-a8b3-b5c1476c28fb")
 	)
 	(wire
 		(pts
@@ -4906,6 +4906,16 @@
 			(type default)
 		)
 		(uuid "58684cfe-f218-4fff-8591-9505cf2ebbdc")
+	)
+	(wire
+		(pts
+			(xy 88.9 52.705) (xy 88.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a9dd62-e748-4025-be28-eb36ae312479")
 	)
 	(wire
 		(pts
@@ -5046,6 +5056,16 @@
 			(type default)
 		)
 		(uuid "684d289c-1475-4016-b1aa-86b00ebb5de9")
+	)
+	(wire
+		(pts
+			(xy 61.595 25.4) (xy 61.595 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d42715-6184-4078-95df-aea8f690bb7a")
 	)
 	(wire
 		(pts
@@ -5196,16 +5216,6 @@
 			(type default)
 		)
 		(uuid "780a2314-2ff8-4db7-9e42-d049b0a18e6f")
-	)
-	(wire
-		(pts
-			(xy 384.81 107.95) (xy 384.81 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78cf63a4-1cb3-4539-bcee-09123ef691f8")
 	)
 	(wire
 		(pts
@@ -5479,16 +5489,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 82.55) (xy 61.595 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92ef9838-253f-4fc5-a433-54d37734139f")
-	)
-	(wire
-		(pts
 			(xy 21.59 69.85) (xy 46.99 69.85)
 		)
 		(stroke
@@ -5506,16 +5506,6 @@
 			(type default)
 		)
 		(uuid "951c0607-1faa-4ad5-9cca-0ae3d2255cfc")
-	)
-	(wire
-		(pts
-			(xy 80.01 125.73) (xy 83.82 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9580aa7b-fe27-4a13-a015-7a0a6a6ecc5a")
 	)
 	(wire
 		(pts
@@ -5809,6 +5799,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 116.205) (xy 88.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd713d1-8fac-4e52-86ce-45d2820362b8")
+	)
+	(wire
+		(pts
 			(xy 314.325 136.525) (xy 314.325 120.65)
 		)
 		(stroke
@@ -5826,6 +5826,16 @@
 			(type default)
 		)
 		(uuid "b2e2c903-1acd-4712-bac1-2fbf602ef0b1")
+	)
+	(wire
+		(pts
+			(xy 61.595 88.9) (xy 61.595 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e5db1c-0253-4aaf-89ef-02f99bf368e9")
 	)
 	(wire
 		(pts
@@ -5899,6 +5909,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 52.705) (xy 88.9 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb261e1-cee5-4ecb-a7ce-d874b4e29612")
+	)
+	(wire
+		(pts
 			(xy 520.7 27.94) (xy 521.97 27.94)
 		)
 		(stroke
@@ -5926,16 +5946,6 @@
 			(type default)
 		)
 		(uuid "bd02fe62-4f9c-4dc4-91c4-e4a0d86ee99d")
-	)
-	(wire
-		(pts
-			(xy 80.01 62.23) (xy 80.01 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd771538-f850-40dc-9860-44ee662958b1")
 	)
 	(wire
 		(pts
@@ -6057,6 +6067,16 @@
 		)
 		(uuid "ce263e04-3f77-46f7-aa62-95a9f91934fa")
 	)
+	(wire
+		(pts
+			(xy 80.01 125.73) (xy 88.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5129b1-524a-4647-83d4-6b053d06d636")
+	)
 	(polyline
 		(pts
 			(xy 548.64 76.2) (xy 548.64 15.24)
@@ -6089,13 +6109,13 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 82.55) (xy 61.595 88.9)
+			(xy 61.595 116.205) (xy 88.9 116.205)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1d12b99-e817-441a-94e0-a49558afe74a")
+		(uuid "d3701f45-abf8-46f1-aaa2-2bd829be33ba")
 	)
 	(wire
 		(pts
@@ -6136,16 +6156,6 @@
 			(type default)
 		)
 		(uuid "d7b86a41-b0d1-4c31-aad6-31f12951c56e")
-	)
-	(polyline
-		(pts
-			(xy 405.765 76.2) (xy 405.765 75.565)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d86736c0-4653-4bee-a9a0-8aba2bd92606")
 	)
 	(wire
 		(pts
@@ -6369,6 +6379,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 62.23) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8e2590-ba82-4a26-b367-f89affe0081c")
+	)
+	(wire
+		(pts
 			(xy 31.75 25.4) (xy 31.75 57.15)
 		)
 		(stroke
@@ -6467,26 +6487,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED"
-		(shape input)
-		(at 83.82 125.73 0)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left)
-		)
-		(uuid "10743bd4-8ff6-4238-a0c8-a6150559a477")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -9963,7 +9963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005acd605d")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 548.64 102.235 0)
 			(effects
 				(font
@@ -10021,7 +10021,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11131,7 +11131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bcc1012-5561-47e9-bb68-a40d3f701b61")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 481.965 122.555 90)
 			(effects
 				(font
@@ -11189,7 +11189,7 @@
 		(instances
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12204,71 +12204,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 64.77 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98e725b2-359f-4ef0-9c10-7c15583876e6")
-		(property "Reference" "J1"
-			(at 65.405 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 65.405 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "cornia-footprints:1Pin"
-			(at 64.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 64.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54da1cae-2d75-4c09-b46e-7c319da3ba8b")
-		)
-		(instances
-			(project ""
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14148,6 +14083,70 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 379.73 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e20cae02-31a4-4515-a266-d1bad6dd3ee7")
+		(property "Reference" "J3"
+			(at 380.365 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 380.365 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cornia-footprints:1Pin"
+			(at 379.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 379.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2d7d09c-b3ea-48f2-9581-aa21574f4c48")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "J3")
 					(unit 1)
 				)
 			)
