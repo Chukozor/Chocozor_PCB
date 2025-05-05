@@ -1,18 +1,18 @@
 (footprint "RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 	(tags "rotary encoder")
 	(property "Reference" "REF**"
-		(at 2.8 -4.7 0)
+		(at 2.775 9.775 0)
 		(layer "F.SilkS")
 		(uuid "3230eb40-7bc6-4e5e-9d9e-ed2d003f678f")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -23,20 +23,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8b801fe3-0348-4d03-8f27-082436f7c556")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -169,7 +156,7 @@
 	)
 	(fp_line
 		(start 14.2 -3.8)
-		(end 14.2 -1.2)
+		(end 14.2 -1.3)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -178,8 +165,8 @@
 		(uuid "39160ce7-41b6-4f4c-925c-316217a932c4")
 	)
 	(fp_line
-		(start 14.2 1.2)
-		(end 14.2 3.8)
+		(start 14.2 1.3)
+		(end 14.2 3.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -188,7 +175,7 @@
 		(uuid "db916804-132c-4833-8e4e-e331d03795fe")
 	)
 	(fp_line
-		(start 14.2 6.2)
+		(start 14.2 6.3)
 		(end 14.2 8.8)
 		(stroke
 			(width 0.12)
@@ -214,13 +201,13 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "df367f70-b410-4873-ad4b-63a9c86a05ca")
 	)
 	(fp_line
-		(start -1.5 -4.85)
-		(end -1.5 9.85)
+		(start 0.9 -3.7)
+		(end 0.9 8.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -229,8 +216,8 @@
 		(uuid "4f32e0aa-f6fb-4cf3-831e-4b12621e63dc")
 	)
 	(fp_line
-		(start -1.5 -4.85)
-		(end 16 -4.85)
+		(start 0.9 -3.7)
+		(end 14.1 -3.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -239,8 +226,8 @@
 		(uuid "82d0b3be-eea8-4bc5-8533-79dfb04cc7cb")
 	)
 	(fp_line
-		(start 16 9.85)
-		(end -1.5 9.85)
+		(start 14.1 8.7)
+		(end 0.9 8.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -249,8 +236,8 @@
 		(uuid "8e1082f7-21b2-416f-8e96-fe3bbc69296c")
 	)
 	(fp_line
-		(start 16 9.85)
-		(end 16 -4.85)
+		(start 14.1 8.7)
+		(end 14.1 -3.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -335,9 +322,20 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8e42c692-a244-40c3-90a4-95d7f4220979")
+	)
+	(fp_circle
+		(center 7.5 2.5)
+		(end 15.5 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d01cf6cc-cdf5-474c-821e-d1e0f067b877")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 11.5 6.6 0)
@@ -346,7 +344,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -406,6 +404,7 @@
 		(remove_unused_layers no)
 		(uuid "47686dc9-b9b5-4ae5-868a-c868ae958872")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm.wrl"
 		(offset
 			(xyz 0 0 0)

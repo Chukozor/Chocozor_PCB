@@ -1,7 +1,7 @@
 (footprint "oled_display_Chukozor"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Connecteur 6 pins")
 	(tags "CONN DEV")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 0.8128 0.8128)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -3.84 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f383a28f-af17-4fdc-bc3d-a00220265378")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -64,6 +52,46 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -4.99 -1.15)
+		(end 4.94 -1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2ec9ca4-9887-4804-a145-8505172e4cb3")
+	)
+	(fp_line
+		(start -4.99 1.15)
+		(end -4.99 -1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adbe6ee1-e426-4624-96ba-b45a4a620af0")
+	)
+	(fp_line
+		(start -4.99 1.15)
+		(end 4.94 1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a51e66d5-1d52-443c-9336-c601a7f7238e")
+	)
+	(fp_line
+		(start 4.94 -1.15)
+		(end 4.94 1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d01984f2-1c30-4d20-a7b8-30d4cba1c0ee")
+	)
 	(fp_line
 		(start -4.97 -1.15)
 		(end 4.96 -1.15)
@@ -104,45 +132,79 @@
 		(layer "B.SilkS")
 		(uuid "4b92327e-f13b-4ea5-8cb3-51eff5c2e392")
 	)
-	(fp_line
-		(start -4.99 -1.15)
-		(end 4.94 -1.15)
+	(fp_rect
+		(start -4.875 -1.05)
+		(end 4.85 1.075)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "F.SilkS")
-		(uuid "a2ec9ca4-9887-4804-a145-8505172e4cb3")
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "971f5e8a-0ae5-4aea-847f-e1db9efda856")
 	)
-	(fp_line
-		(start -4.99 1.15)
-		(end -4.99 -1.15)
+	(fp_rect
+		(start -4.875 -1.05)
+		(end 4.85 1.075)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "adbe6ee1-e426-4624-96ba-b45a4a620af0")
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dbd734bd-508c-4b90-8423-3076c9e9a34a")
 	)
-	(fp_line
-		(start -4.99 1.15)
-		(end 4.94 1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
+	(fp_text user "SCL"
+		(at -1.5 2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "7b7eeeeb-de00-4044-99c4-2695f5be3270")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
 		)
-		(layer "F.SilkS")
-		(uuid "a51e66d5-1d52-443c-9336-c601a7f7238e")
 	)
-	(fp_line
-		(start 4.94 -1.15)
-		(end 4.94 1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
+	(fp_text user "VI2C"
+		(at 1.2 2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "d9a63b22-6abb-465b-b5bd-0175d23167bd")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
 		)
-		(layer "F.SilkS")
-		(uuid "d01984f2-1c30-4d20-a7b8-30d4cba1c0ee")
+	)
+	(fp_text user "SDA"
+		(at -3.9 2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "dabe3ed1-9b3d-4f2f-ad93-daad8e88c9af")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 3.9 2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "dd65f36c-527c-43db-93f3-350329b61e0e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
 	)
 	(fp_text user "GND"
 		(at -3.9 2.3 0)
@@ -200,58 +262,6 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "SCL"
-		(at -1.5 2.3 0)
-		(unlocked yes)
-		(layer "F.SilkS" knockout)
-		(uuid "7b7eeeeb-de00-4044-99c4-2695f5be3270")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "VI2C"
-		(at 1.2 2.3 0)
-		(unlocked yes)
-		(layer "F.SilkS" knockout)
-		(uuid "d9a63b22-6abb-465b-b5bd-0175d23167bd")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "SDA"
-		(at -3.9 2.3 0)
-		(unlocked yes)
-		(layer "F.SilkS" knockout)
-		(uuid "dabe3ed1-9b3d-4f2f-ad93-daad8e88c9af")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "GND"
-		(at 3.9 2.3 0)
-		(unlocked yes)
-		(layer "F.SilkS" knockout)
-		(uuid "dd65f36c-527c-43db-93f3-350329b61e0e")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-				(bold yes)
-			)
-		)
-	)
 	(fp_text user "Oled display"
 		(at 0 -2 0)
 		(layer "User.1")
@@ -295,6 +305,7 @@
 		(remove_unused_layers no)
 		(uuid "fc95fabb-535a-48ae-9a0a-c37fd8f7d81b")
 	)
+	(embedded_fonts no)
 	(model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/pin-header-1x4.step"
 		(offset
 			(xyz 3.8 0 0)

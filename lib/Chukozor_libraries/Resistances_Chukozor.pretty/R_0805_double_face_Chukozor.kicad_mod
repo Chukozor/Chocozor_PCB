@@ -1,7 +1,7 @@
 (footprint "R_0805_double_face_Chukozor"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor handsolder")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0ab3c79d-339d-4ee8-92c2-632919ddb9ed")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -73,7 +60,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.16)
 			)
 		)
 	)
@@ -84,7 +71,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.16)
 			)
 			(justify mirror)
 		)
@@ -96,35 +83,15 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.16)
 			)
 			(justify mirror)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
-		(start -0.227064 -0.74)
-		(end 0.227064 -0.74)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "38d765b6-11d6-4191-80b6-082e065e4e09")
-	)
-	(fp_line
-		(start -0.227064 0.73)
-		(end 0.227064 0.73)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "63fbd8f0-ec54-4eb9-8088-148bcea9d9ad")
-	)
-	(fp_line
-		(start -0.227064 -0.735)
-		(end 0.227064 -0.735)
+		(start -0.2 -0.735)
+		(end 0.2 -0.735)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -133,14 +100,34 @@
 		(uuid "48271d98-12d9-4f33-af9f-2d7831085097")
 	)
 	(fp_line
-		(start -0.227064 0.735)
-		(end 0.227064 0.735)
+		(start -0.2 0.735)
+		(end 0.2 0.735)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d034902c-e5b7-4c79-bf4e-2234fd7562ae")
+		(uuid "2d9a1a7e-df99-4d4d-9c28-dffb9c1127ac")
+	)
+	(fp_line
+		(start -0.2 -0.74)
+		(end 0.2 -0.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "bc730938-babb-473f-8869-65da9bb210af")
+	)
+	(fp_line
+		(start -0.2 0.73)
+		(end 0.2 0.73)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "63fbd8f0-ec54-4eb9-8088-148bcea9d9ad")
 	)
 	(fp_line
 		(start -1.85 -0.955)
@@ -328,7 +315,7 @@
 	(pad "1" smd roundrect
 		(at -1 -0.005)
 		(size 1.2 1.4)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "73ecf17b-27e6-41b8-ab71-5aabadf4e651")
 	)
@@ -343,14 +330,14 @@
 	(pad "1" smd roundrect
 		(at -1 0)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "4937d829-fe33-4310-b24e-1c4f5b5702fa")
 	)
 	(pad "2" smd roundrect
 		(at 1 -0.005)
 		(size 1.2 1.4)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "d4bceb83-7032-47da-b66a-30c031c4cb53")
 	)
@@ -365,10 +352,11 @@
 	(pad "2" smd roundrect
 		(at 1 0)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "1bdfed4a-fb38-4162-b692-6c86bd617303")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
 		(offset
 			(xyz 0 0 0)

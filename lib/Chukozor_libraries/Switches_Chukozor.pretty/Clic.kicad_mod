@@ -1,0 +1,101 @@
+(footprint "Clic"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.25 1.475 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f37e51e8-2189-405c-b510-b9c447b7fc76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "Clic"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09cf1527-1148-490f-9ffc-b62a054e3230")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b980b313-3137-47f0-99eb-b42ac190301e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46acadf7-2931-4dae-b70b-c964763a6640")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.5 -0.75)
+		(end 3.5 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "af6a6498-d386-4300-8883-212f3f963c0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7dea976-7bfb-4586-9ee9-6e79236930ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.45 0)
+		(size 2.1 1.5)
+		(drill oval 1.3 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "9a04dc6f-e15f-4f45-829e-6c095c0a8a3a")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.45 0)
+		(size 2.1 1.5)
+		(drill oval 1.3 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(thermal_bridge_angle 45)
+		(uuid "35efd9d0-a8f2-4dad-81f1-4631489028e0")
+	)
+	(embedded_fonts no)
+)
