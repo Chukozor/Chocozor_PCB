@@ -2999,7 +2999,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cornia:RP2040-ProMicro"
+		(symbol "cornia:RP2040-ProMicro_simplified"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3049,7 +3049,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RP2040-ProMicro_0_1"
+			(symbol "RP2040-ProMicro_simplified_0_1"
 				(rectangle
 					(start -12.7 20.32)
 					(end 12.7 -19.05)
@@ -3062,7 +3062,7 @@
 					)
 				)
 			)
-			(symbol "RP2040-ProMicro_1_1"
+			(symbol "RP2040-ProMicro_simplified_1_1"
 				(pin input line
 					(at -17.78 16.51 0)
 					(length 5.08)
@@ -3298,24 +3298,6 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -16.51 0)
-					(length 5.08)
-					(name "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -5.08 -24.13 90)
 					(length 5.08)
 					(name "12"
@@ -3326,60 +3308,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -24.13 90)
-					(length 5.08)
-					(name "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -24.13 90)
-					(length 5.08)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -24.13 90)
-					(length 5.08)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4229,14 +4157,6 @@
 		(uuid "299ed64c-750f-4277-8056-8d65c3d5d89e")
 	)
 	(no_connect
-		(at 350.52 214.63)
-		(uuid "390df435-2b6e-43e6-8a9d-5372257dc96b")
-	)
-	(no_connect
-		(at 353.06 214.63)
-		(uuid "5852f641-8e6b-40bb-8620-fa0e89089030")
-	)
-	(no_connect
 		(at 59.69 66.04)
 		(uuid "5c400892-617a-42a6-a898-e86728e8e5c0")
 	)
@@ -4245,16 +4165,8 @@
 		(uuid "696d6651-c800-4103-8469-9509a815803e")
 	)
 	(no_connect
-		(at 335.28 207.01)
-		(uuid "bcdf3eaa-0f89-4266-9818-f8a457c1ad4c")
-	)
-	(no_connect
 		(at 335.28 173.99)
 		(uuid "c1b9b6e5-b19d-4346-8bfd-7858ac775d8c")
-	)
-	(no_connect
-		(at 355.6 214.63)
-		(uuid "e0506f52-8664-4cd5-9217-0296495b7faa")
 	)
 	(wire
 		(pts
@@ -17589,7 +17501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cornia:RP2040-ProMicro")
+		(lib_id "cornia:RP2040-ProMicro_simplified")
 		(at 353.06 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17614,7 +17526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:RP2040-ProMicro"
+		(property "Footprint" "cornia-footprints:RP2040-ProMicro_simplified"
 			(at 379.73 254 90)
 			(effects
 				(font
@@ -17680,9 +17592,6 @@
 		(pin "14"
 			(uuid "e7442444-02d8-477b-bf4e-20f4cc3754a3")
 		)
-		(pin "16"
-			(uuid "661d16cd-5c3f-4618-ab33-91dc37f8d22d")
-		)
 		(pin "18"
 			(uuid "44852a2b-8048-40fa-ac82-095d687b5f68")
 		)
@@ -17691,9 +17600,6 @@
 		)
 		(pin "22"
 			(uuid "f3e41556-a903-4a5f-9883-528dd6bb90bb")
-		)
-		(pin "32"
-			(uuid "ca430420-ec1e-432f-9132-1306f86835c4")
 		)
 		(pin "25"
 			(uuid "3905b695-3544-46d8-b2a6-7963b6560636")
@@ -17707,17 +17613,11 @@
 		(pin "19"
 			(uuid "659f5694-b111-4d4b-b0b6-74e742518fd7")
 		)
-		(pin "15"
-			(uuid "4a162131-9f8d-46eb-ab59-ff8f02c6bd5a")
-		)
 		(pin "2"
 			(uuid "9f8de83a-62c2-4cb0-b904-6c09b833c914")
 		)
 		(pin "20"
 			(uuid "4e7bf0cf-107c-492e-8afe-cc32dcff4a2e")
-		)
-		(pin "17"
-			(uuid "9af70c00-5750-4ec1-acac-ca36ccc6c0cf")
 		)
 		(pin "23"
 			(uuid "3dcc63ff-5867-4cc3-976b-f1702bde4645")
