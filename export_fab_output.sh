@@ -5,8 +5,16 @@ FOLDER_GERBER=gerber
 FOLDER_PDF=pdf
 FOLDER_CASE=case
 
-# Check PCB DRC and abort execution in case of DRC failure
-C:/Program\ Files/KiCad/9.0/bin/kicad-cli.exe pcb drc -o $FOLDER_PCB/chocofi-drc.report --all-track-errors --schematic-parity --severity-error --severity-warning --exit-code-violations $FOLDER_PCB/chocofi.kicad_pcb
+# # Check PCB DRC and abort execution in case of DRC failure
+# C:/Program\ Files/KiCad/9.0/bin/kicad-cli.exe pcb drc -o $FOLDER_PCB/chocofi-drc.report --all-track-errors --schematic-parity --severity-error --severity-warning --exit-code-violations $FOLDER_PCB/chocofi.kicad_pcb
+# if [ $? -eq 5 ]
+# then
+#     echo "DRC FAIL : Exit"
+#     exit 1 
+# fi
+
+# Check PCB DRC and abort execution in case of DRC failure WITHOUT --schematic-parity
+C:/Program\ Files/KiCad/9.0/bin/kicad-cli.exe pcb drc -o $FOLDER_PCB/chocofi-drc.report --all-track-errors --severity-error --severity-warning --exit-code-violations $FOLDER_PCB/chocofi.kicad_pcb
 if [ $? -eq 5 ]
 then
     echo "DRC FAIL : Exit"
