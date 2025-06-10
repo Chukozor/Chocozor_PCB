@@ -1398,7 +1398,7 @@
 	(pad "3" smd custom
 		(at -2.88 -5.375 180)
 		(size 1.54 0.825)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -1438,6 +1438,17 @@
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "d7488752-88e5-4681-b9e4-9247f07001ec")
 	)
 	(pad "4" smd rect
@@ -1484,7 +1495,7 @@
 	(pad "4" smd custom
 		(at -2.88 -3.97375 180)
 		(size 1.54 0.8225)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -1520,7 +1531,7 @@
 	(pad "5" smd custom
 		(at 2.88 -5.375 180)
 		(size 1.54 0.825)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -1570,7 +1581,7 @@
 	(pad "6" smd custom
 		(at 2.88 -5.375)
 		(size 1.54 0.825)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -1610,7 +1621,7 @@
 	(pad "6" smd custom
 		(at 2.88 -3.97375 180)
 		(size 1.54 0.8225)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -1645,6 +1656,17 @@
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "76e0cff2-264a-4322-a66a-29ef95d0e532")
 	)
 	(embedded_fonts no)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.0,
-          "height": 4.2,
-          "width": 4.2
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -151,10 +151,10 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
-          "td_ontrackend": true,
+          "td_onsmdpad": false,
+          "td_ontrackend": false,
           "td_onvia": true
         }
       ],
@@ -190,7 +190,7 @@
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 1.0
         }
       ],
       "track_widths": [
