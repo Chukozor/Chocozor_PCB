@@ -3016,7 +3016,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cornia:RP2040-ProMicro_simplified"
+		(symbol "cornia:RP2040-ProMicro"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3066,7 +3066,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RP2040-ProMicro_simplified_0_1"
+			(symbol "RP2040-ProMicro_0_1"
 				(rectangle
 					(start -12.7 20.32)
 					(end 12.7 -19.05)
@@ -3079,7 +3079,7 @@
 					)
 				)
 			)
-			(symbol "RP2040-ProMicro_simplified_1_1"
+			(symbol "RP2040-ProMicro_1_1"
 				(pin input line
 					(at -17.78 16.51 0)
 					(length 5.08)
@@ -3315,6 +3315,24 @@
 					)
 				)
 				(pin input line
+					(at -17.78 -16.51 0)
+					(length 5.08)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -5.08 -24.13 90)
 					(length 5.08)
 					(name "12"
@@ -3325,6 +3343,60 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -24.13 90)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -24.13 90)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -24.13 90)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17522,7 +17594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cornia:RP2040-ProMicro_simplified")
+		(lib_id "cornia:RP2040-ProMicro")
 		(at 353.06 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17547,7 +17619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cornia-footprints:RP2040-ProMicro_simplified"
+		(property "Footprint" "cornia-footprints:RP2040-ProMicro"
 			(at 379.73 254 90)
 			(effects
 				(font
@@ -17657,6 +17729,18 @@
 		)
 		(pin "28"
 			(uuid "fed5f3d5-f84d-4388-8acc-b4fde6aab5c2")
+		)
+		(pin "16"
+			(uuid "7b5e46af-e34a-4de3-9a52-d24d1c03cc82")
+		)
+		(pin "17"
+			(uuid "dbb4c4ad-f497-4552-b4b3-192a7ad39b48")
+		)
+		(pin "32"
+			(uuid "8d34cfe3-b380-4168-9ccc-85d91e8f3cd3")
+		)
+		(pin "15"
+			(uuid "64448f56-2d17-4865-bb8b-2c921a798fba")
 		)
 		(instances
 			(project ""
