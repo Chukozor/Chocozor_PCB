@@ -5274,7 +5274,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.982 106.934) (xy 364.998 106.934)
+			(xy 357.632 98.552) (xy 358.648 98.552)
 		)
 		(stroke
 			(width 0)
@@ -6864,7 +6864,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.088 164.592) (xy 325.628 164.592)
+			(xy 320.294 161.29) (xy 322.834 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7414,7 +7414,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.982 104.394) (xy 364.998 104.394)
+			(xy 357.632 96.012) (xy 358.648 96.012)
 		)
 		(stroke
 			(width 0)
@@ -7844,7 +7844,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.982 109.474) (xy 364.998 109.474)
+			(xy 357.632 101.092) (xy 358.648 101.092)
 		)
 		(stroke
 			(width 0)
@@ -8084,7 +8084,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 167.386) (xy 325.755 167.386)
+			(xy 321.056 164.084) (xy 322.961 164.084)
 		)
 		(stroke
 			(width 0)
@@ -8594,7 +8594,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.998 112.014) (xy 364.998 113.03)
+			(xy 358.648 103.632) (xy 358.648 104.648)
 		)
 		(stroke
 			(width 0)
@@ -8856,7 +8856,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 323.088 164.592 180)
+		(at 320.294 161.29 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -8865,7 +8865,7 @@
 		)
 		(uuid "3079deda-7adb-4e64-8431-2b4e8181c37d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.088 164.592 0)
+			(at 320.294 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9103,7 +9103,7 @@
 	)
 	(global_label "data"
 		(shape input)
-		(at 323.85 167.386 180)
+		(at 321.056 164.084 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -9112,7 +9112,7 @@
 		)
 		(uuid "504cf826-e943-4131-8d52-284cb296704a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.85 167.386 0)
+			(at 321.056 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,7 +9474,7 @@
 	)
 	(global_label "RING1"
 		(shape input)
-		(at 363.982 106.934 180)
+		(at 357.632 98.552 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -9483,7 +9483,7 @@
 		)
 		(uuid "7ac37084-af73-4574-93d7-86a25a773702")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.982 106.934 0)
+			(at 357.632 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9598,7 @@
 	)
 	(global_label "RING2"
 		(shape input)
-		(at 363.982 109.474 180)
+		(at 357.632 101.092 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -9607,7 +9607,7 @@
 		)
 		(uuid "8d7af7aa-71d7-46cc-b90f-f692444c7f32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.982 109.474 0)
+			(at 357.632 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +10418,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 363.982 104.394 180)
+		(at 357.632 96.012 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10428,7 +10428,7 @@
 		)
 		(uuid "f773bfae-948e-4b36-a8ed-e0b81ddbd0e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 356.5716 104.394 0)
+			(at 350.2216 96.012 0)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -13657,7 +13657,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:TRRS_Chuck")
-		(at 373.888 114.554 0)
+		(at 367.538 106.172 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13666,7 +13666,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ffa120e-5e42-4add-b348-5b5a8228b4c1")
 		(property "Reference" "U2"
-			(at 379.73 106.9339 0)
+			(at 373.38 98.5519 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13675,7 +13675,7 @@
 			)
 		)
 		(property "Value" "TRRS_Chuck"
-			(at 379.73 109.4739 0)
+			(at 373.38 101.0919 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13684,7 +13684,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:MJ-4PP-9_Chukozor-2"
-			(at 377.698 114.554 0)
+			(at 371.348 106.172 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13693,7 +13693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.698 114.554 0)
+			(at 371.348 106.172 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13702,7 +13702,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 373.888 114.554 0)
+			(at 367.538 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15343,7 +15343,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
-		(at 364.998 113.03 0)
+		(at 358.648 104.648 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15351,7 +15351,7 @@
 		(dnp no)
 		(uuid "7d91cbe5-f50d-4f17-a739-0e486f74ac91")
 		(property "Reference" "#PWR035"
-			(at 364.998 119.38 0)
+			(at 358.648 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15360,7 +15360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 364.998 116.84 0)
+			(at 358.648 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15368,7 +15368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.998 113.03 0)
+			(at 358.648 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15377,7 +15377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.998 113.03 0)
+			(at 358.648 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15386,7 +15386,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.998 113.03 0)
+			(at 358.648 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
