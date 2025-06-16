@@ -134,6 +134,18 @@
 		(layer "F.SilkS")
 		(uuid "23c8b252-36ac-4d51-ab48-29ba0dc7cb7f")
 	)
+	(fp_poly
+		(pts
+			(xy -0.15 3.05) (xy -0.15 3.65) (xy -0.5 3.65) (xy 0 4.15) (xy 0.5 3.65) (xy 0.15 3.65) (xy 0.15 3.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "792b3b24-b7ce-4fd8-a040-71f0af543184")
+	)
 	(fp_line
 		(start -5.5 -2.205)
 		(end -3.131 -2.205)
@@ -215,6 +227,18 @@
 		(layer "B.SilkS")
 		(uuid "527877ff-0bc0-4340-827f-3f8933678228")
 	)
+	(fp_poly
+		(pts
+			(xy 0.15 3.05) (xy 0.15 3.65) (xy 0.5 3.65) (xy 0 4.15) (xy -0.5 3.65) (xy -0.15 3.65) (xy -0.15 3.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "a1b6c524-c91e-428a-be26-aa418cc6b176")
+	)
 	(fp_line
 		(start -3.5 1.995)
 		(end -3.5 4.495)
@@ -268,6 +292,18 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "cable here"
+		(at 0 2.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "59c104aa-01e4-4a25-b627-d027406e4fcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "VIK OUT"
 		(at -3.05 -3.48 0)
 		(unlocked yes)
@@ -292,6 +328,19 @@
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "cable here"
+		(at 0.05 2.55 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "0e6294cc-ff90-4384-ba6d-6d97cda76667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "VIK OUT"
