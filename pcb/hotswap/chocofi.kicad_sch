@@ -19698,7 +19698,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:Cirque Trackpad 40mm")
-		(at 363.982 74.93 0)
+		(at 366.268 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19706,7 +19706,7 @@
 		(dnp no)
 		(uuid "c9a64387-7c60-4e72-83f3-020364058722")
 		(property "Reference" "Cirque_Trackpad_40mm1"
-			(at 353.822 71.882 0)
+			(at 356.108 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19715,7 +19715,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 382.27 76.2 0)
+			(at 384.556 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19724,7 +19724,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Cirque_Trackpad_40mm"
-			(at 363.982 74.93 0)
+			(at 366.268 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19733,7 +19733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.982 74.93 0)
+			(at 366.268 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19742,7 +19742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.982 74.93 0)
+			(at 366.268 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19751,7 +19751,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "Cirque_Trackpad_40mm1")
 					(unit 1)
