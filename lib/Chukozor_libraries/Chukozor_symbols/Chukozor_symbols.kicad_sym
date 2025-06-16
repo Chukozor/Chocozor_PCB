@@ -157,6 +157,82 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Cirque Trackpad 40mm"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Cirque_Trackpad_40mm"
+			(at -0.508 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Cirque_Trackpad_40mm"
+			(at 0.254 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Cirque Trackpad 40mm_1_1"
+			(text_box "Cirque Trackpad"
+				(at -8.89 1.651 0)
+				(size 17.78 -3.175)
+				(margins 1.016 1.016 1.016 1.016)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Conn_01x04"
 		(pin_names
 			(offset 1.016)
