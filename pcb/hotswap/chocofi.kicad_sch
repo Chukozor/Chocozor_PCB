@@ -20630,7 +20630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfc08ff3-df9d-4af1-a34e-1191f8f77b9a")
-		(property "Reference" "J?"
+		(property "Reference" "VIK1"
 			(at 328.93 145.4149 0)
 			(effects
 				(font
@@ -20648,7 +20648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "vik:vik-keyboard-connector-horizontal"
 			(at 322.58 138.43 0)
 			(effects
 				(font
@@ -20714,7 +20714,7 @@
 		(instances
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "J?")
+					(reference "VIK1")
 					(unit 1)
 				)
 			)
