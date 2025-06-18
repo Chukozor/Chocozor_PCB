@@ -6,6 +6,12 @@
 - voir pour emplacement écran : et faire "user drawings" de l'emplacement exact de l'écran relatif aux pins, afin de mieux anticiper le design ET faire pareil pour le RP2040
 - Piezo buzzer
 - Solenoid
+-------
+U = RI
+
+P = RI^2
+  = R*U^2/R^2
+  = U^2/R
 
 -------
 splitkb :
