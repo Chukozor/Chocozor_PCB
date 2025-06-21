@@ -1954,6 +1954,79 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Chukozor_symbols:Solenoid-spot"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -0.254 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Solenoid-spot_0_1"
+				(rectangle
+					(start -7.112 1.778)
+					(end 7.112 -1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Solenoid-spot_1_1"
+				(text "Solenoid spot"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Chukozor_symbols:TRRS_Chuck"
 			(pin_names
 				(offset 1.016)
@@ -5529,7 +5602,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 365.252 147.066 0)
+		(at 421.894 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5539,7 +5612,7 @@
 	)
 	(text "3.3V"
 		(exclude_from_sim no)
-		(at 365.506 154.686 0)
+		(at 422.148 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6057,7 +6130,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 146.812) (xy 342.9 148.082)
+			(xy 407.416 201.676) (xy 407.416 202.946)
 		)
 		(stroke
 			(width 0)
@@ -6297,7 +6370,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 156.972) (xy 372.11 156.972)
+			(xy 424.942 211.836) (xy 428.752 211.836)
 		)
 		(stroke
 			(width 0)
@@ -6507,7 +6580,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 144.272) (xy 372.11 145.542)
+			(xy 428.752 199.136) (xy 428.752 200.406)
 		)
 		(stroke
 			(width 0)
@@ -6817,7 +6890,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 144.272) (xy 372.11 144.272)
+			(xy 424.942 199.136) (xy 428.752 199.136)
 		)
 		(stroke
 			(width 0)
@@ -7397,7 +7470,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 155.702) (xy 372.11 156.972)
+			(xy 428.752 210.566) (xy 428.752 211.836)
 		)
 		(stroke
 			(width 0)
@@ -7537,7 +7610,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 150.622) (xy 375.92 150.622)
+			(xy 433.832 205.486) (xy 432.562 205.486)
 		)
 		(stroke
 			(width 0)
@@ -8387,7 +8460,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 155.702) (xy 342.9 156.972)
+			(xy 407.416 210.566) (xy 407.416 211.836)
 		)
 		(stroke
 			(width 0)
@@ -10412,6 +10485,60 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAADAAKQApAAAADQANAAoALwA+AAoACgAKADwALwBpAGYAPgAKAAoACgA8AGkAZgAgAGkAZAAA"
+			"ACIAYQB0AG8AbQAoAEYAbwBvAHQAbgBvAHQAZQBJAGMAbwBuACkAAAA+AAoACgAKADwAZQBsAGUA"
+			"bQBlAG4AdAANAA0ACgBoAGUAaQBnAGgAdAAAACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPQAg"
+			"ACIAcwB5AHMAbQBlAHQAcgBpAGMAKAA0ADkAKQAAAA0ADQAKAHcAaQBkAHQAaAAAACAAIAAgACAA"
+			"IAAgACAAIAAgACAAIAAgACAAIAA9ACAAIgBzAHkAcwBtAGUAdAByAGkAYwAoADUAMAApAAAADQAN"
+			"AAoAYQBjAGMAZQBzAHMAaQBiAGwAZQAAACAAIAAgACAAIAAgACAAIAAgAD0AIAAiAHQAcgB1AGUA"
+			"AAANAA0ACgBhAGMAYwByAG8AbABlAAAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPQAgACIAZwBy"
+			"AGEAcABoAGkAYwAAAA0ADQAKAC8APgAKAAoACgA8AC8AaQBmAD4ACgAKAAoAPABpAGYAIABpAGQA"
+			"AAAiAGEAdABvAG0AKABGAG8AbwB0AG4AbwB0AGUAVABlAHgAdAApAAAAPgAKAAoACgA8AGUAbABl"
+			"AG0AZQBuAHQADQANAAoAZgBvAG4AdAAAACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgAD0A"
+			"IAAiAGcAdABmACgAVABhAHMAawBEAGkAYQBsAG8AZwBTAHQAeQBsAGUALAAgADEANQAsACAAMAAp"
+			"AAAADQANAAoAZgBvAHIAZQBnAHIAbwB1AG4AZAAAACAAIAAgACAAIAAgACAAIAAgAD0AIAAiAGcA"
+			"dABjACgAVABhAHMAawBEAGkAYQBsAG8AZwBTAHQAeQBsAGUALAAgADEANQAsACAAMAAsACAAMwA4"
+			"ADAAMwApAAAADQANAAoAYQBjAGMAZQBzAHMAaQBiAGwAZQAAACAAIAAgACAAIAAgACAAIAAgAD0A"
+			"IAAiAHQAcgB1AGUAAAANAA0ACgBhAGMAYwByAG8AbABlAAAAIAAgACAAIAAgACAAIAAgACAAIAAg"
+			"ACAAPQAgACIAcwB0AGEAdABpAGMAdABlAHgAdAAAAA0ADQAKAC8APgAKAAoACgA8AC8AaQBmAD4A"
+			"CgAKAAoAPABpAGYAIABpAGQAAAAiAGEAdABvAG0AKABGAG8AbwB0AG4AbwB0AGUAVABlAHgAdABM"
+			"AGkAbgBrACkAAAA+AAoACgAKADwAYwBjAHMAeQBzAGwAaQBuAGsADQANAAoAZgBvAG4AdAAAACAA"
+			"IAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 	)
@@ -12123,7 +12250,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 342.9 146.812 90)
+		(at 407.416 201.676 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12133,7 +12260,7 @@
 		)
 		(uuid "d4f13118-fbb4-4583-a65b-e25256adbb30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.9 139.4016 90)
+			(at 407.416 194.2656 90)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -14236,6 +14363,69 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chukozor_symbols:Solenoid-spot")
+		(at 477.52 152.908 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e4e5885-b08d-4f2a-8a64-1c07e2e36358")
+		(property "Reference" "S2"
+			(at 477.266 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 477.52 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Solenoid-spot"
+			(at 477.52 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 477.52 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 477.52 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -17127,7 +17317,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 372.11 150.622 90)
+		(at 428.752 205.486 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17135,7 +17325,7 @@
 		(dnp no)
 		(uuid "75de4784-ac32-4ed5-b486-01905aad5982")
 		(property "Reference" "SB2"
-			(at 368.935 150.622 90)
+			(at 425.577 205.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17144,7 +17334,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 369.57 151.8919 90)
+			(at 426.212 206.7559 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17154,7 +17344,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:SolderJumper-3_I2C_Chukozor"
-			(at 372.11 150.622 0)
+			(at 428.752 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17163,7 +17353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 150.622 0)
+			(at 428.752 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17172,7 +17362,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 372.11 150.622 0)
+			(at 428.752 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17878,7 +18068,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
-		(at 342.9 156.972 0)
+		(at 407.416 211.836 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17886,7 +18076,7 @@
 		(dnp no)
 		(uuid "8a47329f-ae17-4339-b492-5ec3dfbb2979")
 		(property "Reference" "#PWR043"
-			(at 342.9 163.322 0)
+			(at 407.416 218.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17895,7 +18085,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 342.9 160.782 0)
+			(at 407.416 215.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17903,7 +18093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 342.9 156.972 0)
+			(at 407.416 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17912,7 +18102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 156.972 0)
+			(at 407.416 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17921,7 +18111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.9 156.972 0)
+			(at 407.416 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19757,7 +19947,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 368.3 156.972 90)
+		(at 424.942 211.836 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19765,7 +19955,7 @@
 		(dnp no)
 		(uuid "b1a775f2-8f52-426d-bfa5-487c40c6c786")
 		(property "Reference" "#PWR037"
-			(at 372.11 156.972 0)
+			(at 428.752 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19774,7 +19964,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 364.49 156.9721 90)
+			(at 421.132 211.8361 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19783,7 +19973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 156.972 0)
+			(at 424.942 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19792,7 +19982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 156.972 0)
+			(at 424.942 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19801,7 +19991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 368.3 156.972 0)
+			(at 424.942 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20315,7 +20505,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 342.9 151.892 0)
+		(at 407.416 206.756 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20324,7 +20514,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbbfe0d3-ef6d-4786-b8e1-35968f04aace")
 		(property "Reference" "C1"
-			(at 346.71 150.6219 0)
+			(at 411.226 205.4859 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20333,7 +20523,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 346.71 153.1619 0)
+			(at 411.226 208.0259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20342,7 +20532,7 @@
 			)
 		)
 		(property "Footprint" "cornia-footprints:C_0805"
-			(at 343.8652 155.702 0)
+			(at 408.3812 210.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20351,7 +20541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 342.9 151.892 0)
+			(at 407.416 206.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20360,7 +20550,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 342.9 151.892 0)
+			(at 407.416 206.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20450,7 +20640,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 377.19 150.622 270)
+		(at 433.832 205.486 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20458,7 +20648,7 @@
 		(dnp no)
 		(uuid "bde011e3-80cc-461f-a67c-159d93e5149e")
 		(property "Reference" "#PWR036"
-			(at 373.38 150.622 0)
+			(at 430.022 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20467,7 +20657,7 @@
 			)
 		)
 		(property "Value" "VI2C"
-			(at 377.444 148.59 90)
+			(at 434.086 203.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20476,7 +20666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 150.622 0)
+			(at 433.832 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20485,7 +20675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 150.622 0)
+			(at 433.832 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20494,7 +20684,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 377.19 150.622 0)
+			(at 433.832 205.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21078,7 +21268,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:Cirque Trackpad 40mm")
-		(at 366.268 69.85 0)
+		(at 346.964 145.542 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21086,7 +21276,7 @@
 		(dnp no)
 		(uuid "c9a64387-7c60-4e72-83f3-020364058722")
 		(property "Reference" "Cirque_Trackpad_40mm1"
-			(at 356.108 66.802 0)
+			(at 336.804 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21095,7 +21285,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 384.556 71.12 0)
+			(at 365.252 146.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21104,7 +21294,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Cirque_Trackpad_40mm"
-			(at 366.268 69.85 0)
+			(at 346.964 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21113,7 +21303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 366.268 69.85 0)
+			(at 346.964 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21122,7 +21312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 366.268 69.85 0)
+			(at 346.964 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22139,7 +22329,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 368.3 144.272 90)
+		(at 424.942 199.136 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22148,7 +22338,7 @@
 		(fields_autoplaced yes)
 		(uuid "e380f724-c394-4993-bc6d-baa2a34c1e83")
 		(property "Reference" "#PWR034"
-			(at 372.11 144.272 0)
+			(at 428.752 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22157,7 +22347,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 364.49 144.2719 90)
+			(at 421.132 199.1359 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22166,7 +22356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 144.272 0)
+			(at 424.942 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22175,7 +22365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 144.272 0)
+			(at 424.942 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22184,7 +22374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 368.3 144.272 0)
+			(at 424.942 199.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
