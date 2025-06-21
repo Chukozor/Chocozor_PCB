@@ -74872,7 +74872,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "8700afd8-8d07-4e30-b33d-4b66cc9a48cf")
+			(uuid "379832fe-4173-46b8-b34c-be173a6c4ed2")
 		)
 		(pad "1" thru_hole circle
 			(at -1.25 0 90)
@@ -74883,7 +74883,7 @@
 			(net 6 "VCC")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "8700afd8-8d07-4e30-b33d-4b66cc9a48cf")
+			(uuid "46215e9f-9c8d-46f3-afad-f509bd8e8ce5")
 		)
 		(pad "2" thru_hole circle
 			(at 0 0 90)
@@ -74903,7 +74903,7 @@
 			(net 26 "VI2C")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "a38b436e-3ab0-4e43-a8d1-7853aa615628")
+			(uuid "55f4da00-0c3b-4c33-a7fa-7bb9b2f554e7")
 		)
 		(pad "2" smd rect
 			(at 0 0 90)
@@ -74912,7 +74912,7 @@
 			(net 26 "VI2C")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "a38b436e-3ab0-4e43-a8d1-7853aa615628")
+			(uuid "5a60dcaf-5507-4763-a191-500d402f3be9")
 		)
 		(pad "3" thru_hole circle
 			(at 1.25 0 90)
@@ -74959,7 +74959,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "0294744d-6f20-472c-8345-1cc784bb3349")
+			(uuid "1c0fddc3-a34a-4960-8e97-07479be2aeb1")
 		)
 		(pad "3" smd custom
 			(at 1.3 0 90)
@@ -74995,7 +74995,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "0294744d-6f20-472c-8345-1cc784bb3349")
+			(uuid "e537d346-7201-42af-b49a-f888981d239d")
 		)
 		(embedded_fonts no)
 	)
@@ -81944,17 +81944,6 @@
 		(layer "F.Cu")
 		(net 104)
 		(uuid "9515e225-6f26-4c13-a7fb-9b1e508a435a")
-	)
-	(gr_line
-		(start 174.475 86.35)
-		(end 176.825 86.35)
-		(stroke
-			(width 0.28)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(net 91)
-		(uuid "bd530fe1-4581-49e2-a7b2-13834aca14e5")
 	)
 	(gr_line
 		(start 174.01 88.85)
