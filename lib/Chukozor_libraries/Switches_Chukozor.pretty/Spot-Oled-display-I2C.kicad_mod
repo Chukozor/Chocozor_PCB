@@ -1,0 +1,157 @@
+(footprint "Spot-Oled-display-I2C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb1076c2-2440-4f41-9b7e-a0eefb56947e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Spot-Oled-display-I2C"
+		(at 19.6 -6.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b55130e4-7d82-4ac8-ae91-4bcf480498d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e04230a3-63c1-412f-8637-67cbd880553c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f2e9774-06b3-4cc5-8fb9-be1147a4814c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -12.3)
+		(end 39.2 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0cb277d3-b2ca-4b14-b52f-743526dfdd2c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 19.3 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e53faf0f-d497-47b5-8798-f25472da8888")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "8521bd2c-08a2-496e-b429-29e27a93b5dd")
+		(pts
+			(xy 0 0) (xy 39.2 0)
+		)
+		(height -2.1)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "39.2"
+			(at 19.6 -3.9 0)
+			(layer "F.Cu")
+			(uuid "8521bd2c-08a2-496e-b429-29e27a93b5dd")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "f10768b3-f098-458f-9c06-23483351d1ce")
+		(pts
+			(xy 39.2 -12.3) (xy 39.2 0)
+		)
+		(height -1.7)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "12.3"
+			(at 35.7 -6.15 90)
+			(layer "F.Cu")
+			(uuid "f10768b3-f098-458f-9c06-23483351d1ce")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
