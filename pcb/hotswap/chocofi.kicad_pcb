@@ -72609,7 +72609,7 @@
 	(footprint "Switches_Chukozor:SolderJumper-3_I2C_Chukozor"
 		(layer "F.Cu")
 		(uuid "c306eb2a-a2e2-4d88-89dc-1422c0fb0846")
-		(at 177.71 57.5 90)
+		(at 177.71 53.35 90)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers")
 		(tags "solder jumper open")
 		(property "Reference" "SB2"
@@ -83697,14 +83697,6 @@
 		(uuid "58a1cab2-59a4-477e-bfda-5eae872c904a")
 	)
 	(segment
-		(start 161.195 62.19)
-		(end 166.165 62.19)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "5dfb62a2-7864-401e-8d64-222918ac45b7")
-	)
-	(segment
 		(start 138.187119 61.318135)
 		(end 130.727255 61.318135)
 		(width 0.25)
@@ -84219,15 +84211,6 @@
 		(uuid "5d0bad4e-386f-4430-b5c2-ed6a66e4cad9")
 	)
 	(arc
-		(start 165.185 64.73)
-		(mid 163.770786 65.315786)
-		(end 163.185 66.73)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "8278c48a-328e-4466-8874-17b7ca71a2c3")
-	)
-	(arc
 		(start 105.392107 80.975415)
 		(mid 105.60888 80.650992)
 		(end 105.685 80.268308)
@@ -84591,15 +84574,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "d16c5bf6-a9db-42fe-9476-e96ee28068dd")
-	)
-	(arc
-		(start 164.674303 67.287439)
-		(mid 163.97477 67.584411)
-		(end 163.686 68.28737)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "f2f0b5ca-6699-4aa6-b050-7a02951c67f2")
 	)
 	(arc
 		(start 141.197706 99.411189)
@@ -85018,15 +84992,6 @@
 		(layer "B.Cu")
 		(net 4)
 		(uuid "f1f05dbf-1b9a-4cbf-9ae5-0ebad44faf25")
-	)
-	(arc
-		(start 163.156387 74.061254)
-		(mid 163.384749 72.913203)
-		(end 164.035067 71.939933)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 4)
-		(uuid "958d37db-04c3-4dc5-a5ef-4d32872fb3c4")
 	)
 	(arc
 		(start 162.5706 116.1144)
@@ -96329,14 +96294,6 @@
 		(net 25)
 		(uuid "f7b64ca9-049d-43d1-84f7-0bf41433cfde")
 	)
-	(via
-		(at 183.085 127.6)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 25)
-		(uuid "0ff4d4a3-a2b1-492b-b60a-0ccd6f244361")
-	)
 	(arc
 		(start 203.826598 145.530523)
 		(mid 204.823244 145.983332)
@@ -96374,20 +96331,20 @@
 		(uuid "ca296eb4-3c00-4e6b-908f-b0153d1289e7")
 	)
 	(segment
+		(start 177.695824 50.1039)
+		(end 177.71 50.118076)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 27)
+		(uuid "41712da1-fdee-4614-bada-1a32c7044dad")
+	)
+	(segment
 		(start 186.032611 49.055852)
 		(end 186.032611 106.804)
 		(width 1.016)
 		(layer "F.Cu")
 		(net 27)
 		(uuid "a408d728-a58a-44bc-93ac-9cd1c29850b8")
-	)
-	(segment
-		(start 177.695824 50.1039)
-		(end 177.695824 56.239065)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 27)
-		(uuid "b3307c58-f833-4cf3-858c-81a2f99ea033")
 	)
 	(segment
 		(start 183.815824 46.839065)
@@ -96404,6 +96361,14 @@
 		(layer "F.Cu")
 		(net 27)
 		(uuid "e47c7f61-902c-42c1-b597-d1cab9a74cce")
+	)
+	(segment
+		(start 177.71 50.118076)
+		(end 177.71 52.05)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 27)
+		(uuid "e51b51fe-b36a-4e40-8d62-59b2dbd6f144")
 	)
 	(arc
 		(start 180.695824 47.1039)
