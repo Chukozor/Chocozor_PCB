@@ -16181,7 +16181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SB-x2-small"
+		(property "Value" "Oled-SDA-SCL"
 			(at 507.492 68.072 0)
 			(effects
 				(font
@@ -17055,12 +17055,11 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 452.628 178.689 90)
+			(at 446.278 183.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistances_Chukozor:R_0805_double_face_Chukozor"
@@ -17081,7 +17080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "VI2C Pull-Up"
 			(at 446.278 181.229 0)
 			(effects
 				(font
@@ -23048,21 +23047,19 @@
 		(dnp no)
 		(uuid "d1b85387-91a7-4bd9-8214-5bd06463ef2c")
 		(property "Reference" "R1"
-			(at 447.548 172.974 90)
+			(at 446.278 173.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 452.628 172.974 90)
+			(at 446.278 171.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistances_Chukozor:R_0805_double_face_Chukozor"
@@ -23083,7 +23080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "VI2C Pull-Up"
 			(at 446.278 175.514 0)
 			(effects
 				(font
@@ -24532,7 +24529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SB-small"
+		(property "Value" "Oled-VI2C"
 			(at 543.052 132.842 0)
 			(effects
 				(font
