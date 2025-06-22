@@ -515,9 +515,26 @@
         "microvia_drill": 0.1,
         "name": "Cols",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -549,7 +566,7 @@
         "microvia_drill": 0.1,
         "name": "Rows",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -564,9 +581,26 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "VIK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.28,
         "via_diameter": 0.6,
@@ -601,23 +635,23 @@
         "pattern": "VBUS"
       },
       {
-        "netclass": "VIK",
+        "netclass": "SPI",
         "pattern": "MOSI (TX)"
       },
       {
-        "netclass": "VIK",
+        "netclass": "SPI",
         "pattern": "DR"
       },
       {
-        "netclass": "VIK",
+        "netclass": "SPI",
         "pattern": "SS (CS)"
       },
       {
-        "netclass": "VIK",
+        "netclass": "SPI",
         "pattern": "MISO (RX)"
       },
       {
-        "netclass": "VIK",
+        "netclass": "SPI",
         "pattern": "SCK"
       },
       {
@@ -669,12 +703,16 @@
         "pattern": "col5"
       },
       {
-        "netclass": "VIK",
-        "pattern": "SDA-VIK"
+        "netclass": "I2C",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "SCL"
       },
       {
         "netclass": "VIK",
-        "pattern": "SCL-VIK"
+        "pattern": "5V-VIK"
       }
     ]
   },
