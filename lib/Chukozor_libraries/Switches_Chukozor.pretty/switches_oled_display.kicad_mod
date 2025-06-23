@@ -212,6 +212,17 @@
 		(layer "F.SilkS")
 		(uuid "83675d12-bc98-442d-a771-a759a19c81a4")
 	)
+	(fp_rect
+		(start -4.95 -3.79)
+		(end 4.88 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "da1d3307-2c5d-4a88-92ab-9d6710e5c05e")
+	)
 	(fp_line
 		(start -4.74 -1.326)
 		(end -2.962 -1.326)
@@ -373,6 +384,17 @@
 		(uuid "0111b2f5-d274-4bc2-aa63-179cf6f77492")
 	)
 	(fp_rect
+		(start -4.95 -3.79)
+		(end 4.88 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "bc74c44c-72dc-4bec-a04d-d16a065de7ff")
+	)
+	(fp_rect
 		(start -4.65 -1.25)
 		(end 4.625 0.9)
 		(stroke
@@ -394,10 +416,52 @@
 		(layer "F.CrtYd")
 		(uuid "e8cf5ed6-679d-479e-833b-afc5715c3901")
 	)
-	(fp_text user "SOLDER HERE FOR LEFT SIDE"
-		(at 0 -2 0)
+	(fp_text user "FOR RIGHT SIDE"
+		(at 0 -2.55 180)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(uuid "04afb03b-f238-435a-9389-b3cc5bfd0bb6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "SOLDER HERE"
+		(at -0.02 -1.53 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "757b0f85-5775-4ad1-ae7b-3a6377db0f19")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "FOR LEFT SIDE"
+		(at 0 -2.55 180)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "afda9281-92dc-4a23-ac22-451aed8845a8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "SOLDER HERE"
+		(at 0 -1.54 180)
+		(unlocked yes)
+		(layer "B.SilkS")
 		(uuid "aff53b4c-4ae4-44e2-bcea-2ddf9ee8e90d")
 		(effects
 			(font
@@ -405,6 +469,7 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify top mirror)
 		)
 	)
 	(pad "1" thru_hole circle

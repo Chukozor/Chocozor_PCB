@@ -2261,9 +2261,9 @@
 				)
 			)
 			(symbol "Spot-Cirque Trackpad 40mm_1_1"
-				(text_box "Cirque Trackpad"
-					(at -8.89 1.651 0)
-					(size 17.78 -3.175)
+				(text_box "40mm Cirque Trackpad spot"
+					(at -7.366 2.54 0)
+					(size 15.748 -5.461)
 					(margins 1.016 1.016 1.016 1.016)
 					(stroke
 						(width 0)
@@ -2344,7 +2344,7 @@
 				)
 			)
 			(symbol "Spot-Oled-Display_1_1"
-				(text "Oled Display Spot"
+				(text "Oled Display spot"
 					(at 0 0 0)
 					(effects
 						(font
@@ -6525,7 +6525,7 @@
 	)
 	(text "SPOTS"
 		(exclude_from_sim no)
-		(at 497.332 67.818 0)
+		(at 498.856 67.818 0)
 		(effects
 			(font
 				(size 2 2)
@@ -11700,6 +11700,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 	)
@@ -15998,7 +16016,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:Spot-Solenoid")
-		(at 498.094 74.93 0)
+		(at 500.888 73.914 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16007,7 +16025,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e4e5885-b08d-4f2a-8a64-1c07e2e36358")
 		(property "Reference" "Spot2"
-			(at 497.84 70.866 0)
+			(at 500.634 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16015,8 +16033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 498.094 71.882 0)
+		(property "Value" "Solenoid spot"
+			(at 500.888 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16024,7 +16042,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Spot-Solenoid"
-			(at 498.094 74.93 0)
+			(at 500.888 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16033,7 +16051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 498.094 74.93 0)
+			(at 500.888 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16042,7 +16060,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 498.094 74.93 0)
+			(at 500.888 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22908,7 +22926,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:Spot-Cirque Trackpad 40mm")
-		(at 499.872 84.836 0)
+		(at 501.142 86.614 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22916,7 +22934,7 @@
 		(dnp no)
 		(uuid "c9a64387-7c60-4e72-83f3-020364058722")
 		(property "Reference" "Spot1"
-			(at 499.364 81.534 0)
+			(at 500.634 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22924,16 +22942,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 499.872 84.836 0)
+		(property "Value" "40mm Cirque Trackpad spot"
+			(at 501.142 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Spot-Cirque_Trackpad_40mm"
-			(at 500.126 84.836 0)
+		(property "Footprint" "Switches_Chukozor:Cirque_Trackpad_40mm"
+			(at 501.396 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22942,7 +22960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 499.872 84.836 0)
+			(at 501.142 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22951,7 +22969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 499.872 84.836 0)
+			(at 501.142 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24548,16 +24566,15 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:Spot-Oled-Display")
-		(at 499.618 80.01 0)
+		(at 501.142 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ec7f3adc-1020-458a-bf3d-45858eb33f73")
 		(property "Reference" "Spot3"
-			(at 499.364 75.946 0)
+			(at 500.888 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24565,8 +24582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 499.6985 76.962 0)
+		(property "Value" "Oled Display spot"
+			(at 501.396 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24574,7 +24591,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Spot-Oled-display-I2C"
-			(at 499.618 80.01 0)
+			(at 501.142 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24583,7 +24600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 499.618 80.01 0)
+			(at 501.142 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24592,7 +24609,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 499.618 80.01 0)
+			(at 501.142 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
