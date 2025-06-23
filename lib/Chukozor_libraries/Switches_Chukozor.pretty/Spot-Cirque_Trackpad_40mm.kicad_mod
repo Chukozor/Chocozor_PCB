@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -0.51 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c5ab3c0a-9dcc-4bd9-ade5-c2876f31fa0a")
@@ -130,6 +130,18 @@
 		(fill no)
 		(layer "Dwgs.User")
 		(uuid "7ab42458-fb59-49f7-b1bc-965804591c5d")
+	)
+	(fp_text user "${VALUE}"
+		(at 0 -2.12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "529b41f5-1cd4-4b96-b048-fba109313b7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
