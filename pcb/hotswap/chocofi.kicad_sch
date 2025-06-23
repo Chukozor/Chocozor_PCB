@@ -6550,6 +6550,12 @@
 		(uuid "00b57579-cced-4b84-873e-0335ccc3fbbc")
 	)
 	(junction
+		(at 448.31 155.702)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "010ad840-14af-4fde-8b44-d2cea2a04b33")
+	)
+	(junction
 		(at 153.416 101.346)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6670,7 +6676,7 @@
 		(uuid "681f92f2-68bc-48ef-b8ea-be4cf7765d98")
 	)
 	(junction
-		(at 455.93 150.622)
+		(at 469.9 150.876)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68ce7776-6cca-4338-b902-deacdf4e9891")
@@ -6728,6 +6734,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92b5e6e9-7b18-47dd-b6b4-d19e6eb96169")
+	)
+	(junction
+		(at 439.166 155.702)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "979f9999-dc8c-4467-a251-12fc24307e4e")
 	)
 	(junction
 		(at 71.628 141.986)
@@ -7181,7 +7193,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.832 150.622) (xy 433.832 155.448)
+			(xy 433.832 150.622) (xy 433.832 155.702)
 		)
 		(stroke
 			(width 0)
@@ -7391,6 +7403,16 @@
 	)
 	(wire
 		(pts
+			(xy 439.166 159.512) (xy 439.928 159.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbe1daa-00d5-42ad-a0dc-6e1363022b2d")
+	)
+	(wire
+		(pts
 			(xy 150.876 152.4) (xy 156.718 152.4)
 		)
 		(stroke
@@ -7551,6 +7573,16 @@
 	)
 	(wire
 		(pts
+			(xy 439.166 155.702) (xy 448.31 155.702)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f5f9cb-05e3-46c0-8fb7-ad634245ac99")
+	)
+	(wire
+		(pts
 			(xy 428.752 199.136) (xy 428.752 200.406)
 		)
 		(stroke
@@ -7701,6 +7733,16 @@
 	)
 	(wire
 		(pts
+			(xy 439.166 155.702) (xy 439.166 159.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2a4194-42da-42a1-883c-82dec5232f3c")
+	)
+	(wire
+		(pts
 			(xy 235.204 101.346) (xy 276.098 101.346)
 		)
 		(stroke
@@ -7811,7 +7853,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 146.304) (xy 455.93 150.622)
+			(xy 469.9 146.558) (xy 469.9 150.876)
 		)
 		(stroke
 			(width 0)
@@ -8711,7 +8753,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.832 146.304) (xy 440.69 146.304)
+			(xy 433.832 146.558) (xy 454.66 146.558)
 		)
 		(stroke
 			(width 0)
@@ -8951,6 +8993,16 @@
 	)
 	(wire
 		(pts
+			(xy 448.31 155.702) (xy 450.342 155.702)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fd495d-0ad2-43bc-83a6-484a07fe4869")
+	)
+	(wire
+		(pts
 			(xy 276.86 50.8) (xy 276.86 53.594)
 		)
 		(stroke
@@ -9011,6 +9063,16 @@
 	)
 	(wire
 		(pts
+			(xy 448.31 159.512) (xy 448.31 155.702)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e146feb-c864-4063-838a-b50cb1f5bd10")
+	)
+	(wire
+		(pts
 			(xy 235.204 141.986) (xy 276.098 141.986)
 		)
 		(stroke
@@ -9018,6 +9080,16 @@
 			(type default)
 		)
 		(uuid "8e7bab84-6320-47ce-b98c-bca144b628b9")
+	)
+	(wire
+		(pts
+			(xy 447.548 159.512) (xy 448.31 159.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6a39d5-c2b3-48dd-8600-5fbc7c7a2e49")
 	)
 	(wire
 		(pts
@@ -9121,7 +9193,7 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 146.304) (xy 455.93 146.304)
+			(xy 462.28 146.558) (xy 469.9 146.558)
 		)
 		(stroke
 			(width 0)
@@ -9171,7 +9243,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 150.622) (xy 455.93 155.448)
+			(xy 469.9 150.876) (xy 469.9 155.702)
 		)
 		(stroke
 			(width 0)
@@ -9281,7 +9353,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.832 155.448) (xy 436.372 155.448)
+			(xy 433.832 155.702) (xy 439.166 155.702)
 		)
 		(stroke
 			(width 0)
@@ -9511,7 +9583,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.832 146.304) (xy 433.832 150.622)
+			(xy 433.832 146.558) (xy 433.832 150.622)
 		)
 		(stroke
 			(width 0)
@@ -9841,7 +9913,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.152 155.448) (xy 455.93 155.448)
+			(xy 468.122 155.702) (xy 469.9 155.702)
 		)
 		(stroke
 			(width 0)
@@ -10211,7 +10283,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 150.622) (xy 458.47 150.622)
+			(xy 469.9 150.876) (xy 472.44 150.876)
 		)
 		(stroke
 			(width 0)
@@ -11718,6 +11790,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 	)
@@ -12818,7 +12908,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 458.47 150.622 0)
+		(at 472.44 150.876 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12828,7 +12918,7 @@
 		)
 		(uuid "7d78ab5a-ea12-4a1f-abe5-013a48494d45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 465.8804 150.622 0)
+			(at 479.8504 150.876 0)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -21088,7 +21178,7 @@
 	(symbol
 		(lib_name "Solenoid_1")
 		(lib_id "Chukozor_symbols:Solenoid")
-		(at 445.262 155.448 0)
+		(at 459.232 155.702 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21096,7 +21186,7 @@
 		(dnp no)
 		(uuid "9f642e64-74bb-45f1-8e8f-ceab32e1946e")
 		(property "Reference" "S1"
-			(at 445.008 151.638 0)
+			(at 458.978 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21104,7 +21194,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 445.262 149.606 0)
+			(at 459.232 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21112,7 +21202,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Solenoid-PinHeader_1x02_P2.54mm_Vertical-Chuk"
-			(at 445.262 155.448 0)
+			(at 459.232 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21121,7 +21211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 445.262 155.448 0)
+			(at 459.232 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21130,7 +21220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 445.262 155.448 0)
+			(at 459.232 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21155,7 +21245,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:1N4148")
-		(at 444.5 146.304 180)
+		(at 458.47 146.558 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21164,7 +21254,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5be25cd-3f95-45b3-b92f-1f67801e22fd")
 		(property "Reference" "D36"
-			(at 444.5 140.462 0)
+			(at 458.47 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21172,7 +21262,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 444.5 143.002 0)
+			(at 458.47 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,7 +21270,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:D_SMA_Handsoldering-Chuk"
-			(at 444.246 157.226 0)
+			(at 458.216 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21189,7 +21279,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 444.5 154.178 0)
+			(at 458.47 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21198,7 +21288,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 444.5 155.702 0)
+			(at 458.47 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21207,7 +21297,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 444.5 159.004 0)
+			(at 458.47 159.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21216,7 +21306,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 444.5 152.146 0)
+			(at 458.47 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22950,7 +23040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Cirque_Trackpad_40mm"
+		(property "Footprint" "Switches_Chukozor:Spot-Cirque_Trackpad_40mm"
 			(at 501.396 86.614 0)
 			(effects
 				(font
@@ -23237,6 +23327,74 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 443.738 159.512 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d00866be-1778-49f0-a963-b62df57665ed")
+		(property "Reference" "R4"
+			(at 444.754 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "?"
+			(at 443.738 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistances_Chukozor:R_0805_double_face_Chukozor"
+			(at 443.738 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 443.738 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 443.738 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcdfa399-dc0a-4b8e-8ce0-096998c2d6c1")
+		)
+		(pin "2"
+			(uuid "35d153ca-7e7d-4ccf-aa98-a7ef3c6532c0")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "R4")
 					(unit 1)
 				)
 			)
