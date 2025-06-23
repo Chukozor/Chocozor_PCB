@@ -8,11 +8,12 @@
 	(property "Reference" "REF**"
 		(at 0 -1.8 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "1253f6f8-02c2-4c76-b421-26c64c16c629")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.16)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -55,12 +56,23 @@
 	)
 	(property "B.Silkscreen.Ref" "${REFERENCE}"
 		(at 0 -1.8 0)
-		(layer "B.SilkS")
-		(uuid "e0c40c63-08ba-404c-867e-4e0e04464b8f")
+		(layer "F.SilkS")
+		(uuid "b7ec038d-bc44-48f7-a604-cd742dfea5e2")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.16)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "B.Silkscreen.Ref" "${REFERENCE}"
+		(at -0.01 -1.8 0)
+		(layer "B.SilkS")
+		(uuid "b4aefcfb-9efd-4af3-b581-10f93305f8df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)

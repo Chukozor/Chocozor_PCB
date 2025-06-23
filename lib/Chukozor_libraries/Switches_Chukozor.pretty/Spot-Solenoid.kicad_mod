@@ -107,6 +107,28 @@
 		(layer "F.SilkS")
 		(uuid "9a8ed562-7cc7-459c-99fb-bd7e8e19f2be")
 	)
+	(fp_rect
+		(start -0.15 -12.34)
+		(end 20.66 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "cc050d70-ae55-4594-aff0-00d19275cde1")
+	)
+	(fp_rect
+		(start -0.15 -12.34)
+		(end 20.66 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "695728bc-320a-4cbe-b3ae-81d9b6cf99ff")
+	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
 		(offset

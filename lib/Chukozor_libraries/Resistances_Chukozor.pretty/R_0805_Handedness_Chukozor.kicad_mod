@@ -55,14 +55,14 @@
 			)
 		)
 	)
-	(property "F.Silkscreen_Value" "RIGHT HAND"
+	(property "F.Silkscreen_Value" "R.HAND"
 		(at 0 -1.64 0)
 		(layer "F.SilkS")
 		(uuid "2bb0a7be-6b51-4bd0-a59b-afd0e3c3161e")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -79,14 +79,14 @@
 			(justify mirror)
 		)
 	)
-	(property "B.Silkscreen_Value" "LEFT HAND"
+	(property "B.Silkscreen_Value" "L.HAND"
 		(at 0 -1.67 0)
 		(layer "B.SilkS")
 		(uuid "8948f03c-5165-466c-89df-09eec9d31034")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
