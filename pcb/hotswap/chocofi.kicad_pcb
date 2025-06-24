@@ -87473,8 +87473,8 @@
 		(uuid "cacc4f16-cf9e-4635-92a4-47914589794d")
 	)
 	(gr_rect
-		(start 165.41 50.15)
-		(end 245.66 107.5)
+		(start 266.91 87.15)
+		(end 347.16 144.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -87484,15 +87484,26 @@
 		(uuid "472822a5-f4b2-41d1-bb29-9bfe6d3f47f8")
 	)
 	(gr_rect
-		(start 165.41 64.8)
-		(end 216.06 107.5)
+		(start 163.86 70.85)
+		(end 207.01 110.8)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "d6850108-644f-48f4-afae-c9505967118c")
+		(uuid "5ceb879d-07ab-4a8f-b48c-101851ed62e5")
+	)
+	(gr_rect
+		(start 163.86 62.3)
+		(end 229.36 110.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "df5eb7f1-df9b-4793-a19b-4bf70612053c")
 	)
 	(gr_line
 		(start 181.473064 147.706873)
