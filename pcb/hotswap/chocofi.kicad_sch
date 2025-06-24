@@ -1667,134 +1667,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Chukozor_symbols:SB-small"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SB"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "SB-small"
-				(at 0.762 -32.004 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 27.178 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SB double side"
-				(at 0.508 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SB-small_0_1"
-				(arc
-					(start -0.2584 -1.016)
-					(mid -1.27 0)
-					(end -0.2584 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.2496 1.016)
-					(mid 1.2612 0)
-					(end 0.2496 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SB-small_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Chukozor_symbols:SB-x2-small"
 			(pin_names
 				(offset 0)
@@ -6533,6 +6405,26 @@
 		)
 		(uuid "635ada61-6c7e-432e-a35e-d032681085b5")
 	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 503.174 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d85881ad-9fbc-4776-870f-136d5e51988c")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 503.428 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "daef4655-b3de-447e-854b-9561265e5275")
+	)
 	(text "3.3V"
 		(exclude_from_sim no)
 		(at 422.148 209.55 0)
@@ -8725,6 +8617,16 @@
 	)
 	(wire
 		(pts
+			(xy 510.032 105.41) (xy 510.032 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ba6d36-d005-411f-bdfd-927fdcd7b32c")
+	)
+	(wire
+		(pts
 			(xy 275.59 258.318) (xy 237.236 258.318)
 		)
 		(stroke
@@ -8992,6 +8894,16 @@
 			(type default)
 		)
 		(uuid "87fd495d-0ad2-43bc-83a6-484a07fe4869")
+	)
+	(wire
+		(pts
+			(xy 506.222 106.68) (xy 510.032 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89287588-695c-4ff2-bc47-7a6e9b2de5c6")
 	)
 	(wire
 		(pts
@@ -9462,6 +9374,16 @@
 			(type default)
 		)
 		(uuid "a5e8db6c-cf6e-4119-8c5f-dedad87a062c")
+	)
+	(wire
+		(pts
+			(xy 510.032 93.98) (xy 510.032 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70d6660-83de-4988-9cde-6fe5a051ff40")
 	)
 	(wire
 		(pts
@@ -10755,6 +10677,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.112 100.33) (xy 513.842 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e0e70b-c957-4d5f-bc9b-51bb88a9723d")
+	)
+	(wire
+		(pts
 			(xy 153.67 214.63) (xy 153.67 213.36)
 		)
 		(stroke
@@ -10852,6 +10784,16 @@
 			(type default)
 		)
 		(uuid "fa890ea7-cdf8-4575-a578-ce84cc7e2cdf")
+	)
+	(wire
+		(pts
+			(xy 506.222 93.98) (xy 510.032 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab654d0-eade-4c05-80b8-060895f5d3a5")
 	)
 	(wire
 		(pts
@@ -12435,7 +12377,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 502.92 97.536 180)
+		(at 539.242 97.282 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12444,7 +12386,7 @@
 		)
 		(uuid "46ec27fc-1c04-4671-b257-60f833cbe162")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 495.4753 97.4566 0)
+			(at 531.7973 97.2026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,7 +12706,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 502.92 102.616 180)
+		(at 539.242 102.362 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12773,7 +12715,7 @@
 		)
 		(uuid "689cb38d-9288-4b9b-ae7c-f575585d8f46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 495.4148 102.5366 0)
+			(at 531.7368 102.2826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14160,27 +14102,6 @@
 			)
 		)
 	)
-	(global_label "VI2C-OLED"
-		(shape input)
-		(at 546.1 100.838 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f457d862-ec08-4ef6-a506-13f2fc4642ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 553.6052 100.9174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 357.632 96.012 180)
@@ -14288,7 +14209,7 @@
 	)
 	(global_label "SCL-OLED"
 		(shape input)
-		(at 510.54 97.536 0)
+		(at 546.862 97.282 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14297,7 +14218,7 @@
 		)
 		(uuid "fe483279-e93f-4ef4-bd27-de69c0b8a40f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 518.0452 97.6154 0)
+			(at 554.3672 97.3614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14309,7 +14230,7 @@
 	)
 	(global_label "SDA-OLED"
 		(shape input)
-		(at 510.54 102.616 0)
+		(at 546.862 102.362 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14318,7 +14239,7 @@
 		)
 		(uuid "fe54e214-c675-4716-b7fa-08616e5c526c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 518.0452 102.6954 0)
+			(at 554.3672 102.4414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14867,6 +14788,73 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 506.222 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0681d6bb-b0aa-48d8-bff8-6eea8fdf75ca")
+		(property "Reference" "#PWR051"
+			(at 510.032 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 502.412 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.222 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.222 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 506.222 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc859ee5-f7c0-4667-bbb3-6b88fa1fce85")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16711,7 +16699,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:SB-x2-small")
-		(at 506.73 100.076 0)
+		(at 543.052 99.822 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16720,7 +16708,7 @@
 		(dnp no)
 		(uuid "34cae769-d162-49a5-8b18-4ad10747382b")
 		(property "Reference" "SB3"
-			(at 506.476 107.95 0)
+			(at 542.798 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16729,7 +16717,7 @@
 			)
 		)
 		(property "Value" "Oled"
-			(at 507.492 68.072 0)
+			(at 543.814 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16738,7 +16726,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:SB-x2-small"
-			(at 506.73 102.616 0)
+			(at 543.052 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16747,7 +16735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 533.908 89.662 0)
+			(at 570.23 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16756,7 +16744,7 @@
 			)
 		)
 		(property "Description" "SB x2 double side"
-			(at 506.984 106.172 0)
+			(at 543.306 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17756,72 +17744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:VCC-power")
-		(at 538.48 100.838 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b7bc92e-fd7b-461d-8242-f4c35d0f3a10")
-		(property "Reference" "#PWR054"
-			(at 542.29 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VI2C"
-			(at 534.67 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 538.48 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 538.48 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 538.48 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb0ee3cf-12c9-473e-8349-1792554cf72e")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Chukozor_symbols:TRRS_Chuck")
 		(at 367.538 106.172 0)
 		(unit 1)
@@ -18584,6 +18506,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 510.032 100.33 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "67d0c300-ed3a-41dd-8a0e-b83a8fdd160b")
+		(property "Reference" "JP5"
+			(at 506.857 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VI2C-OLED"
+			(at 507.492 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:SB-3pins-small"
+			(at 510.032 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 510.032 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 510.032 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2affe032-e4b9-4646-a82b-59bdc07e739d")
+		)
+		(pin "2"
+			(uuid "3b855260-bfbf-4ece-8bbb-ad0f48ad1d84")
+		)
+		(pin "1"
+			(uuid "3771e23c-d392-4265-bac8-66f7483ea4e7")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:SW_Chuk_LED")
 		(at 104.14 213.36 0)
 		(unit 1)
@@ -19137,7 +19132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VI2C 3.3V or 5V"
+		(property "Value" "VI2C-VIK"
 			(at 426.212 206.7559 90)
 			(effects
 				(font
@@ -19147,7 +19142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:SolderJumper-3_I2C_Chukozor"
+		(property "Footprint" "Switches_Chukozor:SB-3pins-small"
 			(at 428.752 205.486 0)
 			(effects
 				(font
@@ -19605,7 +19600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VI2C"
+		(property "Value" "VCC"
 			(at 434.848 178.689 0)
 			(effects
 				(font
@@ -22460,7 +22455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VI2C"
+		(property "Value" "VI2C-VIK"
 			(at 434.086 203.454 90)
 			(effects
 				(font
@@ -24087,6 +24082,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 506.222 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbb0fd23-99a7-4a01-a7b7-25d99f8a6c5d")
+		(property "Reference" "#PWR053"
+			(at 510.032 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 502.412 106.6801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 506.222 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 506.222 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 506.222 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7468356d-7190-47f2-930e-9eed788d374a")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "vik:vik-keyboard-connector")
 		(at 348.996 145.542 0)
 		(unit 1)
@@ -24392,6 +24453,72 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 515.112 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4eea673-637d-495a-a3a5-d3be908cc02d")
+		(property "Reference" "#PWR055"
+			(at 511.302 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VI2C-OLED"
+			(at 515.366 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 515.112 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 515.112 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 515.112 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "783831aa-7415-482e-8f11-d0d01c78541b")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -25119,76 +25246,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:SB-small")
-		(at 542.29 100.838 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6a3eb2f-5b08-4195-b9b4-07123a2464e7")
-		(property "Reference" "SB4"
-			(at 542.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Oled"
-			(at 543.052 132.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:SB-small"
-			(at 542.29 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 569.468 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SB double side"
-			(at 542.798 98.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51b10b69-2eec-4d3c-8c28-0af3d96a42ae")
-		)
-		(pin "1"
-			(uuid "d14c99b5-9eb8-4a6b-b074-964eaad8d533")
-		)
-		(instances
-			(project ""
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "SB4")
 					(unit 1)
 				)
 			)
