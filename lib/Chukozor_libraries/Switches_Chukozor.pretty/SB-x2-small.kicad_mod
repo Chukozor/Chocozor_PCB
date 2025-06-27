@@ -488,54 +488,54 @@
 		(uuid "78f3f68f-0c4e-471f-b0d6-e3680487fca2")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.57 0.01 270)
+		(at 2.4 0 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f44886e3-2ba4-458b-8979-30e308dbeb43")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 				(bold yes)
 			)
 		)
 	)
 	(fp_text user "${VALUE}"
-		(at 0.01 -1.98 0)
+		(at -0.01 -1.87 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fa57df26-6518-4a5e-a9d1-80ac1bcd8db0")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 				(bold yes)
 			)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.54 0.03 90)
+		(at -2.36 0.04 90)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "60d9ab54-4bde-478e-95f1-e88aaaef1fea")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify mirror)
 		)
 	)
 	(fp_text user "${VALUE}"
-		(at 0 -2 0)
+		(at -0.02 -1.89 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "c9b5f9ad-21e3-4ada-a3cc-4e0f1ba5568f")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify mirror)

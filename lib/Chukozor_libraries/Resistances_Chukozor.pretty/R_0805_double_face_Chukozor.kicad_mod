@@ -6,13 +6,14 @@
 	(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor handsolder")
 	(property "Reference" "REF**"
-		(at -0.02 -1.65 0)
+		(at -1.72 -4.3 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "ea8a26ea-3a6d-4dab-baac-2b7813101d69")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -54,38 +55,55 @@
 		)
 	)
 	(property "F.Silkscreen_Value" "${VALUE}"
-		(at -0.08 -2.95 0)
+		(at -6.76 0.005 180)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "2bb0a7be-6b51-4bd0-a59b-afd0e3c3161e")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
+			(justify left)
 		)
 	)
 	(property "B.Silkscreen_Ref" "${REFERENCE}"
-		(at 0 -3 0)
-		(layer "B.SilkS")
-		(uuid "3fcbf060-204d-4a9a-935f-a08cb11ced14")
+		(at -9.59 0.005 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c9f91fe8-328e-4a70-9180-bbea740d2ee8")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
-			(justify mirror)
+			(justify left)
 		)
 	)
 	(property "B.Silkscreen_Value" "${VALUE}"
-		(at 0 -1.67 0)
+		(at -2.11 -0.03 0)
 		(layer "B.SilkS")
+		(hide yes)
 		(uuid "8948f03c-5165-466c-89df-09eec9d31034")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
-			(justify mirror)
+			(justify right mirror)
+		)
+	)
+	(property "B.Silkscreen_Value" "${VALUE}"
+		(at 2.52 0.005 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1605fff2-a014-41a2-8beb-74c4e83bfab7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify right)
 		)
 	)
 	(attr through_hole)
@@ -310,6 +328,30 @@
 		)
 		(layer "F.Fab")
 		(uuid "fe9d62b8-c669-40f7-9f74-a73c83a94bab")
+	)
+	(fp_text user "${VALUE}"
+		(at -2.13 -0.21 0)
+		(layer "F.SilkS")
+		(uuid "56effd2f-8f90-4b1b-b142-393dd2b7d4a1")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.14 0.91 0)
+		(layer "F.SilkS")
+		(uuid "62e0376d-8f27-4724-8054-9c1e59064921")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -0.005 0)
