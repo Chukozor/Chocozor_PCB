@@ -305,29 +305,48 @@
 		(uuid "578af094-1d20-4d7a-aa5a-3b64a3953e42")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.58 180)
-		(unlocked yes)
+		(at -2.12 0 270)
 		(layer "F.SilkS")
 		(uuid "32d8b1ec-e215-4f08-9ac9-95fcbe04ca18")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
-			(justify bottom)
+		)
+	)
+	(fp_text user "SOLDER HERE"
+		(at -4.64 0 270)
+		(layer "F.SilkS")
+		(uuid "40b33cd9-ce90-450c-8436-5f72d9329fe2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "FOR RIGHT HAND"
+		(at -3.39 0 270)
+		(layer "F.SilkS")
+		(uuid "d9ec416b-c099-4be1-a599-32e35c3f7feb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.58 180)
-		(unlocked yes)
+		(at -2.12 0 270)
 		(layer "B.SilkS")
 		(uuid "dcc7995e-473c-48f4-9dcb-40b2d81486df")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
-			(justify bottom mirror)
+			(justify mirror)
 		)
 	)
 	(pad "1" thru_hole circle
