@@ -232,50 +232,50 @@
 		(uuid "acfbc681-3035-4e4c-a7d5-1db2478b8950")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -1.46 0 90)
+		(at -1.41 -0.01 90)
 		(layer "F.SilkS")
 		(uuid "4260bbea-5d26-4ee6-9e20-433a968b81fc")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 				(bold yes)
 			)
 		)
 	)
 	(fp_text user "${VALUE}"
-		(at 1.49 0 270)
+		(at 1.44 0.01 270)
 		(layer "F.SilkS")
 		(uuid "dddb9b56-fd41-4d69-847b-b1e1c5bc15a2")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 				(bold yes)
 			)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at -1.55 0 270)
+		(at -1.5 -0.01 270)
 		(layer "B.SilkS")
 		(uuid "8d873d95-ca07-40e2-95ef-0c9c0a7f93ab")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify mirror)
 		)
 	)
 	(fp_text user "${VALUE}"
-		(at 1.56 0.01 90)
+		(at 1.51 0.02 90)
 		(layer "B.SilkS")
 		(uuid "c2d00392-f389-431b-bd6f-a74b5dacc531")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
+				(size 0.7 0.7)
+				(thickness 0.1)
 				(bold yes)
 			)
 			(justify mirror)
