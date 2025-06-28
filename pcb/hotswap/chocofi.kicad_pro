@@ -515,7 +515,7 @@
         "microvia_drill": 0.1,
         "name": "Cols",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -532,7 +532,7 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.28,
         "via_diameter": 0.6,
@@ -549,7 +549,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -566,7 +566,7 @@
         "microvia_drill": 0.1,
         "name": "Rows",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -583,9 +583,26 @@
         "microvia_drill": 0.1,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Solenoid-Pin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -600,7 +617,7 @@
         "microvia_drill": 0.1,
         "name": "VIK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.28,
         "via_diameter": 0.6,
@@ -655,27 +672,27 @@
         "pattern": "SCK"
       },
       {
-        "netclass": "Rows",
+        "netclass": "Solenoid-Pin",
         "pattern": "row0"
       },
       {
-        "netclass": "Rows",
+        "netclass": "Solenoid-Pin",
         "pattern": "row1"
       },
       {
-        "netclass": "Rows",
+        "netclass": "Solenoid-Pin",
         "pattern": "row2"
       },
       {
-        "netclass": "Rows",
+        "netclass": "Solenoid-Pin",
         "pattern": "row3"
       },
       {
-        "netclass": "Rows",
+        "netclass": "Solenoid-Pin",
         "pattern": "row4"
       },
       {
-        "netclass": "Rows",
+        "netclass": "Solenoid-Pin",
         "pattern": "row5"
       },
       {
@@ -737,6 +754,10 @@
       {
         "netclass": "I2C",
         "pattern": "VI2C-OLED"
+      },
+      {
+        "netclass": "Solenoid-Pin",
+        "pattern": "SolenoidPin"
       }
     ]
   },
