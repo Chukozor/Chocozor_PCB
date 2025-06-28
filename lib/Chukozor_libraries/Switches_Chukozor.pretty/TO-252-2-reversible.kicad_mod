@@ -269,7 +269,7 @@
 		(uuid "b48ae678-7399-4ab5-bbe3-cf78bf80db42")
 	)
 	(pad "1" thru_hole circle
-		(at -7.54 -2.78)
+		(at -7.53 -2.7)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
@@ -297,7 +297,7 @@
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curved_edges no)
+			(curved_edges yes)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -326,24 +326,9 @@
 				(fill yes)
 			)
 			(gr_line
-				(start -2.24 -0.5)
-				(end -0.2 -0.5)
-				(width 0.2)
-			)
-			(gr_line
-				(start -2.5 -0.5)
-				(end -0.2 -0.5)
-				(width 0.2)
-			)
-			(gr_poly
-				(pts
-					(xy -1.1 -0.35) (xy -1.08097 -0.445671) (xy -1.026777 -0.526777) (xy -0.945671 -0.58097) (xy -0.85 -0.6)
-					(xy 0.85 -0.6) (xy 0.945671 -0.58097) (xy 1.026777 -0.526777) (xy 1.08097 -0.445671) (xy 1.1 -0.35)
-					(xy 1.1 0.35) (xy 1.08097 0.445671) (xy 1.026777 0.526777) (xy 0.945671 0.58097) (xy 0.85 0.6)
-					(xy -0.85 0.6) (xy -0.945671 0.58097) (xy -1.026777 0.526777) (xy -1.08097 0.445671) (xy -1.1 0.35)
-				)
-				(width 0)
-				(fill yes)
+				(start -2.49 -0.42)
+				(end -0.19 -0.42)
+				(width 0.35)
 			)
 		)
 		(teardrops
@@ -351,7 +336,7 @@
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curved_edges yes)
+			(curved_edges no)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -387,22 +372,6 @@
 			(anchor circle)
 		)
 		(primitives
-			(gr_line
-				(start 1.99 -0.5)
-				(end -0.01 -0.5)
-				(width 0.2)
-			)
-			(gr_arc
-				(start 1.99 -0.5)
-				(mid 2.343553 -0.353553)
-				(end 2.49 0)
-				(width 0.2)
-			)
-			(gr_line
-				(start 2.49 5.06)
-				(end 2.49 0)
-				(width 0.2)
-			)
 			(gr_poly
 				(pts
 					(xy -1.1 -0.35) (xy -1.08097 -0.445671) (xy -1.026777 -0.526777) (xy -0.945671 -0.58097) (xy -0.85 -0.6)
@@ -412,6 +381,22 @@
 				)
 				(width 0)
 				(fill yes)
+			)
+			(gr_line
+				(start 1.99 -0.42)
+				(end -0.01 -0.42)
+				(width 0.35)
+			)
+			(gr_arc
+				(start 1.99 -0.42)
+				(mid 2.343553 -0.273553)
+				(end 2.49 0.08)
+				(width 0.35)
+			)
+			(gr_line
+				(start 2.49 4.99)
+				(end 2.49 0.08)
+				(width 0.35)
 			)
 		)
 		(teardrops
@@ -554,7 +539,7 @@
 		(uuid "37b4b720-e813-492e-8a11-a41d2bc7da09")
 	)
 	(pad "3" thru_hole circle
-		(at -6.68 1.78)
+		(at -6.68 1.85)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
@@ -592,21 +577,21 @@
 				(width 0)
 				(fill yes)
 			)
-			(gr_line
-				(start -1.23 0.34)
-				(end 0.27 0.34)
-				(width 0.2)
-			)
 			(gr_arc
 				(start -1.64 0.73)
 				(mid -1.525772 0.454228)
 				(end -1.25 0.34)
-				(width 0.2)
+				(width 0.35)
 			)
 			(gr_line
-				(start -1.64 4.06)
+				(start -1.64 4.13)
 				(end -1.639871 0.72)
-				(width 0.2)
+				(width 0.35)
+			)
+			(gr_line
+				(start -1.23 0.34)
+				(end 0.27 0.34)
+				(width 0.35)
 			)
 		)
 		(teardrops
@@ -661,9 +646,9 @@
 				(fill yes)
 			)
 			(gr_line
-				(start -1.64 -0.5)
-				(end 0.09 -0.5)
-				(width 0.2)
+				(start -1.64 -0.43)
+				(end 0.095 -0.43)
+				(width 0.35)
 			)
 		)
 		(teardrops
