@@ -579,7 +579,7 @@
 				)
 			)
 			(symbol "Azoteq-Procyon-Manual_soldering_1_1"
-				(text "SDA"
+				(text "SCL"
 					(at 2.032 8.89 0)
 					(effects
 						(font
@@ -587,7 +587,7 @@
 						)
 					)
 				)
-				(text "SCL"
+				(text "SDA"
 					(at 2.032 6.35 0)
 					(effects
 						(font
@@ -596,7 +596,7 @@
 					)
 				)
 				(text "GND\n"
-					(at 2.032 1.27 0)
+					(at 2.032 3.81 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -612,7 +612,7 @@
 					)
 				)
 				(text "CHG/RDY/DIR(motion Pin)"
-					(at 12.954 3.81 0)
+					(at 12.954 1.27 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -620,7 +620,7 @@
 					)
 				)
 				(text "SOLDERING\nPADS\nFOR\nTRACKPADs"
-					(at 14.224 8.89 0)
+					(at 13.97 7.874 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -665,7 +665,7 @@
 				(pin passive line
 					(at -2.54 8.89 0)
 					(length 2.54)
-					(name "SDA"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -683,7 +683,7 @@
 				(pin passive line
 					(at -2.54 6.35 0)
 					(length 2.54)
-					(name "SCL"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -701,7 +701,7 @@
 				(pin passive line
 					(at -2.54 3.81 0)
 					(length 2.54)
-					(name "CHG/DIR/RDY"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -719,7 +719,7 @@
 				(pin passive line
 					(at -2.54 1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "CHG/DIR/RDY"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7768,6 +7768,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 147.828) (xy 377.952 147.828)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a50cd3-ee1e-48f5-8e4d-3657fd37a390")
+	)
+	(wire
+		(pts
 			(xy 439.166 155.702) (xy 448.31 155.702)
 		)
 		(stroke
@@ -10568,6 +10578,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.888 140.208) (xy 375.92 140.208)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9756e2c-f73a-4be7-99c1-7f9eedb4f76e")
+	)
+	(wire
+		(pts
 			(xy 210.566 50.8) (xy 210.566 91.44)
 		)
 		(stroke
@@ -10865,16 +10885,6 @@
 			(type default)
 		)
 		(uuid "edd8bdab-aaf6-4ed1-bff5-1ff7a4399a61")
-	)
-	(wire
-		(pts
-			(xy 373.888 142.748) (xy 375.92 142.748)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eddc9f43-dc87-4772-a994-9749ab86a97a")
 	)
 	(wire
 		(pts
@@ -12245,7 +12255,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAA=="
+			"AAAAAGUALgBtAG8AdgBlAAkATQAJAAoAcABsAEUAZABpAHQAbwByAC4ASQBuAHQAZQByAGEAYwB0"
+			"AGkAdgBlAFMAZQBsAGUAYwB0AGkAbwBuAAkACQAKAHAAbABFAGQAaQB0AG8AcgAuAEkAbgB0AGUA"
+			"cgBhAGMAdABpAHYAZQBTAGUAbABlAGMAdABpAG8AbgAuAEEAZABkAEkAdABlAG0AVABvAFMAZQBs"
+			"AAkACQAKAHAAbABFAGQAaQB0AG8AcgAuAEkAbgB0AGUAcgBhAGMAdABpAHYAZQBTAGUAbABlAGMA"
+			"dABpAG8AbgAuAEEAZABkAEkAdABlAG0AcwBUAG8AUwBlAGwACQAJAAoAcABsAEUAZABpAHQAbwBy"
+			"AC4ASQBuAHQAZQByAGEAYwB0AGkAdgBlAFMAZQBsAGUAYwB0AGkAbwBuAC4AQwBsAGUAYQByAFMA"
+			"ZQBsAGUAYwB0AGkAbwBuAAkACQAKAHAAbABFAGQAaQB0AG8AcgAuAEkAbgB0AGUAcgBhAGMAdABp"
+			"AHYAZQBTAGUAbABlAGMAdABpAG8AbgAuAFIAZQBtAG8AdgBlAEkAdABlAG0ARgByAG8AbQBTAGUA"
+			"bAAJAAkACgBwAGwARQBkAGkAdABvAHIALgBJAG4AdABlAHIAYQBjAHQAaQB2AGUAUwBlAGwAZQBj"
+			"AHQAaQBvAG4ALgBSAGUAbQBvAHYAZQBJAHQAZQBtAHMARgByAG8AbQBTAGUAbAAJAAkACgBwAGwA"
+			"RQBkAGkAdABvAHIALgBJAG4AdABlAHIAYQBjAHQAaQB2AGUAUwBlAGwAZQBjAHQAaQBvAG4ALgBT"
+			"AGUAbABlAGMAdABpAG8AbgBNAGUAbgB1AAkACQAKAAAAAAD///////////8AAP+8jMgAINCD970B"
+			"AABQQON7vgEAAP//////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////w=="
 		)
 	)
 	(global_label "col3"
@@ -12433,6 +12461,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 375.92 137.668 180)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "1905bb79-8368-4d3c-93cb-2bc822f61074")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.92 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12829,26 +12877,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 375.92 137.668 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "483ba58d-1977-457b-b8f8-8988c7d71016")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 137.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENCA"
 		(shape input)
 		(at 32.004 297.18 180)
@@ -12969,26 +12997,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DR"
-		(shape input)
-		(at 375.92 140.208 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "513d3aba-58b1-41dc-a8e2-e09547d8ae13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 140.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -13592,6 +13600,26 @@
 			)
 		)
 	)
+	(global_label "ENCA"
+		(shape input)
+		(at 366.522 217.932 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "91249264-0840-49fc-9854-2c6c157f46ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 366.522 217.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL-OLED"
 		(shape input)
 		(at 542.29 125.222 90)
@@ -13862,26 +13890,6 @@
 			)
 		)
 	)
-	(global_label "ENCA"
-		(shape input)
-		(at 366.522 220.472 0)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left)
-		)
-		(uuid "a3eb7244-a723-4109-ae3e-e6e3ba3dfa6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.522 220.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row5"
 		(shape input)
 		(at 36.83 258.318 180)
@@ -14030,6 +14038,26 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 375.92 135.128 180)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "b57643f7-c3a5-4014-8fb0-7f37f9954921")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.92 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 99.822 71.12 180)
@@ -14090,6 +14118,26 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DR"
+		(shape input)
+		(at 375.92 142.748 180)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "bed68242-8f54-400a-aa6f-cdb867e5d946")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.92 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14220,42 +14268,23 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 375.92 135.128 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "cd7cfe47-aa5c-459e-82e9-73e746642206")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ENCB"
-		(shape input)
-		(at 366.522 217.932 0)
+	(global_label "GND-VIK"
+		(shape passive)
+		(at 383.032 147.828 0)
 		(effects
 			(font
 				(size 1.1938 1.1938)
 			)
 			(justify left)
 		)
-		(uuid "d148579b-258d-433e-a4cf-d38be883032c")
+		(uuid "cd4695f4-02f3-44b8-a0d1-0a2744fc1326")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.522 217.932 0)
+			(at 383.032 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14298,6 +14327,26 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENCB"
+		(shape input)
+		(at 366.522 220.472 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "d4bb7503-9973-49ee-bed3-d7dfb596e66a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 366.522 220.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16263,7 +16312,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
-		(at 373.888 142.748 270)
+		(at 373.888 140.208 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16271,7 +16320,7 @@
 		(dnp no)
 		(uuid "1dcdda24-6052-4811-a052-839e7d5066f1")
 		(property "Reference" "#PWR027"
-			(at 367.538 142.748 0)
+			(at 367.538 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16280,7 +16329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 370.078 142.748 0)
+			(at 370.078 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16288,7 +16337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.888 142.748 0)
+			(at 373.888 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16297,7 +16346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.888 142.748 0)
+			(at 373.888 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16306,7 +16355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 373.888 142.748 0)
+			(at 373.888 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25103,6 +25152,71 @@
 		)
 	)
 	(symbol
+		(lib_id "chocofi-rescue:GND-power")
+		(at 375.92 147.828 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4024c46-9e60-40fd-89f1-5909a1a609b1")
+		(property "Reference" "#PWR054"
+			(at 369.57 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80952295-4a03-40ab-a445-0fa3435498df")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 515.112 100.33 270)
 		(unit 1)
@@ -25244,6 +25358,73 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chukozor_symbols:straight-line")
+		(at 380.492 146.558 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6598197-a2d5-46fe-a239-9c3d7c0d92cf")
+		(property "Reference" "line2"
+			(at 380.746 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 380.492 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:straight-line"
+			(at 380.492 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 380.492 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 380.492 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd95dc9e-8983-4005-9711-9681e7d9dcaf")
+		)
+		(pin "1"
+			(uuid "f9b7bcc6-192a-49d7-9612-fe7b2e5c932c")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "line2")
 					(unit 1)
 				)
 			)

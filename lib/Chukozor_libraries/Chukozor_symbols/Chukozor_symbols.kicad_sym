@@ -592,7 +592,7 @@
 			)
 		)
 		(symbol "Azoteq-Procyon-Manual_soldering_1_1"
-			(text "SDA"
+			(text "SCL"
 				(at 2.032 8.89 0)
 				(effects
 					(font
@@ -600,7 +600,7 @@
 					)
 				)
 			)
-			(text "SCL"
+			(text "SDA"
 				(at 2.032 6.35 0)
 				(effects
 					(font
@@ -609,7 +609,7 @@
 				)
 			)
 			(text "GND\n"
-				(at 2.032 1.27 0)
+				(at 2.032 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -625,7 +625,7 @@
 				)
 			)
 			(text "CHG/RDY/DIR(motion Pin)"
-				(at 12.954 3.81 0)
+				(at 12.954 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -633,7 +633,7 @@
 				)
 			)
 			(text "SOLDERING\nPADS\nFOR\nTRACKPADs"
-				(at 14.224 8.89 0)
+				(at 13.97 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -678,7 +678,7 @@
 			(pin passive line
 				(at -2.54 8.89 0)
 				(length 2.54)
-				(name "SDA"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -696,7 +696,7 @@
 			(pin passive line
 				(at -2.54 6.35 0)
 				(length 2.54)
-				(name "SCL"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -714,7 +714,7 @@
 			(pin passive line
 				(at -2.54 3.81 0)
 				(length 2.54)
-				(name "CHG/DIR/RDY"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -732,7 +732,7 @@
 			(pin passive line
 				(at -2.54 1.27 0)
 				(length 2.54)
-				(name "GND"
+				(name "CHG/DIR/RDY"
 					(effects
 						(font
 							(size 1.27 1.27)
