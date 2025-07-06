@@ -6,7 +6,7 @@
 	(descr "Diode SMA (DO-214AC) Handsoldering")
 	(tags "Diode SMA (DO-214AC) Handsoldering")
 	(property "Reference" "REF**"
-		(at -5.44 0 90)
+		(at -5.54 0 90)
 		(layer "F.SilkS")
 		(uuid "e275adf8-953f-41f6-b785-4dc964ee884f")
 		(effects
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -4.51 -1.65)
-		(end -4.51 1.65)
+		(start -4.69 -1.65)
+		(end -4.69 1.65)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -65,7 +65,7 @@
 		(uuid "489397c7-2f7e-45e0-b424-a1b31f1ebecc")
 	)
 	(fp_line
-		(start -4.51 -1.65)
+		(start -4.69 -1.65)
 		(end 2.5 -1.65)
 		(stroke
 			(width 0.12)
@@ -75,7 +75,7 @@
 		(uuid "7ffc3196-1068-49df-901c-687ab88b7a97")
 	)
 	(fp_line
-		(start -4.51 1.65)
+		(start -4.69 1.65)
 		(end 2.5 1.65)
 		(stroke
 			(width 0.12)
@@ -85,8 +85,8 @@
 		(uuid "c1cdfdf3-7140-4db2-8381-ce02d24f3dbe")
 	)
 	(fp_line
-		(start -0.58909 -0.814309)
-		(end -0.58909 0.785891)
+		(start -0.43 -0.7901)
+		(end -0.43 0.8101)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -96,7 +96,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 0.56153 -0.742876) (xy -0.58909 0.057224) (xy 0.56153 0.806524)
+			(xy 0.48153 -0.682679) (xy -0.38 0.03) (xy 0.48153 0.748818)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +107,7 @@
 		(uuid "3f695a0f-24af-4257-8fab-3c963827bb9a")
 	)
 	(fp_line
-		(start -4.51 -1.65)
+		(start -4.69 -1.65)
 		(end 2.5 -1.65)
 		(stroke
 			(width 0.12)
@@ -117,8 +117,8 @@
 		(uuid "55cae8f3-bde0-4f78-876f-a5ae12da71f3")
 	)
 	(fp_line
-		(start -4.51 1.65)
-		(end -4.51 -1.65)
+		(start -4.69 1.65)
+		(end -4.69 -1.65)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -127,7 +127,7 @@
 		(uuid "03cbf32b-afad-4020-b6db-947a4dd7a8a1")
 	)
 	(fp_line
-		(start -4.51 1.65)
+		(start -4.69 1.65)
 		(end 2.5 1.65)
 		(stroke
 			(width 0.12)
@@ -137,18 +137,18 @@
 		(uuid "a9077206-f895-4b41-ae08-84bbc134597f")
 	)
 	(fp_line
-		(start -0.59 -0.8101)
-		(end -0.59 0.7901)
+		(start -0.426827 -0.789112)
+		(end -0.426827 0.811088)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "806a106c-1b2b-4b6d-bd5a-2b12ae1d6366")
+		(uuid "efd642d8-710b-4d03-a894-95c235a38103")
 	)
 	(fp_poly
 		(pts
-			(xy 0.563634 -0.741524) (xy -0.586986 0.058576) (xy 0.563634 0.807876)
+			(xy 0.484703 -0.681691) (xy -0.376827 0.030988) (xy 0.484703 0.749806)
 		)
 		(stroke
 			(width 0)
@@ -156,7 +156,7 @@
 		)
 		(fill yes)
 		(layer "B.SilkS")
-		(uuid "de3467cc-0e00-4236-947f-83da1d0c6336")
+		(uuid "beadfd7f-d829-4a40-9b2e-9e34c44637ce")
 	)
 	(fp_line
 		(start -4.5 -1.75)
@@ -299,7 +299,7 @@
 		(uuid "56fa62f1-3b2a-4230-b990-ce6f40d9fe0b")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -5.45 0.05 90)
+		(at -5.55 0.05 90)
 		(layer "B.SilkS")
 		(uuid "f0454df0-b6f3-4617-8da4-91bf9c74b8c9")
 		(effects
