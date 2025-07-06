@@ -6,7 +6,7 @@
 	(descr "Diode SMA (DO-214AC) Handsoldering")
 	(tags "Diode SMA (DO-214AC) Handsoldering")
 	(property "Reference" "REF**"
-		(at -5.27 0 90)
+		(at -5.44 0 90)
 		(layer "F.SilkS")
 		(uuid "e275adf8-953f-41f6-b785-4dc964ee884f")
 		(effects
@@ -299,7 +299,7 @@
 		(uuid "56fa62f1-3b2a-4230-b990-ce6f40d9fe0b")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -5.28 0.05 90)
+		(at -5.45 0.05 90)
 		(layer "B.SilkS")
 		(uuid "f0454df0-b6f3-4617-8da4-91bf9c74b8c9")
 		(effects
@@ -311,7 +311,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at -5.27 0 90)
+		(at -5.44 0 90)
 		(layer "F.Fab")
 		(uuid "c16b000a-2e7e-4ce1-8753-219159d3c813")
 		(effects
