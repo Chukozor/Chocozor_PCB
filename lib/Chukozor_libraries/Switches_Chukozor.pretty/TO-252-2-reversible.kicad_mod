@@ -539,7 +539,7 @@
 		(uuid "37b4b720-e813-492e-8a11-a41d2bc7da09")
 	)
 	(pad "3" thru_hole circle
-		(at -6.68 1.85)
+		(at -6.740064 1.845)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
@@ -577,20 +577,20 @@
 				(width 0)
 				(fill yes)
 			)
+			(gr_line
+				(start -1.290064 0.335)
+				(end 0.209936 0.335)
+				(width 0.35)
+			)
 			(gr_arc
-				(start -1.64 0.73)
-				(mid -1.525772 0.454228)
-				(end -1.25 0.34)
+				(start -1.700064 0.725)
+				(mid -1.585836 0.449228)
+				(end -1.310064 0.335)
 				(width 0.35)
 			)
 			(gr_line
-				(start -1.64 4.13)
-				(end -1.639871 0.72)
-				(width 0.35)
-			)
-			(gr_line
-				(start -1.23 0.34)
-				(end 0.27 0.34)
+				(start -1.700064 4.125)
+				(end -1.699935 0.715)
 				(width 0.35)
 			)
 		)
@@ -635,6 +635,11 @@
 			(anchor circle)
 		)
 		(primitives
+			(gr_line
+				(start -1.700064 -0.43)
+				(end 0.095 -0.43)
+				(width 0.35)
+			)
 			(gr_poly
 				(pts
 					(xy -1.1 -0.35) (xy -1.08097 -0.445671) (xy -1.026777 -0.526777) (xy -0.945671 -0.58097) (xy -0.85 -0.6)
@@ -644,11 +649,6 @@
 				)
 				(width 0)
 				(fill yes)
-			)
-			(gr_line
-				(start -1.64 -0.43)
-				(end 0.095 -0.43)
-				(width 0.35)
 			)
 		)
 		(teardrops
