@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -0.51 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "c5ab3c0a-9dcc-4bd9-ade5-c2876f31fa0a")
 		(effects
 			(font
@@ -54,39 +54,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start 14.3 -4.5)
-		(end 17.3 4.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "4f6cd1aa-cf7f-4b9b-a2bf-695216efee2f")
-	)
-	(fp_rect
-		(start 16.35 -3.25)
-		(end 16.85 3.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "ccf7527d-f94f-4819-914c-0234ca5482bb")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 -20)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "36e2df57-e353-47e1-b4ab-ceca19e872b4")
-	)
 	(fp_circle
 		(center 0 0)
 		(end 0 -20)
@@ -97,6 +64,17 @@
 		(fill no)
 		(layer "B.SilkS")
 		(uuid "dfeeeb23-6806-4ab2-a15d-62a574bd539a")
+	)
+	(fp_rect
+		(start 14.3 -4.5)
+		(end 17.3 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4f6cd1aa-cf7f-4b9b-a2bf-695216efee2f")
 	)
 	(fp_rect
 		(start 14.3 -4.5)
@@ -120,6 +98,28 @@
 		(layer "Dwgs.User")
 		(uuid "b7ad4a73-9aeb-42fd-812b-c4cb88fb1be8")
 	)
+	(fp_rect
+		(start 16.35 -3.25)
+		(end 16.85 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ccf7527d-f94f-4819-914c-0234ca5482bb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "36e2df57-e353-47e1-b4ab-ceca19e872b4")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 0 -20)
@@ -134,7 +134,7 @@
 	(fp_text user "${VALUE}"
 		(at 0 -2.12 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "529b41f5-1cd4-4b96-b048-fba109313b7e")
 		(effects
 			(font

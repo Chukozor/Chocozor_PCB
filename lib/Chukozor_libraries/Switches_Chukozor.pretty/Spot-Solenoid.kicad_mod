@@ -61,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "3cf8fe60-46fa-494e-8a6b-0daca6452e57")
 	)
 	(fp_line
@@ -71,7 +71,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "4eba7e3c-992d-4942-bad1-52bc0fae1a2b")
 	)
 	(fp_rect
@@ -79,10 +79,10 @@
 		(end 20.5 0)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "95573d8e-c29e-48b1-9565-807993f4c38c")
 	)
 	(fp_circle
@@ -93,7 +93,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "39c5822e-101e-4740-9634-c56a3ad1d626")
 	)
 	(fp_circle
@@ -104,7 +104,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "9a8ed562-7cc7-459c-99fb-bd7e8e19f2be")
 	)
 	(fp_rect
@@ -132,7 +132,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 10.25 -4.52 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "5fef1993-6f3b-413c-8ab1-220528b54867")
 		(effects
 			(font
@@ -144,7 +144,7 @@
 	(fp_text user "${VALUE}"
 		(at 10.25 -6.1 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "98d77463-12d6-410b-bdd3-3e52deac9433")
 		(effects
 			(font
