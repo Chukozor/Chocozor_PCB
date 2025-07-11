@@ -338,29 +338,6 @@
 			)
 		)
 	)
-	(fp_text user "OPTIONNAL"
-		(at 0 3.4 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "8a6650c7-3ee5-41df-b04b-d05b8e377363")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-			)
-		)
-	)
-	(fp_text user "RESISTANCE"
-		(at 0.01 4.26 0)
-		(layer "F.SilkS")
-		(uuid "8c2a0993-c4ef-446f-9e76-25b36a273e1e")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-			)
-		)
-	)
 	(fp_text user "${VALUE}"
 		(at -0.01 2.42 0)
 		(layer "B.SilkS")
@@ -377,32 +354,6 @@
 		(at -0.01 1.56 0)
 		(layer "B.SilkS")
 		(uuid "ba101cec-1534-4527-a6cf-39ae54b92c3f")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "OPTIONNAL"
-		(at 0.01 3.4 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "d6ea5186-0337-4136-94a6-3ba10560da6c")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "RESISTANCE"
-		(at 0 4.26 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "eb970733-a255-438f-8392-65141844b937")
 		(effects
 			(font
 				(size 0.7 0.7)
