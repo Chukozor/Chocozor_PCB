@@ -624,6 +624,14 @@
 					)
 				)
 			)
+			(text "VIK GP1"
+				(at 4.318 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(text "CHG/RDY/DIR(motion Pin)"
 				(at 12.954 1.27 0)
 				(effects
@@ -642,7 +650,7 @@
 			)
 			(text_box ""
 				(at 0 12.954 0)
-				(size 25.908 -12.954)
+				(size 25.908 -15.494)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width 0)
@@ -740,6 +748,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -1.27 0)
+				(length 2.54)
+				(name "CHG/DIR/RDY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -611,6 +611,14 @@
 						)
 					)
 				)
+				(text "VIK GP1"
+					(at 4.318 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(text "CHG/RDY/DIR(motion Pin)"
 					(at 12.954 1.27 0)
 					(effects
@@ -629,7 +637,7 @@
 				)
 				(text_box ""
 					(at 0 12.954 0)
-					(size 25.908 -12.954)
+					(size 25.908 -15.494)
 					(margins 1.016 1.016 1.016 1.016)
 					(stroke
 						(width 0)
@@ -727,6 +735,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "CHG/DIR/RDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7751,7 +7777,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 147.828) (xy 377.952 147.828)
+			(xy 375.92 156.718) (xy 377.952 156.718)
 		)
 		(stroke
 			(width 0)
@@ -12354,6 +12380,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABrR0AAAQEAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAuTdvAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AGuaMQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPOEUAAQAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 	)
@@ -12498,6 +12542,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIK_GP1"
+		(shape input)
+		(at 375.92 145.288 180)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "11775a70-0a11-4e0a-b4d4-ec5c4aee93b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.92 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14310,7 +14374,7 @@
 	)
 	(global_label "GND-VIK"
 		(shape passive)
-		(at 383.032 147.828 0)
+		(at 383.032 156.718 0)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -14319,7 +14383,7 @@
 		)
 		(uuid "cd4695f4-02f3-44b8-a0d1-0a2744fc1326")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.032 147.828 0)
+			(at 383.032 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15642,6 +15706,9 @@
 		)
 		(pin "4"
 			(uuid "d93bfb2a-b330-42cf-b58d-6766f997d2bb")
+		)
+		(pin "6"
+			(uuid "e27f8f7e-a36c-4a04-9bdf-424ae72b0e48")
 		)
 		(instances
 			(project ""
@@ -25031,7 +25098,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
-		(at 375.92 147.828 270)
+		(at 375.92 156.718 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25039,7 +25106,7 @@
 		(dnp no)
 		(uuid "e4024c46-9e60-40fd-89f1-5909a1a609b1")
 		(property "Reference" "#PWR054"
-			(at 369.57 147.828 0)
+			(at 369.57 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25048,7 +25115,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 372.11 147.828 0)
+			(at 372.11 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25056,7 +25123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 147.828 0)
+			(at 375.92 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25065,7 +25132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 147.828 0)
+			(at 375.92 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25074,7 +25141,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 147.828 0)
+			(at 375.92 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25243,7 +25310,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:straight-line")
-		(at 380.492 146.558 0)
+		(at 380.492 155.448 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25251,7 +25318,7 @@
 		(dnp no)
 		(uuid "e6598197-a2d5-46fe-a239-9c3d7c0d92cf")
 		(property "Reference" "line2"
-			(at 380.746 149.098 0)
+			(at 380.746 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25259,7 +25326,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 380.492 146.304 0)
+			(at 380.492 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25267,7 +25334,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:straight-line"
-			(at 380.492 146.558 0)
+			(at 380.492 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25276,7 +25343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 380.492 146.558 0)
+			(at 380.492 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25285,7 +25352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 380.492 146.558 0)
+			(at 380.492 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
