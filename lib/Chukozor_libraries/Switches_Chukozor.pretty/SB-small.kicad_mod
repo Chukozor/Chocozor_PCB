@@ -7,7 +7,7 @@
 		(at 0 3.1 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "748c7f91-6b37-4ec1-95e1-669f71aa6c3a")
+		(uuid "9e54e355-c7fa-4628-8a18-64c90b5e5712")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -19,7 +19,7 @@
 		(at 0 2.06 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "52cfa65f-9f3e-47bd-9418-162f3edd2297")
+		(uuid "1c5582f9-9487-4be2-9302-e9a40a142f35")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -31,7 +31,7 @@
 		(at -3.851 -0.183 90)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "936a2ca0-9f2a-444b-bb3e-dcd9512851a4")
+		(uuid "4c1c99ef-7e4a-4453-a0d2-8712aa545935")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at -3.851 -0.183 90)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "37529a41-03f6-4ee5-a044-98e53d180705")
+		(uuid "a23d21d2-f32e-4162-9269-1b2e88d5075f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -281,70 +281,12 @@
 			(justify mirror)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at 0 0.44)
-		(size 0.6 0.6)
-		(drill 0.3)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges yes)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "75c3bbd4-178e-440a-8fc9-2ef6c46a60d9")
-	)
-	(pad "1" smd custom
-		(at 0 0.44 270)
-		(size 0.62 0.62)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(clearance 0.1905)
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -0.31 -0.322) (xy -0.291122 -0.416905) (xy -0.237362 -0.497362) (xy -0.156905 -0.551122) (xy -0.062 -0.57)
-					(xy 0.062 -0.57) (xy 0.156905 -0.551122) (xy 0.237362 -0.497362) (xy 0.291122 -0.416905) (xy 0.31 -0.322)
-					(xy 0.31 0.322) (xy 0.291122 0.416905) (xy 0.237362 0.497362) (xy 0.156905 0.551122) (xy 0.062 0.57)
-					(xy -0.062 0.57) (xy -0.156905 0.551122) (xy -0.237362 0.497362) (xy -0.291122 0.416905) (xy -0.31 0.322)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_rect
-				(start -0.3 -0.56)
-				(end 0.05 0.56)
-				(width 0.02)
-				(fill yes)
-			)
-		)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges yes)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "8fa513c9-6112-44f2-9ad5-8005f81a8885")
-	)
-	(pad "1" smd custom
+	(pad "1" thru_hole custom
 		(at 0 0.44 90)
 		(size 0.62 0.62)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(clearance 0.1905)
 		(thermal_bridge_angle 90)
 		(options
@@ -382,29 +324,12 @@
 		)
 		(uuid "044581ac-a7d9-4498-931d-ed32996da00b")
 	)
-	(pad "2" thru_hole circle
-		(at 0 -0.44)
-		(size 0.6 0.6)
-		(drill 0.3)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges yes)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "c64f9f49-d198-4678-abc7-b64f9ffda9fa")
-	)
-	(pad "2" smd custom
+	(pad "2" thru_hole custom
 		(at 0 -0.44 90)
 		(size 0.62 0.62)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(clearance 0.1905)
 		(thermal_bridge_angle 90)
 		(options
@@ -441,47 +366,6 @@
 			(prefer_zone_connections yes)
 		)
 		(uuid "dc558a79-bdbe-49e0-834a-99a4c630f7ce")
-	)
-	(pad "2" smd custom
-		(at 0 -0.44 270)
-		(size 0.62 0.62)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.1905)
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -0.31 -0.322) (xy -0.291122 -0.416905) (xy -0.237362 -0.497362) (xy -0.156905 -0.551122) (xy -0.062 -0.57)
-					(xy 0.062 -0.57) (xy 0.156905 -0.551122) (xy 0.237362 -0.497362) (xy 0.291122 -0.416905) (xy 0.31 -0.322)
-					(xy 0.31 0.322) (xy 0.291122 0.416905) (xy 0.237362 0.497362) (xy 0.156905 0.551122) (xy 0.062 0.57)
-					(xy -0.062 0.57) (xy -0.156905 0.551122) (xy -0.237362 0.497362) (xy -0.291122 0.416905) (xy -0.31 0.322)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_rect
-				(start -0.05 -0.56)
-				(end 0.3 0.56)
-				(width 0.02)
-				(fill yes)
-			)
-		)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges yes)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "326e6779-1dd9-4878-844e-3dd970569224")
 	)
 	(embedded_fonts no)
 	(model "smd\\resistors\\R0603.wrl"

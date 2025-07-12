@@ -9,7 +9,7 @@
 		(at -0.02 -1.65 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "85ce130a-156e-421b-bc54-b19eb5960830")
+		(uuid "43ba2938-1364-465c-a0d1-bb4d027df2fa")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 0 1.65 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "db02aa85-8103-46ee-aabd-f6351f3c645d")
+		(uuid "fd1a4af3-bffb-4645-a62e-35ec97478034")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a4f016ce-a514-4f47-80a2-68f5ec6c12cb")
+		(uuid "74731187-c6f3-456c-80bc-8108723c2539")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "85ee7473-e177-49b6-a976-e0c56a94f90f")
+		(uuid "98d7cb40-55ed-4bec-adaf-49a7c2cb2db5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -366,7 +366,7 @@
 	(pad "1" smd roundrect
 		(at 1 0)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.208333)
 		(teardrops
 			(best_length_ratio 0.5)
@@ -384,7 +384,7 @@
 	(pad "2" smd roundrect
 		(at 1 -0.005)
 		(size 1.2 1.4)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0.208333)
 		(teardrops
 			(best_length_ratio 0.5)
@@ -399,10 +399,12 @@
 		)
 		(uuid "d4bceb83-7032-47da-b66a-30c031c4cb53")
 	)
-	(pad "3" smd roundrect
+	(pad "3" thru_hole roundrect
 		(at -1 -0.005)
 		(size 1.2 1.4)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.208333)
 		(teardrops
 			(best_length_ratio 0.5)
@@ -416,43 +418,6 @@
 			(prefer_zone_connections yes)
 		)
 		(uuid "73ecf17b-27e6-41b8-ab71-5aabadf4e651")
-	)
-	(pad "3" thru_hole circle
-		(at -1 0)
-		(size 0.6 0.6)
-		(drill 0.3)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges yes)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "2a9c78e8-efde-4593-a823-98deefd4e9b3")
-	)
-	(pad "3" smd roundrect
-		(at -1 0)
-		(size 1.2 1.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.208333)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges yes)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "4937d829-fe33-4310-b24e-1c4f5b5702fa")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
