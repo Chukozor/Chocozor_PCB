@@ -280,6 +280,17 @@
 		(layer "Cmts.User")
 		(uuid "5942cc9a-20b1-4fc9-ba6f-30ad255b531b")
 	)
+	(fp_rect
+		(start -6.02 -3.17)
+		(end 6.1 4.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d3653a3a-f899-48ac-aa4b-f317e5c284d1")
+	)
 	(fp_text user "3v3"
 		(at -5.9 -2.7 0)
 		(unlocked yes)

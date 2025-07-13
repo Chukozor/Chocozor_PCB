@@ -69,6 +69,17 @@
 	)
 	(zone_connect 1)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -1.43 -3.9)
+		(end 5.17 4.06)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1db2b70d-4961-4aad-bd95-111f85bd0e29")
+	)
 	(fp_text user "6"
 		(at 5.24 2.56 0)
 		(layer "F.SilkS")
