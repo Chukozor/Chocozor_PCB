@@ -55,6 +55,26 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -2.58 -0.86)
+		(end -2.15 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "18af253c-dfc3-4477-b595-420e68ccf886")
+	)
+	(fp_line
+		(start -2.57 0.87)
+		(end -2.14 1.11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b637aa4-4d10-4933-b52c-399c5e9e9a61")
+	)
+	(fp_line
 		(start -2.56 -0.85)
 		(end -2.56 0.85)
 		(stroke
@@ -133,6 +153,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9472ec7e-536d-4dd7-8c8b-7b9d7a3dbd02")
+	)
+	(fp_line
+		(start -2.58 -0.86)
+		(end -2.15 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "bfff90c5-3c7c-441d-b250-f49bb1df6bba")
+	)
+	(fp_line
+		(start -2.57 0.87)
+		(end -2.14 1.11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "d6d992af-ca78-42c0-be05-70176296a860")
 	)
 	(fp_line
 		(start -2.56 -0.85)
