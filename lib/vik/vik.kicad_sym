@@ -55,7 +55,7 @@
 		(symbol "vik-keyboard-connector_1_1"
 			(rectangle
 				(start -5.08 13.97)
-				(end 5.08 -16.51)
+				(end 5.08 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -188,6 +188,28 @@
 			(rectangle
 				(start -5.0546 -15.113)
 				(end -4.191 -15.367)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5.0546 -17.653)
+				(end -4.191 -17.907)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5.0546 -20.193)
+				(end -4.191 -20.447)
 				(stroke
 					(width 0.1)
 					(type default)
@@ -405,6 +427,42 @@
 					)
 				)
 				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -17.78 0)
+				(length 2.54)
+				(name "HOLDER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -20.32 0)
+				(length 2.54)
+				(name "HOLDER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)

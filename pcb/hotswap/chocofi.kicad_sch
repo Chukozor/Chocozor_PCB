@@ -6307,7 +6307,7 @@
 			(symbol "vik-keyboard-connector_1_1"
 				(rectangle
 					(start -5.08 13.97)
-					(end 5.08 -16.51)
+					(end 5.08 -21.59)
 					(stroke
 						(width 0)
 						(type default)
@@ -6440,6 +6440,28 @@
 				(rectangle
 					(start -5.0546 -15.113)
 					(end -4.191 -15.367)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.0546 -17.653)
+					(end -4.191 -17.907)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.0546 -20.193)
+					(end -4.191 -20.447)
 					(stroke
 						(width 0.1)
 						(type default)
@@ -6657,6 +6679,42 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(name "HOLDER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "HOLDER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14688,6 +14746,26 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 341.376 165.862 180)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "e8b18160-2e45-4388-a7cc-df4857b78214")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.376 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA-OLED"
 		(shape input)
 		(at 552.45 125.222 90)
@@ -14761,6 +14839,26 @@
 		(uuid "f3b10b34-68d4-4c17-97bb-39de8955fb7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 330.962 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 341.376 163.322 180)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "f416b921-afef-4994-a393-ec6b75c68dc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.376 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24942,6 +25040,12 @@
 		)
 		(pin "12"
 			(uuid "c9e8aa57-5d74-462c-b4ec-2f3d5407e6b5")
+		)
+		(pin "13"
+			(uuid "c8cf1f98-7a6a-4114-a425-9a136fb74034")
+		)
+		(pin "14"
+			(uuid "6dab94f8-f1bf-495b-9fc2-6b3eaee87ff7")
 		)
 		(instances
 			(project ""
