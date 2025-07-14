@@ -52,6 +52,54 @@
 		)
 	)
 	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -1.38 -0.490526) (xy -1.38 0.502) (xy -0.34 0.502) (xy -0.34 -0.501474)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "c204a70f-1fb8-48b0-b1fd-92b606aa19d9")
+	)
+	(fp_poly
+		(pts
+			(xy 0.34 -0.490526) (xy 0.34 0.492) (xy 1.38 0.492) (xy 1.38 -0.501474)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "096f1e20-21d5-4ec0-9fb2-43e262e71fb0")
+	)
+	(fp_poly
+		(pts
+			(xy -1.38 -0.490526) (xy -1.38 0.502) (xy -0.34 0.502) (xy -0.34 -0.501474)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "4349e7c0-a113-48a0-91ea-1717eb32f69c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.34 -0.490526) (xy 0.34 0.492) (xy 1.38 0.492) (xy 1.38 -0.501474)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "e0351e94-6213-4cdc-b19d-d8b9d1f07038")
+	)
 	(fp_line
 		(start -1.72 0.53)
 		(end -1.72 -0.53)

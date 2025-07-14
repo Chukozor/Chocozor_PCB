@@ -52,6 +52,30 @@
 		)
 	)
 	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -0.52 -0.490526) (xy -0.52 0.502) (xy 0.52 0.502) (xy 0.52 -0.501474)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "b1c7e7da-ac59-4c60-bf3f-9bd3c79bd391")
+	)
+	(fp_poly
+		(pts
+			(xy -0.52 -0.490526) (xy -0.52 0.502) (xy 0.52 0.502) (xy 0.52 -0.501474)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "aadf4e5f-53a7-4c74-9248-8d583e74da29")
+	)
 	(fp_line
 		(start -0.86 0.53)
 		(end -0.86 -0.53)

@@ -69,6 +69,30 @@
 	)
 	(zone_connect 1)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -0.818088 -0.52) (xy 0.82 -0.52) (xy 0.819842 0.52) (xy -0.819912 0.52)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "6c294339-2887-4d81-b8e4-f39ab8f789eb")
+	)
+	(fp_poly
+		(pts
+			(xy -0.798808 -0.519405) (xy 0.83928 -0.519405) (xy 0.839122 0.520595) (xy -0.800632 0.520595)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "564211a7-1bf4-4c5f-ba72-543a0d60ca34")
+	)
 	(fp_line
 		(start -1.47 0.36)
 		(end -1.47 -0.36)
