@@ -538,12 +538,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SLDR_Pads"
-			(at -0.254 4.318 0)
+			(at 11.938 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Azoteq-Procyon-Manual_soldering"
@@ -552,7 +551,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
