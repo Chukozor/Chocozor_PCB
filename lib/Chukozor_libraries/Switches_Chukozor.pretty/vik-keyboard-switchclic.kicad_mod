@@ -1,4 +1,4 @@
-(footprint "vik-keyboard-connector-horizontal-Both-Sides"
+(footprint "vik-keyboard-switchclic"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6a24f8c0-aeb6-4acc-9c9e-28fc44782c17")
+		(uuid "12a8b2a4-e4b5-453d-b27c-6126e215c1b9")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "vik-keyboard-connector-horizontal-Both-Sides"
+	(property "Value" "vik-keyboard-switchclic"
 		(at 0.05 5.09 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c70d6d6a-d6fc-495d-9524-6faba107174f")
+		(uuid "fec87df9-c6b2-4fd3-bea3-883efc48a317")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ee722fc3-5e16-498e-85c9-9286996f7f53")
+		(uuid "ba38e2b5-9720-45b8-8248-1600fec16865")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "79746abd-4143-4d52-92c8-ba2801063ec5")
+		(uuid "7f8b0880-800e-405c-8261-f63f63acbdd6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -148,99 +148,6 @@
 		(uuid "792b3b24-b7ce-4fd8-a040-71f0af543184")
 	)
 	(fp_line
-		(start -5.5 -2.205)
-		(end -3.131 -2.205)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "6f73e3fc-1294-4937-8998-7ac8dc211720")
-	)
-	(fp_line
-		(start -5.5 -0.544)
-		(end -5.5 -2.205)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "d4224388-cfb6-47ad-9a80-bdaf2d9c33db")
-	)
-	(fp_line
-		(start -5.5 4.29)
-		(end -5.5 1.907)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "8a6ac86d-ff46-4e88-9cb6-87a85997b864")
-	)
-	(fp_line
-		(start -5.5 4.29)
-		(end 5.5 4.29)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "a39e101b-91c3-42b0-bd94-59c191b150e1")
-	)
-	(fp_line
-		(start 5.5 -2.205)
-		(end 3.131 -2.205)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "ba774840-2e83-4856-a1ed-bacf4c05480b")
-	)
-	(fp_line
-		(start 5.5 -0.544)
-		(end 5.5 -2.205)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "77e03fe7-24c4-4899-9004-c6a1ad18a3d1")
-	)
-	(fp_line
-		(start 5.5 4.29)
-		(end 5.5 1.907)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "7f818cdb-ad99-46f9-ae18-3d2763dc94a2")
-	)
-	(fp_circle
-		(center 3.429 -2.713)
-		(end 3.302 -2.713)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill no)
-		(layer "B.SilkS")
-		(uuid "527877ff-0bc0-4340-827f-3f8933678228")
-	)
-	(fp_poly
-		(pts
-			(xy 0.15 3.05) (xy 0.15 3.65) (xy 0.5 3.65) (xy 0 4.15) (xy -0.5 3.65) (xy -0.15 3.65) (xy -0.15 3.05)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.SilkS")
-		(uuid "a1b6c524-c91e-428a-be26-aa418cc6b176")
-	)
-	(fp_line
 		(start -3.5 1.995)
 		(end -3.5 4.495)
 		(stroke
@@ -305,7 +212,7 @@
 		)
 	)
 	(fp_text user "cable here"
-		(at 0 2.55 0)
+		(at 0 2.41 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "59c104aa-01e4-4a25-b627-d027406e4fcf")
@@ -317,8 +224,7 @@
 		)
 	)
 	(fp_text user "VIK OUT"
-		(at -3.05 -3.48 0)
-		(unlocked yes)
+		(at 0 0.81 0)
 		(layer "F.SilkS" knockout)
 		(uuid "680dee3f-61a6-4e55-8e3f-51c2eda13336")
 		(effects
@@ -326,46 +232,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "3v3"
-		(at 5.9 -2.705 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "0b3c0b95-981c-4d6b-a635-fa9842bf68c7")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(fp_text user "cable here"
-		(at 0.05 2.55 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "0e6294cc-ff90-4384-ba6d-6d97cda76667")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "VIK OUT"
-		(at 3.05 -3.485 0)
-		(unlocked yes)
-		(layer "B.SilkS" knockout)
-		(uuid "ef16528c-a3ba-43c3-bfa1-3bfe38c22cf5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "C479750"
@@ -397,26 +263,12 @@
 		(clearance 0.2)
 		(uuid "a9addef9-1afc-4014-a229-a9de062d5ae2")
 	)
-	(pad "1" smd rect
-		(at 2.75 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "37c90686-33df-4f26-8ad1-93d24ba60f82")
-	)
 	(pad "2" smd rect
 		(at -2.25 -2.038)
 		(size 0.28 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "8403a7e1-7cbc-4e22-b921-5c769088b17b")
-	)
-	(pad "2" smd rect
-		(at 2.25 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "c0701f6c-14b0-454f-825e-d246fd86d949")
 	)
 	(pad "3" smd rect
 		(at -1.75 -2.038)
@@ -425,26 +277,12 @@
 		(clearance 0.2)
 		(uuid "c6b94f95-8e7b-4bd7-9237-c62c44f7b5b0")
 	)
-	(pad "3" smd rect
-		(at 1.75 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "3bdfa786-3e89-460a-9ff2-e14d4371e81f")
-	)
 	(pad "4" smd rect
 		(at -1.25 -2.038)
 		(size 0.28 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "04e12e25-b35e-401a-aad1-426d496578f1")
-	)
-	(pad "4" smd rect
-		(at 1.25 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "54ccce3a-41ec-4e27-acd8-ce4ee92fa0fc")
 	)
 	(pad "5" smd rect
 		(at -0.75 -2.038)
@@ -453,33 +291,12 @@
 		(clearance 0.2)
 		(uuid "9aa84185-be6d-436f-a468-aa048b10c536")
 	)
-	(pad "5" smd rect
-		(at 0.75 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "07deaf51-592a-4892-9fda-4c0705968414")
-	)
 	(pad "6" smd rect
 		(at -0.25 -2.038)
 		(size 0.28 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "a8b34486-19e6-4cdb-8904-d8c5a0dbcbd4")
-	)
-	(pad "6" smd rect
-		(at 0.25 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "a295143d-48ff-4220-b11e-2ab76087068f")
-	)
-	(pad "7" smd rect
-		(at -0.25 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "40556887-f855-4a67-9858-92683437d4a8")
 	)
 	(pad "7" smd rect
 		(at 0.25 -2.038)
@@ -489,25 +306,11 @@
 		(uuid "b448983c-3629-4ddb-8567-d84b93ef2ced")
 	)
 	(pad "8" smd rect
-		(at -0.75 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "70f4c315-6644-4399-be97-5f9f8dc0fda5")
-	)
-	(pad "8" smd rect
 		(at 0.75 -2.038)
 		(size 0.28 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "05792805-de7b-4fb3-befc-a6ed057194a8")
-	)
-	(pad "9" smd rect
-		(at -1.25 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "cae476ed-218b-4a0e-a841-0a647009aa03")
 	)
 	(pad "9" smd rect
 		(at 1.25 -2.038)
@@ -517,25 +320,11 @@
 		(uuid "46512633-de25-4f9f-be65-79a3f5141146")
 	)
 	(pad "10" smd rect
-		(at -1.75 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "60f80360-02cc-4091-a769-2ed136a73c37")
-	)
-	(pad "10" smd rect
 		(at 1.75 -2.038)
 		(size 0.28 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "e81a27d8-8637-4524-870a-4b523b84e211")
-	)
-	(pad "11" smd rect
-		(at -2.25 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "e8b69706-e321-4343-98b8-553d804f65b9")
 	)
 	(pad "11" smd rect
 		(at 2.25 -2.038)
@@ -545,24 +334,11 @@
 		(uuid "39220a33-8dec-43c5-a397-9878d2b9ba0c")
 	)
 	(pad "12" smd rect
-		(at -2.75 -2.043 180)
-		(size 0.28 1.25)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "fe6bf5be-facf-4725-b811-71bf2197ea32")
-	)
-	(pad "12" smd rect
 		(at 2.75 -2.038)
 		(size 0.28 1.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "9c5ad9f7-41f1-47a5-af74-cfe9c6f2bd63")
-	)
-	(pad "13" smd rect
-		(at -4.55 0.681 180)
-		(size 1.8 2)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "68afbe33-cd97-4f88-a262-179df21cb039")
 	)
 	(pad "13" smd rect
 		(at 4.55 0.686)
@@ -575,12 +351,6 @@
 		(size 1.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dd32776b-07a6-490f-a260-1a414ce7f65a")
-	)
-	(pad "14" smd rect
-		(at 4.55 0.681 180)
-		(size 1.8 2)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "eed5c44f-10c0-46fb-95ec-c801461af6f7")
 	)
 	(embedded_fonts no)
 	(model "../../kicad/3dmodels/vik-connector-horizontal.stp"
