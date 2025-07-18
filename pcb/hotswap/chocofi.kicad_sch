@@ -18776,7 +18776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d30654-039e-4478-bc3e-26caec8eeef3")
-		(property "Reference" "K4"
+		(property "Reference" "K3"
 			(at 139.7 187.96 90)
 			(effects
 				(font
@@ -18792,7 +18792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible"
 			(at 53.67 199.39 0)
 			(effects
 				(font
@@ -18904,7 +18904,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K4")
+					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -19084,8 +19084,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f5f2b9-caa0-4bcc-a98b-3b3afe35bb29")
-		(property "Reference" "K7"
-			(at 262.382 174.244 90)
+		(property "Reference" "KK6"
+			(at 262.382 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19093,14 +19093,14 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 262.382 171.704 90)
+			(at 262.382 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible"
 			(at 348.412 162.814 0)
 			(effects
 				(font
@@ -19212,7 +19212,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K7")
+					(reference "KK6")
 					(unit 1)
 				)
 			)
@@ -19442,7 +19442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b697a9f-d564-447e-8c9e-905c5f95d0ac")
-		(property "Reference" "K2"
+		(property "Reference" "K5"
 			(at 221.488 187.96 90)
 			(effects
 				(font
@@ -19458,7 +19458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible"
 			(at 135.458 199.39 0)
 			(effects
 				(font
@@ -19570,7 +19570,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K2")
+					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -21335,7 +21335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51456ae2-07f5-423c-8c24-3bbd742a9864")
-		(property "Reference" "K6"
+		(property "Reference" "K1"
 			(at 57.912 187.96 90)
 			(effects
 				(font
@@ -21351,7 +21351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible"
 			(at -28.118 199.39 0)
 			(effects
 				(font
@@ -21463,7 +21463,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K6")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -22842,7 +22842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75c6d45b-c139-40de-a149-aa97a5cf55bd")
-		(property "Reference" "K5"
+		(property "Reference" "K2"
 			(at 98.806 187.96 90)
 			(effects
 				(font
@@ -22858,7 +22858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible"
 			(at 12.776 199.39 0)
 			(effects
 				(font
@@ -22970,7 +22970,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K5")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -24730,7 +24730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "962150d1-eff9-4963-bc8b-ac7da70f9263")
-		(property "Reference" "K3"
+		(property "Reference" "K4"
 			(at 180.594 187.96 90)
 			(effects
 				(font
@@ -24746,7 +24746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible"
 			(at 94.564 199.39 0)
 			(effects
 				(font
@@ -24858,7 +24858,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K3")
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -26633,7 +26633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb44d734-288c-4715-a77f-1e9821aa6490")
-		(property "Reference" "K1"
+		(property "Reference" "K6"
 			(at 262.382 187.96 90)
 			(effects
 				(font
@@ -26649,7 +26649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible"
 			(at 176.352 199.39 0)
 			(effects
 				(font
@@ -26761,7 +26761,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K1")
+					(reference "K6")
 					(unit 1)
 				)
 			)
