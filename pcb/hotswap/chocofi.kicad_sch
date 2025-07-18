@@ -1405,6 +1405,302 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Chukozor_symbols:FPC_8pins_687108183722"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FPC_8pins_687108183722"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.3"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-687108183722"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "687108183722"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FPC_8pins_687108183722_1_1"
+				(rectangle
+					(start 12.7 2.54)
+					(end 17.78 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 90)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -25.4 90)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Chukozor_symbols:Handedness"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12722,7 +13018,43 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAA=="
+			"AAAAAPx/AACMmbSF/H8AAASptIX8fwAAAMy3hfx/AACAzLeF/H8AAMDMt4X8fwAAxKa0hfx/AACA"
+			"PLSF/H8AALA9tIX8fwAAAD+0hfx/AAAwQLSF/H8AAOBEtIX8fwAAMEa0hfx/AACAR7SF/H8AAMBI"
+			"tIX8fwAAIEq0hfx/AABQS7SF/H8AABBRtIX8fwAAkFK0hfx/AADwU7SF/H8AADBVtIX8fwAAkFa0"
+			"hfx/AADAV7SF/H8AAJBdtIX8fwAAEF+0hfx/AACAYLSF/H8AAMBhtIX8fwAAIGO0hfx/AACQZLSF"
+			"/H8AAABmtIX8fwAAMGe0hfx/AACQaLSF/H8AAPBptIX8fwAAMGu0hfx/AABgbLSF/H8AAKBttIX8"
+			"fwAAwG60hfx/AACQdbSF/H8AAMB2tIX8fwAAMHi0hfx/AABwebSF/H8AALB6tIX8fwAA8Hu0hfx/"
+			"AADQNLiF/H8AANCRt4X8fwAAUIu3hfx/AAAQ5LeF/H8AAFDkt4X8fwAAkOS3hfx/AADQ47eF/H8A"
+			"AHDB6IX8fwAAoMHohfx/AADgweiF/H8AABDC6IX8fwAAUMLohfx/AACAwuiF/H8AAHBR6IX8fwAA"
+			"oFHohfx/AADgUeiF/H8AABBS6IX8fwAAUFLohfx/AACAUuiF/H8AAMBS6IX8fwAA8FLohfx/AAAA"
+			"yueF/H8AAEDK54X8fwAAgMrnhfx/AADAyueF/H8AAADL54X8fwAAQMvnhfx/AACAy+eF/H8AAMDL"
+			"54X8fwAAUOrnhfx/AACA6ueF/H8AALDt5oX8fwAA4O3mhfx/AAAg7uaF/H8AAFDu5oX8fwAAMD3o"
+			"hfx/AABgPeiF/H8AABC56IX8fwAAcLnohfx/AADQueiF/H8AADC66IX8fwAAkLrohfx/AADwuuiF"
+			"/H8AAFC76IX8fwAAsLvohfx/AAAQiLeF/H8AAJCJt4X8fwAAcIK3hfx/AAAAGriF/H8AAMB+t4X8"
+			"fwAAMIG3hfx/AACgbbeF/H8AAOD0t4X8fwAAAOO0hfx/AACghreF/H8AAGApuIX8fwAANN+0hfx/"
+			"AADE37SF/H8AAFTgtIX8fwAA5OC0hfx/AABM37SF/H8AANzftIX8fwAAbOC0hfx/AAD84LSF/H8A"
+			"AEDftIX8fwAA0N+0hfx/AABg4LSF/H8AAPDgtIX8fwAAcN+0hfx/AAAA4LSF/H8AAJDgtIX8fwAA"
+			"IOG0hfx/AACY4bSF/H8AAODhtIX8fwAAKOK0hfx/AADw8reF/H8AABDyt4X8fwAAANC3hfx/AABw"
+			"ybeF/H8AAKCet4X8fwAAEM+3hfx/AACAw7eF/H8AAFDet4X8fwAAwJy3hfx/AAAw37eF/H8AALDf"
+			"t4X8fykoZWZmZWN0cyhmb250KHNpemUgMS4yNyAxLjI3KSkpKShwcm9wZXJ0eSAgIkZvb3Rwcmlu"
+			"dCIgIiIgKGF0IDAgMCAwKShlZmZlY3RzKGZvbnQoc2l6ZSAxLjI3IDEuMjcpKShoaWRlIHllcykp"
+			"KShwcm9wZXJ0eSAgIkRhdGFzaGVldCIgIn4iIChhdCAwIDAgMCkoZWZmZWN0cyhmb250KHNpemUg"
+			"MS4yNyAxLjI3KSkoaGlkZSB5ZXMpKSkocHJvcGVydHkgICJEZXNjcmlwdGlvbiIgIkdlbmVyaWMg"
+			"Y29ubmVjdG9yLCBzaW5nbGUgcm93LCAwMXgwNCwgc2NyaXB0IGdlbmVyYXRlZCAoa2ljYWQtbGli"
+			"cmFyeS11dGlscy9zY2hsaWIvYXV0b2dlbi9jb25uZWN0b3IvKSIgKGF0IDAgMCAwKShlZmZlY3Rz"
+			"KGZvbnQoc2l6ZSAxLjI3IDEuMjcpKShoaWRlIHllcykpKShwcm9wZXJ0eSAgImtpX2tleXdvcmRz"
+			"IiAiY29ubmVjdG9yIiAoYXQgMCAwIDApKGVmZmVjdHMoZm9udChzaXplIDEuMjcgMS4yNykpKGhp"
+			"ZGUgeWVzKSkpKHByb3BlcnR5ICAia2lfZnBfZmlsdGVycyIgIkNvbm5lY3Rvcio6Kl8xeD8/Xyoi"
+			"IChhdCAwIDAgMCkoZWZmZWN0cyhmb250KHNpemUgMS4yNyAxLjI3KSkoaGlkZSB5ZXMpKSkoc3lt"
+			"Ym9sICJDb25uXzAxeDA0XzFfMSIocmVjdGFuZ2xlICAoc3RhcnQgLTEuMjcgMy44MSkgKGVuZCAx"
+			"LjI3IC02LjM1KShzdHJva2UgKHdpZHRoIDAuMjU0KSAodHlwZSBkZWZhdWx0KSkoZmlsbCAodHlw"
+			"ZSBiYWNrZ3JvdW5kKSkpKHJlY3RhbmdsZSAgKHN0YXJ0IC0xLjI3IDIuNjY3KSAoZW5kIDAgMi40"
+			"MTMpKHN0cm9rZSAod2lkdGggMC4xNTI0KSAodHlwZSBkZWZhdWx0KSkoZmlsbCAodHlwZSBub25l"
+			"KSkpKHJlY3RhbmdsZSAgKHN0YXJ0IC0xLjI3IDAuMTI3KSAoZW5kIDAgLTAuMTI3KShzdHJva2Ug"
+			"KHdpZHRoIDAuMTUyNCkgKHR5cGUgZGVmYXVsdCkpKGZpbGwgKHR5cGUgbm9uZSkpKShyZWN0YW5n"
+			"bGUgIChzdGFydCAtMS4yNyAtMi40MTMpIChlbmQgMCAtMi42NjcpKHN0cm9rZSAod2lkdGggMC4x"
+			"NTI0KSAodHlwZSBkZWZhdWx0KSkoZmlsbCAodHlwZSBub25lKSkpKHJlY3RhbmdsZSAgKHN0YXJ0"
+			"IC0xLg=="
 		)
 	)
 	(global_label "col3"
@@ -17420,6 +17752,150 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chukozor_symbols:FPC_8pins_687108183722")
+		(at 300.228 345.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "268ca218-1f30-49f3-8b14-16eddc4d9d29")
+		(property "Reference" "K1"
+			(at 306.6415 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FPC_8pins_687108183722"
+			(at 306.6415 337.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 395.148 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
+			(at 495.148 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
+			(at 300.228 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
+			(at 695.148 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-687108183722"
+			(at 795.148 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
+			(at 895.148 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 995.148 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "687108183722"
+			(at 1095.148 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP1"
+			(uuid "61455eb3-929b-48ce-9a42-ce68da1471a5")
+		)
+		(pin "6"
+			(uuid "fc959d15-a63b-45d0-8d71-988694256587")
+		)
+		(pin "4"
+			(uuid "f179e1e2-847c-4503-b9ac-b3ab3ad7b0ed")
+		)
+		(pin "3"
+			(uuid "e1147073-c5fe-463f-89d3-207d68a4e069")
+		)
+		(pin "2"
+			(uuid "05e5a508-ef6f-4c00-bb60-61d266441e0d")
+		)
+		(pin "MP2"
+			(uuid "b56a0c6a-70f7-4d36-983f-34f0127a01a9")
+		)
+		(pin "5"
+			(uuid "14baec29-226a-45a7-8bc2-cf6c8b21f360")
+		)
+		(pin "1"
+			(uuid "56236d66-864a-4988-827a-30945cbfa1f4")
+		)
+		(pin "8"
+			(uuid "d31fdf7d-b9cc-4519-9f35-77ef1f5623df")
+		)
+		(pin "7"
+			(uuid "f09e7e8b-5d57-4994-850a-a25e61be700c")
+		)
+		(instances
+			(project ""
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "K1")
 					(unit 1)
 				)
 			)
