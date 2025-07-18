@@ -1405,7 +1405,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Chukozor_symbols:FPC_8pins_687108183722"
+		(symbol "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1418,7 +1418,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "FPC_8pins_687108183722"
+			(property "Value" "FPC_8pins_SPECIAL-SWITCH-687108183722"
 				(at 19.05 5.08 0)
 				(effects
 					(font
@@ -1506,10 +1506,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "FPC_8pins_687108183722_1_1"
+			(symbol "FPC_8pins_SPECIAL-SWITCH-687108183722_1_1"
 				(rectangle
 					(start 12.7 2.54)
-					(end 17.78 -20.32)
+					(end 17.78 -14.732)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1537,7 +1537,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -21.59 90)
+					(at 13.97 -16.51 90)
 					(length 2)
 					(name "MP2"
 						(effects
@@ -1655,42 +1655,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -15.24 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -17.78 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7651,6 +7615,12 @@
 		(uuid "2b4ab282-16e0-4c48-b281-67d24b3364e7")
 	)
 	(junction
+		(at 305.816 191.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f0a238d-7bb7-4840-b42c-498019d6b2cf")
+	)
+	(junction
 		(at 87.376 341.884)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7783,12 +7753,6 @@
 		(uuid "92b5e6e9-7b18-47dd-b6b4-d19e6eb96169")
 	)
 	(junction
-		(at 258.572 155.956)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9787688c-3d2e-4d49-92d6-2e79e9d3aec3")
-	)
-	(junction
 		(at 491.998 199.644)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7847,12 +7811,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7c5d32f-8964-4481-beb7-f6ab3510aa95")
-	)
-	(junction
-		(at 256.032 155.956)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd6fc275-bee9-4c86-9c26-43c42e0ebddb")
 	)
 	(junction
 		(at 250.952 382.524)
@@ -8050,7 +8008,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.494 151.892) (xy 269.494 155.702)
+			(xy 269.494 151.892) (xy 269.494 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8150,6 +8108,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.112 159.004) (xy 261.112 155.702)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0823da10-4386-4f06-af8e-40fa73837dda")
+	)
+	(wire
+		(pts
 			(xy 460.248 245.618) (xy 460.248 246.888)
 		)
 		(stroke
@@ -8177,16 +8145,6 @@
 			(type default)
 		)
 		(uuid "0aea0103-e61e-484c-b101-5eedefcada94")
-	)
-	(wire
-		(pts
-			(xy 261.112 155.956) (xy 261.112 159.004)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aec4bff-4aec-4a02-95a5-24e714d38d57")
 	)
 	(wire
 		(pts
@@ -8400,7 +8358,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.192 155.702) (xy 266.192 159.004)
+			(xy 266.192 154.94) (xy 266.192 159.004)
 		)
 		(stroke
 			(width 0)
@@ -8830,6 +8788,16 @@
 	)
 	(wire
 		(pts
+			(xy 258.572 159.004) (xy 258.572 156.464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2ae6cd-9e4a-4c35-9e10-3d25079e5071")
+	)
+	(wire
+		(pts
 			(xy 234.696 270.51) (xy 275.59 270.51)
 		)
 		(stroke
@@ -9040,7 +9008,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.032 159.004) (xy 256.032 155.956)
+			(xy 256.032 151.892) (xy 256.032 155.702)
 		)
 		(stroke
 			(width 0)
@@ -9350,16 +9318,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.032 155.956) (xy 256.032 151.892)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560a5410-641e-4ea0-8b0a-dbcf7100b3f3")
-	)
-	(wire
-		(pts
 			(xy 180.34 362.204) (xy 181.102 362.204)
 		)
 		(stroke
@@ -9550,7 +9508,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.494 155.702) (xy 266.192 155.702)
+			(xy 269.494 154.94) (xy 266.192 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9870,7 +9828,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.732 159.004) (xy 268.732 156.972)
+			(xy 268.732 159.004) (xy 268.732 155.702)
 		)
 		(stroke
 			(width 0)
@@ -9940,7 +9898,7 @@
 	)
 	(wire
 		(pts
-			(xy 253.492 144.526) (xy 253.492 159.004)
+			(xy 253.492 144.526) (xy 253.492 156.464)
 		)
 		(stroke
 			(width 0)
@@ -10097,6 +10055,16 @@
 			(type default)
 		)
 		(uuid "82ed66ca-f49f-4f08-9459-8b4f2da62c0b")
+	)
+	(wire
+		(pts
+			(xy 258.572 156.464) (xy 253.492 156.464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835213c9-2d5f-410b-9b71-4f3d3e809cb2")
 	)
 	(wire
 		(pts
@@ -10390,6 +10358,16 @@
 	)
 	(wire
 		(pts
+			(xy 305.816 185.42) (xy 305.816 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93bc7882-6a25-4a4e-bd7b-97c7f7873f0b")
+	)
+	(wire
+		(pts
 			(xy 191.262 402.844) (xy 197.104 402.844)
 		)
 		(stroke
@@ -10417,6 +10395,16 @@
 			(type default)
 		)
 		(uuid "956e50f0-9401-4870-a75e-3f7a223b71c1")
+	)
+	(wire
+		(pts
+			(xy 303.276 191.262) (xy 305.816 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962d04c1-e19c-4ca2-b1da-4d2e640c8b53")
 	)
 	(wire
 		(pts
@@ -10640,16 +10628,6 @@
 	)
 	(wire
 		(pts
-			(xy 258.572 155.956) (xy 261.112 155.956)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1ce1ccb-9b04-40a1-b5d7-63babfd5a32c")
-	)
-	(wire
-		(pts
 			(xy 193.802 268.986) (xy 193.802 270.51)
 		)
 		(stroke
@@ -10700,7 +10678,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.732 156.972) (xy 272.796 156.972)
+			(xy 268.732 155.702) (xy 272.796 155.702)
 		)
 		(stroke
 			(width 0)
@@ -10747,6 +10725,16 @@
 			(type default)
 		)
 		(uuid "a772b0ef-54c4-48f6-b3ab-31460dc49e05")
+	)
+	(wire
+		(pts
+			(xy 308.102 191.262) (xy 305.816 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a7e672-aba9-49af-a2b8-ae3070f7dbef")
 	)
 	(wire
 		(pts
@@ -10877,6 +10865,16 @@
 			(type default)
 		)
 		(uuid "adc9e87b-b3b9-4754-b7a6-5e1bfc707486")
+	)
+	(wire
+		(pts
+			(xy 261.112 155.702) (xy 256.032 155.702)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae26d57c-0b70-4fba-9625-91924948ab75")
 	)
 	(wire
 		(pts
@@ -11450,7 +11448,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.796 156.972) (xy 272.796 133.604)
+			(xy 272.796 155.702) (xy 272.796 133.604)
 		)
 		(stroke
 			(width 0)
@@ -11680,16 +11678,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.032 155.956) (xy 258.572 155.956)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcbec624-95d3-4323-8f51-e6286ed2b670")
-	)
-	(wire
-		(pts
 			(xy 156.21 357.124) (xy 181.102 357.124)
 		)
 		(stroke
@@ -11897,16 +11885,6 @@
 			(type default)
 		)
 		(uuid "e9c34258-db28-4dfc-8de3-b349354f92df")
-	)
-	(wire
-		(pts
-			(xy 258.572 155.956) (xy 258.572 159.004)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea758fc1-2536-49c8-bf89-66981107df45")
 	)
 	(wire
 		(pts
@@ -13686,7 +13664,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 89.916 203.2 270)
+		(at 94.996 203.2 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -13695,7 +13673,7 @@
 		)
 		(uuid "05e2de66-8722-4943-9f27-6eb7e6769d91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.916 203.2 90)
+			(at 94.996 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13748,7 +13726,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 212.598 203.2 270)
+		(at 217.678 203.2 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -13757,7 +13735,7 @@
 		)
 		(uuid "0cb837bf-95db-48db-b038-e4cd6c05d8ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.598 203.2 90)
+			(at 217.678 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13938,7 +13916,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 249.682 194.31 270)
+		(at 254.762 194.31 270)
 		(effects
 			(font
 				(size 1 1)
@@ -13947,7 +13925,7 @@
 		)
 		(uuid "1480560d-2d98-4de2-bd23-d84ffd69bd76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.682 194.31 90)
+			(at 254.762 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,28 +13947,6 @@
 		(uuid "155c16ee-8073-41b0-9376-db09232894c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.0356 321.564 0)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 215.138 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "163c7c5b-10f0-4754-a4a8-0598ee652f8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.138 210.6104 90)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -14293,7 +14249,7 @@
 	)
 	(global_label "TOPSWITCHES_vik-5V"
 		(shape input)
-		(at 305.816 185.674 270)
+		(at 305.816 191.262 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -14302,7 +14258,7 @@
 		)
 		(uuid "3316a63b-fe0e-49e1-b761-002068d9d3d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.816 185.674 90)
+			(at 305.816 191.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14313,7 +14269,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 130.81 203.2 270)
+		(at 135.89 203.2 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -14322,7 +14278,7 @@
 		)
 		(uuid "3383abf0-71ff-4d1e-be1a-911419ca4c48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 203.2 90)
+			(at 135.89 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14333,7 +14289,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 86.106 194.31 270)
+		(at 91.186 194.31 270)
 		(effects
 			(font
 				(size 1 1)
@@ -14342,55 +14298,11 @@
 		)
 		(uuid "34f815db-3f03-4737-9050-90a1a94fcb02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.106 194.31 90)
+			(at 91.186 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 174.244 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "3710919c-e977-471d-bc70-7e4ac2ecf572")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.244 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 135.89 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "38310c79-8356-4bd8-bb6b-38863bdf7b7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14419,7 +14331,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 49.022 203.2 270)
+		(at 54.102 203.2 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -14428,7 +14340,7 @@
 		)
 		(uuid "39dbebc0-236c-4291-a8e0-32fd0d8fff81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.022 203.2 90)
+			(at 54.102 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14453,28 +14365,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 94.996 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "3da2b91f-016e-4412-9279-fa853e06e3ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.996 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14706,28 +14596,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 256.032 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "4b948699-02d0-4f2d-95b8-d39a14ba39f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.032 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row0"
 		(shape input)
 		(at 36.322 270.51 180)
@@ -14832,7 +14700,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 171.704 203.2 270)
+		(at 176.784 203.2 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -14841,7 +14709,7 @@
 		)
 		(uuid "54d005b3-9c10-4def-bb63-6b5f1d0c930d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.704 203.2 90)
+			(at 176.784 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14886,28 +14754,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 217.678 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "58e3bff3-74c1-49e4-9525-904ad0a981ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.678 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -15057,7 +14903,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 208.788 194.31 270)
+		(at 213.868 194.31 270)
 		(effects
 			(font
 				(size 1 1)
@@ -15066,7 +14912,7 @@
 		)
 		(uuid "6745748e-9a8d-4187-b477-6ada46f53a4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.788 194.31 90)
+			(at 213.868 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,28 +15042,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 176.784 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "708f5476-e8c1-4b75-a24d-e865cddfcc70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.784 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -15577,7 +15401,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 127 194.31 270)
+		(at 132.08 194.31 270)
 		(effects
 			(font
 				(size 1 1)
@@ -15586,33 +15410,11 @@
 		)
 		(uuid "937206a2-c2a9-433b-aa1e-85ae816eae82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 194.31 90)
+			(at 132.08 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 51.562 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "93d6b778-e34d-4b0c-8ac8-898a94fdb570")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.562 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -16031,7 +15833,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 253.492 203.2 270)
+		(at 258.572 203.2 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -16040,33 +15842,11 @@
 		)
 		(uuid "b0a649cc-bde1-4adb-a136-1a7f55756c91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.492 203.2 90)
+			(at 258.572 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 54.102 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "b140c5e7-1a5f-45c9-846a-9d437b12dc81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.102 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -16176,7 +15956,7 @@
 	)
 	(global_label "TOPSWITCHES_vik-5V"
 		(shape input)
-		(at 308.102 185.674 270)
+		(at 308.102 191.262 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -16185,33 +15965,11 @@
 		)
 		(uuid "b9d3a3cc-dc28-4552-9df2-d863b414eede")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.102 185.674 90)
+			(at 308.102 191.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 133.35 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "ba60a070-cbc1-4ec0-9b89-f589f57479a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -16240,7 +15998,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 45.212 194.31 270)
+		(at 50.292 194.31 270)
 		(effects
 			(font
 				(size 1 1)
@@ -16249,7 +16007,7 @@
 		)
 		(uuid "bead4a2e-e83e-44a6-bbcc-125f538c43ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.212 194.31 90)
+			(at 50.292 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16316,6 +16074,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 254.762 167.894 90)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "c2cecd88-5857-48c6-aa31-5e88746aa935")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.762 167.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16404,7 +16182,7 @@
 	)
 	(global_label "TOPSWITCHES_vik-5V"
 		(shape input)
-		(at 303.276 185.674 270)
+		(at 303.276 191.262 270)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -16413,7 +16191,7 @@
 		)
 		(uuid "c63f6643-6a2a-4927-bff5-a441274f5a89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.276 185.674 90)
+			(at 303.276 191.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16589,28 +16367,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 92.456 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "d49bb7b6-f163-4f07-8ec4-ec3bc1346c1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.456 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENCB"
 		(shape input)
 		(at 419.354 264.414 0)
@@ -16779,28 +16535,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 258.572 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "dfbc3089-937f-4e93-8213-eb161f46344a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.572 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row3"
 		(shape input)
 		(at 419.354 251.714 0)
@@ -16813,26 +16547,6 @@
 		(uuid "e287e509-444f-40d9-9bd4-4422cc6a323a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 419.354 251.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 249.682 167.894 90)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "e41cdc83-02cb-4460-bf90-e1f42bfa3520")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.682 167.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17068,7 +16782,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 167.894 194.31 270)
+		(at 172.974 194.31 270)
 		(effects
 			(font
 				(size 1 1)
@@ -17077,7 +16791,7 @@
 		)
 		(uuid "f6474e60-6c4e-44fd-9c14-9da1eab9e9d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.894 194.31 90)
+			(at 172.974 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18767,7 +18481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_687108183722")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
 		(at 148.59 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18777,7 +18491,7 @@
 		(fields_autoplaced yes)
 		(uuid "21d30654-039e-4478-bc3e-26caec8eeef3")
 		(property "Reference" "K3"
-			(at 139.7 187.96 90)
+			(at 142.494 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18785,7 +18499,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 139.7 190.5 90)
+			(at 142.494 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18894,12 +18608,6 @@
 		)
 		(pin "1"
 			(uuid "666f3236-844e-4bd5-a7d5-cf723d64e733")
-		)
-		(pin "8"
-			(uuid "a1f174b1-2183-4c5b-bd70-92f700e634f5")
-		)
-		(pin "7"
-			(uuid "b5ffd1ba-6cd2-48b1-a78e-123624b7e1b7")
 		)
 		(instances
 			(project "chocofi"
@@ -19075,8 +18783,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_687108183722")
-		(at 253.492 181.864 90)
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
+		(at 258.572 181.864 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19085,7 +18793,7 @@
 		(fields_autoplaced yes)
 		(uuid "24f5f2b9-caa0-4bcc-a98b-3b3afe35bb29")
 		(property "Reference" "KK6"
-			(at 262.382 171.45 90)
+			(at 264.668 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19093,7 +18801,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 262.382 173.99 90)
+			(at 264.668 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19101,7 +18809,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible"
-			(at 348.412 162.814 0)
+			(at 353.492 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19111,7 +18819,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 448.412 162.814 0)
+			(at 453.492 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19121,7 +18829,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 253.492 181.864 0)
+			(at 258.572 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19130,7 +18838,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at 648.412 162.814 0)
+			(at 653.492 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19140,7 +18848,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-687108183722"
-			(at 748.412 162.814 0)
+			(at 753.492 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19150,7 +18858,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at 848.412 162.814 0)
+			(at 853.492 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19160,7 +18868,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 948.412 162.814 0)
+			(at 953.492 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19170,7 +18878,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "687108183722"
-			(at 1048.412 162.814 0)
+			(at 1053.492 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19202,12 +18910,6 @@
 		)
 		(pin "1"
 			(uuid "6c78723a-66d2-4e6b-b668-96c4b21d0c7a")
-		)
-		(pin "8"
-			(uuid "105b44cb-f456-40a0-9c5e-63c9c0283bd3")
-		)
-		(pin "7"
-			(uuid "960ebae4-050b-41c9-8573-717230594d54")
 		)
 		(instances
 			(project "chocofi"
@@ -19433,7 +19135,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_687108183722")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
 		(at 230.378 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19443,7 +19145,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b697a9f-d564-447e-8c9e-905c5f95d0ac")
 		(property "Reference" "K5"
-			(at 221.488 187.96 90)
+			(at 224.282 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19451,7 +19153,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 221.488 190.5 90)
+			(at 224.282 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19560,12 +19262,6 @@
 		)
 		(pin "1"
 			(uuid "19d6ffb2-ab15-45c0-a1f7-b241f58331b9")
-		)
-		(pin "8"
-			(uuid "020de48d-5159-4da9-b2a8-757e6fa6bfe5")
-		)
-		(pin "7"
-			(uuid "a9ddff83-9f60-4723-88bf-98e6961439c3")
 		)
 		(instances
 			(project "chocofi"
@@ -21326,7 +21022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_687108183722")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
 		(at 66.802 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21336,7 +21032,7 @@
 		(fields_autoplaced yes)
 		(uuid "51456ae2-07f5-423c-8c24-3bbd742a9864")
 		(property "Reference" "K1"
-			(at 57.912 187.96 90)
+			(at 60.706 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21344,7 +21040,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 57.912 190.5 90)
+			(at 60.706 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21453,12 +21149,6 @@
 		)
 		(pin "1"
 			(uuid "94b9ff83-e30a-4f17-91dc-dd95fc682cd6")
-		)
-		(pin "8"
-			(uuid "d6b728ab-04e7-4dbf-8135-85a43037aa9e")
-		)
-		(pin "7"
-			(uuid "e81fd68d-1253-4f97-b338-3815384338dd")
 		)
 		(instances
 			(project "chocofi"
@@ -22833,7 +22523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_687108183722")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
 		(at 107.696 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22843,7 +22533,7 @@
 		(fields_autoplaced yes)
 		(uuid "75c6d45b-c139-40de-a149-aa97a5cf55bd")
 		(property "Reference" "K2"
-			(at 98.806 187.96 90)
+			(at 101.6 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22851,7 +22541,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 98.806 190.5 90)
+			(at 101.6 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22960,12 +22650,6 @@
 		)
 		(pin "1"
 			(uuid "28b64e7e-453f-413b-acf0-156319fcbc05")
-		)
-		(pin "8"
-			(uuid "b9c9a47c-5749-43df-afe3-a5ae4aaa4aa3")
-		)
-		(pin "7"
-			(uuid "fe0f026e-b072-43fb-a78f-85cb59416477")
 		)
 		(instances
 			(project "chocofi"
@@ -24721,7 +24405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_687108183722")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
 		(at 189.484 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24731,7 +24415,7 @@
 		(fields_autoplaced yes)
 		(uuid "962150d1-eff9-4963-bc8b-ac7da70f9263")
 		(property "Reference" "K4"
-			(at 180.594 187.96 90)
+			(at 183.388 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24739,7 +24423,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 180.594 190.5 90)
+			(at 183.388 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24848,12 +24532,6 @@
 		)
 		(pin "1"
 			(uuid "03f93e23-d0e0-4660-a380-3063fed705f9")
-		)
-		(pin "8"
-			(uuid "a7dfa6d0-e6b8-4379-85dd-2071f4136491")
-		)
-		(pin "7"
-			(uuid "49b54aeb-733c-4857-81f3-ca923c02779f")
 		)
 		(instances
 			(project "chocofi"
@@ -26624,7 +26302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_687108183722")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
 		(at 271.272 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26634,7 +26312,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb44d734-288c-4715-a77f-1e9821aa6490")
 		(property "Reference" "K6"
-			(at 262.382 187.96 90)
+			(at 265.176 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26642,7 +26320,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 262.382 190.5 90)
+			(at 265.176 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26751,12 +26429,6 @@
 		)
 		(pin "1"
 			(uuid "14d38af8-b2be-45c9-ba23-cb6d76374252")
-		)
-		(pin "8"
-			(uuid "3526b49d-7139-4cdf-94b2-7f92a3639fe2")
-		)
-		(pin "7"
-			(uuid "458c0fbb-da6c-4302-9f40-9be9ea3875e9")
 		)
 		(instances
 			(project "chocofi"
