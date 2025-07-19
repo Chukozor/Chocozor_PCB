@@ -1714,11 +1714,271 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "FPC_8pins_SPECIALswitches-IN-687108183722"
+	(symbol "FPC_8pins_SPECIALswitches-IN-HIGH-687108183722"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "KK"
+		(property "Reference" "KHigh"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "FPC_8pins_SPECIALswitches-IN-HIGH-687108183722"
+			(at 0 14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 19.05 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
+			(at 19.05 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
+			(at 19.05 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-687108183722"
+			(at 19.05 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 19.05 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "687108183722"
+			(at 19.05 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "FPC_8pins_SPECIALswitches-IN-HIGH-687108183722_1_1"
+			(rectangle
+				(start -8.636 7.112)
+				(end 8.636 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -10.16 5.08 0)
+				(length 2)
+				(name "MP2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "MP2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -8.89 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -8.89 90)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 -8.89 90)
+				(length 5.08)
+				(name "LED->"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -8.89 90)
+				(length 5.08)
+				(name "LED<-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -8.89 90)
+				(length 5.08)
+				(name "Col2Switch"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -8.89 90)
+				(length 5.08)
+				(name "Diode2Switch"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 5.08 180)
+				(length 2)
+				(name "MP1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "FPC_8pins_SPECIALswitches-IN-LOW-687108183722"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "KLow"
 			(at -0.254 8.89 0)
 			(effects
 				(font
@@ -1727,7 +1987,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "FPC_8pins_SPECIALswitches-IN-687108183722"
+		(property "Value" "FPC_8pins_SPECIALswitches-IN-LOW-687108183722"
 			(at 0 6.858 0)
 			(effects
 				(font
@@ -1816,7 +2076,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "FPC_8pins_SPECIALswitches-IN-687108183722_1_1"
+		(symbol "FPC_8pins_SPECIALswitches-IN-LOW-687108183722_1_1"
 			(rectangle
 				(start 7.366 -14.732)
 				(end -9.906 -3.81)
