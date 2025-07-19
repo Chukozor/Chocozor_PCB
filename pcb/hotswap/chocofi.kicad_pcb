@@ -132877,6 +132877,18 @@
 			)
 		)
 	)
+	(gr_text "TOWARDS-KB"
+		(at 157.77 64.02 0)
+		(layer "F.SilkS")
+		(uuid "0c1d77b5-5617-40ad-a4b7-077384828263")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "Rotary Encoder"
 		(at 118.065111 183.069605 345)
 		(layer "F.SilkS")
@@ -132898,6 +132910,19 @@
 				(thickness 0.3)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "TOWARDS-KB"
+		(at 157.76 64.02 0)
+		(layer "B.SilkS")
+		(uuid "8cbd8c2c-152b-4dcb-926a-00450ea41104")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "TOWARDS-KB"
