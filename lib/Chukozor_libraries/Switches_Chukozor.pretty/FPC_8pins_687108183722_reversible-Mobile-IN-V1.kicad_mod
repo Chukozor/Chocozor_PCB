@@ -6,7 +6,7 @@
 	(descr "687108183722-2")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 -6 0)
+		(at 3.97 -3.81 0)
 		(layer "F.SilkS")
 		(uuid "5e88e38d-d21b-42dc-930a-29ca791bcfe5")
 		(effects
@@ -53,26 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -1.24 1.94)
-		(end 1.75 1.94)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "63fc20b6-1fe0-4c18-bee3-2aebda752924")
-	)
-	(fp_line
-		(start 1.75 1.94)
-		(end 1.75 -1.9)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "18ba8dec-13d0-440f-93ab-8470c5aa3e68")
-	)
 	(fp_line
 		(start -4.85 -1.9)
 		(end -2.5 -1.9)
@@ -579,7 +559,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -6 0)
+		(at 4.35 -3.84 0)
 		(layer "B.SilkS")
 		(uuid "435d6874-467b-4ffd-9936-a4db40a39c13")
 		(effects
