@@ -1,4 +1,4 @@
-(footprint "FPC_8pins_687108183722_reversible"
+(footprint "FPC_8pins_687108183722_reversible-OUT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -8,7 +8,7 @@
 	(property "Reference" "J**"
 		(at 0 -6 0)
 		(layer "F.SilkS")
-		(uuid "d113b2c3-e1bd-4006-8967-a1f5b1efe910")
+		(uuid "c9efe242-9704-4fd5-9da2-5bd2bab94c04")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "FPC_8pins_687108183722_reversible"
+	(property "Value" "FPC_8pins_687108183722_reversible-OUT"
 		(at 0 -0.575 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "561bbcc7-7b7f-4393-bca7-d90dd1ce38c0")
+		(uuid "615d2999-14a0-45ad-a2eb-3bf816fb1624")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c7bb29d9-8bf6-4deb-9aad-65dd89f24114")
+		(uuid "99970513-bfba-4aae-a3aa-aa9ad5aa96a0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "874efabc-cf71-4bb9-b978-09da10d785b1")
+		(uuid "04deecba-a84a-4fff-9ffa-732dd2e5903a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -94,6 +94,36 @@
 		(uuid "c079446a-d5c3-4a2a-b146-5db64cf9f1ca")
 	)
 	(fp_line
+		(start -3.23 2.17)
+		(end -3.23 2.69)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88df14f5-3cbf-4ad7-8184-32e649efccca")
+	)
+	(fp_line
+		(start -3.23 2.69)
+		(end -3.47 2.48)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6d17cda-c397-46d3-957b-f34c1d6a274a")
+	)
+	(fp_line
+		(start -3.23 2.69)
+		(end -2.99 2.48)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c130e7c4-b403-42e9-9749-db15958f41a9")
+	)
+	(fp_line
 		(start -2 -3)
 		(end -2 -3)
 		(stroke
@@ -122,6 +152,36 @@
 		)
 		(layer "F.SilkS")
 		(uuid "8af2b820-a78a-4755-8390-dc45489408d1")
+	)
+	(fp_line
+		(start 2.97 2.27)
+		(end 2.97 2.79)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7abd476c-4e09-467b-a1fd-f0c2a70817e5")
+	)
+	(fp_line
+		(start 2.97 2.79)
+		(end 2.73 2.58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6687bf68-da24-4a2a-8f6c-2138cf7d3995")
+	)
+	(fp_line
+		(start 2.97 2.79)
+		(end 3.21 2.58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a33f97c2-ad0a-4c65-ae32-666b868be351")
 	)
 	(fp_line
 		(start 4.85 -1.9)
@@ -206,6 +266,36 @@
 		(uuid "d3c4adad-2327-4a21-a47c-2e5946b80a6a")
 	)
 	(fp_line
+		(start -3.23 2.17)
+		(end -3.23 2.69)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "57fee8f0-98d9-49bd-80de-999496ba0d76")
+	)
+	(fp_line
+		(start -3.23 2.69)
+		(end -3.47 2.48)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "aa58f9b0-7927-4ac7-9e94-9d17d434505a")
+	)
+	(fp_line
+		(start -3.23 2.69)
+		(end -2.99 2.48)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "2d1255f6-9c79-4a6e-8ad9-9fd5716decba")
+	)
+	(fp_line
 		(start 1.87 -3.01)
 		(end 1.87 -3.01)
 		(stroke
@@ -234,6 +324,36 @@
 		)
 		(layer "B.SilkS")
 		(uuid "4cecd66f-8e47-4517-a19e-a680feace0df")
+	)
+	(fp_line
+		(start 2.97 2.27)
+		(end 2.97 2.79)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "c7052f9a-8286-47cb-a56e-043c836df464")
+	)
+	(fp_line
+		(start 2.97 2.79)
+		(end 2.73 2.58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "d12f36b3-7b54-4f1a-a871-0c32b1a8fc9c")
+	)
+	(fp_line
+		(start 2.97 2.79)
+		(end 3.21 2.58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "8756d41c-4b5b-4001-85f5-2ca81353a5ea")
 	)
 	(fp_line
 		(start 4.85 -1.9)
@@ -276,6 +396,76 @@
 		)
 		(layer "B.SilkS")
 		(uuid "aedf4917-8543-4b82-b985-db1126f87ef1")
+	)
+	(fp_line
+		(start -0.745 4.49)
+		(end 0 5.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a09afbea-a7a9-4422-8a4e-a13e18fe9519")
+	)
+	(fp_line
+		(start -0.34 4.02)
+		(end -0.34 4.49)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "94136a02-1989-499a-91b4-ed551e2e11d7")
+	)
+	(fp_line
+		(start -0.34 4.02)
+		(end 0.34 4.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "db482001-6b11-4d78-ab28-86037f91f334")
+	)
+	(fp_line
+		(start -0.34 4.49)
+		(end -0.745 4.49)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d6a5d559-f5c4-48a7-a0be-f641ffc9f695")
+	)
+	(fp_line
+		(start 0.34 4.02)
+		(end 0.34 4.49)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7022a2ce-b93d-4a34-85cb-86eb7fa8b88f")
+	)
+	(fp_line
+		(start 0.34 4.49)
+		(end 0.745 4.49)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a6a6ade9-844b-4932-ba76-12d0b3519bd4")
+	)
+	(fp_line
+		(start 0.745 4.49)
+		(end 0 5.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "298fcfb7-ec27-43e0-b81d-87bc4e4fef4b")
 	)
 	(fp_line
 		(start -5.85 -4.05)
@@ -357,6 +547,40 @@
 		(layer "F.Fab")
 		(uuid "6c147615-88ce-4ffa-8315-4fae6ed39915")
 	)
+	(fp_text user "OUT"
+		(at -0.01 2.63 0)
+		(layer "F.SilkS")
+		(uuid "656d3e24-75b2-43ad-8655-5daa0375c0c6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -2.64 -2.82 0)
+		(layer "F.SilkS")
+		(uuid "ddc0e6cf-e3ec-4169-8429-6fd6502a034f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "OUT"
+		(at -0.01 2.63 0)
+		(layer "B.SilkS")
+		(uuid "06e658bd-d8a8-497a-b56d-8b4cde50ec85")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -6 0)
 		(layer "B.SilkS")
@@ -368,6 +592,17 @@
 				(bold yes)
 			)
 			(justify mirror)
+		)
+	)
+	(fp_text user "CABLE-FACE-AVANT-ET-ARRIERE"
+		(at -0.03 3.48 0)
+		(layer "Dwgs.User")
+		(uuid "4eecf589-8a5f-4048-990b-99cfb8480c0f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
 		)
 	)
 	(fp_text user "${REFERENCE}"
