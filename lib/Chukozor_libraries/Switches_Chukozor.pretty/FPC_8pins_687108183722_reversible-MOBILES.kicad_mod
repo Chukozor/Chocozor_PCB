@@ -1,4 +1,4 @@
-(footprint "FPC_8pins_687108183722_reversible"
+(footprint "FPC_8pins_687108183722_reversible-MOBILES"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FPC_8pins_687108183722_reversible"
+	(property "Value" "FPC_8pins_687108183722_reversible-MOBILES"
 		(at 0 -0.575 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -391,7 +391,7 @@
 	(pad "1" smd custom
 		(at -1.75 -1.9)
 		(size 0.3 1)
-		(layers "F.Cu")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -412,14 +412,14 @@
 		(uuid "5a4d741b-eac7-440f-afd0-52a78bf90e74")
 	)
 	(pad "1" thru_hole circle
-		(at -1.24 1.94)
+		(at 1.74 -4.07)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
-		(uuid "4b1ce11a-7045-4780-bd92-825c84007e10")
+		(uuid "237b0718-abf3-4fae-8db3-d67f43079266")
 	)
 	(pad "1" smd rect
 		(at 1.75 -1.9)
@@ -431,7 +431,7 @@
 	(pad "1" smd custom
 		(at 1.75 -1.9)
 		(size 0.3 1)
-		(layers "B.Cu")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -439,13 +439,13 @@
 		)
 		(primitives
 			(gr_line
-				(start -0.01 3.84)
+				(start 0 3.84)
 				(end 0 0)
 				(width 0.25)
 			)
 			(gr_line
 				(start -2.99 3.84)
-				(end -0.01 3.84)
+				(end 0 3.84)
 				(width 0.25)
 			)
 		)
@@ -461,7 +461,7 @@
 	(pad "2" smd custom
 		(at -1.25 -1.9)
 		(size 0.3 1)
-		(layers "F.Cu")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -481,15 +481,43 @@
 		)
 		(uuid "bc2a4b06-3733-4ac1-9664-005919f85170")
 	)
+	(pad "2" smd rect
+		(at -0.75 -1.9)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(uuid "c111f428-4ad4-42d5-9a38-37d7a97f57b4")
+	)
+	(pad "2" smd rect
+		(at -0.25 -1.9)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(uuid "790063bf-5e8b-43fd-a5c9-709ef38433a6")
+	)
+	(pad "2" smd rect
+		(at 0.25 -1.9)
+		(size 0.3 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.2)
+		(uuid "b7f6b77f-008a-44e2-953b-a81553648f6a")
+	)
 	(pad "2" thru_hole circle
-		(at -0.42 1.25)
+		(at 0.74 -3.39)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
-		(uuid "aae94667-576b-45d8-9fa8-e497364741d9")
+		(uuid "76457461-5e20-482e-8e80-89befa4f312b")
+	)
+	(pad "2" smd rect
+		(at 0.75 -1.9)
+		(size 0.3 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.2)
+		(uuid "671b1c48-7d38-4844-a589-7562d90a1726")
 	)
 	(pad "2" smd rect
 		(at 1.25 -1.9)
@@ -501,7 +529,7 @@
 	(pad "2" smd custom
 		(at 1.25 -1.9)
 		(size 0.3 1)
-		(layers "B.Cu")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -521,17 +549,10 @@
 		)
 		(uuid "8514162b-0a6c-4fd6-af11-4a0c1a92900d")
 	)
-	(pad "3" smd rect
-		(at -0.75 -1.9)
-		(size 0.3 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(clearance 0.2)
-		(uuid "c111f428-4ad4-42d5-9a38-37d7a97f57b4")
-	)
 	(pad "3" smd custom
 		(at -0.75 -1.9)
 		(size 0.3 1)
-		(layers "F.Cu")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -551,27 +572,34 @@
 		)
 		(uuid "c8fc1ac6-13d4-431f-a5be-cd35d6535298")
 	)
+	(pad "3" smd rect
+		(at -0.25 -1.9)
+		(size 0.3 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.2)
+		(uuid "5096a22e-63ba-47c5-adb5-bea3a998b96f")
+	)
 	(pad "3" thru_hole circle
-		(at 0.41 0.61)
+		(at 0 -0.35)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
-		(uuid "beb0e97b-f32a-4b03-8a10-20b31b5def39")
+		(uuid "1cff25bc-83b1-407b-a505-b58f27da0625")
 	)
 	(pad "3" smd rect
-		(at 0.75 -1.9)
+		(at 0.25 -1.9)
 		(size 0.3 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
-		(uuid "671b1c48-7d38-4844-a589-7562d90a1726")
+		(uuid "4d02d17e-dacb-4a5d-b0bb-74d0ee150960")
 	)
 	(pad "3" smd custom
 		(at 0.75 -1.9)
 		(size 0.3 1)
-		(layers "B.Cu")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -592,16 +620,16 @@
 		(uuid "18a77c98-3da3-4b20-8287-0431a3a837eb")
 	)
 	(pad "4" smd rect
-		(at -0.25 -1.9)
+		(at -0.75 -1.9)
 		(size 0.3 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(clearance 0.2)
-		(uuid "790063bf-5e8b-43fd-a5c9-709ef38433a6")
+		(uuid "78e10120-bd6f-42cb-8509-42c2eb265daf")
 	)
 	(pad "4" smd custom
 		(at -0.25 -1.9)
 		(size 0.3 1)
-		(layers "F.Cu")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -621,27 +649,10 @@
 		)
 		(uuid "828cd119-17cd-47f3-ad81-f67310648e8d")
 	)
-	(pad "4" thru_hole circle
-		(at 0 -0.35)
-		(size 0.6 0.6)
-		(drill 0.3)
-		(property pad_prop_fiducial_loc)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(clearance 0.2)
-		(uuid "1cff25bc-83b1-407b-a505-b58f27da0625")
-	)
-	(pad "4" smd rect
-		(at 0.25 -1.9)
-		(size 0.3 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "b7f6b77f-008a-44e2-953b-a81553648f6a")
-	)
 	(pad "4" smd custom
 		(at 0.25 -1.9)
 		(size 0.3 1)
-		(layers "B.Cu")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -661,6 +672,23 @@
 		)
 		(uuid "3cc54a2c-0dcc-4f7d-ae0c-23e485681a2a")
 	)
+	(pad "4" thru_hole circle
+		(at 0.41 0.61)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_fiducial_loc)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(clearance 0.2)
+		(uuid "beb0e97b-f32a-4b03-8a10-20b31b5def39")
+	)
+	(pad "4" smd rect
+		(at 0.75 -1.9)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(uuid "0ccd9dff-4756-4ef1-9175-9653b129d520")
+	)
 	(pad "5" smd rect
 		(at -1.25 -1.9)
 		(size 0.3 1)
@@ -671,7 +699,7 @@
 	(pad "5" smd custom
 		(at -1.25 -1.9)
 		(size 0.3 1)
-		(layers "B.Cu")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -711,31 +739,20 @@
 		)
 		(uuid "9ea1d569-bc41-45ad-9a9c-a003b478de69")
 	)
-	(pad "5" smd rect
-		(at -0.75 -1.9)
-		(size 0.3 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+	(pad "5" thru_hole circle
+		(at -0.42 1.25)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_fiducial_loc)
+		(layers "*.Cu")
+		(remove_unused_layers no)
 		(clearance 0.2)
-		(uuid "78e10120-bd6f-42cb-8509-42c2eb265daf")
-	)
-	(pad "5" smd rect
-		(at -0.25 -1.9)
-		(size 0.3 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(clearance 0.2)
-		(uuid "5096a22e-63ba-47c5-adb5-bea3a998b96f")
-	)
-	(pad "5" smd rect
-		(at 0.25 -1.9)
-		(size 0.3 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(clearance 0.2)
-		(uuid "4d02d17e-dacb-4a5d-b0bb-74d0ee150960")
+		(uuid "aae94667-576b-45d8-9fa8-e497364741d9")
 	)
 	(pad "5" smd custom
 		(at 0.25 -1.9)
 		(size 0.3 1)
-		(layers "F.Cu")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -765,23 +782,6 @@
 		)
 		(uuid "7547600f-18ab-407a-a23a-0747d3aac407")
 	)
-	(pad "5" thru_hole circle
-		(at 0.74 -3.39)
-		(size 0.6 0.6)
-		(drill 0.3)
-		(property pad_prop_fiducial_loc)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(clearance 0.2)
-		(uuid "76457461-5e20-482e-8e80-89befa4f312b")
-	)
-	(pad "5" smd rect
-		(at 0.75 -1.9)
-		(size 0.3 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(clearance 0.2)
-		(uuid "0ccd9dff-4756-4ef1-9175-9653b129d520")
-	)
 	(pad "5" smd rect
 		(at 1.25 -1.9)
 		(size 0.3 1)
@@ -799,7 +799,7 @@
 	(pad "6" smd custom
 		(at -1.75 -1.9)
 		(size 0.3 1)
-		(layers "B.Cu")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -820,14 +820,14 @@
 		(uuid "8cc416a8-2a74-4b42-9ada-51038beae434")
 	)
 	(pad "6" thru_hole circle
-		(at 1.74 -4.07)
+		(at -1.24 1.94)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
-		(uuid "237b0718-abf3-4fae-8db3-d67f43079266")
+		(uuid "4b1ce11a-7045-4780-bd92-825c84007e10")
 	)
 	(pad "6" smd rect
 		(at 1.75 -1.9)
@@ -839,7 +839,7 @@
 	(pad "6" smd custom
 		(at 1.75 -1.9)
 		(size 0.3 1)
-		(layers "F.Cu")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
