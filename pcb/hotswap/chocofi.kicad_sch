@@ -1405,26 +1405,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722"
+		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-687108183722"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 19.05 7.62 0)
+			(property "Reference" "KK"
+				(at -0.254 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify top)
 				)
 			)
-			(property "Value" "FPC_8pins_SPECIAL-SWITCH-687108183722"
-				(at 19.05 5.08 0)
+			(property "Value" "FPC_8pins_SPECIALswitches-IN-687108183722"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify top)
 				)
 			)
 			(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
@@ -1448,7 +1448,268 @@
 				)
 			)
 			(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-				(at 0 0 0)
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.3"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-687108183722"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "687108183722"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FPC_8pins_SPECIALswitches-IN-687108183722_1_1"
+				(rectangle
+					(start 7.366 -14.732)
+					(end -9.906 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 -12.7 0)
+					(length 2)
+					(name "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 270)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 270)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 1.27 270)
+					(length 5.08)
+					(name "LED<-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 1.27 270)
+					(length 5.08)
+					(name "LED->"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 1.27 270)
+					(length 5.08)
+					(name "Col2Switch"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 270)
+					(length 5.08)
+					(name "Diode2Switch"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -12.7 180)
+					(length 2)
+					(name "MP2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "FPC_8pins_SPECIALswitches-OUT-687108183722"
+				(at 0 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
+				(at 0 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1506,10 +1767,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "FPC_8pins_SPECIAL-SWITCH-687108183722_1_1"
+			(symbol "FPC_8pins_SPECIALswitches-OUT-687108183722_1_1"
 				(rectangle
-					(start 12.7 2.54)
-					(end 17.78 -14.732)
+					(start -8.636 7.112)
+					(end 8.636 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1519,25 +1780,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 3.81 270)
-					(length 2)
-					(name "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -16.51 90)
+					(at -10.16 5.08 0)
 					(length 2)
 					(name "MP2"
 						(effects
@@ -1555,16 +1798,16 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 0 180)
+					(at -6.35 -8.89 90)
 					(length 5.08)
-					(name "1"
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1573,66 +1816,12 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -2.54 180)
+					(at -3.81 -8.89 90)
 					(length 5.08)
-					(name "2"
+					(name "VBUS"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -10.16 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
@@ -1645,19 +1834,91 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -12.7 180)
+					(at -1.27 -8.89 90)
 					(length 5.08)
-					(name "6"
+					(name "LED<-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 5.08)
+					(name "LED->"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 5.08)
+					(name "Col2Switch"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -8.89 90)
+					(length 5.08)
+					(name "Diode2Switch"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2)
+					(name "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -7988,7 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.556 154.94) (xy 263.652 154.94)
+			(xy 259.588 123.19) (xy 265.684 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8008,7 +8269,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.494 151.892) (xy 269.494 154.94)
+			(xy 271.526 120.142) (xy 271.526 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8108,7 +8369,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.112 159.004) (xy 261.112 155.702)
+			(xy 263.144 127.254) (xy 263.144 123.952)
 		)
 		(stroke
 			(width 0)
@@ -8358,7 +8619,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.192 154.94) (xy 266.192 159.004)
+			(xy 268.224 123.19) (xy 268.224 127.254)
 		)
 		(stroke
 			(width 0)
@@ -8388,7 +8649,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.556 146.812) (xy 257.556 154.94)
+			(xy 259.588 115.062) (xy 259.588 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8698,7 +8959,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.732 146.812) (xy 268.732 144.526)
+			(xy 270.764 115.062) (xy 270.764 112.776)
 		)
 		(stroke
 			(width 0)
@@ -8788,7 +9049,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.572 159.004) (xy 258.572 156.464)
+			(xy 260.604 127.254) (xy 260.604 124.714)
 		)
 		(stroke
 			(width 0)
@@ -9008,7 +9269,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.032 151.892) (xy 256.032 155.702)
+			(xy 258.064 120.142) (xy 258.064 123.952)
 		)
 		(stroke
 			(width 0)
@@ -9448,7 +9709,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.732 151.892) (xy 269.494 151.892)
+			(xy 270.764 120.142) (xy 271.526 120.142)
 		)
 		(stroke
 			(width 0)
@@ -9508,7 +9769,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.494 154.94) (xy 266.192 154.94)
+			(xy 271.526 123.19) (xy 268.224 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9828,7 +10089,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.732 159.004) (xy 268.732 155.702)
+			(xy 270.764 127.254) (xy 270.764 123.952)
 		)
 		(stroke
 			(width 0)
@@ -9898,7 +10159,7 @@
 	)
 	(wire
 		(pts
-			(xy 253.492 144.526) (xy 253.492 156.464)
+			(xy 255.524 112.776) (xy 255.524 124.714)
 		)
 		(stroke
 			(width 0)
@@ -10058,7 +10319,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.572 156.464) (xy 253.492 156.464)
+			(xy 260.604 124.714) (xy 255.524 124.714)
 		)
 		(stroke
 			(width 0)
@@ -10178,7 +10439,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.732 144.526) (xy 253.492 144.526)
+			(xy 270.764 112.776) (xy 255.524 112.776)
 		)
 		(stroke
 			(width 0)
@@ -10218,7 +10479,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.032 151.892) (xy 258.572 151.892)
+			(xy 258.064 120.142) (xy 260.604 120.142)
 		)
 		(stroke
 			(width 0)
@@ -10488,7 +10749,7 @@
 	)
 	(wire
 		(pts
-			(xy 263.652 154.94) (xy 263.652 159.004)
+			(xy 265.684 123.19) (xy 265.684 127.254)
 		)
 		(stroke
 			(width 0)
@@ -10668,7 +10929,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.032 133.604) (xy 256.032 143.002)
+			(xy 258.064 101.854) (xy 258.064 111.252)
 		)
 		(stroke
 			(width 0)
@@ -10678,7 +10939,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.732 155.702) (xy 272.796 155.702)
+			(xy 270.764 123.952) (xy 274.828 123.952)
 		)
 		(stroke
 			(width 0)
@@ -10868,7 +11129,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.112 155.702) (xy 256.032 155.702)
+			(xy 263.144 123.952) (xy 258.064 123.952)
 		)
 		(stroke
 			(width 0)
@@ -10898,7 +11159,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.796 133.604) (xy 256.032 133.604)
+			(xy 274.828 101.854) (xy 258.064 101.854)
 		)
 		(stroke
 			(width 0)
@@ -11158,7 +11419,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.272 143.002) (xy 271.272 159.004)
+			(xy 273.304 111.252) (xy 273.304 127.254)
 		)
 		(stroke
 			(width 0)
@@ -11448,7 +11709,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.796 155.702) (xy 272.796 133.604)
+			(xy 274.828 123.952) (xy 274.828 101.854)
 		)
 		(stroke
 			(width 0)
@@ -11588,7 +11849,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.572 146.812) (xy 257.556 146.812)
+			(xy 260.604 115.062) (xy 259.588 115.062)
 		)
 		(stroke
 			(width 0)
@@ -13906,7 +14167,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 70.612 194.31 270)
+		(at 70.612 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -13915,7 +14176,7 @@
 		)
 		(uuid "11d8ccff-cfba-4797-af48-f64d091b6edc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.612 194.31 90)
+			(at 70.612 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13970,7 +14231,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 254.762 194.31 270)
+		(at 254.762 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -13979,7 +14240,7 @@
 		)
 		(uuid "1480560d-2d98-4de2-bd23-d84ffd69bd76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.762 194.31 90)
+			(at 254.762 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14343,7 +14604,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 91.186 194.31 270)
+		(at 91.186 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -14352,7 +14613,7 @@
 		)
 		(uuid "34f815db-3f03-4737-9050-90a1a94fcb02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.186 194.31 90)
+			(at 91.186 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14957,7 +15218,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 213.868 194.31 270)
+		(at 213.868 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -14966,7 +15227,7 @@
 		)
 		(uuid "6745748e-9a8d-4187-b477-6ada46f53a4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.868 194.31 90)
+			(at 213.868 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15329,7 +15590,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 111.506 194.31 270)
+		(at 111.506 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -15338,7 +15599,7 @@
 		)
 		(uuid "80378db1-1b6f-4de3-a028-8bbda9f67e02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.506 194.31 90)
+			(at 111.506 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,7 +15716,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 132.08 194.31 270)
+		(at 132.08 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -15464,7 +15725,7 @@
 		)
 		(uuid "937206a2-c2a9-433b-aa1e-85ae816eae82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 194.31 90)
+			(at 132.08 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15845,7 +16106,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 234.188 194.31 270)
+		(at 234.188 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -15854,7 +16115,7 @@
 		)
 		(uuid "ace4b7d1-ef4b-498d-9404-412f491df440")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.188 194.31 90)
+			(at 234.188 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15929,7 +16190,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 275.082 167.894 90)
+		(at 277.114 141.224 90)
 		(effects
 			(font
 				(size 1 1)
@@ -15938,7 +16199,7 @@
 		)
 		(uuid "b48a216c-4a4d-4611-b817-020ecf6a72bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.082 167.894 90)
+			(at 277.114 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16052,7 +16313,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 50.292 194.31 270)
+		(at 50.292 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -16061,7 +16322,7 @@
 		)
 		(uuid "bead4a2e-e83e-44a6-bbcc-125f538c43ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.292 194.31 90)
+			(at 50.292 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16134,7 +16395,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 254.762 167.894 90)
+		(at 256.794 141.224 90)
 		(effects
 			(font
 				(size 1 1)
@@ -16143,7 +16404,7 @@
 		)
 		(uuid "c2cecd88-5857-48c6-aa31-5e88746aa935")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.762 167.894 90)
+			(at 256.794 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16278,7 +16539,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 152.4 194.31 270)
+		(at 152.4 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -16287,7 +16548,7 @@
 		)
 		(uuid "cc42bdd2-8713-489d-a4db-e5665a6ecb1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 194.31 90)
+			(at 152.4 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16836,7 +17097,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 172.974 194.31 270)
+		(at 172.974 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -16845,7 +17106,7 @@
 		)
 		(uuid "f6474e60-6c4e-44fd-9c14-9da1eab9e9d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.974 194.31 90)
+			(at 172.974 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +17179,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 193.294 194.31 270)
+		(at 193.294 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -16927,7 +17188,7 @@
 		)
 		(uuid "f8e6497b-f06c-4843-890d-a49057d0152e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.294 194.31 90)
+			(at 193.294 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17023,7 +17284,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 275.082 194.31 270)
+		(at 275.082 189.23 270)
 		(effects
 			(font
 				(size 1 1)
@@ -17032,7 +17293,7 @@
 		)
 		(uuid "ff7d6836-d7aa-4679-8fd5-2548b0f99d59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.082 194.31 90)
+			(at 275.082 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18535,8 +18796,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
-		(at 148.59 180.34 270)
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
+		(at 142.24 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18545,7 +18806,7 @@
 		(fields_autoplaced yes)
 		(uuid "21d30654-039e-4478-bc3e-26caec8eeef3")
 		(property "Reference" "K3"
-			(at 142.494 187.96 90)
+			(at 142.24 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18553,15 +18814,15 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 142.494 190.5 90)
+			(at 142.24 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
-			(at 53.67 199.39 0)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 161.29 289.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18571,7 +18832,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at -46.33 199.39 0)
+			(at 161.29 389.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18581,7 +18842,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 148.59 180.34 0)
+			(at 142.24 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18590,7 +18851,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at -246.33 199.39 0)
+			(at 161.29 589.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18600,7 +18861,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-687108183722"
-			(at -346.33 199.39 0)
+			(at 161.29 689.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18610,7 +18871,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at -446.33 199.39 0)
+			(at 161.29 789.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18620,7 +18881,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -546.33 199.39 0)
+			(at 161.29 889.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18630,7 +18891,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "687108183722"
-			(at -646.33 199.39 0)
+			(at 161.29 989.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18837,8 +19098,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
-		(at 258.572 181.864 90)
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-687108183722")
+		(at 268.224 128.524 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18847,7 +19108,7 @@
 		(fields_autoplaced yes)
 		(uuid "24f5f2b9-caa0-4bcc-a98b-3b3afe35bb29")
 		(property "Reference" "KK6"
-			(at 264.668 171.45 90)
+			(at 266.954 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,15 +19116,15 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 264.668 173.99 90)
+			(at 266.954 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-V1"
-			(at 353.492 162.814 0)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 287.274 223.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18873,7 +19134,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 453.492 162.814 0)
+			(at 287.274 323.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18883,16 +19144,17 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 258.572 181.864 0)
+			(at 268.224 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)
 		(property "Height" "1.3"
-			(at 653.492 162.814 0)
+			(at 287.274 523.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18902,7 +19164,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-687108183722"
-			(at 753.492 162.814 0)
+			(at 287.274 623.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18912,7 +19174,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at 853.492 162.814 0)
+			(at 287.274 723.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18922,7 +19184,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 953.492 162.814 0)
+			(at 287.274 823.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18932,7 +19194,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "687108183722"
-			(at 1053.492 162.814 0)
+			(at 287.274 923.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19189,8 +19451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
-		(at 230.378 180.34 270)
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
+		(at 224.028 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19199,7 +19461,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b697a9f-d564-447e-8c9e-905c5f95d0ac")
 		(property "Reference" "K5"
-			(at 224.282 187.96 90)
+			(at 224.028 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19207,15 +19469,15 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 224.282 190.5 90)
+			(at 224.028 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
-			(at 135.458 199.39 0)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 243.078 289.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19225,7 +19487,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 35.458 199.39 0)
+			(at 243.078 389.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19235,7 +19497,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 230.378 180.34 0)
+			(at 224.028 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19244,7 +19506,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at -164.542 199.39 0)
+			(at 243.078 589.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,7 +19516,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-687108183722"
-			(at -264.542 199.39 0)
+			(at 243.078 689.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19264,7 +19526,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at -364.542 199.39 0)
+			(at 243.078 789.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19274,7 +19536,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -464.542 199.39 0)
+			(at 243.078 889.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19284,7 +19546,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "687108183722"
-			(at -564.542 199.39 0)
+			(at 243.078 989.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21076,8 +21338,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
-		(at 66.802 180.34 270)
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
+		(at 60.452 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21086,7 +21348,7 @@
 		(fields_autoplaced yes)
 		(uuid "51456ae2-07f5-423c-8c24-3bbd742a9864")
 		(property "Reference" "K1"
-			(at 60.706 187.96 90)
+			(at 60.452 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21094,15 +21356,15 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 60.706 190.5 90)
+			(at 60.452 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
-			(at -28.118 199.39 0)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 79.502 289.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21112,7 +21374,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at -128.118 199.39 0)
+			(at 79.502 389.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21122,7 +21384,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 66.802 180.34 0)
+			(at 60.452 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21131,7 +21393,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at -328.118 199.39 0)
+			(at 79.502 589.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21141,7 +21403,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-687108183722"
-			(at -428.118 199.39 0)
+			(at 79.502 689.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21151,7 +21413,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at -528.118 199.39 0)
+			(at 79.502 789.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21161,7 +21423,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -628.118 199.39 0)
+			(at 79.502 889.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21171,7 +21433,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "687108183722"
-			(at -728.118 199.39 0)
+			(at 79.502 989.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22577,8 +22839,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
-		(at 107.696 180.34 270)
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
+		(at 101.346 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22587,7 +22849,7 @@
 		(fields_autoplaced yes)
 		(uuid "75c6d45b-c139-40de-a149-aa97a5cf55bd")
 		(property "Reference" "K2"
-			(at 101.6 187.96 90)
+			(at 101.346 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22595,15 +22857,15 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 101.6 190.5 90)
+			(at 101.346 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
-			(at 12.776 199.39 0)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 120.396 289.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22613,7 +22875,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at -87.224 199.39 0)
+			(at 120.396 389.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22623,7 +22885,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 107.696 180.34 0)
+			(at 101.346 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22632,7 +22894,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at -287.224 199.39 0)
+			(at 120.396 589.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22642,7 +22904,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-687108183722"
-			(at -387.224 199.39 0)
+			(at 120.396 689.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22652,7 +22914,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at -487.224 199.39 0)
+			(at 120.396 789.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22662,7 +22924,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -587.224 199.39 0)
+			(at 120.396 889.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22672,7 +22934,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "687108183722"
-			(at -687.224 199.39 0)
+			(at 120.396 989.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22885,7 +23147,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:SW_Chuk_LED-Topswitches_vik")
-		(at 263.652 143.002 0)
+		(at 265.684 111.252 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22894,7 +23156,7 @@
 		(fields_autoplaced yes)
 		(uuid "79e4cca5-b75e-425f-b60d-9da80a8df8e3")
 		(property "Reference" "SW30"
-			(at 263.652 136.398 0)
+			(at 265.684 104.648 0)
 			(effects
 				(font
 					(size 3.302 3.302)
@@ -22902,7 +23164,7 @@
 			)
 		)
 		(property "Value" "SW_Chuk"
-			(at 263.652 145.034 0)
+			(at 265.684 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22911,7 +23173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 263.652 143.002 0)
+			(at 265.684 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22920,7 +23182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 263.652 143.002 0)
+			(at 265.684 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22929,7 +23191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 263.652 143.002 0)
+			(at 265.684 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24459,8 +24721,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
-		(at 189.484 180.34 270)
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
+		(at 183.134 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24469,7 +24731,7 @@
 		(fields_autoplaced yes)
 		(uuid "962150d1-eff9-4963-bc8b-ac7da70f9263")
 		(property "Reference" "K4"
-			(at 183.388 187.96 90)
+			(at 183.134 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24477,15 +24739,15 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 183.388 190.5 90)
+			(at 183.134 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
-			(at 94.564 199.39 0)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 202.184 289.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24495,7 +24757,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at -5.436 199.39 0)
+			(at 202.184 389.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24505,7 +24767,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 189.484 180.34 0)
+			(at 183.134 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24514,7 +24776,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at -205.436 199.39 0)
+			(at 202.184 589.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24524,7 +24786,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-687108183722"
-			(at -305.436 199.39 0)
+			(at 202.184 689.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24534,7 +24796,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at -405.436 199.39 0)
+			(at 202.184 789.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24544,7 +24806,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -505.436 199.39 0)
+			(at 202.184 889.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24554,7 +24816,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "687108183722"
-			(at -605.436 199.39 0)
+			(at 202.184 989.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26356,8 +26618,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-SWITCH-687108183722")
-		(at 271.272 180.34 270)
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
+		(at 264.922 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26366,7 +26628,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb44d734-288c-4715-a77f-1e9821aa6490")
 		(property "Reference" "K6"
-			(at 265.176 187.96 90)
+			(at 264.922 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26374,15 +26636,15 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 265.176 190.5 90)
+			(at 264.922 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
-			(at 176.352 199.39 0)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 283.972 289.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26392,7 +26654,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 76.352 199.39 0)
+			(at 283.972 389.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26402,7 +26664,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 271.272 180.34 0)
+			(at 264.922 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26411,7 +26673,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at -123.648 199.39 0)
+			(at 283.972 589.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26421,7 +26683,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-687108183722"
-			(at -223.648 199.39 0)
+			(at 283.972 689.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26431,7 +26693,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at -323.648 199.39 0)
+			(at 283.972 789.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26441,7 +26703,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at -423.648 199.39 0)
+			(at 283.972 889.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26451,7 +26713,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "687108183722"
-			(at -523.648 199.39 0)
+			(at 283.972 989.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
