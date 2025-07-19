@@ -690,12 +690,12 @@
 			)
 			(gr_line
 				(start 0.5 -1.49)
-				(end 1 -1.49)
+				(end 0.5 0)
 				(width 0.25)
 			)
 			(gr_line
-				(start 1.5 -1.49)
-				(end 1.01 -1.49)
+				(start 0.5 -1.49)
+				(end 1 -1.49)
 				(width 0.25)
 			)
 			(gr_line
@@ -704,8 +704,8 @@
 				(width 0.25)
 			)
 			(gr_line
-				(start 0.5 -1.49)
-				(end 0.5 0)
+				(start 2 -1.49)
+				(end 1.01 -1.49)
 				(width 0.25)
 			)
 		)
@@ -724,16 +724,6 @@
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(clearance 0.2)
 		(uuid "5096a22e-63ba-47c5-adb5-bea3a998b96f")
-	)
-	(pad "5" thru_hole circle
-		(at 0.25 -3.39)
-		(size 0.6 0.6)
-		(drill 0.3)
-		(property pad_prop_fiducial_loc)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(clearance 0.2)
-		(uuid "76457461-5e20-482e-8e80-89befa4f312b")
 	)
 	(pad "5" smd rect
 		(at 0.25 -1.9)
@@ -774,6 +764,16 @@
 			)
 		)
 		(uuid "7547600f-18ab-407a-a23a-0747d3aac407")
+	)
+	(pad "5" thru_hole circle
+		(at 0.74 -3.39)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_fiducial_loc)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(clearance 0.2)
+		(uuid "76457461-5e20-482e-8e80-89befa4f312b")
 	)
 	(pad "5" smd rect
 		(at 0.75 -1.9)
