@@ -59,7 +59,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|179289384|110468058|9a2221b5-06cb-4ca5-9642-ddc8c710279f|1c66d1c4-aeab-4188-9201-b7760ee98c01",
+          ""
+        ],
+        [
+          "clearance|179293028|110453805|14a95a95-3aa3-419a-ad28-bbd668b8a67a|1c66d1c4-aeab-4188-9201-b7760ee98c01",
+          ""
+        ],
+        [
+          "clearance|179340000|110270000|9a2221b5-06cb-4ca5-9642-ddc8c710279f|ac323bb5-30b0-4125-b572-fcfa4ca000f5",
+          ""
+        ],
+        [
+          "clearance|179485507|110172775|14a95a95-3aa3-419a-ad28-bbd668b8a67a|ac323bb5-30b0-4125-b572-fcfa4ca000f5",
+          ""
+        ],
+        [
+          "shorting_items|175869999|134614605|2243d3e9-4734-4665-8d29-7267272de128|71f607f9-25a7-453c-96d4-94d00089a217",
+          ""
+        ],
+        [
+          "shorting_items|175869999|134789605|2243d3e9-4734-4665-8d29-7267272de128|5b5323f3-4a6a-44d6-aef6-e8a637feb9e7",
+          ""
+        ],
+        [
+          "shorting_items|177940847|138836028|9d7a21ef-fd1a-4e52-955d-dccf0674830f|b36a345b-4666-4062-ab47-d0839373ec0b",
+          ""
+        ],
+        [
+          "shorting_items|177940847|138836028|b36a345b-4666-4062-ab47-d0839373ec0b|8ba646bb-bccc-4c0a-a702-6042cdd6d314",
+          ""
+        ],
+        [
+          "shorting_items|179165000|110270000|9a2221b5-06cb-4ca5-9642-ddc8c710279f|14a95a95-3aa3-419a-ad28-bbd668b8a67a",
+          ""
+        ],
+        [
+          "shorting_items|179340000|110270000|9a2221b5-06cb-4ca5-9642-ddc8c710279f|9bf9d51d-5fa7-4bbe-9572-a07d510537d5",
+          ""
+        ],
+        [
+          "shorting_items|179634333|110670025|1c66d1c4-aeab-4188-9201-b7760ee98c01|9bf9d51d-5fa7-4bbe-9572-a07d510537d5",
+          ""
+        ],
+        [
+          "shorting_items|179817381|110770639|9bf9d51d-5fa7-4bbe-9572-a07d510537d5|ac323bb5-30b0-4125-b572-fcfa4ca000f5",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
