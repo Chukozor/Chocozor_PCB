@@ -530,14 +530,14 @@
 		(uuid "39b23e93-93f0-497c-bde1-5f3f4e3318a7")
 	)
 	(pad "3" thru_hole circle
-		(at -0.75 0)
+		(at -3.37 -2.02)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
-		(uuid "b4cf52ce-a123-40e1-af2b-79728088dad0")
+		(uuid "89288cd5-c605-487a-a227-0bfe903e9852")
 	)
 	(pad "3" smd rect
 		(at -0.75 1.175)
@@ -558,7 +558,34 @@
 		(primitives
 			(gr_line
 				(start 0 0)
-				(end 0 -1.175)
+				(end -0.002132 -0.872868)
+				(width 0.25)
+			)
+			(gr_arc
+				(start -0.302132 -1.172868)
+				(mid -0.09 -1.085)
+				(end -0.002132 -0.872868)
+				(width 0.25)
+			)
+			(gr_line
+				(start -0.89 -1.175)
+				(end -0.302132 -1.175)
+				(width 0.2)
+			)
+			(gr_arc
+				(start -0.89 -1.175)
+				(mid -1.137487 -1.277513)
+				(end -1.24 -1.525)
+				(width 0.2)
+			)
+			(gr_line
+				(start -1.24 -1.525)
+				(end -1.24 -3.195)
+				(width 0.2)
+			)
+			(gr_line
+				(start -2.62 -3.195)
+				(end -1.24 -3.195)
 				(width 0.25)
 			)
 		)
@@ -593,8 +620,28 @@
 				(width 0.25)
 			)
 			(gr_line
-				(start -1.5 -1.175)
+				(start -2.65 -1.175)
 				(end -0.3 -1.175)
+				(width 0.25)
+			)
+			(gr_line
+				(start -2.65 -1.175)
+				(end -2.65 0.375)
+				(width 0.25)
+			)
+			(gr_line
+				(start -2.65 0.375)
+				(end -5.72 0.375)
+				(width 0.25)
+			)
+			(gr_line
+				(start -5.72 0.375)
+				(end -5.72 -3.215)
+				(width 0.25)
+			)
+			(gr_line
+				(start -5.72 -3.215)
+				(end -4.14 -3.215)
 				(width 0.25)
 			)
 		)
