@@ -54,48 +54,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.26 2.3)
-		(end -1.26 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "B.Cu")
-		(uuid "8358d7df-f9c5-45ba-9ad7-138a4fb207c0")
-	)
-	(fp_line
-		(start -1.26 2.4)
-		(end -1.26 2.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "B.Cu")
-		(uuid "3157b8c2-0618-4ad7-b45f-c5d52f69edf8")
-	)
-	(fp_arc
-		(start -1.26 2.3)
-		(mid -1.21 2.35)
-		(end -1.26 2.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "B.Cu")
-		(uuid "732cfbb4-c51c-4adc-9734-1c7652c2a893")
-	)
-	(fp_arc
-		(start -1.26 2.4)
-		(mid -1.31 2.35)
-		(end -1.26 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "B.Cu")
-		(uuid "c0aa9f1e-fe7f-4cec-8007-1d7cf4b050d5")
-	)
-	(fp_line
 		(start -3.13 -2.24)
 		(end -3.37 -2.03)
 		(stroke
@@ -228,6 +186,26 @@
 		(uuid "2f933dca-064d-4418-a1a3-9990de5ca0ce")
 	)
 	(fp_line
+		(start -1.26 2.3)
+		(end -1.26 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "8358d7df-f9c5-45ba-9ad7-138a4fb207c0")
+	)
+	(fp_line
+		(start -1.26 2.4)
+		(end -1.26 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "3157b8c2-0618-4ad7-b45f-c5d52f69edf8")
+	)
+	(fp_line
 		(start 2.83 -2.24)
 		(end 2.59 -2.03)
 		(stroke
@@ -256,6 +234,28 @@
 		)
 		(layer "B.SilkS")
 		(uuid "a1e928b2-9e7d-4137-ba07-2f2355a77283")
+	)
+	(fp_arc
+		(start -1.26 2.3)
+		(mid -1.21 2.35)
+		(end -1.26 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "732cfbb4-c51c-4adc-9734-1c7652c2a893")
+	)
+	(fp_arc
+		(start -1.26 2.4)
+		(mid -1.31 2.35)
+		(end -1.26 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "c0aa9f1e-fe7f-4cec-8007-1d7cf4b050d5")
 	)
 	(fp_line
 		(start -5.85 -2.85)
@@ -499,12 +499,26 @@
 		(at -3.4 0 90)
 		(size 2 2.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
 		(uuid "0290459e-e960-4d8b-9984-7bf37e0134ea")
+	)
+	(pad "MP1" smd rect
+		(at 3.4 0 90)
+		(size 2 2.1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "43e47f0a-32ef-4e55-b346-11f4f439e3ce")
+	)
+	(pad "MP2" smd rect
+		(at -3.4 0 90)
+		(size 2 2.1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "6d646772-79bc-4fab-b757-694352a17380")
 	)
 	(pad "MP2" smd rect
 		(at 3.4 0 90)
 		(size 2 2.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
 		(uuid "6145711f-6959-4c8f-b179-5bac41f80dc5")
 	)
 	(embedded_fonts no)
