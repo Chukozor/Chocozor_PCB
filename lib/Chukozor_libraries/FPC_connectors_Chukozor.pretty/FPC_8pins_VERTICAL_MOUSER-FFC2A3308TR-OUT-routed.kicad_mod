@@ -8,7 +8,7 @@
 	(property "Reference" "J**"
 		(at 0 -3.71 0)
 		(layer "F.SilkS")
-		(uuid "a73dcc4a-1b98-44af-9e71-4d46f1ea820c")
+		(uuid "78b41894-0cbf-4be7-ba4e-3e2d0daa19ce")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5614f28e-aa80-464c-a2a7-886c70d123dc")
+		(uuid "32ffc945-8347-47af-b7f1-22af9cb02dec")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "27615f78-b87a-4812-991f-4ba2beca4640")
+		(uuid "60189767-37c7-4a5b-bcde-d9ee1125f4e6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8185dafe-f476-4041-91e5-34b1e433c6c5")
+		(uuid "a6402367-99b4-4a53-9cd1-e208fef410e4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,46 +64,6 @@
 		(uuid "a4eb3062-a249-45bd-b04a-c4361b9ecced")
 	)
 	(fp_line
-		(start 0 2.57)
-		(end 0.25 1.85)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "ea1128b5-77db-4a52-90c2-91615a6c0ba2")
-	)
-	(fp_line
-		(start 0.25 1.85)
-		(end 0.25 1.175)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "cd3987c1-5e54-465f-b552-fbe12b8be0ad")
-	)
-	(fp_line
-		(start 0.74 3.25)
-		(end 1.25 3.25)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "06d9aae2-4989-4152-ac3c-656ee74d440e")
-	)
-	(fp_line
-		(start 1.25 3.25)
-		(end 1.25 1.175)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "5ff731d8-c91f-4e70-ae40-3f3a2883a473")
-	)
-	(fp_line
 		(start -0.75 0)
 		(end 0.75 0)
 		(stroke
@@ -112,26 +72,6 @@
 		)
 		(layer "B.Cu")
 		(uuid "c3cb457d-b320-4258-ac3f-7b787ce6cbde")
-	)
-	(fp_line
-		(start -0.25 1.175)
-		(end -0.25 1.85)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "8ba10c3e-8123-4bb1-a2c5-a19dbe86199c")
-	)
-	(fp_line
-		(start -0.25 1.85)
-		(end 0 2.57)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "0f23a7e2-9c76-4f98-82c1-72a724932783")
 	)
 	(fp_line
 		(start 0.75 0)
@@ -524,6 +464,29 @@
 		(size 0.4 1.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
+		(uuid "bd3c256c-fd4a-4705-97cd-80fcd6482bf2")
+	)
+	(pad "1" smd custom
+		(at 1.25 1.175)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 1.275)
+				(end 0 0)
+				(width 0.25)
+			)
+			(gr_line
+				(start -0.51 2.075)
+				(end 0 1.275)
+				(width 0.25)
+			)
+		)
 		(uuid "f3d7e453-4c0a-4830-a60d-ecc8310775f3")
 	)
 	(pad "2" smd rect
@@ -532,6 +495,29 @@
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(clearance 0.2)
 		(uuid "1fb41858-ffff-4f2a-9227-692c3d18b97e")
+	)
+	(pad "2" smd custom
+		(at -0.25 1.175)
+		(size 0.4 1.35)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 0.675)
+				(end 0.25 1.395)
+				(width 0.25)
+			)
+			(gr_line
+				(start 0 0)
+				(end 0 0.675)
+				(width 0.25)
+			)
+		)
+		(uuid "6d56bab0-6b53-4194-b2cc-f99f15b78730")
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.57)
@@ -549,6 +535,29 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "9bb895da-06c2-49d2-aa3c-f4a02a0ede90")
+	)
+	(pad "2" smd custom
+		(at 0.25 1.175)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start -0.25 1.395)
+				(end 0 0.675)
+				(width 0.25)
+			)
+			(gr_line
+				(start 0 0.675)
+				(end 0 0)
+				(width 0.25)
+			)
+		)
+		(uuid "39b23e93-93f0-497c-bde1-5f3f4e3318a7")
 	)
 	(pad "3" thru_hole circle
 		(at -0.75 0)
@@ -638,13 +647,19 @@
 				(width 0.25)
 			)
 			(gr_line
-				(start -3.5 2.915)
+				(start -3.040007 2.915)
 				(end -0.630877 2.915)
+				(width 0.25)
+			)
+			(gr_arc
+				(start -3.06 2.915454)
+				(mid -3.364295 2.793441)
+				(end -3.5 2.495)
 				(width 0.25)
 			)
 			(gr_line
 				(start -3.5 2.075)
-				(end -3.5 2.915)
+				(end -3.5 2.455007)
 				(width 0.25)
 			)
 		)
