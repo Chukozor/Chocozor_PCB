@@ -8,7 +8,7 @@
 	(property "Reference" "J**"
 		(at 0 -3.71 0)
 		(layer "F.SilkS")
-		(uuid "78b41894-0cbf-4be7-ba4e-3e2d0daa19ce")
+		(uuid "12d92dcf-b017-4ccc-80b3-476131a22e2d")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "32ffc945-8347-47af-b7f1-22af9cb02dec")
+		(uuid "df805d54-981a-4b1a-af27-a95828273766")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "60189767-37c7-4a5b-bcde-d9ee1125f4e6")
+		(uuid "69d0f849-fce4-446a-a09e-148b3a38b337")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a6402367-99b4-4a53-9cd1-e208fef410e4")
+		(uuid "aed6d50a-6ea8-471f-a612-1451a14a76ac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,36 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.75 1.175)
-		(end -0.75 0)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "a4eb3062-a249-45bd-b04a-c4361b9ecced")
-	)
-	(fp_line
-		(start -0.75 0)
-		(end 0.75 0)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "c3cb457d-b320-4258-ac3f-7b787ce6cbde")
-	)
-	(fp_line
-		(start 0.75 0)
-		(end 0.75 1.175)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "B.Cu")
-		(uuid "e5fdfc21-a01c-429a-bc49-6ccd9aed8e9b")
-	)
 	(fp_line
 		(start -3.13 -2.24)
 		(end -3.37 -2.03)
@@ -432,17 +402,17 @@
 		(primitives
 			(gr_line
 				(start 0 0)
-				(end 0 1.444978)
+				(end 0 1.065)
 				(width 0.25)
 			)
 			(gr_arc
-				(start 0.62 2.075081)
-				(mid 0.178015 1.889914)
-				(end 0 1.445)
+				(start 1.01 2.075)
+				(mid 0.295822 1.779178)
+				(end 0 1.065)
 				(width 0.25)
 			)
 			(gr_line
-				(start 0.630022 2.075)
+				(start 1.01 2.075)
 				(end 1.99 2.075)
 				(width 0.25)
 			)
@@ -576,11 +546,58 @@
 		(clearance 0.2)
 		(uuid "e9e4f5dc-30cb-431d-af2f-db36a50d3c92")
 	)
+	(pad "3" smd custom
+		(at -0.75 1.175)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 0 -1.175)
+				(width 0.25)
+			)
+		)
+		(uuid "bec20fd0-82e3-4fbf-b935-5c071c83e1f4")
+	)
 	(pad "3" smd rect
 		(at 0.75 1.175)
 		(size 0.4 1.35)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(clearance 0.2)
+		(uuid "c3386347-e28a-460b-8ca7-3d51809fc514")
+	)
+	(pad "3" smd custom
+		(at 0.75 1.175)
+		(size 0.4 1.35)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 -0.875)
+				(end 0 0)
+				(width 0.25)
+			)
+			(gr_arc
+				(start -0.3 -1.175)
+				(mid -0.087868 -1.087132)
+				(end 0 -0.875)
+				(width 0.25)
+			)
+			(gr_line
+				(start -1.5 -1.175)
+				(end -0.3 -1.175)
+				(width 0.25)
+			)
+		)
 		(uuid "5303aa5c-2d49-4ebc-8c58-536ecbf9a31e")
 	)
 	(pad "4" smd rect
@@ -636,19 +653,19 @@
 		)
 		(primitives
 			(gr_line
-				(start 0 2.28063)
+				(start 0 1.915)
 				(end 0 0)
 				(width 0.25)
 			)
 			(gr_arc
-				(start 0.000167 2.295015)
-				(mid -0.185 2.737)
-				(end -0.629914 2.915015)
+				(start 0 1.915)
+				(mid -0.292893 2.622107)
+				(end -1 2.915)
 				(width 0.25)
 			)
 			(gr_line
 				(start -3.040007 2.915)
-				(end -0.630877 2.915)
+				(end -1 2.915)
 				(width 0.25)
 			)
 			(gr_arc
@@ -665,12 +682,50 @@
 		)
 		(uuid "aedac8aa-c8bf-42fd-8f69-376579612f9f")
 	)
+	(pad "5" thru_hole circle
+		(at -0.75 -2.69)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_fiducial_loc)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(clearance 0.2)
+		(uuid "8a5d1326-d669-4ac1-af21-a75d282afb43")
+	)
 	(pad "5" smd rect
 		(at -0.75 -1.175)
 		(size 0.4 1.35)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(clearance 0.2)
 		(uuid "d7335f95-70c2-4d29-8d8d-89704ed45d57")
+	)
+	(pad "5" smd custom
+		(at -0.75 -1.175)
+		(size 0.4 1.35)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 -1.515)
+				(end 0 0)
+				(width 0.25)
+			)
+			(gr_line
+				(start 0 -1.515)
+				(end 1.5 -1.515)
+				(width 0.25)
+			)
+			(gr_line
+				(start 1 -1.515)
+				(end 1 0)
+				(width 0.25)
+			)
+		)
+		(uuid "de554674-5610-4b5f-9f23-f1cff5a48f37")
 	)
 	(pad "5" smd rect
 		(at -0.25 -1.175)
@@ -679,12 +734,50 @@
 		(clearance 0.2)
 		(uuid "a6a75754-f480-4571-8cb3-bb9404b292d6")
 	)
+	(pad "5" smd custom
+		(at -0.25 -1.175)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 0 -1.515)
+				(width 0.25)
+			)
+			(gr_line
+				(start -0.5 -1.515)
+				(end 1 -1.515)
+				(width 0.25)
+			)
+			(gr_line
+				(start 1 -1.515)
+				(end 1 0)
+				(width 0.25)
+			)
+		)
+		(uuid "8c053cbd-7563-459e-ab33-79e9ea52c6e3")
+	)
 	(pad "5" smd rect
 		(at 0.25 -1.175)
 		(size 0.4 1.35)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(clearance 0.2)
 		(uuid "25494f41-f24e-4d43-804d-c5ecf5f20367")
+	)
+	(pad "5" thru_hole circle
+		(at 0.75 -2.69)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_fiducial_loc)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(clearance 0.2)
+		(uuid "939ab983-ea7b-4b94-9ea0-1eca780d0868")
 	)
 	(pad "5" smd rect
 		(at 0.75 -1.175)
@@ -698,7 +791,46 @@
 		(size 0.4 1.35)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(clearance 0.2)
+		(uuid "497bf1cf-e35f-4ebf-9028-f58e45abc0e3")
+	)
+	(pad "6" smd custom
+		(at -1.75 -1.175)
+		(size 0.4 1.35)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 0 -1.175)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0 -1.175)
+				(mid 0.292893 -1.882107)
+				(end 1 -2.175)
+				(width 0.2)
+			)
+			(gr_line
+				(start 1 -2.175)
+				(end 3.5 -2.175)
+				(width 0.2)
+			)
+		)
 		(uuid "2c03a1fd-c869-4caa-9588-2bc867b00321")
+	)
+	(pad "6" thru_hole circle
+		(at 1.75 -3.35)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_fiducial_loc)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(clearance 0.2)
+		(uuid "ffe48a2b-ee58-4600-a7d0-3f8d28285445")
 	)
 	(pad "6" smd rect
 		(at 1.75 -1.175)
@@ -706,6 +838,24 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "4ee08458-4ab3-450d-9840-16e8bb29e459")
+	)
+	(pad "6" smd custom
+		(at 1.75 -1.175)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0.2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 -2.175)
+				(end 0 0)
+				(width 0.2)
+			)
+		)
+		(uuid "006b8c99-ed7a-4406-8381-91bfc7804403")
 	)
 	(pad "7" smd rect
 		(at -1.25 -1.175)

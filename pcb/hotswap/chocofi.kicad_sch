@@ -8768,8 +8768,16 @@
 		(uuid "fcd80c21-173f-4cdd-a15b-03f8a8022562")
 	)
 	(no_connect
+		(at 254.762 189.23)
+		(uuid "0ebbca89-03d2-437b-bafc-8b29a1db963f")
+	)
+	(no_connect
 		(at 456.184 110.236)
 		(uuid "299ed64c-750f-4277-8056-8d65c3d5d89e")
+	)
+	(no_connect
+		(at 275.082 189.23)
+		(uuid "2a37ec1f-0d07-4fa2-8b78-4fdca7edc332")
 	)
 	(no_connect
 		(at 456.184 115.316)
@@ -15355,26 +15363,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 254.762 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "1480560d-2d98-4de2-bd23-d84ffd69bd76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.762 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 139.446 321.564 180)
@@ -18488,26 +18476,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 275.082 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "ff7d6836-d7aa-4679-8fd5-2548b0f99d59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.082 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
 		(at 445.008 44.45 0)
@@ -20165,7 +20133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
 			(at 161.29 289.23 0)
 			(effects
 				(font
@@ -20752,7 +20720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
 			(at 243.078 289.23 0)
 			(effects
 				(font
@@ -22706,7 +22674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
 			(at 79.502 289.23 0)
 			(effects
 				(font
@@ -24346,7 +24314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
 			(at 120.396 289.23 0)
 			(effects
 				(font
@@ -26228,7 +26196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
 			(at 202.184 289.23 0)
 			(effects
 				(font
@@ -28272,7 +28240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
 			(at 283.972 289.23 0)
 			(effects
 				(font
