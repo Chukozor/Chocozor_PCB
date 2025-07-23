@@ -1,6 +1,10 @@
 
 Kicad :
 - mettre plein de vias GND (à la toute fin avant production !)
+- faire des petites PCB pour les switch de souris ... c'est à tester
+- prévoir que les PCB des touches vers le poignet seront soudées (et sans leds pour simplicité)
+- penser aux PCB des flicks
+ET aux pcb sans FPC pour les 
 - essayer de remplacer les "fake vias" par des vrais vias dans le fichier texte de Kicad (pour pouvoir choisir le type de recouvrement de via dans JLCPCB pour éviter que lors de l'assemblage il n'y ait des problèmes de contact)
 - essayer de trouver un type de cable vendu coiled avec toutes les pins branchées simultanément, et soudable soit à la main, soit en assembly.
 - arrondir les pistes qu'il reste à arrondir
