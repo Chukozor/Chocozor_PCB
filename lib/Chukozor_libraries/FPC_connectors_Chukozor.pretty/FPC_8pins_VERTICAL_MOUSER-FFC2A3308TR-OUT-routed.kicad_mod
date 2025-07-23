@@ -393,7 +393,7 @@
 	(pad "1" smd custom
 		(at -1.25 1.175)
 		(size 0.4 1.35)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -439,7 +439,7 @@
 	(pad "1" smd custom
 		(at 1.25 1.175)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -469,7 +469,7 @@
 	(pad "2" smd custom
 		(at -0.25 1.175)
 		(size 0.4 1.35)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -509,7 +509,7 @@
 	(pad "2" smd custom
 		(at 0.25 1.175)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -549,7 +549,7 @@
 	(pad "3" smd custom
 		(at -0.75 1.175)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -607,7 +607,7 @@
 	(pad "3" smd custom
 		(at 0.75 1.175)
 		(size 0.4 1.35)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -687,7 +687,7 @@
 	(pad "4" smd custom
 		(at -1.75 1.175)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -722,7 +722,7 @@
 	(pad "4" smd custom
 		(at 1.75 1.175)
 		(size 0.4 1.35)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -779,7 +779,7 @@
 	(pad "5" smd custom
 		(at -0.75 -1.175)
 		(size 0.4 1.35)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -814,7 +814,7 @@
 	(pad "5" smd custom
 		(at -0.25 -1.175)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -873,7 +873,7 @@
 	(pad "6" smd custom
 		(at -1.75 -1.175)
 		(size 0.4 1.35)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
@@ -919,7 +919,7 @@
 	(pad "6" smd custom
 		(at 1.75 -1.175)
 		(size 0.4 1.35)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(clearance 0.2)
 		(options
 			(clearance outline)
