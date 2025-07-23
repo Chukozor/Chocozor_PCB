@@ -6,7 +6,7 @@
 	(descr "FFC2A33-08-T-R-2")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 -3.71 0)
+		(at 0 -4.5 0)
 		(layer "F.SilkS")
 		(uuid "12d92dcf-b017-4ccc-80b3-476131a22e2d")
 		(effects
@@ -338,7 +338,7 @@
 		(uuid "0509943c-ad16-4ee8-899d-cf84922683e7")
 	)
 	(fp_text user "OUT"
-		(at -0.2 -2.58 180)
+		(at -0.2 -3.5 180)
 		(layer "F.SilkS")
 		(uuid "cf717b3e-9e29-45c1-8bb6-e5a89b4d3992")
 		(effects
@@ -349,7 +349,7 @@
 		)
 	)
 	(fp_text user "OUT"
-		(at -0.2 -2.58 180)
+		(at -0.2 -3.5 180)
 		(layer "B.SilkS")
 		(uuid "28b69253-d64a-4fc8-bac7-0b86be12e6b2")
 		(effects
@@ -361,7 +361,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -3.71 0)
+		(at 0 -4.5 0)
 		(layer "B.SilkS")
 		(uuid "60fbe4d7-186d-42c0-b1c5-4e1953933465")
 		(effects
