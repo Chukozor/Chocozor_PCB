@@ -1405,320 +1405,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Chukozor_symbols:FPC_8pins-VERTICAL-F31Z1A7H111008-OUT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at -1.27 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "FPC_8pins-VERTICAL-F31Z1A7H111008-OUT"
-				(at -17.018 11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "F31Z1A7H111008"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f31z-f31w.pdf"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Flex Connector, 0.50mm Pitch, Height 4.25mm, Vertical, Slider type, ZIF, 8 position, With MYLAR"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "4.45"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Amphenol"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "F31Z1A7H111008"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "FPC_8pins-VERTICAL-F31Z1A7H111008-OUT_1_1"
-				(rectangle
-					(start -8.636 7.112)
-					(end 8.636 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2)
-					(name "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2)
-					(name "MP3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -8.89 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -8.89 90)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 8.89 270)
-					(length 2)
-					(name "X"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -8.89 90)
-					(length 5.08)
-					(name "LED<-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -8.89 90)
-					(length 5.08)
-					(name "LED->"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -8.89 90)
-					(length 5.08)
-					(name "Col2Switch"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 90)
-					(length 5.08)
-					(name "Diode2Switch"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2)
-					(name "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2)
-					(name "MP4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-687108183722"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8780,24 +8466,40 @@
 		(uuid "2a37ec1f-0d07-4fa2-8b78-4fdca7edc332")
 	)
 	(no_connect
-		(at 456.184 115.316)
-		(uuid "696d6651-c800-4103-8469-9509a815803e")
+		(at 193.294 189.23)
+		(uuid "36c7ffdd-cdb3-423f-a7f7-0f67c417e033")
 	)
 	(no_connect
-		(at 54.864 157.226)
-		(uuid "6f039bca-389b-41d9-95aa-e382fc9432ba")
+		(at 152.4 189.23)
+		(uuid "38c0dd50-7d2c-4353-adc3-943ecb6f539b")
+	)
+	(no_connect
+		(at 456.184 115.316)
+		(uuid "696d6651-c800-4103-8469-9509a815803e")
 	)
 	(no_connect
 		(at 221.488 504.444)
 		(uuid "78cea9b3-59ff-4e67-8e13-72f23c35d236")
 	)
 	(no_connect
-		(at 75.184 157.226)
-		(uuid "845283bf-6945-46e5-a904-76eea5e365c8")
+		(at 111.506 189.23)
+		(uuid "7e21e663-4d43-4f36-b0ac-29f2e926f726")
 	)
 	(no_connect
-		(at 54.864 154.686)
-		(uuid "8f23b848-732d-4375-a7d2-f5c377c59675")
+		(at 234.188 189.23)
+		(uuid "841509fc-1d75-47bf-aef1-f8d5153be617")
+	)
+	(no_connect
+		(at 213.868 189.23)
+		(uuid "90fca50f-2860-4917-a344-03515f62a544")
+	)
+	(no_connect
+		(at 172.974 189.23)
+		(uuid "9205804a-79fa-4f0a-8bdc-21493c7b25d6")
+	)
+	(no_connect
+		(at 50.292 189.23)
+		(uuid "9eea34e0-8fe6-4049-9b2c-688cf971235c")
 	)
 	(no_connect
 		(at 59.182 203.2)
@@ -8808,16 +8510,20 @@
 		(uuid "beae3f20-087f-40ba-8d3a-766eebdc11fe")
 	)
 	(no_connect
-		(at 75.184 154.686)
-		(uuid "c546dd15-0630-42dd-89b6-e6f0a149a606")
-	)
-	(no_connect
 		(at 221.488 468.884)
 		(uuid "c8c69461-a7a8-44d6-ac30-aa4472e81a0e")
 	)
 	(no_connect
-		(at 62.484 150.876)
-		(uuid "e41145e0-537e-4533-8834-fe02e26ec525")
+		(at 70.612 189.23)
+		(uuid "ea59b4c2-773b-4b3d-9984-ba0f1773c21e")
+	)
+	(no_connect
+		(at 91.186 189.23)
+		(uuid "eb777367-52ae-46d4-b7db-89b91c14c4f2")
+	)
+	(no_connect
+		(at 132.08 189.23)
+		(uuid "f3e5e5dd-1a51-4929-b638-50bf9aeed685")
 	)
 	(wire
 		(pts
@@ -15299,26 +15005,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 70.612 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "11d8ccff-cfba-4797-af48-f64d091b6edc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.612 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 98.552 321.564 180)
@@ -15728,26 +15414,6 @@
 		(uuid "3383abf0-71ff-4d1e-be1a-911419ca4c48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.89 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 91.186 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "34f815db-3f03-4737-9050-90a1a94fcb02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.186 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16370,26 +16036,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 213.868 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "6745748e-9a8d-4187-b477-6ada46f53a4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.868 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 540.258 240.538 0)
@@ -16744,26 +16390,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 111.506 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "80378db1-1b6f-4de3-a028-8bbda9f67e02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.506 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 232.41 82.804 270)
 		(effects
 			(font
@@ -16880,26 +16506,6 @@
 		(uuid "91249264-0840-49fc-9854-2c6c157f46ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 419.354 261.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 132.08 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "937206a2-c2a9-433b-aa1e-85ae816eae82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17298,26 +16904,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 234.188 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "ace4b7d1-ef4b-498d-9404-412f491df440")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.188 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 466.598 43.18 90)
@@ -17501,26 +17087,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 50.292 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "bead4a2e-e83e-44a6-bbcc-125f538c43ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.292 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -17727,26 +17293,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 152.4 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "cc42bdd2-8713-489d-a4db-e5665a6ecb1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -18289,26 +17835,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 172.974 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "f6474e60-6c4e-44fd-9c14-9da1eab9e9d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.974 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TOPSWITCHES_vik-(COL-TO-SWITCH)"
 		(shape input)
 		(at 315.722 185.674 270)
@@ -18367,26 +17893,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 193.294 189.23 270)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "f8e6497b-f06c-4843-890d-a49057d0152e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.294 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -26686,153 +26192,6 @@
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins-VERTICAL-F31Z1A7H111008-OUT")
-		(at 65.024 159.766 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a327d8ca-3207-41ab-8e9e-5d29625f9aeb")
-		(property "Reference" "K7"
-			(at 65.024 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPC_8pins-VERTICAL-F31Z1A7H111008-OUT"
-			(at 65.024 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT"
-			(at 89.154 254.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f31z-f31w.pdf"
-			(at 89.154 354.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Flex Connector, 0.50mm Pitch, Height 4.25mm, Vertical, Slider type, ZIF, 8 position, With MYLAR"
-			(at 65.024 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.45"
-			(at 89.154 554.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 89.154 654.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 89.154 754.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 89.154 854.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "F31Z1A7H111008"
-			(at 89.154 954.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "0f1dce0e-8bc3-4148-a777-f86c1f6b1d47")
-		)
-		(pin "MP4"
-			(uuid "098b8a6f-192d-4095-b44d-ac01c3d372c8")
-		)
-		(pin "MP3"
-			(uuid "d4bcca31-212b-444d-9409-07049354777e")
-		)
-		(pin "4"
-			(uuid "39fd7688-75a9-415f-aeb1-8f855208c0c1")
-		)
-		(pin "2"
-			(uuid "f8eee75a-8e81-4a81-992d-3664369c1968")
-		)
-		(pin "MP1"
-			(uuid "d1df52e5-8371-4273-95f7-a87451678641")
-		)
-		(pin "MP2"
-			(uuid "147513bf-75a1-4036-8c56-5c25eaa15042")
-		)
-		(pin "3"
-			(uuid "dc6d7f2b-adb3-43e5-8c6a-ca20ed3472fd")
-		)
-		(pin "5"
-			(uuid "babdb14d-34be-4db3-809a-2a2c75d78bd2")
-		)
-		(pin "1"
-			(uuid "da1a4546-d121-46d8-a686-7fffd47ed327")
-		)
-		(pin "7"
-			(uuid "3b0f5a74-d60e-4866-836f-e9c564808602")
-		)
-		(instances
-			(project ""
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K7")
 					(unit 1)
 				)
 			)
