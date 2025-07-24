@@ -1250,12 +1250,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-687108183722"
+		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-HIGH-687108183722"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "KK"
-				(at -0.254 8.89 0)
+			(property "Reference" "KHigh-"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1263,8 +1263,8 @@
 					(justify top)
 				)
 			)
-			(property "Value" "FPC_8pins_SPECIALswitches-IN-687108183722"
-				(at 0 6.858 0)
+			(property "Value" "FPC_8pins_SPECIALswitches-IN-HIGH-687108183722"
+				(at 0 14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1273,6 +1273,284 @@
 				)
 			)
 			(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.3"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-687108183722"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "687108183722"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FPC_8pins_SPECIALswitches-IN-HIGH-687108183722_1_1"
+				(rectangle
+					(start -8.636 7.112)
+					(end 8.636 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2)
+					(name "MP2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2)
+					(name "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -8.89 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -8.89 90)
+					(length 5.08)
+					(name "LED->"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 5.08)
+					(name "LED<-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 5.08)
+					(name "Col2Switch"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -8.89 90)
+					(length 5.08)
+					(name "Diode2Switch"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2)
+					(name "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-LOW-687108183722"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "KLow"
+				(at -0.254 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "FPC_8pins_SPECIALswitches-IN-LOW-687108183722"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-LOW-V2"
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -1352,7 +1630,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FPC_8pins_SPECIALswitches-IN-687108183722_1_1"
+			(symbol "FPC_8pins_SPECIALswitches-IN-LOW-687108183722_1_1"
 				(rectangle
 					(start 7.366 -14.732)
 					(end -9.906 -3.81)
@@ -1362,6 +1640,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 -10.16 0)
+					(length 2)
+					(name "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "osef"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -1501,266 +1797,6 @@
 						)
 					)
 					(number "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-HIGH-687108183722"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "KHigh-"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "FPC_8pins_SPECIALswitches-IN-HIGH-687108183722"
-				(at 0 14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-				(at 0 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.3"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-687108183722"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "687108183722"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "FPC_8pins_SPECIALswitches-IN-HIGH-687108183722_1_1"
-				(rectangle
-					(start -8.636 7.112)
-					(end 8.636 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2)
-					(name "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -8.89 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -8.89 90)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -8.89 90)
-					(length 5.08)
-					(name "LED->"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -8.89 90)
-					(length 5.08)
-					(name "LED<-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -8.89 90)
-					(length 5.08)
-					(name "Col2Switch"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 90)
-					(length 5.08)
-					(name "Diode2Switch"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2)
-					(name "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP1"
 						(effects
 							(font
 								(size 1 1)
@@ -8640,12 +8676,20 @@
 		(uuid "78cea9b3-59ff-4e67-8e13-72f23c35d236")
 	)
 	(no_connect
+		(at 160.782 111.506)
+		(uuid "7d7b566d-e2bd-4a61-97b8-f71cb588704f")
+	)
+	(no_connect
 		(at 111.506 189.23)
 		(uuid "7e21e663-4d43-4f36-b0ac-29f2e926f726")
 	)
 	(no_connect
 		(at 234.188 189.23)
 		(uuid "841509fc-1d75-47bf-aef1-f8d5153be617")
+	)
+	(no_connect
+		(at 255.778 114.808)
+		(uuid "86918f1a-9d68-4d43-aa65-73428d729404")
 	)
 	(no_connect
 		(at 213.868 189.23)
@@ -8670,6 +8714,10 @@
 	(no_connect
 		(at 59.182 203.2)
 		(uuid "a4d06fcf-2f8e-4b6c-b4c1-9ba5c7edd5dd")
+	)
+	(no_connect
+		(at 212.09 85.344)
+		(uuid "aa329e2f-746a-4099-85d5-ad626c8bf051")
 	)
 	(no_connect
 		(at 394.208 186.944)
@@ -14774,6 +14822,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 	)
@@ -18286,7 +18352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-HIGH-V1"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
 			(at 241.3 182.804 0)
 			(effects
 				(font
@@ -18388,6 +18454,9 @@
 		)
 		(pin "1"
 			(uuid "3910ba3e-341c-46b6-a052-3bdfdb41a259")
+		)
+		(pin "7"
+			(uuid "e91e2192-edcd-4d0e-9e2c-df4d84ba66a1")
 		)
 		(instances
 			(project "chocofi"
@@ -19803,7 +19872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-687108183722")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-LOW-687108183722")
 		(at 267.208 104.648 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19813,7 +19882,7 @@
 		(fields_autoplaced yes)
 		(uuid "24f5f2b9-caa0-4bcc-a98b-3b3afe35bb29")
 		(property "Reference" "KLow-1"
-			(at 265.938 122.174 0)
+			(at 265.938 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,14 +19890,14 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 265.938 124.714 0)
+			(at 265.938 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-LOW-V1"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-LOW-V2"
 			(at 286.258 199.568 0)
 			(effects
 				(font
@@ -19931,6 +20000,9 @@
 		)
 		(pin "1"
 			(uuid "6c78723a-66d2-4e6b-b668-96c4b21d0c7a")
+		)
+		(pin "osef"
+			(uuid "9e11f196-e894-4409-8281-2d290f0e223a")
 		)
 		(instances
 			(project "chocofi"
@@ -22417,7 +22489,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-687108183722")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-LOW-687108183722")
 		(at 172.212 101.346 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22427,7 +22499,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ce503a1-0589-4400-b902-f89ab5dba00a")
 		(property "Reference" "KLow-2"
-			(at 170.942 118.872 0)
+			(at 170.942 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22435,14 +22507,14 @@
 			)
 		)
 		(property "Value" "FPC_8pins_687108183722"
-			(at 170.942 121.412 0)
+			(at 170.942 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-LOW-V1"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-LOW-V2"
 			(at 191.262 196.266 0)
 			(effects
 				(font
@@ -22545,6 +22617,9 @@
 		)
 		(pin "1"
 			(uuid "59bf54c4-8fc9-4c0c-a64d-aa19474e0265")
+		)
+		(pin "osef"
+			(uuid "0f3712c2-762a-4a8c-80a3-caf20dfcb056")
 		)
 		(instances
 			(project "chocofi"
