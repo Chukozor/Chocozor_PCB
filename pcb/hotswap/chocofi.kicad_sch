@@ -8314,12 +8314,6 @@
 		(uuid "2b4ab282-16e0-4c48-b281-67d24b3364e7")
 	)
 	(junction
-		(at 305.816 191.262)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f0a238d-7bb7-4840-b42c-498019d6b2cf")
-	)
-	(junction
 		(at 87.376 341.884)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8716,6 +8710,10 @@
 		(uuid "a4d06fcf-2f8e-4b6c-b4c1-9ba5c7edd5dd")
 	)
 	(no_connect
+		(at 527.812 210.566)
+		(uuid "a513b21a-ad64-4246-b2f2-8e4a00a03174")
+	)
+	(no_connect
 		(at 212.09 85.344)
 		(uuid "aa329e2f-746a-4099-85d5-ad626c8bf051")
 	)
@@ -8746,6 +8744,10 @@
 	(no_connect
 		(at 132.08 189.23)
 		(uuid "f3e5e5dd-1a51-4929-b638-50bf9aeed685")
+	)
+	(no_connect
+		(at 535.432 210.566)
+		(uuid "ffb9bb6e-573a-4d22-8792-143e8e0706e8")
 	)
 	(wire
 		(pts
@@ -9309,16 +9311,6 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 199.644) (xy 539.242 199.644)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20655619-ca42-4e1c-af06-aa9e19545420")
-	)
-	(wire
-		(pts
 			(xy 273.05 316.484) (xy 273.812 316.484)
 		)
 		(stroke
@@ -9789,7 +9781,7 @@
 	)
 	(wire
 		(pts
-			(xy 520.954 199.644) (xy 524.51 199.644)
+			(xy 520.954 199.644) (xy 539.242 199.644)
 		)
 		(stroke
 			(width 0)
@@ -11359,16 +11351,6 @@
 	)
 	(wire
 		(pts
-			(xy 305.816 185.42) (xy 305.816 191.262)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bc7882-6a25-4a4e-bd7b-97c7f7873f0b")
-	)
-	(wire
-		(pts
 			(xy 191.262 402.844) (xy 197.104 402.844)
 		)
 		(stroke
@@ -11396,16 +11378,6 @@
 			(type default)
 		)
 		(uuid "95bfe073-9db8-4079-a7c9-46cf036bcbef")
-	)
-	(wire
-		(pts
-			(xy 303.276 191.262) (xy 305.816 191.262)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962d04c1-e19c-4ca2-b1da-4d2e640c8b53")
 	)
 	(wire
 		(pts
@@ -11696,16 +11668,6 @@
 			(type default)
 		)
 		(uuid "a772b0ef-54c4-48f6-b3ab-31460dc49e05")
-	)
-	(wire
-		(pts
-			(xy 308.102 191.262) (xy 305.816 191.262)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a7e672-aba9-49af-a2b8-ae3070f7dbef")
 	)
 	(wire
 		(pts
@@ -14840,6 +14802,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 	)
@@ -14875,26 +14855,6 @@
 		(uuid "00c9c7de-8348-40af-85bb-2b1312430fd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 419.354 233.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TOPSWITCHES_vik-GND"
-		(shape input)
-		(at 300.736 185.674 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "040662d6-64a5-4f7e-a6e6-47880a56fdb6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.736 185.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15424,26 +15384,6 @@
 			)
 		)
 	)
-	(global_label "TOPSWITCHES_vik-5V"
-		(shape input)
-		(at 305.816 191.262 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "3316a63b-fe0e-49e1-b761-002068d9d3d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.816 191.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 135.89 203.2 270)
@@ -15578,26 +15518,6 @@
 		(uuid "42fe3a19-bacc-4b34-9633-400c9e73102f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 465.328 298.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TOPSWITCHES_vik-TO_LED"
-		(shape input)
-		(at 313.182 185.674 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "438b4e2f-9086-430c-ac0f-759c9bf542ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.182 185.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17011,26 +16931,6 @@
 			)
 		)
 	)
-	(global_label "TOPSWITCHES_vik-5V"
-		(shape input)
-		(at 308.102 191.262 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "b9d3a3cc-dc28-4552-9df2-d863b414eede")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.102 191.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 139.446 362.204 180)
@@ -17197,26 +17097,6 @@
 			)
 		)
 	)
-	(global_label "TOPSWITCHES_vik-5V"
-		(shape input)
-		(at 303.276 191.262 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "c63f6643-6a2a-4927-bff5-a441274f5a89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.276 191.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 98.552 362.204 180)
@@ -17336,26 +17216,6 @@
 		(uuid "d2384790-55d0-4b37-82fb-e95d5a1dc7f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.797 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TOPSWITCHES_vik-TO-OTHER-LED"
-		(shape input)
-		(at 310.642 185.674 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "d26bcc56-79bb-4e06-bdde-dc3be84ca03a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.642 185.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17695,26 +17555,6 @@
 			)
 		)
 	)
-	(global_label "TOPSWITCHES_vik(DIODE-TO-SWITCH)"
-		(shape input)
-		(at 318.262 185.674 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "f4546d0c-7766-4fe5-b4e8-e1fb68b86f59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.262 185.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 502.158 295.402 90)
@@ -17733,26 +17573,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TOPSWITCHES_vik-(COL-TO-SWITCH)"
-		(shape input)
-		(at 315.722 185.674 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "f70efaed-af82-4a3f-89d1-06fbe094d428")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.722 185.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -21100,7 +20920,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 528.32 199.644 0)
+		(at 531.622 210.566 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21108,7 +20928,7 @@
 		(dnp no)
 		(uuid "3cceaf89-9a6f-4a04-892f-c0f13fbcdd4b")
 		(property "Reference" "JP4"
-			(at 528.066 201.676 0)
+			(at 531.368 212.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21116,7 +20936,7 @@
 			)
 		)
 		(property "Value" "5V-Solenoid"
-			(at 526.034 197.104 0)
+			(at 529.336 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21125,7 +20945,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:SB-small"
-			(at 528.32 199.644 0)
+			(at 531.622 210.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21134,7 +20954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 528.32 199.644 0)
+			(at 531.622 210.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21143,7 +20963,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 528.32 199.644 0)
+			(at 531.622 210.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22514,7 +22334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-LOW-V2"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_687108183722_reversible-Mobile-IN-LOW-V2-BUT-placed-above"
 			(at 191.262 196.266 0)
 			(effects
 				(font
