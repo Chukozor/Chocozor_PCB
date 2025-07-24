@@ -2681,6 +2681,24 @@
 				)
 			)
 			(pin passive line
+				(at -10.16 2.54 0)
+				(length 2)
+				(name "osef"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -6.35 -8.89 90)
 				(length 5.08)
 				(name "GND"
@@ -5968,6 +5986,122 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SW_Chuk_-PULL_switches"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Pull"
+			(at 0 5.334 0)
+			(effects
+				(font
+					(size 3.302 3.302)
+				)
+			)
+		)
+		(property "Value" "Pull"
+			(at 0 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_-PULL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Chuk_-PULL_switches_0_1"
+			(rectangle
+				(start -4.318 1.27)
+				(end 4.318 1.524)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive inverted
+				(at -7.62 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SW_Chuk_-PULL_switches_1_1"
+			(pin passive inverted
+				(at 7.62 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SW_Chuk_LED"
 		(pin_names
 			(offset 1.016)
@@ -6179,14 +6313,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SW_Chuk_LED-Topswitches_vik"
+	(symbol "SW_Chuk_LED-Flick_switches_FPC"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SW"
+		(property "Reference" "Flick"
 			(at 0 5.334 0)
 			(effects
 				(font
@@ -6194,7 +6328,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Chuk"
+		(property "Value" "Flick"
 			(at 0 -2.032 0)
 			(effects
 				(font
@@ -6203,7 +6337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_LED_F-MOBILE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6230,7 +6364,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_Chuk_LED-Topswitches_vik_0_1"
+		(symbol "SW_Chuk_LED-Flick_switches_FPC_0_1"
 			(rectangle
 				(start -4.318 1.27)
 				(end 4.318 1.524)
@@ -6284,7 +6418,7 @@
 				)
 			)
 		)
-		(symbol "SW_Chuk_LED-Topswitches_vik_1_1"
+		(symbol "SW_Chuk_LED-Flick_switches_FPC_1_1"
 			(polyline
 				(pts
 					(xy 2.54 -2.54) (xy 3.81 -3.81) (xy 3.81 -2.54) (xy 2.54 -2.54)
