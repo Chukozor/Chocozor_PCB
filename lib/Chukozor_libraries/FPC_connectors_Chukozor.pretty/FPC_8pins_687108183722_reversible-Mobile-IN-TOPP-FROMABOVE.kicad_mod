@@ -521,22 +521,19 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at 1.25 -0.25 180)
-		(size 0.6 0.6)
-		(drill 0.3)
-		(property pad_prop_fiducial_loc)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(clearance 0.2)
-		(uuid "250a6dfa-c06a-40aa-8644-157f9343ff18")
-	)
 	(pad "1" smd rect
 		(at 1.25 1.9 180)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.2)
 		(uuid "10c9104e-1bce-463a-87e2-51dd1f25b7e8")
+	)
+	(pad "1" smd rect
+		(at 1.25 1.9 180)
+		(size 0.3 1)
+		(layers "B.Cu")
+		(clearance 0.2)
+		(uuid "0d6a9b9c-de4b-4154-b886-837599b4c2e8")
 	)
 	(pad "1" smd rect
 		(at 1.25 1.9 180)
@@ -557,7 +554,12 @@
 		(primitives
 			(gr_line
 				(start 0 0)
-				(end 0 2.15)
+				(end 0 1.35)
+				(width 0.25)
+			)
+			(gr_line
+				(start 0 1.35)
+				(end -0.525 2.15)
 				(width 0.25)
 			)
 		)
@@ -575,21 +577,26 @@
 		(primitives
 			(gr_line
 				(start 0 0)
-				(end 0 2.15)
+				(end 0 1.35)
+				(width 0.25)
+			)
+			(gr_line
+				(start 0 1.35)
+				(end -0.525 2.15)
 				(width 0.25)
 			)
 		)
-		(uuid "0d6a9b9c-de4b-4154-b886-837599b4c2e8")
+		(uuid "aca76f18-1653-419a-b788-d1de83c13564")
 	)
-	(pad "2" thru_hole circle
-		(at 0.25 0.225 180)
+	(pad "1" thru_hole circle
+		(at 1.775 -0.25 180)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(clearance 0.2)
-		(uuid "e4fcda71-1785-4a5d-951e-0edbb0d1d943")
+		(uuid "250a6dfa-c06a-40aa-8644-157f9343ff18")
 	)
 	(pad "2" smd rect
 		(at 0.25 1.9 180)
@@ -617,7 +624,12 @@
 		(primitives
 			(gr_line
 				(start 0 0)
-				(end 0 1.675)
+				(end 0 1.225)
+				(width 0.25)
+			)
+			(gr_line
+				(start 0 1.225)
+				(end -0.4 2.125)
 				(width 0.25)
 			)
 		)
@@ -635,11 +647,26 @@
 		(primitives
 			(gr_line
 				(start 0 0)
-				(end 0 1.675)
+				(end 0 1.225)
+				(width 0.25)
+			)
+			(gr_line
+				(start 0 1.225)
+				(end -0.4 2.125)
 				(width 0.25)
 			)
 		)
-		(uuid "8748e04b-ef74-45c3-8bd6-06da317212bf")
+		(uuid "9202dd9e-7fe4-475c-b15f-d7b052c1cd23")
+	)
+	(pad "2" thru_hole circle
+		(at 0.65 -0.225 180)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(property pad_prop_fiducial_loc)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(clearance 0.2)
+		(uuid "e4fcda71-1785-4a5d-951e-0edbb0d1d943")
 	)
 	(pad "3" thru_hole circle
 		(at -1.05 3.725 180)
@@ -712,7 +739,7 @@
 		(uuid "ad583cc0-04bb-4561-963a-e3e6d0071267")
 	)
 	(pad "4" thru_hole circle
-		(at -1.75 -1.375 180)
+		(at -1.75 -0.225 180)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)
@@ -747,7 +774,7 @@
 		(primitives
 			(gr_line
 				(start 0 0)
-				(end 0 3.275)
+				(end 0 2.125)
 				(width 0.25)
 			)
 		)
@@ -765,7 +792,7 @@
 		(primitives
 			(gr_line
 				(start 0 0)
-				(end 0 3.275)
+				(end 0 2.125)
 				(width 0.25)
 			)
 		)
@@ -901,6 +928,11 @@
 				(end 0 -1.675)
 				(width 0.25)
 			)
+			(gr_line
+				(start 0 -1.675)
+				(end -0.425 -2.1)
+				(width 0.25)
+			)
 		)
 		(uuid "5c94c2ed-d3d0-4aeb-aaef-721df0e7a144")
 	)
@@ -919,11 +951,16 @@
 				(end 0 -1.675)
 				(width 0.25)
 			)
+			(gr_line
+				(start 0 -1.675)
+				(end -0.425 -2.1)
+				(width 0.25)
+			)
 		)
 		(uuid "354222ce-577a-4dac-8de3-51999ccba15d")
 	)
 	(pad "6" thru_hole circle
-		(at 1.75 3.575 180)
+		(at 2.175 4 180)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_fiducial_loc)

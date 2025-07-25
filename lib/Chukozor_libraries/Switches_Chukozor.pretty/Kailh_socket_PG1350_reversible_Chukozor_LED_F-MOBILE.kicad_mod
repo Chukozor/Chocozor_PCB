@@ -305,6 +305,17 @@
 		(uuid "83ccbfad-380a-43b4-82a6-fa6e14cf94ef")
 	)
 	(fp_rect
+		(start -10.5 -10.5)
+		(end 10.5 10.5)
+		(stroke
+			(width 0.1)
+			(type dash_dot_dot)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "46c8f3b6-deb5-4e45-87cc-84e869fcad52")
+	)
+	(fp_rect
 		(start -9 -8.5)
 		(end 9 8.5)
 		(stroke
@@ -320,7 +331,7 @@
 		(end 7.5 7.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type dash_dot_dot)
 		)
 		(fill no)
 		(layer "Dwgs.User")
