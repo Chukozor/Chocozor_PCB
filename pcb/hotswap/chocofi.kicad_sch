@@ -19690,7 +19690,8 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:Conn_01x04")
-		(at 52.832 466.598 270)
+		(at 50.292 466.598 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19713,8 +19714,8 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
-			(at 52.832 466.598 0)
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
+			(at 50.292 466.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19723,7 +19724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.832 466.598 0)
+			(at 50.292 466.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19732,7 +19733,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.832 466.598 0)
+			(at 50.292 466.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21727,7 +21728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
 			(at 109.982 377.444 0)
 			(effects
 				(font
@@ -24214,7 +24215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
 			(at 150.368 377.444 0)
 			(effects
 				(font
@@ -28561,7 +28562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
 			(at 68.58 377.444 0)
 			(effects
 				(font

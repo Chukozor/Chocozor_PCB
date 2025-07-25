@@ -1,4 +1,4 @@
-(footprint "FPC_4pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
+(footprint "FPC_4pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed(inutile-dans-mon-cas)"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FPC_4pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed"
+	(property "Value" "FPC_4pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed(inutile-dans-mon-cas)"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -389,7 +389,7 @@
 	)
 	(fp_line
 		(start -4.85 -2.85)
-		(end 6.85 -2.85)
+		(end 4.85 -2.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -408,8 +408,8 @@
 		(uuid "33242cda-a9a7-48bf-93b4-6b081f11e487")
 	)
 	(fp_line
-		(start 6.85 -2.85)
-		(end 6.85 2.85)
+		(start 4.85 -2.85)
+		(end 4.85 2.85)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -418,7 +418,7 @@
 		(uuid "cb705ac8-a90d-4964-9b61-0549ce56d6c9")
 	)
 	(fp_line
-		(start 6.85 2.85)
+		(start 4.85 2.85)
 		(end -4.85 2.85)
 		(stroke
 			(width 0.1)
