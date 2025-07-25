@@ -1686,7 +1686,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8a3cb007-1529-4cbe-ae7b-70516f0482ed")
+			(uuid "d41ba477-bf49-4142-97f4-64c3e8ab492f")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -1708,7 +1708,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "8a3cb007-1529-4cbe-ae7b-70516f0482ed")
+			(uuid "ed147d9c-07db-4af0-9cd4-2177e2a3c877")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -1718,7 +1718,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8a3cb007-1529-4cbe-ae7b-70516f0482ed")
+			(uuid "86e65651-350b-4d43-9d54-8db3b2775e08")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -1741,7 +1741,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "8a3cb007-1529-4cbe-ae7b-70516f0482ed")
+			(uuid "43b66107-835d-4312-b114-271d84b8bfd4")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -1774,7 +1774,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0788246a-1207-4476-b635-aa3bb34f31e1")
+			(uuid "1adcc085-2785-4143-afe1-d6bcd3ab7281")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -1796,7 +1796,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0788246a-1207-4476-b635-aa3bb34f31e1")
+			(uuid "0e83ca34-e1a0-4963-ac17-7a595ba88c5c")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -1806,7 +1806,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0788246a-1207-4476-b635-aa3bb34f31e1")
+			(uuid "4a0bd9bb-2c30-48bf-9930-7f965303a4f7")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -1827,7 +1827,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0788246a-1207-4476-b635-aa3bb34f31e1")
+			(uuid "cab10847-c854-47b8-bffd-1aaf30446fda")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -1894,7 +1894,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "bd69e16f-3297-4707-8901-803a0f6e38f6")
+			(uuid "7b4e7ce7-573c-415b-add6-6655b5072fab")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -1959,7 +1959,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "bd69e16f-3297-4707-8901-803a0f6e38f6")
+			(uuid "7087dbfe-e7f2-42de-8945-364f7cd5bdd8")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -1969,7 +1969,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bd69e16f-3297-4707-8901-803a0f6e38f6")
+			(uuid "431c14a8-559a-4ede-bd32-6fd7ad804e6b")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -1979,7 +1979,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bd69e16f-3297-4707-8901-803a0f6e38f6")
+			(uuid "c9a528ee-f7b4-4171-99bb-1a72e46bb35e")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -2064,7 +2064,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "13f39ca4-2a8b-4264-9c28-41dc9fb961ae")
+			(uuid "f1f88b9d-f739-4ec5-b26c-dde60318ea11")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -2074,7 +2074,7 @@
 			(net 26 "Net-(SW1-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "13f39ca4-2a8b-4264-9c28-41dc9fb961ae")
+			(uuid "85f22dbb-a49f-4343-9c20-5e02e998d102")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -2135,7 +2135,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "13f39ca4-2a8b-4264-9c28-41dc9fb961ae")
+			(uuid "0559a678-4fca-4714-a444-fe3b35c9cc50")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -2145,7 +2145,7 @@
 			(net 26 "Net-(SW1-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "13f39ca4-2a8b-4264-9c28-41dc9fb961ae")
+			(uuid "a4b42cbd-1605-4e52-83af-6848de89ac62")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -2212,7 +2212,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "3b8d1e26-89f7-43a8-adb2-bd913ad418d5")
+			(uuid "a13ddf68-918e-419c-b116-bee2b613adc6")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -2264,7 +2264,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "3b8d1e26-89f7-43a8-adb2-bd913ad418d5")
+			(uuid "e837716b-6226-4526-9441-07899ce58da2")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -2274,7 +2274,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "3b8d1e26-89f7-43a8-adb2-bd913ad418d5")
+			(uuid "39c6fea5-7cf9-4b29-864a-f69f95508af9")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -2286,7 +2286,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "3b8d1e26-89f7-43a8-adb2-bd913ad418d5")
+			(uuid "0a7e52df-b4c6-40e1-a32f-763973b96d51")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -2299,7 +2299,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "3b8d1e26-89f7-43a8-adb2-bd913ad418d5")
+			(uuid "ee99a078-5456-43e9-8649-61d7dfc9ed08")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -2379,7 +2379,7 @@
 			(net 27 "Net-(SW2-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "466f730b-3e81-43d0-a4a9-704f4ee12f3d")
+			(uuid "b868240d-de20-4e4b-8cb9-fa8e0ffba3ff")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -2435,7 +2435,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "466f730b-3e81-43d0-a4a9-704f4ee12f3d")
+			(uuid "54c24fb4-f205-401e-a7a4-66bc43fc3b3b")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -2445,7 +2445,7 @@
 			(net 27 "Net-(SW2-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "466f730b-3e81-43d0-a4a9-704f4ee12f3d")
+			(uuid "f0c56c26-9409-4a7e-8349-ad7356061783")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -2469,7 +2469,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "466f730b-3e81-43d0-a4a9-704f4ee12f3d")
+			(uuid "b5be5024-621c-41d9-8659-a5c54c055e25")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -3845,7 +3845,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "bcedc25b-77f1-482c-979f-e278c7c8efb3")
+			(uuid "6365fc87-795a-4601-9937-bdb4caace9fc")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -3867,7 +3867,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "bcedc25b-77f1-482c-979f-e278c7c8efb3")
+			(uuid "6407ee13-3409-4cb0-8e4f-98b48bc539f9")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -3877,7 +3877,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "bcedc25b-77f1-482c-979f-e278c7c8efb3")
+			(uuid "76d842a5-fe8e-4885-aba7-ffb73b795ea4")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -3900,7 +3900,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "bcedc25b-77f1-482c-979f-e278c7c8efb3")
+			(uuid "e655709a-4ca7-4c9d-aaa2-5874b8b36f20")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -3933,7 +3933,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ada8c586-a814-41bc-9994-ad589330a0a0")
+			(uuid "697d5bb2-7a2e-4569-b763-f14bd5610618")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -3955,7 +3955,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ada8c586-a814-41bc-9994-ad589330a0a0")
+			(uuid "430d0e42-a7da-422b-a978-08a9b765bf79")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -3965,7 +3965,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ada8c586-a814-41bc-9994-ad589330a0a0")
+			(uuid "a2d91626-6947-4405-b9b0-76fa2d1a384d")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -3986,7 +3986,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ada8c586-a814-41bc-9994-ad589330a0a0")
+			(uuid "7cf8ee97-4e9d-4b8d-9ca2-928a34992d02")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -4053,7 +4053,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "8eef1109-4d14-4754-9683-2b29f32a8090")
+			(uuid "a62fbe4d-6576-48ec-96b5-42251b97cf63")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -4118,7 +4118,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "8eef1109-4d14-4754-9683-2b29f32a8090")
+			(uuid "47ac677a-aafa-4ebb-a291-e9853f069ce9")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -4128,7 +4128,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "8eef1109-4d14-4754-9683-2b29f32a8090")
+			(uuid "a86176b9-08cb-45b1-9a00-83c1be783058")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -4138,7 +4138,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "8eef1109-4d14-4754-9683-2b29f32a8090")
+			(uuid "b4891e82-cbb4-4e24-83d9-3566ecc6aa51")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -4223,7 +4223,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "bd6fb4e4-707a-4a39-a28e-41c1314e112a")
+			(uuid "d5b175d7-d1d7-4ecb-a3aa-f71a065bcaae")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -4233,7 +4233,7 @@
 			(net 27 "Net-(SW2-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "bd6fb4e4-707a-4a39-a28e-41c1314e112a")
+			(uuid "7fe87a89-4397-43e4-b7d5-1c4d13199fc5")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -4294,7 +4294,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "bd6fb4e4-707a-4a39-a28e-41c1314e112a")
+			(uuid "8f88ccc2-c03c-4023-83c8-88752fcf1b2b")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -4304,7 +4304,7 @@
 			(net 27 "Net-(SW2-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "bd6fb4e4-707a-4a39-a28e-41c1314e112a")
+			(uuid "5d69726a-7465-4b6d-a73e-4c1221224c45")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -4371,7 +4371,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "1bd1550a-fe08-40f1-a95d-87c5c84e5c28")
+			(uuid "94e5c538-763a-49af-b570-ee4d4182cfc8")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -4423,7 +4423,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "1bd1550a-fe08-40f1-a95d-87c5c84e5c28")
+			(uuid "749a766f-0a28-4936-9d9c-ece27e188736")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -4433,7 +4433,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "1bd1550a-fe08-40f1-a95d-87c5c84e5c28")
+			(uuid "c60fa5f1-d8f1-4509-80ce-b78ee9b2e6d1")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -4445,7 +4445,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "1bd1550a-fe08-40f1-a95d-87c5c84e5c28")
+			(uuid "24d60b24-5430-4dfc-a704-f31a34747f90")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -4458,7 +4458,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "1bd1550a-fe08-40f1-a95d-87c5c84e5c28")
+			(uuid "2342dcae-fdd4-4b33-a43f-354d05f2ae87")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -4538,7 +4538,7 @@
 			(net 28 "Net-(SW3-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "03d5fe08-a360-472d-856d-08ea28f64378")
+			(uuid "dc81ec20-70bc-4591-bdd9-c6640d4bcc60")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -4594,7 +4594,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "03d5fe08-a360-472d-856d-08ea28f64378")
+			(uuid "8dc78dc6-4e91-4611-a126-d3352eb6432d")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -4604,7 +4604,7 @@
 			(net 28 "Net-(SW3-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "03d5fe08-a360-472d-856d-08ea28f64378")
+			(uuid "70f32290-5025-4804-90a0-b0b4a0fc68eb")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -4628,7 +4628,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "03d5fe08-a360-472d-856d-08ea28f64378")
+			(uuid "edadc65c-c389-48bb-8c2e-649088f34482")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -6004,7 +6004,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0f1fee6d-ddfd-41be-9ab9-c55d8d490510")
+			(uuid "49a72806-46e2-4b91-b3a5-ba63f97fc310")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -6026,7 +6026,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0f1fee6d-ddfd-41be-9ab9-c55d8d490510")
+			(uuid "fd60f114-2edc-4240-b050-9683e216c234")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -6036,7 +6036,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0f1fee6d-ddfd-41be-9ab9-c55d8d490510")
+			(uuid "817ea67c-8625-42b8-b943-f6677a688eb2")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -6059,7 +6059,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0f1fee6d-ddfd-41be-9ab9-c55d8d490510")
+			(uuid "a92db052-5d9f-467a-84aa-f484074de228")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -6092,7 +6092,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3bc66bac-3ece-46b7-9cb4-094f6d143133")
+			(uuid "f65f2b1f-be64-42f2-be79-fa70935d43de")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -6114,7 +6114,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3bc66bac-3ece-46b7-9cb4-094f6d143133")
+			(uuid "ab7c98ce-3ba3-42a1-80a3-2ed8fa1b6640")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -6124,7 +6124,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3bc66bac-3ece-46b7-9cb4-094f6d143133")
+			(uuid "23e79f18-138b-485c-b1f1-81596c54396d")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -6145,7 +6145,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3bc66bac-3ece-46b7-9cb4-094f6d143133")
+			(uuid "aa3b853a-b5bb-4ab2-bc67-d3a004b87bc8")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -6212,7 +6212,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "eb4d2071-a9f2-4e62-ab62-17c2355019d4")
+			(uuid "aa6dc777-6fe2-4255-ab94-19c466b26be1")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -6277,7 +6277,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "eb4d2071-a9f2-4e62-ab62-17c2355019d4")
+			(uuid "2b2ec71b-4f80-4c4f-8293-eb90f7deec92")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -6287,7 +6287,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "eb4d2071-a9f2-4e62-ab62-17c2355019d4")
+			(uuid "559e3b89-3410-4438-8346-d3fbff3da11e")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -6297,7 +6297,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "eb4d2071-a9f2-4e62-ab62-17c2355019d4")
+			(uuid "fed7bbd1-757e-4948-8576-db18af07d054")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -6382,7 +6382,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "5cc75984-a351-41a5-867a-7cb20d992870")
+			(uuid "3c127fd1-9cb4-41df-a597-0680a7264f6a")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -6392,7 +6392,7 @@
 			(net 28 "Net-(SW3-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "5cc75984-a351-41a5-867a-7cb20d992870")
+			(uuid "5319afa2-f136-4916-9e5c-30f177ab70a2")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -6453,7 +6453,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "5cc75984-a351-41a5-867a-7cb20d992870")
+			(uuid "2b2b474a-118a-434d-ac01-2478938cdb55")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -6463,7 +6463,7 @@
 			(net 28 "Net-(SW3-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "5cc75984-a351-41a5-867a-7cb20d992870")
+			(uuid "faa821a7-d980-4817-b705-60155cca6c35")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -6530,7 +6530,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "d60f0cf3-6755-4fca-bca8-bc4eb048c1d5")
+			(uuid "f133f8ab-1cfa-4376-834b-d410b62dfcd8")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -6582,7 +6582,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "d60f0cf3-6755-4fca-bca8-bc4eb048c1d5")
+			(uuid "0141d03d-f108-42b2-b7eb-dc2f53b3142d")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -6592,7 +6592,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "d60f0cf3-6755-4fca-bca8-bc4eb048c1d5")
+			(uuid "fcc5d0e0-ec03-4d28-87d5-163edee93cea")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -6604,7 +6604,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "d60f0cf3-6755-4fca-bca8-bc4eb048c1d5")
+			(uuid "f6ecafd8-f90b-40e7-84f8-1b2b21e34ffb")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -6617,7 +6617,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "d60f0cf3-6755-4fca-bca8-bc4eb048c1d5")
+			(uuid "86b97c80-924e-49d8-891b-ff85ef7fbe33")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -6697,7 +6697,7 @@
 			(net 29 "Net-(SW4-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "9a98891c-6790-45c0-90fb-5bd84d2883b1")
+			(uuid "5e6a59e6-9c97-4c97-b970-2ee9c1b01aab")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -6753,7 +6753,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "9a98891c-6790-45c0-90fb-5bd84d2883b1")
+			(uuid "b78f60d2-eec4-4a44-8b0b-deb8a49ff0d0")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -6763,7 +6763,7 @@
 			(net 29 "Net-(SW4-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "9a98891c-6790-45c0-90fb-5bd84d2883b1")
+			(uuid "5542daaa-c0fd-4365-9457-33d83ab39ca6")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -6787,7 +6787,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "9a98891c-6790-45c0-90fb-5bd84d2883b1")
+			(uuid "dba874e4-153b-477d-bdd2-9b5f69d8ec47")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -8163,7 +8163,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9bf178ed-8df1-4eba-8be9-9603c695ac89")
+			(uuid "8b36d7fd-ab74-493d-94c0-e6a6f440a82a")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -8185,7 +8185,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "9bf178ed-8df1-4eba-8be9-9603c695ac89")
+			(uuid "a926095e-9e5b-4d20-b9dd-a012bee9ee37")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -8195,7 +8195,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9bf178ed-8df1-4eba-8be9-9603c695ac89")
+			(uuid "ec2bb4cd-a8dc-4a61-8677-993bd319e90e")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -8218,7 +8218,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "9bf178ed-8df1-4eba-8be9-9603c695ac89")
+			(uuid "2996aa35-4a37-4d5e-af0c-b5e698e157cd")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -8251,7 +8251,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "dcd3fa07-89b8-4a9a-b8ee-933628b52e23")
+			(uuid "92b9b4c3-3c9e-4736-81c2-e8914700658a")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -8273,7 +8273,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "dcd3fa07-89b8-4a9a-b8ee-933628b52e23")
+			(uuid "4d4dd3de-9b8b-4c7f-93a5-c6840c2e446a")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -8283,7 +8283,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "dcd3fa07-89b8-4a9a-b8ee-933628b52e23")
+			(uuid "a5573c7d-5705-43fa-9605-b694d72ec2a4")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -8304,7 +8304,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "dcd3fa07-89b8-4a9a-b8ee-933628b52e23")
+			(uuid "d9371644-4d34-45d3-9ac0-989f47ede137")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -8371,7 +8371,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "374231de-738b-409d-afb7-6a6e7480b857")
+			(uuid "4098d551-e749-4f9b-a70e-55db3c9fed62")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -8436,7 +8436,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "374231de-738b-409d-afb7-6a6e7480b857")
+			(uuid "ce93a084-f2f2-4dbc-97a5-1b387e7070ce")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -8446,7 +8446,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "374231de-738b-409d-afb7-6a6e7480b857")
+			(uuid "3c3a3602-4892-45ae-b4a3-eb68322f7f82")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -8456,7 +8456,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "374231de-738b-409d-afb7-6a6e7480b857")
+			(uuid "cbe07a8a-52db-49d3-865d-54eafda9f87b")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -8541,7 +8541,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "97b66332-43a8-4ae2-9fbb-a101e42684d5")
+			(uuid "0bad82df-cd71-444c-b19d-75927ce6edf8")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -8551,7 +8551,7 @@
 			(net 29 "Net-(SW4-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "97b66332-43a8-4ae2-9fbb-a101e42684d5")
+			(uuid "8bf7f074-c046-4b44-9163-39165277c48e")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -8612,7 +8612,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "97b66332-43a8-4ae2-9fbb-a101e42684d5")
+			(uuid "b4683cb3-39c0-4136-82be-650a150433fc")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -8622,7 +8622,7 @@
 			(net 29 "Net-(SW4-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "97b66332-43a8-4ae2-9fbb-a101e42684d5")
+			(uuid "a3787365-0781-4a71-a714-c7aa3988d25d")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -8689,7 +8689,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "6f370bc9-7084-4454-9ffa-715b20e74b3f")
+			(uuid "33927b23-596e-4343-8e76-1c72a0a4fe59")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -8741,7 +8741,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "6f370bc9-7084-4454-9ffa-715b20e74b3f")
+			(uuid "d0f5ed54-f4da-4b45-bdec-7cdad60a547c")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -8751,7 +8751,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "6f370bc9-7084-4454-9ffa-715b20e74b3f")
+			(uuid "3e30551c-b5b5-4903-abb1-ff2bd3f99b63")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -8763,7 +8763,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "6f370bc9-7084-4454-9ffa-715b20e74b3f")
+			(uuid "74b7eea8-4a7c-4f41-87cb-57d74477fd53")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -8776,7 +8776,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "6f370bc9-7084-4454-9ffa-715b20e74b3f")
+			(uuid "8e1a0607-cc8d-4510-affc-264bf59a3f0b")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -8856,7 +8856,7 @@
 			(net 30 "Net-(SW5-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "ad7cf407-537f-45af-8629-40678d227ed8")
+			(uuid "646a12f2-29ea-436c-ab32-cdb1c9263282")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -8912,7 +8912,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "ad7cf407-537f-45af-8629-40678d227ed8")
+			(uuid "b0d54eed-ec46-4235-8d2c-242ace59a7f2")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -8922,7 +8922,7 @@
 			(net 30 "Net-(SW5-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "ad7cf407-537f-45af-8629-40678d227ed8")
+			(uuid "7a2eb8f7-f0b3-421c-a459-34a7716da9e3")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -8946,7 +8946,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ad7cf407-537f-45af-8629-40678d227ed8")
+			(uuid "0567e658-4973-4c96-af43-306eed13c6d0")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -10322,7 +10322,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3ca25d97-4033-4b14-bc64-f48cf15c47ab")
+			(uuid "5865b0a5-4d5f-4e59-ac47-8f5a12e184b3")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -10344,7 +10344,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3ca25d97-4033-4b14-bc64-f48cf15c47ab")
+			(uuid "70f8adad-02b0-4d52-a688-a2e3c1ada5f4")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -10354,7 +10354,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3ca25d97-4033-4b14-bc64-f48cf15c47ab")
+			(uuid "c293411b-9e1e-4f96-a4bf-0eaf2b904036")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -10377,7 +10377,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3ca25d97-4033-4b14-bc64-f48cf15c47ab")
+			(uuid "c2c66957-2ef7-4d8d-8bd5-bf34ce5011b0")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -10410,7 +10410,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "566c83f6-a3f6-4478-8542-59adeed0cae4")
+			(uuid "a962a27f-6c03-44a0-9462-188bd694a061")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -10432,7 +10432,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "566c83f6-a3f6-4478-8542-59adeed0cae4")
+			(uuid "2d0c10f5-a43d-405e-bdbe-3c5acd97c448")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -10442,7 +10442,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "566c83f6-a3f6-4478-8542-59adeed0cae4")
+			(uuid "bfda8174-4b87-4932-99f6-091dfdef5ce2")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -10463,7 +10463,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "566c83f6-a3f6-4478-8542-59adeed0cae4")
+			(uuid "af183ee7-581d-44aa-bf62-5f12f964593d")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -10530,7 +10530,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "647ee849-9bfd-4529-b596-0c502d8b865a")
+			(uuid "f833eadc-4e03-4f93-a8c9-55897aa9b013")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -10595,7 +10595,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "647ee849-9bfd-4529-b596-0c502d8b865a")
+			(uuid "61aec722-01b1-47af-a071-d9e4c0fdcd7b")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -10605,7 +10605,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "647ee849-9bfd-4529-b596-0c502d8b865a")
+			(uuid "b22dbd1c-8674-406a-9ed1-4b972d2f3e96")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -10615,7 +10615,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "647ee849-9bfd-4529-b596-0c502d8b865a")
+			(uuid "1b0f1e7f-477e-4181-9b6f-fe82b4507164")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -10700,7 +10700,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "b888dcaa-ebb9-4131-9fe2-7df120ceea0f")
+			(uuid "d28a67eb-54a2-4472-9e6e-650afba6e8cf")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -10710,7 +10710,7 @@
 			(net 30 "Net-(SW5-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "b888dcaa-ebb9-4131-9fe2-7df120ceea0f")
+			(uuid "6b9e3d7d-d391-440b-9eac-67eed6f0085d")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -10771,7 +10771,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "b888dcaa-ebb9-4131-9fe2-7df120ceea0f")
+			(uuid "03c809be-30de-4377-8c4c-344e493aa55f")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -10781,7 +10781,7 @@
 			(net 30 "Net-(SW5-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "b888dcaa-ebb9-4131-9fe2-7df120ceea0f")
+			(uuid "37e8cbbd-be9b-4e2f-8cd5-ff33c97eba3f")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -10848,7 +10848,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "e5acc96a-e4d9-4c99-9f22-f40136abac87")
+			(uuid "aeaef046-c0d4-4a69-bb21-ce1614e7965c")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -10900,7 +10900,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "e5acc96a-e4d9-4c99-9f22-f40136abac87")
+			(uuid "f9a020ac-a1a0-4299-87cd-1e1355520a27")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -10910,7 +10910,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "e5acc96a-e4d9-4c99-9f22-f40136abac87")
+			(uuid "d55b499c-6aa0-4fa0-b7ae-4245b25c7914")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -10922,7 +10922,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "e5acc96a-e4d9-4c99-9f22-f40136abac87")
+			(uuid "ebd0cfc1-0c77-492f-bd88-e9259fc4937e")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -10935,7 +10935,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "e5acc96a-e4d9-4c99-9f22-f40136abac87")
+			(uuid "ce0faaee-8269-47c5-8fae-b52940dbe19e")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -11015,7 +11015,7 @@
 			(net 58 "Net-(SW6-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "feeb4b23-dc11-47da-a88c-256f3f83b412")
+			(uuid "1ec0261c-07db-4921-bc2a-46bc8e02b0a8")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -11071,7 +11071,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "feeb4b23-dc11-47da-a88c-256f3f83b412")
+			(uuid "8786920a-690c-483d-a9c7-cc383dd0674c")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -11081,7 +11081,7 @@
 			(net 58 "Net-(SW6-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "feeb4b23-dc11-47da-a88c-256f3f83b412")
+			(uuid "58a30701-0b05-4852-9395-f28772c7c149")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -11105,7 +11105,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "feeb4b23-dc11-47da-a88c-256f3f83b412")
+			(uuid "8fb1220a-50b0-43d3-b486-3d45b59f5917")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -12481,7 +12481,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9aa01673-74e5-414e-8d55-1f6ae0d55a50")
+			(uuid "60127a39-4370-4296-a1bf-b070b97a473e")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -12503,7 +12503,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "9aa01673-74e5-414e-8d55-1f6ae0d55a50")
+			(uuid "b5d072aa-90ff-49a4-b323-87112fd094eb")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -12513,7 +12513,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9aa01673-74e5-414e-8d55-1f6ae0d55a50")
+			(uuid "6ca95efa-2f4f-4c7b-8664-02ab6447c82f")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -12536,7 +12536,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "9aa01673-74e5-414e-8d55-1f6ae0d55a50")
+			(uuid "b4680341-51e1-465b-b6db-a5a4bc28c152")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -12569,7 +12569,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "6ab8a653-4a65-43ec-9ac7-c0071dc943fd")
+			(uuid "32f296af-7c7f-4f15-b26b-f8129a958087")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -12591,7 +12591,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "6ab8a653-4a65-43ec-9ac7-c0071dc943fd")
+			(uuid "8ca3d263-c7fd-4213-ae7a-74dd892cd5b6")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -12601,7 +12601,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "6ab8a653-4a65-43ec-9ac7-c0071dc943fd")
+			(uuid "6e1dde47-8b8c-4c38-bd32-6921ba6b493f")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -12622,7 +12622,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "6ab8a653-4a65-43ec-9ac7-c0071dc943fd")
+			(uuid "8bf351e0-44de-4b05-a9ea-47fa0b1b00c9")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -12689,7 +12689,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "bba9cdce-1808-4de1-9b3e-c8640ab841fd")
+			(uuid "c3682edf-762e-47ba-b333-22d1757d176e")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -12754,7 +12754,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "bba9cdce-1808-4de1-9b3e-c8640ab841fd")
+			(uuid "8f63d0fa-c318-49da-befe-0e4f49ae82a3")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -12764,7 +12764,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bba9cdce-1808-4de1-9b3e-c8640ab841fd")
+			(uuid "45f90e49-720a-425c-9d2f-206ac7d78ee8")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -12774,7 +12774,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bba9cdce-1808-4de1-9b3e-c8640ab841fd")
+			(uuid "a2fda61c-7731-4109-a691-562a06d0e438")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -12859,7 +12859,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "b187de65-08c3-4646-9a0d-906aa35eb084")
+			(uuid "4b6fab74-8f7d-4096-bd9a-2a66f38b8125")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -12869,7 +12869,7 @@
 			(net 59 "Net-(SW7-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "b187de65-08c3-4646-9a0d-906aa35eb084")
+			(uuid "241fd86d-df06-4719-a675-78d926916ac8")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -12930,7 +12930,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "b187de65-08c3-4646-9a0d-906aa35eb084")
+			(uuid "f2b9b98d-c600-40d2-8b57-fc636fc282b5")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -12940,7 +12940,7 @@
 			(net 59 "Net-(SW7-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "b187de65-08c3-4646-9a0d-906aa35eb084")
+			(uuid "daf3c739-19c8-4112-a37a-267c0ea8f562")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -13007,7 +13007,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "a7804795-c694-4588-b1b6-93eebc53ac97")
+			(uuid "86fd87a4-514d-4637-9b3a-11cf0da7aa8a")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -13059,7 +13059,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "a7804795-c694-4588-b1b6-93eebc53ac97")
+			(uuid "f01b3341-325f-44ef-8ef0-91a2664964d8")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -13069,7 +13069,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "a7804795-c694-4588-b1b6-93eebc53ac97")
+			(uuid "5d3b412b-7af1-44d1-8b5a-ef163ccb92ba")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -13081,7 +13081,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "a7804795-c694-4588-b1b6-93eebc53ac97")
+			(uuid "38c87e93-b7ad-4495-b410-588f58c83471")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -13094,7 +13094,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "a7804795-c694-4588-b1b6-93eebc53ac97")
+			(uuid "747ca254-7c66-4925-b6e7-a0e8598b951b")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -13174,7 +13174,7 @@
 			(net 60 "Net-(SW8-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "50f5ca64-3d18-48cf-8375-83f1cac58894")
+			(uuid "643180a2-c684-4f02-97c8-3e7e765ffb63")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -13230,7 +13230,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "50f5ca64-3d18-48cf-8375-83f1cac58894")
+			(uuid "67d899bc-b174-4b7b-b900-df9cab6b3030")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -13240,7 +13240,7 @@
 			(net 60 "Net-(SW8-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "50f5ca64-3d18-48cf-8375-83f1cac58894")
+			(uuid "257a49d2-841e-4dd2-afba-15934948949b")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -13264,7 +13264,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "50f5ca64-3d18-48cf-8375-83f1cac58894")
+			(uuid "ade13d4f-e67e-45e8-8fdf-3c4af8c17043")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -14640,7 +14640,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a8c332ca-2a4b-4897-b33f-56ec010588aa")
+			(uuid "96c3f3fe-3fc0-4c9a-8adb-a01157ef3f69")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -14662,7 +14662,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "a8c332ca-2a4b-4897-b33f-56ec010588aa")
+			(uuid "61ecb7b0-0393-4f07-9b13-ac4db079aa3a")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -14672,7 +14672,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a8c332ca-2a4b-4897-b33f-56ec010588aa")
+			(uuid "beba18ee-8fa6-4068-8451-3d5e67445525")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -14695,7 +14695,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "a8c332ca-2a4b-4897-b33f-56ec010588aa")
+			(uuid "53d4d2cb-8dde-4856-a218-0ff8dcabc405")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -14728,7 +14728,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9cc1d386-dc68-493b-8c7a-293205fdf979")
+			(uuid "e8cf10dc-f202-49b0-a929-880dc4092f95")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -14750,7 +14750,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "9cc1d386-dc68-493b-8c7a-293205fdf979")
+			(uuid "7cb37268-6d07-4647-bcbf-7226448dbe1d")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -14760,7 +14760,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "9cc1d386-dc68-493b-8c7a-293205fdf979")
+			(uuid "2a7511eb-34f2-4471-ac06-91a2f39bfaca")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -14781,7 +14781,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "9cc1d386-dc68-493b-8c7a-293205fdf979")
+			(uuid "88b65ce4-c3c0-4842-aaa3-46d76a5045ee")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -14848,7 +14848,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "bb5eb1bc-49b3-4c83-a86e-6524a9dcbc4c")
+			(uuid "e8858625-31d3-441d-9a1a-a4b19efd228b")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -14913,7 +14913,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "bb5eb1bc-49b3-4c83-a86e-6524a9dcbc4c")
+			(uuid "edd414ae-3d40-4947-b7e2-429353d8fbb5")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -14923,7 +14923,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bb5eb1bc-49b3-4c83-a86e-6524a9dcbc4c")
+			(uuid "ad7bb5d7-63b0-4a2d-974c-6bd0871b60b3")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -14933,7 +14933,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bb5eb1bc-49b3-4c83-a86e-6524a9dcbc4c")
+			(uuid "ad3aa1f1-9f2c-4101-9e5e-571045dec943")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -15018,7 +15018,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "831b19a0-11a9-41a3-bac4-e26bae68de54")
+			(uuid "0380c414-0d93-45d6-b9ac-606890b02d9c")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -15028,7 +15028,7 @@
 			(net 60 "Net-(SW8-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "831b19a0-11a9-41a3-bac4-e26bae68de54")
+			(uuid "6dc62ed3-e16a-4f25-b7a8-046f5869a96b")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -15089,7 +15089,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "831b19a0-11a9-41a3-bac4-e26bae68de54")
+			(uuid "a9902fcf-08a7-4ee3-be58-9eb5581ac398")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -15099,7 +15099,7 @@
 			(net 60 "Net-(SW8-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "831b19a0-11a9-41a3-bac4-e26bae68de54")
+			(uuid "abf71078-8aed-47f1-b1d0-1db412b18475")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -15166,7 +15166,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "9f60ed05-d8c0-495d-a55e-ddc9ecb12d67")
+			(uuid "33461d9f-2288-4faa-af87-8dd3ca5ddb22")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -15218,7 +15218,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "9f60ed05-d8c0-495d-a55e-ddc9ecb12d67")
+			(uuid "4076e072-8119-4c39-9745-62d1b85492e8")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -15228,7 +15228,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "9f60ed05-d8c0-495d-a55e-ddc9ecb12d67")
+			(uuid "7ea19a1d-e083-495c-be9c-8dcaa0ae15d1")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -15240,7 +15240,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "9f60ed05-d8c0-495d-a55e-ddc9ecb12d67")
+			(uuid "00cd39c0-0686-45bf-acb2-282c4fd7f7f3")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -15253,7 +15253,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "9f60ed05-d8c0-495d-a55e-ddc9ecb12d67")
+			(uuid "8b0a78ae-b341-4108-90cd-1d15af0f43a5")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -15333,7 +15333,7 @@
 			(net 31 "Net-(SW10-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "1dc07cb1-3b44-4ced-a9f4-5e92626fd8b8")
+			(uuid "ff569207-6e67-4ec8-85e3-59b91a385124")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -15389,7 +15389,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "1dc07cb1-3b44-4ced-a9f4-5e92626fd8b8")
+			(uuid "341fb44f-ab31-48fd-b93a-66aa1b464f8a")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -15399,7 +15399,7 @@
 			(net 31 "Net-(SW10-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "1dc07cb1-3b44-4ced-a9f4-5e92626fd8b8")
+			(uuid "68130e5b-5e00-4797-8154-bfbedbba245c")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -15423,7 +15423,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "1dc07cb1-3b44-4ced-a9f4-5e92626fd8b8")
+			(uuid "4fdda8df-9946-4443-8cac-a72207d498b3")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -16799,7 +16799,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "16597701-f196-4dad-882c-38414b7c6421")
+			(uuid "73e6a091-1bcc-4c79-83e6-ed856409593b")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -16821,7 +16821,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "16597701-f196-4dad-882c-38414b7c6421")
+			(uuid "80d7da55-09d7-4120-9e8d-797c33959976")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -16831,7 +16831,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "16597701-f196-4dad-882c-38414b7c6421")
+			(uuid "8b7e3978-92f8-4637-b32c-e1afa2827d5a")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -16854,7 +16854,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "16597701-f196-4dad-882c-38414b7c6421")
+			(uuid "efff7de4-34f7-4d3d-8bce-bc78092459ae")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -16887,7 +16887,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f33363c4-fdd8-494e-ac80-47481e88bdad")
+			(uuid "922c5180-acf8-4d99-af70-0892ac65b001")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -16909,7 +16909,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "f33363c4-fdd8-494e-ac80-47481e88bdad")
+			(uuid "6b980e61-4225-4b72-8d0f-2fb43593f19d")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -16919,7 +16919,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f33363c4-fdd8-494e-ac80-47481e88bdad")
+			(uuid "a7676079-25c9-436d-973f-3141c587f72a")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -16940,7 +16940,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "f33363c4-fdd8-494e-ac80-47481e88bdad")
+			(uuid "62e80e5e-c049-4399-940a-5f19de15b52e")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -17007,7 +17007,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "16c6903f-8fd9-4e3b-96e0-c987e8059ddc")
+			(uuid "2aead31d-8dd2-4796-b81f-b505261da5ea")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -17072,7 +17072,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "16c6903f-8fd9-4e3b-96e0-c987e8059ddc")
+			(uuid "fbef640a-5aba-4e0f-88ec-3dd5535f441f")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -17082,7 +17082,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "16c6903f-8fd9-4e3b-96e0-c987e8059ddc")
+			(uuid "fa695cb2-3ffe-4284-93ae-f007bfba2376")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -17092,7 +17092,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "16c6903f-8fd9-4e3b-96e0-c987e8059ddc")
+			(uuid "3bf6a822-3a4c-4c49-a87a-f91c0929af1b")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -17177,7 +17177,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "d2ba48ee-d820-4a17-be59-c0f692d6aed4")
+			(uuid "183002e9-58f3-4354-8953-13b9a62df238")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -17187,7 +17187,7 @@
 			(net 31 "Net-(SW10-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "d2ba48ee-d820-4a17-be59-c0f692d6aed4")
+			(uuid "c761b6e5-7ab0-43cf-9d1d-8fb59e1ab329")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -17248,7 +17248,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "d2ba48ee-d820-4a17-be59-c0f692d6aed4")
+			(uuid "268a5c09-7a4a-4291-8c68-eaaf57bbc022")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -17258,7 +17258,7 @@
 			(net 31 "Net-(SW10-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "d2ba48ee-d820-4a17-be59-c0f692d6aed4")
+			(uuid "65b7dfc2-a5df-4ad0-87a1-48633430d45e")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -17325,7 +17325,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "3122c78b-9d9f-4d2d-96f0-1c2cf514f498")
+			(uuid "0c994ee6-0252-4bec-8f9c-fc06e2dbf722")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -17377,7 +17377,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "3122c78b-9d9f-4d2d-96f0-1c2cf514f498")
+			(uuid "5ec79496-82c7-434d-ad7f-0d3eaecaa39d")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -17387,7 +17387,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "3122c78b-9d9f-4d2d-96f0-1c2cf514f498")
+			(uuid "62109b51-6e98-4d96-aef7-2cf3b2f92b4f")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -17399,7 +17399,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "3122c78b-9d9f-4d2d-96f0-1c2cf514f498")
+			(uuid "d2a6ca60-c9c8-4893-b7f0-5ebb2a509915")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -17412,7 +17412,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "3122c78b-9d9f-4d2d-96f0-1c2cf514f498")
+			(uuid "ff123701-4360-4c05-9505-77705c2aa730")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -17492,7 +17492,7 @@
 			(net 32 "Net-(SW10-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "d2ce859b-9c58-4661-8ec9-eb27e5c2963d")
+			(uuid "6563a5c3-9953-4d32-8068-ff5cd476b6df")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -17548,7 +17548,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "d2ce859b-9c58-4661-8ec9-eb27e5c2963d")
+			(uuid "ec249c26-c3e3-4f8e-bbbb-e169b20a230f")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -17558,7 +17558,7 @@
 			(net 32 "Net-(SW10-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "d2ce859b-9c58-4661-8ec9-eb27e5c2963d")
+			(uuid "d9af4646-a1b1-41d9-8961-04edc9ea88c5")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -17582,7 +17582,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "d2ce859b-9c58-4661-8ec9-eb27e5c2963d")
+			(uuid "362a18ac-44bf-4634-b724-03f3df4e2030")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -18958,7 +18958,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "33f36268-138e-4234-8b10-3ce2eabc01af")
+			(uuid "87362403-edf8-4208-9668-6d34cc69a006")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -18980,7 +18980,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "33f36268-138e-4234-8b10-3ce2eabc01af")
+			(uuid "9f9c3437-6297-402a-8418-bd264a5e97a8")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -18990,7 +18990,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "33f36268-138e-4234-8b10-3ce2eabc01af")
+			(uuid "64668ec1-eaad-4a86-a620-3171bcfcbf5f")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -19013,7 +19013,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "33f36268-138e-4234-8b10-3ce2eabc01af")
+			(uuid "7367b254-8cc8-4fa9-98f5-bdc730e3348f")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -19046,7 +19046,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "463e8a09-5b93-4fdb-8515-dd8d1ba88a03")
+			(uuid "a78979d4-5623-48fe-88f1-6ff058e32243")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -19068,7 +19068,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "463e8a09-5b93-4fdb-8515-dd8d1ba88a03")
+			(uuid "07da765a-a088-4059-867c-9a7e59a7695a")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -19078,7 +19078,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "463e8a09-5b93-4fdb-8515-dd8d1ba88a03")
+			(uuid "e99208f4-592e-49f7-aa02-abf94ae524ba")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -19099,7 +19099,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "463e8a09-5b93-4fdb-8515-dd8d1ba88a03")
+			(uuid "3a706191-7dd6-4691-b750-3f24657bd3da")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -19166,7 +19166,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "bb988736-e99c-436d-b90a-7265ad13085a")
+			(uuid "7eed756f-c313-44fc-a06b-59abeec653e8")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -19231,7 +19231,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "bb988736-e99c-436d-b90a-7265ad13085a")
+			(uuid "47a31ab8-a743-4171-9727-e99063b84faa")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -19241,7 +19241,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bb988736-e99c-436d-b90a-7265ad13085a")
+			(uuid "66f5836b-f585-4510-89dc-b0d97fad574d")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -19251,7 +19251,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "bb988736-e99c-436d-b90a-7265ad13085a")
+			(uuid "3de6d5a3-19f8-48f7-8177-fe1b011e8c1b")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -19336,7 +19336,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "868d72bf-430a-42d6-ba9a-7f543ea8a415")
+			(uuid "46bd8f43-81e4-4102-8aa8-e76045689c22")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -19346,7 +19346,7 @@
 			(net 32 "Net-(SW10-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "868d72bf-430a-42d6-ba9a-7f543ea8a415")
+			(uuid "7d294bf0-b633-4d3c-8867-213eac257b9b")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -19407,7 +19407,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "868d72bf-430a-42d6-ba9a-7f543ea8a415")
+			(uuid "2005af69-fff2-4c6a-b290-5fcc6cdd0491")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -19417,7 +19417,7 @@
 			(net 32 "Net-(SW10-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "868d72bf-430a-42d6-ba9a-7f543ea8a415")
+			(uuid "be04b4b5-deb7-4598-a992-6787ba2c7fa4")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -19484,7 +19484,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "84cc5a07-6a05-4fab-b639-705c01e279a7")
+			(uuid "0f87ffb7-2b6a-4c75-bb73-f4bb9d2473a9")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -19536,7 +19536,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "84cc5a07-6a05-4fab-b639-705c01e279a7")
+			(uuid "e5d58af1-26e8-4a10-a7f7-f362059ec6cc")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -19546,7 +19546,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "84cc5a07-6a05-4fab-b639-705c01e279a7")
+			(uuid "3773566c-06a9-4a53-b756-692e6987b8cf")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -19558,7 +19558,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "84cc5a07-6a05-4fab-b639-705c01e279a7")
+			(uuid "8cbfc284-a15e-43a4-976c-c2dc6bce6467")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -19571,7 +19571,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "84cc5a07-6a05-4fab-b639-705c01e279a7")
+			(uuid "84c0916b-0506-4299-b1ed-c72e4f20d33c")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -19651,7 +19651,7 @@
 			(net 61 "Net-(SW11-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "fe6e0dc4-dce9-4c21-86e4-61369000e66c")
+			(uuid "5571b976-939b-408a-ac17-1ca56b6928e3")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -19707,7 +19707,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "fe6e0dc4-dce9-4c21-86e4-61369000e66c")
+			(uuid "a65ee672-a7a0-48dc-81ff-d8785cb36d76")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -19717,7 +19717,7 @@
 			(net 61 "Net-(SW11-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "fe6e0dc4-dce9-4c21-86e4-61369000e66c")
+			(uuid "7e997e66-9429-44bd-96d8-a106d2b31d0a")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -19741,7 +19741,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "fe6e0dc4-dce9-4c21-86e4-61369000e66c")
+			(uuid "4325c7ef-060c-4380-b280-3f984eabc580")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -21117,7 +21117,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "557742ac-007e-4bb9-8ab9-259b9fd4b427")
+			(uuid "1a8921b2-40a9-472d-ade6-e3ee40cc09e7")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -21139,7 +21139,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "557742ac-007e-4bb9-8ab9-259b9fd4b427")
+			(uuid "443f461f-3924-4036-9ca7-b8d7ecf17424")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -21149,7 +21149,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "557742ac-007e-4bb9-8ab9-259b9fd4b427")
+			(uuid "e31e07d2-97f9-44e3-b147-3535169d4eac")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -21172,7 +21172,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "557742ac-007e-4bb9-8ab9-259b9fd4b427")
+			(uuid "7a46a613-ad6d-44e9-a1f2-a89ca033234f")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -21205,7 +21205,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3198363d-8627-4577-905b-a03ef9512265")
+			(uuid "aafccd90-5437-44db-abf4-9134531d6d86")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -21227,7 +21227,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3198363d-8627-4577-905b-a03ef9512265")
+			(uuid "da5baa80-c81c-4992-9264-03711bca2332")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -21237,7 +21237,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3198363d-8627-4577-905b-a03ef9512265")
+			(uuid "ec679c01-42a9-4782-861c-0404dfcd63ab")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -21258,7 +21258,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3198363d-8627-4577-905b-a03ef9512265")
+			(uuid "f6cfcda5-96c0-4b3d-934d-0f27502dbddb")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -21325,7 +21325,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "34b059ca-731a-4f7d-9db0-d42ed75d522d")
+			(uuid "83412260-d566-47c2-b2fc-6851216e16cf")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -21390,7 +21390,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "34b059ca-731a-4f7d-9db0-d42ed75d522d")
+			(uuid "7d5e488c-b4f1-4bb3-a68f-d0d8b9c4d8ec")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -21400,7 +21400,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "34b059ca-731a-4f7d-9db0-d42ed75d522d")
+			(uuid "8b79a211-307c-4359-b780-1eaddb9386f9")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -21410,7 +21410,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "34b059ca-731a-4f7d-9db0-d42ed75d522d")
+			(uuid "4569e5c7-b209-4b9f-8fbe-20466198f212")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -21495,7 +21495,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "a080895e-e9ad-4fc6-b099-f63054c63ba6")
+			(uuid "bc041384-1df8-4fcc-8a0c-e6df0a864933")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -21505,7 +21505,7 @@
 			(net 61 "Net-(SW11-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "a080895e-e9ad-4fc6-b099-f63054c63ba6")
+			(uuid "4e4e7dc1-572e-48bd-9f80-c596e3e6449c")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -21566,7 +21566,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "a080895e-e9ad-4fc6-b099-f63054c63ba6")
+			(uuid "fb50c052-f6a7-43ee-bc59-1542b7554d35")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -21576,7 +21576,7 @@
 			(net 61 "Net-(SW11-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "a080895e-e9ad-4fc6-b099-f63054c63ba6")
+			(uuid "1fa748df-de4e-4912-8373-f537e21346eb")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -21643,7 +21643,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "bf67dfce-4980-46b2-a0ea-b4e2c3d21168")
+			(uuid "fd06c2ff-ca71-4b95-a298-d83bf40fcc7b")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -21695,7 +21695,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "bf67dfce-4980-46b2-a0ea-b4e2c3d21168")
+			(uuid "157468c3-83fe-4619-9f80-a773a2453cef")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -21705,7 +21705,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "bf67dfce-4980-46b2-a0ea-b4e2c3d21168")
+			(uuid "fa86e016-18e1-4064-8333-2d5148702d0a")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -21717,7 +21717,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "bf67dfce-4980-46b2-a0ea-b4e2c3d21168")
+			(uuid "011b8b8c-3cc6-4a77-bfe3-779c2285f358")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -21730,7 +21730,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "bf67dfce-4980-46b2-a0ea-b4e2c3d21168")
+			(uuid "0de7fa4d-efd6-43b1-b1c7-3cbb249c8fb0")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -21810,7 +21810,7 @@
 			(net 62 "Net-(SW12-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "c892574c-41b9-4cbd-b062-86cdf0bed3c1")
+			(uuid "d5709d80-cef2-4eee-895b-050c9e55e919")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -21866,7 +21866,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "c892574c-41b9-4cbd-b062-86cdf0bed3c1")
+			(uuid "a5468968-0041-4323-b98c-79cadc85ff62")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -21876,7 +21876,7 @@
 			(net 62 "Net-(SW12-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "c892574c-41b9-4cbd-b062-86cdf0bed3c1")
+			(uuid "cbf2186a-0d0f-474b-bd4e-2a499708e664")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -21900,7 +21900,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "c892574c-41b9-4cbd-b062-86cdf0bed3c1")
+			(uuid "69b22552-1302-4a7f-829f-5ce88aef8006")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -23276,7 +23276,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3da70573-3733-46a3-b0c4-5c67be5723f2")
+			(uuid "2b29312e-70e9-46f2-a3cb-3e26a3e1928c")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -23298,7 +23298,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3da70573-3733-46a3-b0c4-5c67be5723f2")
+			(uuid "6e68ed77-b278-4176-876b-7faf09d6090a")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -23308,7 +23308,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3da70573-3733-46a3-b0c4-5c67be5723f2")
+			(uuid "d3398a75-41ae-47b3-b0f0-b8c74b04d8e1")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -23331,7 +23331,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3da70573-3733-46a3-b0c4-5c67be5723f2")
+			(uuid "c719bf08-644f-44c8-ad44-bb6fb0a0e2d1")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -23364,7 +23364,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ac6cb9a3-46be-4f77-81d6-37e6e502d901")
+			(uuid "72689d6c-6573-4c5c-95f1-8b59122137fe")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -23386,7 +23386,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ac6cb9a3-46be-4f77-81d6-37e6e502d901")
+			(uuid "b1493023-2e83-49a1-90ae-564f31eb4851")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -23396,7 +23396,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "ac6cb9a3-46be-4f77-81d6-37e6e502d901")
+			(uuid "55eda7fc-9fff-4d3a-ad82-2bbf0a480199")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -23417,7 +23417,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ac6cb9a3-46be-4f77-81d6-37e6e502d901")
+			(uuid "ec3e0478-fdc0-4a24-846a-759e0be767b4")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -23484,7 +23484,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "ece9228d-63b5-48b7-b838-582b10e10c26")
+			(uuid "0a7f014c-8687-4cc0-8e53-f195261291f3")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -23549,7 +23549,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "ece9228d-63b5-48b7-b838-582b10e10c26")
+			(uuid "1b936265-c1f3-4529-8355-d5c1850ae9d8")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -23559,7 +23559,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "ece9228d-63b5-48b7-b838-582b10e10c26")
+			(uuid "7ca19f99-073a-42bc-8e81-b3ab5b047e35")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -23569,7 +23569,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "ece9228d-63b5-48b7-b838-582b10e10c26")
+			(uuid "451ef64e-63a6-470f-b9df-5d4f4d7a6343")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -23654,7 +23654,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "b635e5fb-d93e-47cc-9d44-93b86ba0977f")
+			(uuid "2bde9900-bdd9-421b-9779-a0bbdede17e6")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -23664,7 +23664,7 @@
 			(net 33 "Net-(SW13-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "b635e5fb-d93e-47cc-9d44-93b86ba0977f")
+			(uuid "13ba3df9-7f72-4b82-aa30-fb1cfa4be4b5")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -23725,7 +23725,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "b635e5fb-d93e-47cc-9d44-93b86ba0977f")
+			(uuid "1df25b0f-e6c5-42d1-8d75-5c2cab3f82b9")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -23735,7 +23735,7 @@
 			(net 33 "Net-(SW13-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "b635e5fb-d93e-47cc-9d44-93b86ba0977f")
+			(uuid "a7edc5f0-253a-45fe-957f-d97a79fcfcd1")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -23802,7 +23802,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "27f4b8e8-8915-4bc5-a888-5f0b7873b2ff")
+			(uuid "7146668c-b8fb-4dce-8982-a2f5aa1b2e70")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -23854,7 +23854,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "27f4b8e8-8915-4bc5-a888-5f0b7873b2ff")
+			(uuid "c42fb787-a0bb-4cfc-839b-d2f328149688")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -23864,7 +23864,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "27f4b8e8-8915-4bc5-a888-5f0b7873b2ff")
+			(uuid "7191914a-3039-4028-b031-480c3903389c")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -23876,7 +23876,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "27f4b8e8-8915-4bc5-a888-5f0b7873b2ff")
+			(uuid "73d8bfe5-3b12-4d20-8185-829aba9757c5")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -23889,7 +23889,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "27f4b8e8-8915-4bc5-a888-5f0b7873b2ff")
+			(uuid "8ca3a43b-4cf0-46c9-84de-9b8ed3aaeb9d")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -23969,7 +23969,7 @@
 			(net 34 "Net-(SW14-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "5899b126-7d69-4f2e-bc24-6ec93b0842d8")
+			(uuid "4ea9b2e1-01f5-410f-965e-878e3209a2ef")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -24025,7 +24025,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "5899b126-7d69-4f2e-bc24-6ec93b0842d8")
+			(uuid "a127b087-384f-47ec-b7ae-0fab9c6f7626")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -24035,7 +24035,7 @@
 			(net 34 "Net-(SW14-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "5899b126-7d69-4f2e-bc24-6ec93b0842d8")
+			(uuid "d9154ce2-bab0-4632-a68a-96e7936cddaa")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -24059,7 +24059,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "5899b126-7d69-4f2e-bc24-6ec93b0842d8")
+			(uuid "12d9dc60-4c1d-4647-b88e-4ece61993d94")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -25435,7 +25435,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "286289f5-fd9a-4cf0-b8c0-04fc68a3fd77")
+			(uuid "da3bec03-f700-4324-9f04-17c6c9a01ef5")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -25457,7 +25457,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "286289f5-fd9a-4cf0-b8c0-04fc68a3fd77")
+			(uuid "f223edf6-2a5c-47e1-a4f0-8dc05c02f82c")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -25467,7 +25467,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "286289f5-fd9a-4cf0-b8c0-04fc68a3fd77")
+			(uuid "0f953aa2-6bae-45ce-960e-f17786c1974b")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -25490,7 +25490,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "286289f5-fd9a-4cf0-b8c0-04fc68a3fd77")
+			(uuid "5f2eda89-073b-44d4-b53b-3d5c093b4e66")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -25523,7 +25523,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "fdcf2d6a-42b0-4eb2-b0dd-adf2ce4f935d")
+			(uuid "eac75c43-968b-4866-95c2-6a4e29610933")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -25545,7 +25545,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "fdcf2d6a-42b0-4eb2-b0dd-adf2ce4f935d")
+			(uuid "35231f7f-bd7a-4b90-b889-5460c214bd27")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -25555,7 +25555,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "fdcf2d6a-42b0-4eb2-b0dd-adf2ce4f935d")
+			(uuid "b68ca80b-e2a1-465d-988f-e98dc4312d51")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -25576,7 +25576,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "fdcf2d6a-42b0-4eb2-b0dd-adf2ce4f935d")
+			(uuid "1a62322b-a729-4c8d-87a5-8157eff63a30")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -25643,7 +25643,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "a6b779ca-fc2d-4224-ad37-1081929790a4")
+			(uuid "a7409af7-a77a-4d6d-a928-6818528629b5")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -25708,7 +25708,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "a6b779ca-fc2d-4224-ad37-1081929790a4")
+			(uuid "7005a51e-fd51-4d09-8a3e-255f7aba2d52")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -25718,7 +25718,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "a6b779ca-fc2d-4224-ad37-1081929790a4")
+			(uuid "cd23d6d2-7e70-48d9-b674-8f4bc5fd8293")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -25728,7 +25728,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "a6b779ca-fc2d-4224-ad37-1081929790a4")
+			(uuid "a0fc8dc4-c375-420c-b820-9d134660eb66")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -25813,7 +25813,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "74304e43-6556-4f2d-9bda-99789e9e87cd")
+			(uuid "279cd061-f4d6-44ea-ac9c-08967cf7e3c3")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -25823,7 +25823,7 @@
 			(net 34 "Net-(SW14-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "74304e43-6556-4f2d-9bda-99789e9e87cd")
+			(uuid "1f3a1d67-b3f0-43af-8eb9-b1eb1f6d5fc5")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -25884,7 +25884,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "74304e43-6556-4f2d-9bda-99789e9e87cd")
+			(uuid "3ba7df94-7106-4276-af75-85d3f9ff9bc5")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -25894,7 +25894,7 @@
 			(net 34 "Net-(SW14-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "74304e43-6556-4f2d-9bda-99789e9e87cd")
+			(uuid "b2c3c9ea-863f-47e7-a715-5f0d0d87a36c")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -25961,7 +25961,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "2dd55516-ed1d-4de7-8dc4-57f683066002")
+			(uuid "d241f34f-233f-4af3-b8ff-143c82deb42e")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -26013,7 +26013,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "2dd55516-ed1d-4de7-8dc4-57f683066002")
+			(uuid "9dbb2aa6-5551-4478-ad3d-041cec38a7d1")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -26023,7 +26023,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "2dd55516-ed1d-4de7-8dc4-57f683066002")
+			(uuid "6713e0c3-c25c-4f29-895d-761253c32c94")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -26035,7 +26035,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "2dd55516-ed1d-4de7-8dc4-57f683066002")
+			(uuid "0c5235c3-f246-46c0-9c67-4e923092be11")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -26048,7 +26048,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "2dd55516-ed1d-4de7-8dc4-57f683066002")
+			(uuid "09f42abf-7dce-4405-aec8-6e7ea0eef973")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -26128,7 +26128,7 @@
 			(net 35 "Net-(SW15-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "3677e88f-248c-4fac-822b-498dcf36e6c0")
+			(uuid "d18d339f-9922-4646-8f44-ec756a60d24c")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -26184,7 +26184,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "3677e88f-248c-4fac-822b-498dcf36e6c0")
+			(uuid "73a619f4-3b83-4a72-9615-dade28ebeceb")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -26194,7 +26194,7 @@
 			(net 35 "Net-(SW15-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "3677e88f-248c-4fac-822b-498dcf36e6c0")
+			(uuid "e3a8fe0e-7569-42ee-baa4-2e8add487603")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -26218,7 +26218,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3677e88f-248c-4fac-822b-498dcf36e6c0")
+			(uuid "26e64d56-ff48-46dc-b185-66e310ee840b")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -27594,7 +27594,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "15bf2887-cb57-4bf3-9027-f3d89b1abfdd")
+			(uuid "96956c75-2569-41fc-83ce-0d997096d26a")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -27616,7 +27616,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "15bf2887-cb57-4bf3-9027-f3d89b1abfdd")
+			(uuid "142ec50f-9523-4766-8911-26a471818123")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -27626,7 +27626,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "15bf2887-cb57-4bf3-9027-f3d89b1abfdd")
+			(uuid "ccfcdb85-37d9-473e-b76f-d272422b6694")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -27649,7 +27649,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "15bf2887-cb57-4bf3-9027-f3d89b1abfdd")
+			(uuid "25594c42-8b4e-4446-9733-806baad3da96")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -27682,7 +27682,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "4518db9e-13c7-43cf-9b38-cfe5d447fdcc")
+			(uuid "79070dac-3a6e-419e-b2bb-1ee0412ef69e")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -27704,7 +27704,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "4518db9e-13c7-43cf-9b38-cfe5d447fdcc")
+			(uuid "4d70c619-fa95-41a8-8bc2-f89f1e79aea5")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -27714,7 +27714,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "4518db9e-13c7-43cf-9b38-cfe5d447fdcc")
+			(uuid "0c4cd42a-d77d-49ab-8c43-ab4c35d9d32a")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -27735,7 +27735,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "4518db9e-13c7-43cf-9b38-cfe5d447fdcc")
+			(uuid "fbc517d4-4f03-4ba1-8ea6-136efa41cde3")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -27802,7 +27802,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "84c3c795-da2f-41e5-a1f1-95e79ddb9473")
+			(uuid "89ff2c65-190f-4624-af01-f5fc62a625b4")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -27867,7 +27867,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "84c3c795-da2f-41e5-a1f1-95e79ddb9473")
+			(uuid "72775a87-69ac-480c-a57a-39683367b4e6")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -27877,7 +27877,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "84c3c795-da2f-41e5-a1f1-95e79ddb9473")
+			(uuid "bd3c65ef-8dbf-4ac1-86e8-01fa26540eaf")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -27887,7 +27887,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "84c3c795-da2f-41e5-a1f1-95e79ddb9473")
+			(uuid "13874055-afb4-4282-8e6f-12713cb1dbb8")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -27972,7 +27972,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "2967fb14-e544-4645-be2f-f63de91a6af3")
+			(uuid "5238f720-28d5-43a8-8a11-197880fbceaf")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -27982,7 +27982,7 @@
 			(net 35 "Net-(SW15-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "2967fb14-e544-4645-be2f-f63de91a6af3")
+			(uuid "5a5207bd-6707-43a0-a290-555fd683dac1")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -28043,7 +28043,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "2967fb14-e544-4645-be2f-f63de91a6af3")
+			(uuid "6a9a14b6-1282-4cb7-9528-9636dcabaed4")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -28053,7 +28053,7 @@
 			(net 35 "Net-(SW15-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "2967fb14-e544-4645-be2f-f63de91a6af3")
+			(uuid "0540a40e-8fc7-4e78-a5ac-c54627c335ac")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -28120,7 +28120,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "8629be2c-6f5e-4c98-851e-73caf09f43a9")
+			(uuid "1ce9c295-c4f7-43fd-914e-0470602a66fd")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -28172,7 +28172,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "8629be2c-6f5e-4c98-851e-73caf09f43a9")
+			(uuid "909d0838-3fc7-4592-aec2-c58771d5670f")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -28182,7 +28182,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "8629be2c-6f5e-4c98-851e-73caf09f43a9")
+			(uuid "6048196a-eb96-45a7-94da-31ff835d5018")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -28194,7 +28194,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "8629be2c-6f5e-4c98-851e-73caf09f43a9")
+			(uuid "1bede3dd-d7b5-480d-85c7-3881bd3342fb")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -28207,7 +28207,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "8629be2c-6f5e-4c98-851e-73caf09f43a9")
+			(uuid "4857a25a-5851-4020-b4cb-0fad72119f23")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -28287,7 +28287,7 @@
 			(net 36 "Net-(SW16-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "3f506839-461c-4f53-8d1c-467a501be585")
+			(uuid "3a926b2f-46eb-4d1a-bd6a-3e479bc1f922")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -28343,7 +28343,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "3f506839-461c-4f53-8d1c-467a501be585")
+			(uuid "94d80b34-4829-4195-95ee-9313b69eaf9f")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -28353,7 +28353,7 @@
 			(net 36 "Net-(SW16-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "3f506839-461c-4f53-8d1c-467a501be585")
+			(uuid "0a52b4d0-5007-4d10-9d26-c8ce1278de84")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -28377,7 +28377,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3f506839-461c-4f53-8d1c-467a501be585")
+			(uuid "2aa6de30-b39c-4cf1-9616-808683c261ac")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -29753,7 +29753,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "86ed2e51-c6de-4fb3-a532-08e4919883b0")
+			(uuid "4d7c5778-90f0-400b-8171-9a6773b7968e")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -29775,7 +29775,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "86ed2e51-c6de-4fb3-a532-08e4919883b0")
+			(uuid "d204aaaa-12bd-44aa-b8d7-84a8ac2b3673")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -29785,7 +29785,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "86ed2e51-c6de-4fb3-a532-08e4919883b0")
+			(uuid "f77f87ed-d399-46cd-a2b2-15ceb35fd127")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -29808,7 +29808,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "86ed2e51-c6de-4fb3-a532-08e4919883b0")
+			(uuid "dffb027c-46b4-4370-97ad-2534ef5adf5a")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -29841,7 +29841,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "dfcc2bdb-7b0f-45f2-8a21-a086d243962a")
+			(uuid "014fc3f1-8f9b-44b9-a47b-32fe948b143e")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -29863,7 +29863,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "dfcc2bdb-7b0f-45f2-8a21-a086d243962a")
+			(uuid "31a89188-428e-4b0f-b8d4-948edc71f781")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -29873,7 +29873,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "dfcc2bdb-7b0f-45f2-8a21-a086d243962a")
+			(uuid "ce788c25-78f2-4bd4-8c69-edeb297bcc73")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -29894,7 +29894,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "dfcc2bdb-7b0f-45f2-8a21-a086d243962a")
+			(uuid "7bbe31c1-94f2-4bb8-bd91-c26179afc800")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -29961,7 +29961,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "a02b34ee-0de1-46b8-b3fb-f95d02beae22")
+			(uuid "74923fb4-6918-4dae-80db-f3d53b70084b")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -30026,7 +30026,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "a02b34ee-0de1-46b8-b3fb-f95d02beae22")
+			(uuid "686d8dc1-3d8a-4136-992f-d4f824721e32")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -30036,7 +30036,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "a02b34ee-0de1-46b8-b3fb-f95d02beae22")
+			(uuid "692e162e-ec2a-4096-bbba-213cf5b373b3")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -30046,7 +30046,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "a02b34ee-0de1-46b8-b3fb-f95d02beae22")
+			(uuid "749fc4c3-4389-4bf5-bdac-c9aebb71d8b1")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -30131,7 +30131,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "764e87a4-6219-4f89-9c1e-e74a42f023bb")
+			(uuid "6b729583-a687-4d40-8ba5-688b8d63a27c")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -30141,7 +30141,7 @@
 			(net 36 "Net-(SW16-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "764e87a4-6219-4f89-9c1e-e74a42f023bb")
+			(uuid "0784f6d0-ea18-448b-bc85-294c30fa24c7")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -30202,7 +30202,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "764e87a4-6219-4f89-9c1e-e74a42f023bb")
+			(uuid "a24dac96-ded1-4bfb-a617-01fd4466d2d4")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -30212,7 +30212,7 @@
 			(net 36 "Net-(SW16-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "764e87a4-6219-4f89-9c1e-e74a42f023bb")
+			(uuid "058eb3a8-355d-422c-8d46-76d2cf6282ef")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -30279,7 +30279,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "46ed0d31-0afc-425c-a3d6-fa90e4160b50")
+			(uuid "59572a3e-b11b-46b2-b4ea-5ebfb9b50332")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -30331,7 +30331,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "46ed0d31-0afc-425c-a3d6-fa90e4160b50")
+			(uuid "605ce024-d558-4bc0-bf2c-af6ae1281d84")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -30341,7 +30341,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "46ed0d31-0afc-425c-a3d6-fa90e4160b50")
+			(uuid "ef67f49d-9ec4-4fbd-a829-66953eb4e1d2")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -30353,7 +30353,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "46ed0d31-0afc-425c-a3d6-fa90e4160b50")
+			(uuid "90950607-710c-4280-a28b-59b72dbe12c3")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -30366,7 +30366,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "46ed0d31-0afc-425c-a3d6-fa90e4160b50")
+			(uuid "173c3306-b3ce-4946-889b-e94a7c22645c")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -30446,7 +30446,7 @@
 			(net 37 "Net-(SW17-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "e324be07-9070-4073-9117-67a7895849bd")
+			(uuid "1432c867-4f6a-4ec9-8746-46392b42b4ef")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -30502,7 +30502,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "e324be07-9070-4073-9117-67a7895849bd")
+			(uuid "8d02ef94-cb19-4f76-8525-3d95aa0fe5c0")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -30512,7 +30512,7 @@
 			(net 37 "Net-(SW17-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "e324be07-9070-4073-9117-67a7895849bd")
+			(uuid "51ff2789-9a5d-4331-a563-a6c50e136e08")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -30536,7 +30536,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "e324be07-9070-4073-9117-67a7895849bd")
+			(uuid "23e86593-b031-495d-b627-1b5e0493880a")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -31912,7 +31912,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0bb94d9f-4197-4b45-9559-33d3501893dc")
+			(uuid "7e27f0b8-9cd1-442b-8025-f9e3e039c5ae")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -31934,7 +31934,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0bb94d9f-4197-4b45-9559-33d3501893dc")
+			(uuid "d730b0fa-5446-48f3-95e1-e732ddc74606")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -31944,7 +31944,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0bb94d9f-4197-4b45-9559-33d3501893dc")
+			(uuid "e50719bb-53c3-410f-854f-3992b3f62feb")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -31967,7 +31967,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0bb94d9f-4197-4b45-9559-33d3501893dc")
+			(uuid "14ed289c-0cf5-4431-ac49-1add77d49800")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -32000,7 +32000,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "bb43f18d-256c-4b36-83f0-0bd970a99c4b")
+			(uuid "a905eb22-ba05-4aab-b435-ed5179f8f67e")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -32022,7 +32022,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "bb43f18d-256c-4b36-83f0-0bd970a99c4b")
+			(uuid "781e0ca3-f42a-4834-ad49-1bd575cd9ed1")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -32032,7 +32032,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "bb43f18d-256c-4b36-83f0-0bd970a99c4b")
+			(uuid "6e3cf88e-da49-41df-9e2d-50e500b59287")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -32053,7 +32053,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "bb43f18d-256c-4b36-83f0-0bd970a99c4b")
+			(uuid "ad8759fe-79e9-44d2-89de-cf1078e35c44")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -32120,7 +32120,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "120c0641-595d-4b29-ac9a-7bc233b99fe8")
+			(uuid "cb4f4cbf-048c-4448-9417-b07c2815d044")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -32185,7 +32185,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "120c0641-595d-4b29-ac9a-7bc233b99fe8")
+			(uuid "eafe3342-cca8-41d2-9d55-e19bb7a376e0")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -32195,7 +32195,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "120c0641-595d-4b29-ac9a-7bc233b99fe8")
+			(uuid "6f754660-a64f-4685-8936-5021e79067ac")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -32205,7 +32205,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "120c0641-595d-4b29-ac9a-7bc233b99fe8")
+			(uuid "2c243b6b-77d0-4beb-917e-15a905a7172d")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -32290,7 +32290,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "95a8ed2a-6831-4ea1-b494-555e00a5d2f0")
+			(uuid "60a9930f-9274-4fbe-838b-79ee6b24ab14")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -32300,7 +32300,7 @@
 			(net 37 "Net-(SW17-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "95a8ed2a-6831-4ea1-b494-555e00a5d2f0")
+			(uuid "a9dfa593-1e70-4555-a81f-04f83ed66200")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -32361,7 +32361,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "95a8ed2a-6831-4ea1-b494-555e00a5d2f0")
+			(uuid "ddfdc0a5-05ac-45a7-9070-b57b84d59b16")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -32371,7 +32371,7 @@
 			(net 37 "Net-(SW17-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "95a8ed2a-6831-4ea1-b494-555e00a5d2f0")
+			(uuid "d7ec6163-00c4-4009-b645-96ec31f758df")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -32438,7 +32438,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "a88b53c0-1dd0-49e9-b81d-601bdd97ebbd")
+			(uuid "171d922a-891b-429f-b6ae-f59d0f131a59")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -32490,7 +32490,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "a88b53c0-1dd0-49e9-b81d-601bdd97ebbd")
+			(uuid "bb4eb8bc-9d81-430b-ba54-ba7c3cf493b2")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -32500,7 +32500,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "a88b53c0-1dd0-49e9-b81d-601bdd97ebbd")
+			(uuid "4b9b9521-16a3-45d2-a876-6ad2d8fa03e7")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -32512,7 +32512,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "a88b53c0-1dd0-49e9-b81d-601bdd97ebbd")
+			(uuid "b95fcefe-26a3-4ba2-8bc0-20627cab0aa4")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -32525,7 +32525,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "a88b53c0-1dd0-49e9-b81d-601bdd97ebbd")
+			(uuid "946e9693-15f2-44a2-aaab-7334802b3f24")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -32605,7 +32605,7 @@
 			(net 63 "Net-(SW18-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "f0822974-a448-4ba2-b1eb-599ecf91970b")
+			(uuid "43c990ab-864a-4efc-87a6-af99cb555aa9")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -32661,7 +32661,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "f0822974-a448-4ba2-b1eb-599ecf91970b")
+			(uuid "715c3ad8-cc20-4b5f-8153-2eb13623433c")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -32671,7 +32671,7 @@
 			(net 63 "Net-(SW18-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "f0822974-a448-4ba2-b1eb-599ecf91970b")
+			(uuid "b8a4897c-37ce-4bbf-8907-aa273d9ff9c0")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -32695,7 +32695,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "f0822974-a448-4ba2-b1eb-599ecf91970b")
+			(uuid "b53469a2-b91d-4266-95a0-fab4edf07054")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -34073,7 +34073,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0f5ecd5b-a2e8-43a5-8805-e50d3befe912")
+			(uuid "d57aecd9-83aa-43ec-a75b-a61cfbc986cf")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6 340.4)
@@ -34095,7 +34095,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0f5ecd5b-a2e8-43a5-8805-e50d3befe912")
+			(uuid "9d653fbc-5de8-4ca5-8138-622f51181799")
 		)
 		(pad "1" smd rect
 			(at -5.075 6 340.4)
@@ -34105,7 +34105,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0f5ecd5b-a2e8-43a5-8805-e50d3befe912")
+			(uuid "e1910ca2-56da-4334-8945-33f01ab9d590")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95 340.4)
@@ -34128,7 +34128,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0f5ecd5b-a2e8-43a5-8805-e50d3befe912")
+			(uuid "95ff0843-a69f-4873-a729-849be77523b4")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95 340.4)
@@ -34161,7 +34161,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "77f0cb74-93c1-4002-ba5f-8a454f406d5d")
+			(uuid "e4cccd3e-0f76-4476-bcc0-0b0778263edb")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6 340.4)
@@ -34183,7 +34183,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "77f0cb74-93c1-4002-ba5f-8a454f406d5d")
+			(uuid "8f507864-4503-45f6-8604-54c35ce205ad")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 25.4)
@@ -34193,7 +34193,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "77f0cb74-93c1-4002-ba5f-8a454f406d5d")
+			(uuid "be7a12b8-c7af-4e8c-9fa5-320d84545bbf")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75 340.4)
@@ -34214,7 +34214,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "77f0cb74-93c1-4002-ba5f-8a454f406d5d")
+			(uuid "2b5a1092-b60f-4288-80c7-bace7d78f43b")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 160.4)
@@ -34281,7 +34281,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "64cb90c9-320e-485a-8447-fe36e2803a43")
+			(uuid "ab619849-2bb7-46dd-8972-a8fcf559a8e3")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 160.4)
@@ -34346,7 +34346,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "64cb90c9-320e-485a-8447-fe36e2803a43")
+			(uuid "a336ea6e-a4b2-4965-81df-c8070d147a63")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 160.4)
@@ -34356,7 +34356,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "64cb90c9-320e-485a-8447-fe36e2803a43")
+			(uuid "0a1dbf86-5ac5-4976-a40e-44e685263050")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375 340.4)
@@ -34366,7 +34366,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "64cb90c9-320e-485a-8447-fe36e2803a43")
+			(uuid "97dec5ca-54cc-4503-ac4a-d1a59be02f66")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 160.4)
@@ -34451,7 +34451,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "e8b294e6-269d-49c5-9573-e258a9acfa89")
+			(uuid "90050660-afa3-45ee-8bed-a7b85d73ec96")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375 340.4)
@@ -34461,7 +34461,7 @@
 			(net 77 "Net-(SW22-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "e8b294e6-269d-49c5-9573-e258a9acfa89")
+			(uuid "d06458e1-c222-41cb-b457-e2952a0c45ed")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 160.4)
@@ -34522,7 +34522,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "e8b294e6-269d-49c5-9573-e258a9acfa89")
+			(uuid "196bec02-282b-43af-83eb-e84ff437c76a")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 160.4)
@@ -34532,7 +34532,7 @@
 			(net 77 "Net-(SW22-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "e8b294e6-269d-49c5-9573-e258a9acfa89")
+			(uuid "0f9a225f-2ad5-4dcc-b15d-3f05fdfb3956")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375 340.4)
@@ -34599,7 +34599,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "d83d93b9-0099-4708-9037-0634f3be3490")
+			(uuid "2efef937-05e0-42b6-bc49-0b37ec495ce0")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 160.4)
@@ -34651,7 +34651,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "d83d93b9-0099-4708-9037-0634f3be3490")
+			(uuid "fa51c527-4260-4d58-a4e8-8db2ab95ee46")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 160.4)
@@ -34661,7 +34661,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "d83d93b9-0099-4708-9037-0634f3be3490")
+			(uuid "1ee66d99-c333-4341-955f-f59a6128bad3")
 		)
 		(pad "5" smd roundrect
 			(at 3.774999 -4.2 340.4)
@@ -34673,7 +34673,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "d83d93b9-0099-4708-9037-0634f3be3490")
+			(uuid "cbc5c0ee-5237-432e-ad63-c40fe88fdeb4")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.199999 160.4)
@@ -34686,7 +34686,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "d83d93b9-0099-4708-9037-0634f3be3490")
+			(uuid "4616848e-a368-45d8-8fa4-36bdc1e79e0e")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 160.4)
@@ -34766,7 +34766,7 @@
 			(net 78 "Net-(SW23-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "8b9997e5-6c9d-4939-88ad-e32f412f741b")
+			(uuid "98863f13-925d-4b8b-acf7-302773295697")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375 340.4)
@@ -34822,7 +34822,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "8b9997e5-6c9d-4939-88ad-e32f412f741b")
+			(uuid "9426d09e-1bc0-40a7-a319-3da7a1a1707e")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375 340.4)
@@ -34832,7 +34832,7 @@
 			(net 78 "Net-(SW23-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "8b9997e5-6c9d-4939-88ad-e32f412f741b")
+			(uuid "424c96fa-acdf-4572-aa9b-96926b8a6f6d")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 160.4)
@@ -34856,7 +34856,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "8b9997e5-6c9d-4939-88ad-e32f412f741b")
+			(uuid "153249bb-fedc-49a4-99a1-7b045be06350")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -36234,7 +36234,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c096761f-1b14-464c-9a08-2dc321a9fde2")
+			(uuid "1c2a7707-c739-4a6a-b8d4-e235eddb1725")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6 330.801)
@@ -36256,7 +36256,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "c096761f-1b14-464c-9a08-2dc321a9fde2")
+			(uuid "b3c42d45-a940-4f2b-afa8-332848518eb5")
 		)
 		(pad "1" smd rect
 			(at -5.075 6 330.801)
@@ -36266,7 +36266,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c096761f-1b14-464c-9a08-2dc321a9fde2")
+			(uuid "1313b622-04ca-4ea9-b9df-b9ea366a68ec")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95 330.801)
@@ -36289,7 +36289,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "c096761f-1b14-464c-9a08-2dc321a9fde2")
+			(uuid "0842e65e-8b67-4e71-952d-aede204fc0b7")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.950001 330.801)
@@ -36322,7 +36322,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "36f843c2-eaa5-413b-ac0f-26a64306cb99")
+			(uuid "a1c036e8-8a1a-4f64-9f7a-6f924fe1ba09")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6 330.801)
@@ -36344,7 +36344,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "36f843c2-eaa5-413b-ac0f-26a64306cb99")
+			(uuid "790f1524-8954-4d84-bb80-cbefec72149a")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 15.801)
@@ -36354,7 +36354,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "36f843c2-eaa5-413b-ac0f-26a64306cb99")
+			(uuid "40f0d4e1-8b7e-4599-a3e3-18482803a482")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75 330.801)
@@ -36375,7 +36375,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "36f843c2-eaa5-413b-ac0f-26a64306cb99")
+			(uuid "9227c82b-88a1-4ae0-b2c3-99eed736d19a")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 150.801)
@@ -36442,7 +36442,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "e417f4d6-c56c-4940-af89-0767f13f2a29")
+			(uuid "7c7795c3-52d3-462c-9305-2294eadcf400")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 150.801)
@@ -36507,7 +36507,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "e417f4d6-c56c-4940-af89-0767f13f2a29")
+			(uuid "0c72a3b0-83b1-4654-8d85-46cc42eafce7")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 150.801)
@@ -36517,7 +36517,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "e417f4d6-c56c-4940-af89-0767f13f2a29")
+			(uuid "c523d8a1-710b-45b9-abbf-f3d09ea8e9b4")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375 330.801)
@@ -36527,7 +36527,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "e417f4d6-c56c-4940-af89-0767f13f2a29")
+			(uuid "669ca8ca-bcf4-42be-9527-a74b7df3e2c7")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 150.801)
@@ -36612,7 +36612,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "f8deec61-54d5-4474-b1f1-58ed9163a34b")
+			(uuid "74b61a94-8534-4209-88a6-dbb7d01edb20")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375 330.801)
@@ -36622,7 +36622,7 @@
 			(net 78 "Net-(SW23-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "f8deec61-54d5-4474-b1f1-58ed9163a34b")
+			(uuid "9047fe36-d31d-433b-b862-575f50e59cfa")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 150.801)
@@ -36683,7 +36683,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "f8deec61-54d5-4474-b1f1-58ed9163a34b")
+			(uuid "d72f29e3-35a0-4c22-b55e-ee2c14fb90ee")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 150.801)
@@ -36693,7 +36693,7 @@
 			(net 78 "Net-(SW23-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "f8deec61-54d5-4474-b1f1-58ed9163a34b")
+			(uuid "c9fda799-eedf-4721-b39f-c32045b89f90")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375 330.801)
@@ -36760,7 +36760,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "c675f43b-13e9-4c9b-9d37-b229ef15340d")
+			(uuid "baf5e53a-ec2c-455f-bafc-4a88ccd71c54")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 150.801)
@@ -36812,7 +36812,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "c675f43b-13e9-4c9b-9d37-b229ef15340d")
+			(uuid "4d311ac2-c9e3-4d8b-ae0e-691671ee547b")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 150.801)
@@ -36822,7 +36822,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "c675f43b-13e9-4c9b-9d37-b229ef15340d")
+			(uuid "2f355670-6736-4013-bdfa-67126063287b")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2 330.801)
@@ -36834,7 +36834,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "c675f43b-13e9-4c9b-9d37-b229ef15340d")
+			(uuid "02fb6770-5b4f-4146-a6dc-be6dfd90475b")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 150.801)
@@ -36847,7 +36847,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "c675f43b-13e9-4c9b-9d37-b229ef15340d")
+			(uuid "319222ed-5bcc-4b8f-93b7-43e7df52e72c")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 150.801)
@@ -36927,7 +36927,7 @@
 			(net 11 "LED")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "76077073-509c-46fa-ab5b-63da7b03a134")
+			(uuid "da6c223b-e842-4604-a48a-16fca77555f9")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375 330.801)
@@ -36983,7 +36983,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "76077073-509c-46fa-ab5b-63da7b03a134")
+			(uuid "28d30313-3c77-4dfb-8cbf-efd25382d3ea")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375 330.801)
@@ -36993,7 +36993,7 @@
 			(net 11 "LED")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "76077073-509c-46fa-ab5b-63da7b03a134")
+			(uuid "a6a1361c-ca5e-4e72-93f1-576dc0ccfde7")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 150.801)
@@ -37017,7 +37017,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "76077073-509c-46fa-ab5b-63da7b03a134")
+			(uuid "84ea1ef5-5ea8-499e-9930-4d085f3dff6f")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -42585,7 +42585,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3cf44cfb-94ab-4a17-8dff-602bf2d24f65")
+			(uuid "e4cc1a3c-c8be-4c03-99f2-feb9b15e2745")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -42607,7 +42607,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3cf44cfb-94ab-4a17-8dff-602bf2d24f65")
+			(uuid "042cd7ee-f96d-4f8e-b72e-758a894aa703")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -42617,7 +42617,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "3cf44cfb-94ab-4a17-8dff-602bf2d24f65")
+			(uuid "bcdb0ec9-5266-4f4d-8ae5-85fc7b33cedf")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -42640,7 +42640,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "3cf44cfb-94ab-4a17-8dff-602bf2d24f65")
+			(uuid "150d0fea-77b2-4221-a571-e177cd1b5ede")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -42673,7 +42673,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "87595b9e-bb48-4408-9c46-88440b3d481b")
+			(uuid "c1ad84e1-4048-4db9-9757-ab123b89ceed")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -42695,7 +42695,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "87595b9e-bb48-4408-9c46-88440b3d481b")
+			(uuid "171f0db6-6733-47af-b9a0-137770951aa7")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -42705,7 +42705,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "87595b9e-bb48-4408-9c46-88440b3d481b")
+			(uuid "f8de081f-6980-4ad9-bfec-249bc6361741")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -42726,7 +42726,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "87595b9e-bb48-4408-9c46-88440b3d481b")
+			(uuid "e501855e-a192-41bf-878e-b0a0d4bb3fea")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -42793,7 +42793,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "fccff6b8-6b70-44f8-9244-01805774aedf")
+			(uuid "93828e96-76fe-4ab1-8464-a37b4450ec48")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -42858,7 +42858,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "fccff6b8-6b70-44f8-9244-01805774aedf")
+			(uuid "a92c05a0-0c0f-44a7-a393-06ef2bd98bc2")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -42868,7 +42868,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "fccff6b8-6b70-44f8-9244-01805774aedf")
+			(uuid "090d4368-37de-4fb7-816e-4a37c355b4d1")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -42878,7 +42878,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "fccff6b8-6b70-44f8-9244-01805774aedf")
+			(uuid "6fd7436d-6e1d-4f61-9dec-f36f31db1c57")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -42963,7 +42963,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "30e719fa-a794-4136-b832-2681ae2f5363")
+			(uuid "2ba61d68-1032-4db6-a435-fabfc84e646e")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -42973,7 +42973,7 @@
 			(net 58 "Net-(SW6-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "30e719fa-a794-4136-b832-2681ae2f5363")
+			(uuid "b74730b9-2cb4-4498-bbed-439a58375f1c")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -43034,7 +43034,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "30e719fa-a794-4136-b832-2681ae2f5363")
+			(uuid "6cc2b88c-8d21-4faf-b10e-d1f3dac1ee9c")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -43044,7 +43044,7 @@
 			(net 58 "Net-(SW6-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "30e719fa-a794-4136-b832-2681ae2f5363")
+			(uuid "2288a341-b8a6-487f-a767-27620aaf9a03")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -43111,7 +43111,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "64b79081-eb08-458e-90ce-7ae252ac98ee")
+			(uuid "716923f7-b761-4a67-852f-109be2613cb8")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -43163,7 +43163,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "64b79081-eb08-458e-90ce-7ae252ac98ee")
+			(uuid "6a2cb21d-a373-4099-a12c-7d29d9925920")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -43173,7 +43173,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "64b79081-eb08-458e-90ce-7ae252ac98ee")
+			(uuid "887d8288-ce71-46dc-8576-5f377e3b2b59")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -43185,7 +43185,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "64b79081-eb08-458e-90ce-7ae252ac98ee")
+			(uuid "0f31f2c1-1653-4727-b6d7-d1fd0b590943")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -43198,7 +43198,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "64b79081-eb08-458e-90ce-7ae252ac98ee")
+			(uuid "9243cb1c-357f-4e66-8f3c-c8f18ee0b2de")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -43278,7 +43278,7 @@
 			(net 59 "Net-(SW7-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "20858af4-548a-47b2-ac01-85d95b43e248")
+			(uuid "1e8ec5c0-fd4e-4304-9ced-2d9dfef89d03")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -43334,7 +43334,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "20858af4-548a-47b2-ac01-85d95b43e248")
+			(uuid "bc766361-28d1-4777-882a-954b734d861c")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -43344,7 +43344,7 @@
 			(net 59 "Net-(SW7-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "20858af4-548a-47b2-ac01-85d95b43e248")
+			(uuid "a9b35226-0686-4d0e-9c1b-b3e2bcfcc797")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -43368,7 +43368,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "20858af4-548a-47b2-ac01-85d95b43e248")
+			(uuid "60146865-67a8-4957-8dd4-c4dc167fcf79")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -46610,7 +46610,7 @@
 			(at -3.8 3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0307e6f0-9a83-43fa-86b0-9a6215b6a28b")
+			(uuid "f61ea4c8-ed04-4f49-8c3b-bb82e948b2b7")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -46622,7 +46622,7 @@
 			(at -3.8 2.06 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c761c427-de1c-4b31-acbb-42be5a6b6b4b")
+			(uuid "b1ff854c-ecfb-4627-8c12-c0cb79ab2cb9")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -46634,7 +46634,7 @@
 			(at -7.651 -0.183 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf29ca01-f2b1-44a8-bd43-dcdc001ebb51")
+			(uuid "a7aed1f5-2156-459a-842d-c412d352b3e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46646,7 +46646,7 @@
 			(at -7.651 -0.183 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07743bb9-8223-4268-9762-e19774b0d7eb")
+			(uuid "6eed81e8-0bb6-4866-a2d0-7f1ff2932abe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49772,7 +49772,7 @@
 		)
 		(fp_line
 			(start -2 7.7)
-			(end -1.5 8.200001)
+			(end -1.5 8.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -49781,7 +49781,7 @@
 			(uuid "745fc8be-88f0-4457-bc7c-abe97c4a53d8")
 		)
 		(fp_line
-			(start -1.5 8.200001)
+			(start -1.5 8.200002)
 			(end 1.5 8.2)
 			(stroke
 				(width 0.15)
@@ -49983,7 +49983,7 @@
 			(uuid "7b7bfaf1-c80c-49f0-b523-e58b89b693c0")
 		)
 		(fp_line
-			(start -6.999999 5.6)
+			(start -6.999998 5.6)
 			(end -7 6.199999)
 			(stroke
 				(width 0.15)
@@ -50003,7 +50003,7 @@
 			(uuid "65f93154-5e9e-43f9-8f52-26e026c22001")
 		)
 		(fp_line
-			(start -7.000001 1.5)
+			(start -7.000002 1.5)
 			(end -7 2)
 			(stroke
 				(width 0.15)
@@ -50063,7 +50063,7 @@
 			(uuid "793b0808-feb9-4887-adca-f6e0b0b41b1a")
 		)
 		(fp_line
-			(start -1.5 8.200001)
+			(start -1.5 8.200002)
 			(end -2 7.7)
 			(stroke
 				(width 0.15)
@@ -50084,7 +50084,7 @@
 		)
 		(fp_line
 			(start -2.5 1.5)
-			(end -7.000001 1.5)
+			(end -7.000002 1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -50094,7 +50094,7 @@
 		)
 		(fp_line
 			(start 1.5 8.2)
-			(end -1.5 8.200001)
+			(end -1.5 8.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -50113,7 +50113,7 @@
 			(uuid "ced6319a-422e-4f63-8458-9660e835bc51")
 		)
 		(fp_line
-			(start 1.5 3.699999)
+			(start 1.5 3.699998)
 			(end -1 3.7)
 			(stroke
 				(width 0.15)
@@ -50124,7 +50124,7 @@
 		)
 		(fp_line
 			(start 2 4.2)
-			(end 1.5 3.699999)
+			(end 1.5 3.699998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -50489,7 +50489,7 @@
 			(uuid "96c7c5ee-3c56-485c-9901-1592318d78e4")
 		)
 		(fp_line
-			(start -7.000001 1.5)
+			(start -7.000002 1.5)
 			(end -7 6.199999)
 			(stroke
 				(width 0.12)
@@ -50519,7 +50519,7 @@
 			(uuid "98aaf326-4b08-48bf-b30c-103a9a903ec1")
 		)
 		(fp_line
-			(start -1.5 8.200001)
+			(start -1.5 8.200002)
 			(end -2 7.7)
 			(stroke
 				(width 0.15)
@@ -50540,7 +50540,7 @@
 		)
 		(fp_line
 			(start -2.5 1.5)
-			(end -7.000001 1.5)
+			(end -7.000002 1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -50550,7 +50550,7 @@
 		)
 		(fp_line
 			(start 1.5 8.2)
-			(end -1.5 8.200001)
+			(end -1.5 8.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -50569,7 +50569,7 @@
 			(uuid "d45ac8c0-8800-48b9-814e-74fd1a22c8ec")
 		)
 		(fp_line
-			(start 1.5 3.699999)
+			(start 1.5 3.699998)
 			(end -1 3.7)
 			(stroke
 				(width 0.15)
@@ -50600,7 +50600,7 @@
 		)
 		(fp_line
 			(start 2 4.2)
-			(end 1.5 3.699999)
+			(end 1.5 3.699998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -50712,7 +50712,7 @@
 		)
 		(fp_line
 			(start -2 7.7)
-			(end -1.5 8.200001)
+			(end -1.5 8.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -50721,7 +50721,7 @@
 			(uuid "227c0004-d5c2-4d2c-b783-84a7496c8ef0")
 		)
 		(fp_line
-			(start -1.5 8.200001)
+			(start -1.5 8.200002)
 			(end 1.5 8.2)
 			(stroke
 				(width 0.15)
@@ -51036,7 +51036,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "bc5b87c7-c769-410e-ac1f-18f5a7a06d8f")
+			(uuid "a8d6260b-eb35-4331-a89c-07af971f1026")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6 350.2)
@@ -51058,7 +51058,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "bc5b87c7-c769-410e-ac1f-18f5a7a06d8f")
+			(uuid "8ffb69e2-f3bd-41bb-8986-c07441d7a24b")
 		)
 		(pad "1" smd rect
 			(at -5.075 6 350.2)
@@ -51068,7 +51068,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "bc5b87c7-c769-410e-ac1f-18f5a7a06d8f")
+			(uuid "23f458bd-aff3-4f67-ad61-b5f3ae120c80")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95 350.2)
@@ -51091,7 +51091,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "bc5b87c7-c769-410e-ac1f-18f5a7a06d8f")
+			(uuid "c2970ff9-ab09-4aee-9ccd-6ba38c0a082c")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95 350.2)
@@ -51124,7 +51124,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c07a5a36-8506-4872-8f3e-2519e8d48ecb")
+			(uuid "a1086e34-bfac-499b-a994-513bb8063256")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6 350.2)
@@ -51146,7 +51146,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "c07a5a36-8506-4872-8f3e-2519e8d48ecb")
+			(uuid "c744a253-fa73-40fc-881a-24d25c5af44e")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 35.2)
@@ -51156,7 +51156,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "c07a5a36-8506-4872-8f3e-2519e8d48ecb")
+			(uuid "6f6d4d5f-9a66-470a-a963-06d6dedcb6e2")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75 350.2)
@@ -51177,7 +51177,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "c07a5a36-8506-4872-8f3e-2519e8d48ecb")
+			(uuid "2d87dac1-f2d8-4bb5-b889-463988b191cd")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 170.2)
@@ -51244,7 +51244,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "0db6c936-a0bb-4269-85ea-1d38851c04ab")
+			(uuid "2d533f0f-4438-4d99-b28d-f45e74a5608b")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 170.2)
@@ -51309,7 +51309,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "0db6c936-a0bb-4269-85ea-1d38851c04ab")
+			(uuid "bb7bb882-c57c-4114-a0fe-2f120b163971")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 170.2)
@@ -51319,7 +51319,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "0db6c936-a0bb-4269-85ea-1d38851c04ab")
+			(uuid "cf9ca89d-8dee-4337-83f5-93efce2dd7d0")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375 350.2)
@@ -51329,7 +51329,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "0db6c936-a0bb-4269-85ea-1d38851c04ab")
+			(uuid "e0a97800-d35e-463f-8f0c-77bcdccbd4df")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 170.2)
@@ -51414,7 +51414,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "35454184-66c1-4d79-95d4-4f7534df4459")
+			(uuid "62b30830-29e3-4831-be38-7a4360d58d37")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375 350.2)
@@ -51424,7 +51424,7 @@
 			(net 63 "Net-(SW18-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "35454184-66c1-4d79-95d4-4f7534df4459")
+			(uuid "a77e180f-126e-4b85-b902-d7a0eab38920")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 170.2)
@@ -51485,7 +51485,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "35454184-66c1-4d79-95d4-4f7534df4459")
+			(uuid "678b3c73-d6bf-4aa6-ba86-b1af6d609996")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 170.2)
@@ -51495,7 +51495,7 @@
 			(net 63 "Net-(SW18-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "35454184-66c1-4d79-95d4-4f7534df4459")
+			(uuid "7aed694d-3d6c-4907-aaea-c9f27e6087c6")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375 350.2)
@@ -51562,7 +51562,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "814ada60-5447-4035-8a8c-ca8d648a5c5b")
+			(uuid "5972b776-5045-4f67-916b-5f2c124700d5")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 170.2)
@@ -51614,7 +51614,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "814ada60-5447-4035-8a8c-ca8d648a5c5b")
+			(uuid "3482da46-5ae4-421b-ba2d-6e9cbb2d028a")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 170.2)
@@ -51624,7 +51624,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "814ada60-5447-4035-8a8c-ca8d648a5c5b")
+			(uuid "68ab066a-7ec1-4009-84b1-e19de8645fb7")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2 350.2)
@@ -51636,7 +51636,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "814ada60-5447-4035-8a8c-ca8d648a5c5b")
+			(uuid "ed25f294-c42c-4465-9d0c-aeae756fb59d")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 170.2)
@@ -51649,7 +51649,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "814ada60-5447-4035-8a8c-ca8d648a5c5b")
+			(uuid "58044f43-b113-40a1-a161-93f6b185cd3c")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 170.2)
@@ -51729,7 +51729,7 @@
 			(net 77 "Net-(SW22-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "b048c90f-63d0-45cf-8a58-f271f19b13c6")
+			(uuid "908a79bb-eee2-4bb3-b5ff-6759eba3f51d")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375 350.2)
@@ -51785,7 +51785,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "b048c90f-63d0-45cf-8a58-f271f19b13c6")
+			(uuid "01ce8f32-7c65-4aeb-90cc-b8d88b2922aa")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375 350.2)
@@ -51795,7 +51795,7 @@
 			(net 77 "Net-(SW22-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "b048c90f-63d0-45cf-8a58-f271f19b13c6")
+			(uuid "e3b1666a-b4bd-4a0b-9631-27c38b54e843")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 170.2)
@@ -51819,7 +51819,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "b048c90f-63d0-45cf-8a58-f271f19b13c6")
+			(uuid "e75a4827-6b77-4afc-afb8-0382f433da69")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -55296,7 +55296,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "733be674-832d-4ce9-82cc-09c5b0b7c53d")
+			(uuid "e29cdaa4-892f-441f-b4e7-85c2e0480989")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -55318,7 +55318,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "733be674-832d-4ce9-82cc-09c5b0b7c53d")
+			(uuid "9ccf78d2-2936-4c30-839a-b00226d39a6f")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -55328,7 +55328,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "733be674-832d-4ce9-82cc-09c5b0b7c53d")
+			(uuid "d28b585e-f63b-4546-b439-27e24f367d39")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -55351,7 +55351,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "733be674-832d-4ce9-82cc-09c5b0b7c53d")
+			(uuid "222562f2-659a-464e-91e6-3511d33e879a")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -55384,7 +55384,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "2958508c-d908-4fa1-abb0-e7525c2360c1")
+			(uuid "c0ab9249-1435-45e0-9425-a034702b71a3")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -55406,7 +55406,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "2958508c-d908-4fa1-abb0-e7525c2360c1")
+			(uuid "bac24be7-699f-42cc-9476-9bcfeb9b36f1")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -55416,7 +55416,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "2958508c-d908-4fa1-abb0-e7525c2360c1")
+			(uuid "dbf8ad48-4907-43a2-bfbf-f6cfc2195611")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -55437,7 +55437,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "2958508c-d908-4fa1-abb0-e7525c2360c1")
+			(uuid "3f4ab189-0cc2-4a10-ade0-b3676a6c66a5")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -55504,7 +55504,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "323420e7-9a05-490f-b634-6c9b268ddb94")
+			(uuid "c8c1099c-54a0-46d6-82f7-069e6493d274")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -55569,7 +55569,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "323420e7-9a05-490f-b634-6c9b268ddb94")
+			(uuid "a55fdac9-38db-4586-a9b8-373b74fe6a30")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -55579,7 +55579,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "323420e7-9a05-490f-b634-6c9b268ddb94")
+			(uuid "48486f35-3363-48d7-a690-f73c547cfb26")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -55589,7 +55589,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "323420e7-9a05-490f-b634-6c9b268ddb94")
+			(uuid "2a31d1a2-0c8e-4b1b-97af-1aa2be41f20a")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -55674,7 +55674,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "3fdd86f5-7783-440a-a240-c6d77448d29f")
+			(uuid "24b9b77e-4e60-4067-bdc1-98ea5a2cef7e")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -55684,7 +55684,7 @@
 			(net 132 "Net-(K6-LED->)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "3fdd86f5-7783-440a-a240-c6d77448d29f")
+			(uuid "124d41c7-c1ef-46c3-88c7-9e4d62ac6c65")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -55745,7 +55745,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "3fdd86f5-7783-440a-a240-c6d77448d29f")
+			(uuid "25a040a5-8a5c-4e02-86be-8748b5790243")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -55755,7 +55755,7 @@
 			(net 132 "Net-(K6-LED->)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "3fdd86f5-7783-440a-a240-c6d77448d29f")
+			(uuid "2b7bfe9a-84ff-4f05-84a8-8e21dfa5207f")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -55822,7 +55822,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "e34d1f3b-508d-4f68-adbf-7833d0bbc31c")
+			(uuid "149368f8-8de3-4da1-91bf-1791f328a2a5")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -55874,7 +55874,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "e34d1f3b-508d-4f68-adbf-7833d0bbc31c")
+			(uuid "16f254bf-a12a-4079-9023-63f5aeb57f90")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -55884,7 +55884,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "e34d1f3b-508d-4f68-adbf-7833d0bbc31c")
+			(uuid "7fbaa9f3-9709-4cb0-b73b-695eff351d20")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -55896,7 +55896,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "e34d1f3b-508d-4f68-adbf-7833d0bbc31c")
+			(uuid "312ded3d-c3e9-4b95-b9ae-775ee4676c69")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -55909,7 +55909,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "e34d1f3b-508d-4f68-adbf-7833d0bbc31c")
+			(uuid "af0f528c-367a-4873-b188-3d622cd4ce69")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -55989,7 +55989,7 @@
 			(net 26 "Net-(SW1-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "e778ea86-e7ea-4cf0-b632-e0923d4f01e9")
+			(uuid "58dd4d14-de1e-4ec7-8fb5-e45b5d5edfaf")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -56045,7 +56045,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "e778ea86-e7ea-4cf0-b632-e0923d4f01e9")
+			(uuid "01e5a60b-a79e-473a-bb13-2d30e8d3d0b2")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -56055,7 +56055,7 @@
 			(net 26 "Net-(SW1-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "e778ea86-e7ea-4cf0-b632-e0923d4f01e9")
+			(uuid "8e32d7f8-59bc-4aed-8ca2-4942c63e2444")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -56079,7 +56079,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "e778ea86-e7ea-4cf0-b632-e0923d4f01e9")
+			(uuid "a50f8e9a-fc35-4867-9279-780983da2ab8")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -70603,7 +70603,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "20e08c39-4d8c-443c-8aaa-e003c4889ff9")
+			(uuid "d15a19d9-9172-4108-a6b0-bf5c133f92c4")
 		)
 		(pad "1" thru_hole circle
 			(at -5.95 6)
@@ -70625,7 +70625,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "20e08c39-4d8c-443c-8aaa-e003c4889ff9")
+			(uuid "86cc6576-296a-4b2b-b32c-2218aad0c3b4")
 		)
 		(pad "1" smd rect
 			(at -5.075 6)
@@ -70635,7 +70635,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "20e08c39-4d8c-443c-8aaa-e003c4889ff9")
+			(uuid "d8a445e8-fb09-44e3-81b8-038b27594f65")
 		)
 		(pad "1" smd roundrect
 			(at -3.275 5.95)
@@ -70658,7 +70658,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "20e08c39-4d8c-443c-8aaa-e003c4889ff9")
+			(uuid "baf17cb1-cc6c-4bd9-b001-818b973ad9ae")
 		)
 		(pad "2" smd roundrect
 			(at 3.275 5.95)
@@ -70691,7 +70691,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "5c0500bc-4dd9-40df-9ecb-f4b39d6226e8")
+			(uuid "9f30ce90-be0c-4733-933c-2c6f87973988")
 		)
 		(pad "2" thru_hole circle
 			(at 6 6)
@@ -70713,7 +70713,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "5c0500bc-4dd9-40df-9ecb-f4b39d6226e8")
+			(uuid "efc4a3cb-644b-4567-843a-4d5e0f595200")
 		)
 		(pad "2" smd rect
 			(at 6.75 5.25 45)
@@ -70723,7 +70723,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "5c0500bc-4dd9-40df-9ecb-f4b39d6226e8")
+			(uuid "4d487fd1-feeb-40bb-a1f0-b1b314f0207e")
 		)
 		(pad "2" smd roundrect
 			(at 8.275 3.75)
@@ -70744,7 +70744,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "5c0500bc-4dd9-40df-9ecb-f4b39d6226e8")
+			(uuid "f5eb4a6b-ec3c-4f91-b995-1593eb2bbf52")
 		)
 		(pad "3" thru_hole circle
 			(at -4.2 -4.2 180)
@@ -70811,7 +70811,7 @@
 					(width 0.15)
 				)
 			)
-			(uuid "c12074f3-3b5a-43d9-a167-756387eb9e0a")
+			(uuid "60939ed6-1bb2-4965-9bec-1c1bda58a4d9")
 		)
 		(pad "3" smd custom
 			(at -2.88 -5.375 180)
@@ -70876,7 +70876,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "c12074f3-3b5a-43d9-a167-756387eb9e0a")
+			(uuid "8c2fdd65-81b0-453d-b080-f3e44fa73be7")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -5.375 180)
@@ -70886,7 +70886,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "c12074f3-3b5a-43d9-a167-756387eb9e0a")
+			(uuid "164e74ca-50d6-43df-921b-fa62460c8479")
 		)
 		(pad "3" smd roundrect
 			(at -2.88 -3.97375)
@@ -70896,7 +70896,7 @@
 			(net 24 "VBUS")
 			(pinfunction "VDD")
 			(pintype "power_in")
-			(uuid "c12074f3-3b5a-43d9-a167-756387eb9e0a")
+			(uuid "1bf84d64-8fc0-49e5-93f1-9c3ed3cf77c5")
 		)
 		(pad "4" thru_hole circle
 			(at -6.225 -4.2 180)
@@ -70981,7 +70981,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "bc93e89b-405d-4425-9b87-be15b89ce8b0")
+			(uuid "03f5db1d-790d-4427-94c4-3baf8a4f8842")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -5.375)
@@ -70991,7 +70991,7 @@
 			(net 62 "Net-(SW12-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "bc93e89b-405d-4425-9b87-be15b89ce8b0")
+			(uuid "675dba8a-32a2-4f17-baa4-f902237cf7a8")
 		)
 		(pad "4" smd custom
 			(at -2.88 -3.97375 180)
@@ -71052,7 +71052,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "bc93e89b-405d-4425-9b87-be15b89ce8b0")
+			(uuid "d15c8979-dfb9-481b-b351-6306c85b42c3")
 		)
 		(pad "4" smd roundrect
 			(at -2.88 -3.97375 180)
@@ -71062,7 +71062,7 @@
 			(net 62 "Net-(SW12-DIN)")
 			(pinfunction "DOUT")
 			(pintype "output")
-			(uuid "bc93e89b-405d-4425-9b87-be15b89ce8b0")
+			(uuid "2bfe33e8-bc56-4533-b75f-1ea0f9244c53")
 		)
 		(pad "5" smd custom
 			(at 2.88 -5.375)
@@ -71129,7 +71129,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "3477672b-fdd8-4efb-93ab-4fc090f6e7fc")
+			(uuid "6b7b9580-cff2-484a-a350-42bea512c73b")
 		)
 		(pad "5" smd custom
 			(at 2.88 -3.97375 180)
@@ -71181,7 +71181,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "3477672b-fdd8-4efb-93ab-4fc090f6e7fc")
+			(uuid "1021fdd9-4e85-4b44-8815-697c367a2a9e")
 		)
 		(pad "5" smd roundrect
 			(at 2.88 -3.97375 180)
@@ -71191,7 +71191,7 @@
 			(net 98 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "3477672b-fdd8-4efb-93ab-4fc090f6e7fc")
+			(uuid "fbb47e94-41fa-4690-a1ea-868dd4ca7735")
 		)
 		(pad "5" smd roundrect
 			(at 3.775 -4.2)
@@ -71203,7 +71203,7 @@
 			(pintype "power_in")
 			(clearance 0.2)
 			(thermal_bridge_angle 45)
-			(uuid "3477672b-fdd8-4efb-93ab-4fc090f6e7fc")
+			(uuid "59f0e910-c2af-4fab-af6c-da0da1e67eb6")
 		)
 		(pad "5" thru_hole circle
 			(at 4.225 -4.2 180)
@@ -71216,7 +71216,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "3477672b-fdd8-4efb-93ab-4fc090f6e7fc")
+			(uuid "95d665bc-f07f-4dea-9444-347d146fed8d")
 		)
 		(pad "6" smd custom
 			(at 2.88 -5.375 180)
@@ -71296,7 +71296,7 @@
 			(net 33 "Net-(SW13-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "0071553f-83bb-4eca-8a2b-8ff5c4397442")
+			(uuid "5ad3f3fc-9286-44c1-8def-f31b8a93ccaa")
 		)
 		(pad "6" smd custom
 			(at 2.88 -3.97375)
@@ -71352,7 +71352,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "0071553f-83bb-4eca-8a2b-8ff5c4397442")
+			(uuid "f0830964-e1ab-4633-b3e8-057b4b2ad6c0")
 		)
 		(pad "6" smd roundrect
 			(at 2.88 -3.97375)
@@ -71362,7 +71362,7 @@
 			(net 33 "Net-(SW13-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
-			(uuid "0071553f-83bb-4eca-8a2b-8ff5c4397442")
+			(uuid "df0195f7-c7e3-4ad9-ad89-cfcc0b2e79f6")
 		)
 		(pad "6" thru_hole circle
 			(at 6.25 -4.2 180)
@@ -71386,7 +71386,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "0071553f-83bb-4eca-8a2b-8ff5c4397442")
+			(uuid "c275a441-973f-4fe3-ba88-378a6c6d26e5")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/Chuck/Documents/00-DEPOTS-GIT/0-MES-DEPOTS-GIT/Chocofi-chukozor/chocofi-chukozor/case/V3/tools/PG1350-socket v18.step"
@@ -88218,7 +88218,7 @@
 			(pinfunction "Diode2Switch")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "42a2f5bc-de4f-4d5f-96c8-2225da4c04aa")
+			(uuid "cb551ee8-5bc4-4b7b-af3f-bfaac639bf81")
 		)
 		(pad "1" smd rect
 			(at 1.25 1.9 180)
@@ -88228,7 +88228,7 @@
 			(pinfunction "Diode2Switch")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "42a2f5bc-de4f-4d5f-96c8-2225da4c04aa")
+			(uuid "e08baa9d-7d0a-45da-8fed-43d5af32de78")
 		)
 		(pad "1" smd custom
 			(at 1.25 1.9 180)
@@ -88254,7 +88254,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "42a2f5bc-de4f-4d5f-96c8-2225da4c04aa")
+			(uuid "dc6c27b6-a8bb-4dba-bbc4-dfd2d99da3c5")
 		)
 		(pad "1" smd custom
 			(at 1.25 1.9 180)
@@ -88280,7 +88280,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "42a2f5bc-de4f-4d5f-96c8-2225da4c04aa")
+			(uuid "95cb1c1b-8d73-45c2-800d-17d848779d32")
 		)
 		(pad "1" thru_hole circle
 			(at 1.775 -0.25 180)
@@ -88293,7 +88293,7 @@
 			(pinfunction "Diode2Switch")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "42a2f5bc-de4f-4d5f-96c8-2225da4c04aa")
+			(uuid "42fe3a11-6018-48e0-a752-b3cf01dd9613")
 		)
 		(pad "2" smd rect
 			(at 0.25 1.9 180)
@@ -88313,7 +88313,7 @@
 			(pinfunction "Col2Switch")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "cb02b2d8-4d6c-44f5-bb34-1da6bba508fd")
+			(uuid "4ca79be9-4eef-4757-96b7-5b23bbb042e4")
 		)
 		(pad "2" smd custom
 			(at 0.25 1.9 180)
@@ -88339,7 +88339,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "cb02b2d8-4d6c-44f5-bb34-1da6bba508fd")
+			(uuid "9ad7fb7f-a697-4b43-9aaf-70a9952a237a")
 		)
 		(pad "2" smd custom
 			(at 0.25 1.9 180)
@@ -88365,7 +88365,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "cb02b2d8-4d6c-44f5-bb34-1da6bba508fd")
+			(uuid "17e95dd0-d182-40e0-8518-92f7980d8b9f")
 		)
 		(pad "2" thru_hole circle
 			(at 0.65 -0.225 180)
@@ -88378,7 +88378,7 @@
 			(pinfunction "Col2Switch")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "cb02b2d8-4d6c-44f5-bb34-1da6bba508fd")
+			(uuid "5262e2f8-6746-4a05-9980-1ce883bdb38e")
 		)
 		(pad "3" thru_hole circle
 			(at -1.05 3.725 180)
@@ -88401,7 +88401,7 @@
 			(pinfunction "LED<-")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "c5161dbb-5f29-469d-8cd7-04520c671dd4")
+			(uuid "af1f7191-db70-465f-ac7c-0891cbad6980")
 		)
 		(pad "3" smd rect
 			(at -0.75 1.9 180)
@@ -88411,7 +88411,7 @@
 			(pinfunction "LED<-")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "c5161dbb-5f29-469d-8cd7-04520c671dd4")
+			(uuid "3ad2f71e-d2aa-4203-9615-fd228acb984a")
 		)
 		(pad "3" smd custom
 			(at -0.75 1.9 180)
@@ -88437,7 +88437,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "c5161dbb-5f29-469d-8cd7-04520c671dd4")
+			(uuid "9762ae66-a204-4e48-9793-d44670283102")
 		)
 		(pad "3" smd custom
 			(at -0.75 1.9 180)
@@ -88463,7 +88463,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "c5161dbb-5f29-469d-8cd7-04520c671dd4")
+			(uuid "01246db9-4836-4e93-9e7d-45cdfc154973")
 		)
 		(pad "4" thru_hole circle
 			(at -1.75 -0.225 180)
@@ -88486,7 +88486,7 @@
 			(pinfunction "LED->")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "6f10ff29-95fa-4d15-88a4-8c05cd80ac6e")
+			(uuid "2d42ad5a-c10e-4551-b412-8c53e6024c08")
 		)
 		(pad "4" smd rect
 			(at -1.75 1.9 180)
@@ -88496,7 +88496,7 @@
 			(pinfunction "LED->")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "6f10ff29-95fa-4d15-88a4-8c05cd80ac6e")
+			(uuid "238bb872-3b8d-4de8-afc1-6813126a75ad")
 		)
 		(pad "4" smd custom
 			(at -1.75 1.9 180)
@@ -88517,7 +88517,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "6f10ff29-95fa-4d15-88a4-8c05cd80ac6e")
+			(uuid "d00ce0d1-b55c-4b2a-9baf-89cc2635b96a")
 		)
 		(pad "4" smd custom
 			(at -1.75 1.9 180)
@@ -88538,7 +88538,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "6f10ff29-95fa-4d15-88a4-8c05cd80ac6e")
+			(uuid "d6370f74-9cef-48ff-bcfb-5a431d9d769e")
 		)
 		(pad "5" smd rect
 			(at -0.75 1.9 180)
@@ -88558,7 +88558,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "20ad7844-b6b5-4bbd-9310-4d15d1343c82")
+			(uuid "5f80d8c2-db5f-4355-9a3c-c5916590eb58")
 		)
 		(pad "5" smd rect
 			(at -0.25 1.9 180)
@@ -88568,7 +88568,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "20ad7844-b6b5-4bbd-9310-4d15d1343c82")
+			(uuid "024e5e3d-6cf1-46eb-8a77-ed9a7844efe1")
 		)
 		(pad "5" thru_hole circle
 			(at 0.25 3.775 180)
@@ -88581,7 +88581,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "20ad7844-b6b5-4bbd-9310-4d15d1343c82")
+			(uuid "500bd2a8-6fdc-48ff-9aea-19faead4c280")
 		)
 		(pad "5" smd rect
 			(at 0.75 1.9 180)
@@ -88591,7 +88591,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "20ad7844-b6b5-4bbd-9310-4d15d1343c82")
+			(uuid "fa5d0bda-2c98-4cf2-92a0-039e7e48850d")
 		)
 		(pad "5" smd rect
 			(at 0.75 1.9 180)
@@ -88601,7 +88601,7 @@
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "20ad7844-b6b5-4bbd-9310-4d15d1343c82")
+			(uuid "1680a529-671e-4f87-90ad-703fbdcd0677")
 		)
 		(pad "5" smd custom
 			(at 0.75 1.9 180)
@@ -88632,7 +88632,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "20ad7844-b6b5-4bbd-9310-4d15d1343c82")
+			(uuid "63c6f96c-cdd9-41cf-982b-ed8117d05792")
 		)
 		(pad "5" smd custom
 			(at 0.75 1.9 180)
@@ -88663,7 +88663,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "20ad7844-b6b5-4bbd-9310-4d15d1343c82")
+			(uuid "ef5e8749-f5a5-4fa1-a3b8-e6a99303cb3c")
 		)
 		(pad "6" smd rect
 			(at 1.75 1.9 180)
@@ -88683,7 +88683,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "f89eebd6-60ef-4262-a281-1190dc6fee2b")
+			(uuid "95073bc8-5e22-4cb7-8a5e-d6572d1f303c")
 		)
 		(pad "6" smd custom
 			(at 1.75 1.9 180)
@@ -88709,7 +88709,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "f89eebd6-60ef-4262-a281-1190dc6fee2b")
+			(uuid "ae58911e-282a-4e0f-949d-28c48842c68f")
 		)
 		(pad "6" smd custom
 			(at 1.75 1.9 180)
@@ -88735,7 +88735,7 @@
 					(width 0.25)
 				)
 			)
-			(uuid "f89eebd6-60ef-4262-a281-1190dc6fee2b")
+			(uuid "4855f378-c8a3-46bc-ba08-da7bb020a7b6")
 		)
 		(pad "6" thru_hole circle
 			(at 2.175 4 180)
@@ -88748,7 +88748,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(clearance 0.2)
-			(uuid "f89eebd6-60ef-4262-a281-1190dc6fee2b")
+			(uuid "f456343b-4715-40de-8512-019a7c50ba57")
 		)
 		(pad "7" smd rect
 			(at -1.25 1.9 180)
@@ -88768,7 +88768,7 @@
 			(pinfunction "7")
 			(pintype "passive+no_connect")
 			(clearance 0.2)
-			(uuid "070a7942-6366-4361-9d90-aeebd8df60d3")
+			(uuid "2ae91fcd-1c21-430e-aeee-4ff09eeb14b3")
 		)
 		(pad "MP1" smd rect
 			(at -4.025 0 270)
@@ -88786,7 +88786,7 @@
 			(net 194 "unconnected-(KHigh-1-PadMP1)_1")
 			(pinfunction "MP1")
 			(pintype "passive+no_connect")
-			(uuid "6e80895c-0ab2-472f-a530-0d1519961c4b")
+			(uuid "f82d99e0-f037-4d1a-9a8c-5c8b1e891868")
 		)
 		(pad "MP2" smd rect
 			(at -4.025 0 270)
@@ -88804,7 +88804,7 @@
 			(net 154 "unconnected-(KHigh-1-PadMP2)")
 			(pinfunction "MP2")
 			(pintype "passive+no_connect")
-			(uuid "26f96b42-0e10-477b-8590-b175c617638b")
+			(uuid "c9ed4de5-dc56-4516-93ff-f56ac1d29ff9")
 		)
 		(embedded_fonts no)
 		(model "687108183722.stp"
@@ -102980,6 +102980,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 		(uuid "0e307de0-e642-44cb-a175-42990a31fa0b")
@@ -105081,6 +105099,24 @@
 			"REdiOUtpSlNJY3MybFJZYWRtdXN3bHUrZDdiTHRZQUVzdGE3aThNUFhGZVUrU2JISktCN1JMNmV4"
 			"MEN4Q3hNSFZySTJBdk4yZjYxS3lySEpBV28zWEVpakgyMG04RXd1NjN6YUJMd0dXSlcyRnpST1Vh"
 			"UlppeUF0Z1pydGpDcGIyeEFXbkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
 			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
 			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
 			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
@@ -107692,7 +107728,25 @@
 			"Wk1XRnRhR3d6WVhveU0yTnRUR2RQV1ROWVdVUTFTSFEyTWpKd2NtMHlURk5NTWpaT1psaFZhVU41"
 			"UldOUE9XeFhNV1kxYVZSdmJrWjZaVzFpUlN0UFducEVZVlZDZUVKcmNreDBhaXRRZWtveEswdDRX"
 			"azVJVG5wNU9WQXZUak0zTHpJMWVHSmtiMHhMYkhCYWN5dE1RVEZTU2t0cFQyNXNNVnBoTm5WME4x"
-			"ZHNkbUUyVlRGS1QwSmlkV2czYVdGVGJHeE9PV015TjNnNE5tNXNNV1V4ZEROM09FRnZZMnRIVg=="
+			"ZHNkbUUyVlRGS1QwSmlkV2czYVdGVGJHeE9PV015TjNnNE5tNXNNV1V4ZEROM09FRnZZMnRIVkVw"
+			"elMwcG5Oa2xhV1d4eGFXbENTVTl4V21wV1VGTlplazEzWTBaQk56RkRVUzkxYW1SS2FDdHJTRWxV"
+			"V1RWNWRXdzVRMFIwTms0d2FGQlpNblpMYTBSdEt6Z3hNSFpTVldWTU1Ia3dibXd4YldSQlFUVnZR"
+			"VkZCWkVZMlpGTXlNVVJwZERsWVYybzRkM05CT1ZoWlRYWXpTQ3N4ZVRaTlpreGxOVzlrVDNoSVpW"
+			"Qk1lRmRMU2k5MU5GSjRORFl4VGtoVU9URmpMeXQwTWt4clptcFVWM1JVWWxaMGVXWnBlV1ppYlRk"
+			"ellrbHJObTFWZFhCeGJYUXhOelpLTldSUGRtUllabEJUU210UFdrUlJNbGh5YzNSbVRTOXhTemww"
+			"SzNKelVDOXdPRWdyWTBaUVdFSTBZVTlxV21Sck5WUnVOMnMwUlhoUk1HazJaV1JZVjFKVlNtZExh"
+			"bk5tZG5JeFZ6bHJPVWxNWlVoUVJUWlZNMjR2WVZRM2VUVnpNM0F6T0hOeU5qbDBTeXQ2TkZCQk16"
+			"azFaRlF3VnprMVJubDJjMHd5ZW0xemRuWTFiM1phZFhWd1IwbFZWREJ0VUVFeFltRlZNMjg0WVU1"
+			"b2VEbHRlbEJJZDFOVFJXcElhM1l5VWtGMWJ6bEpVVXRJVEVKWGJYQm5aV2gzZG00d1REWkVXbTA0"
+			"ZW5kTmVYcFROazR2S3poSFprcENTekZzYmxKTEwyRXdVR0ZYVVU1QlVFSTRaREpNZFRGdFRWQTJW"
+			"blExUldoSmIyWXpkRE12WkRkVmJHUmhiVlJ2UVVobE9DdGpSMjUzZUVORWVRRHd1eERvL0g4QUFN"
+			"QVk0b0l5QWdBQXNIcUZnVElDQUFEUXVoRG8vSDhBQUFDN0VPajhmd0FBS0xNUTZQeC9BQUJ3cHYv"
+			"bi9IOEFBSENtLytmOGZ3QUFjS2IvNS94L0FBQndNNU9CTWdJQUFMQjZoWUV5QWdBQWNLYi81L3gv"
+			"QUFDUUdPS0NNZ0lBQUxndUVlajhmd0FBd0w0UTZQeC9BQUM0TGhIby9IOEFBTGd1RWVqOGZ3QUFJ"
+			"QzdyZ2pJQ0FBQkF1aERvL0g4QUFKQkQ1NEl5QWdBQVlCamlnaklDQUFDdzlvcUJNZ0lBQUNpekVP"
+			"ajhmd0FBc1BhS2dUSUNBQUFvc3hEby9IOEFBREFZNG9JeUFnQUFjS2IvNS94L0FBQXd2aERvL0g4"
+			"QUFDaXpFT2o4ZndBQUtMTVE2UHgvQUFBQUdPS0NNZ0lBQUxndUVlajhmd0FBd0w0UTZQeC9BQUM0"
+			"TGhIby9IOEFBTGd1RWVqOGZ3QUEwQmZpZ2pJQ0FBQndwdi9uL0g4QUFQQzdFT2o4ZndBQW9CZg=="
 		)
 		(uuid "518272ca-21cd-46ad-96d0-69bc5f5e0ef5")
 	)
@@ -124921,6 +124975,24 @@
 			"ZgBVAEIAQQBtAEgARgBBAGUASgBtAFQAMgBwAEcAaABMADUAKwBaAEMAZwBjAEkAWgAyAG4ATgBB"
 			"AHgARgBGAEMAZwBkAGsASQA2AHgAUQBKAFQATAB5AGoAKwBjAG8AWQA4AEMAWgBDAEsAYQBGADcA"
 			"TQBpADUAWABMAFEAQwBLAEwASgBOAGcAZwBIAFoASQB5AGgARgByAE4AawBxAE0AYwAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
