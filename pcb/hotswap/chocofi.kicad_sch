@@ -2085,6 +2085,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Chukozor_symbols:FPC_connector-4p"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.778 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FPC_connector-4p"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FPC_connector-4p_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 5.08 270)
+					(length 3.81)
+					(hide yes)
+					(name "MP2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -8.89 90)
+					(length 3.81)
+					(hide yes)
+					(name "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Chukozor_symbols:Handedness"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -14761,6 +14999,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 	)
@@ -19705,7 +19961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:Conn_01x04")
+		(lib_id "Chukozor_symbols:FPC_connector-4p")
 		(at 50.292 466.598 90)
 		(mirror x)
 		(unit 1)
@@ -19730,7 +19986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
+		(property "Footprint" ""
 			(at 50.292 466.598 0)
 			(effects
 				(font
@@ -19768,6 +20024,12 @@
 		)
 		(pin "1"
 			(uuid "0f4a744c-1056-4d28-9051-5f7299423ea3")
+		)
+		(pin "MP2"
+			(uuid "c6ab21f7-e148-409a-aef7-39ad9b8b5900")
+		)
+		(pin "MP1"
+			(uuid "49e807b8-3682-4e0b-b0ef-2a0c05e780f3")
 		)
 		(instances
 			(project "chocofi"
@@ -21719,7 +21981,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:Conn_01x04")
+		(lib_id "Chukozor_symbols:FPC_connector-4p")
 		(at 109.982 377.444 270)
 		(mirror x)
 		(unit 1)
@@ -21782,6 +22044,12 @@
 		)
 		(pin "1"
 			(uuid "816235ac-a07e-43ea-b549-8a3404456ba6")
+		)
+		(pin "MP2"
+			(uuid "dcf84a3f-a589-4540-af1e-970dbe2f7374")
+		)
+		(pin "MP1"
+			(uuid "26e52aae-13f6-4c0b-b2ba-eb174c7f3f38")
 		)
 		(instances
 			(project "chocofi"
@@ -24206,7 +24474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:Conn_01x04")
+		(lib_id "Chukozor_symbols:FPC_connector-4p")
 		(at 150.368 377.444 270)
 		(mirror x)
 		(unit 1)
@@ -24269,6 +24537,12 @@
 		)
 		(pin "1"
 			(uuid "1476a2e9-9b3e-40bf-94bc-b5457de88ed9")
+		)
+		(pin "MP2"
+			(uuid "87add6f4-9d4f-40c6-bf1d-12fea75dcba3")
+		)
+		(pin "MP1"
+			(uuid "efd0c963-1f0a-4786-b196-f760eaedd8ac")
 		)
 		(instances
 			(project ""
@@ -28553,7 +28827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:Conn_01x04")
+		(lib_id "Chukozor_symbols:FPC_connector-4p")
 		(at 68.58 377.444 270)
 		(mirror x)
 		(unit 1)
@@ -28616,6 +28890,12 @@
 		)
 		(pin "1"
 			(uuid "5ac9758a-7f96-428b-a36f-36c8131ac85c")
+		)
+		(pin "MP1"
+			(uuid "db712adf-f083-42ae-af21-db263879c181")
+		)
+		(pin "MP2"
+			(uuid "e2b4e1e9-dd54-4375-9ebe-086414b9a426")
 		)
 		(instances
 			(project "chocofi"
