@@ -8325,6 +8325,12 @@
 		(uuid "b62da407-03bc-4e54-b303-4a3eb6123b4f")
 	)
 	(junction
+		(at 87.376 382.524)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ee5794-094b-4dd2-9126-7de997d47d0d")
+	)
+	(junction
 		(at 46.482 301.244)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10402,6 +10408,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.376 382.524) (xy 104.902 382.524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b032061-7235-4918-92f9-dcefb767b3e0")
+	)
+	(wire
+		(pts
 			(xy 64.262 223.52) (xy 64.262 203.2)
 		)
 		(stroke
@@ -11479,16 +11495,6 @@
 			(type default)
 		)
 		(uuid "a421d67c-95f8-4841-a26d-ea3977589fff")
-	)
-	(wire
-		(pts
-			(xy 87.884 382.524) (xy 104.902 382.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4a97701-3daa-4b8c-852f-648337021b32")
 	)
 	(wire
 		(pts
@@ -13032,6 +13038,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.376 382.524) (xy 87.376 421.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a5d4a0-68ce-45ea-9398-63af7a36784d")
+	)
+	(wire
+		(pts
 			(xy 112.014 261.366) (xy 112.014 260.604)
 		)
 		(stroke
@@ -13052,7 +13068,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.376 341.884) (xy 87.376 421.894)
+			(xy 87.376 341.884) (xy 87.376 382.524)
 		)
 		(stroke
 			(width 0)
@@ -25731,7 +25747,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:SMD_SOD_123_for_assembly"
+		(property "Footprint" "Switches_Chukozor:SMD_SOD_123_only_one_face"
 			(at 48.006 457.454 0)
 			(effects
 				(font
