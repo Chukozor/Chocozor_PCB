@@ -1418,7 +1418,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at -2.54 7.62 270)
 					(length 5.08)
 					(hide yes)
@@ -1455,18 +1455,18 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 1.27 7.62 270)
 					(length 5.08)
 					(hide yes)
-					(name "5"
+					(name "8"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "5"
+					(number "8"
 						(effects
 							(font
 								(size 1 1)
@@ -3770,6 +3770,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -2.54 6.35 270)
+					(length 2.54)
+					(hide yes)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -4171,6 +4190,44 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -6.35 90)
+					(length 3.5)
+					(hide yes)
+					(name "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -6.35 90)
+					(length 3.5)
+					(hide yes)
+					(name "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -8997,7 +9054,7 @@
 		(uuid "284ac103-6ad0-4d43-ad56-b13819ab8f25")
 	)
 	(no_connect
-		(at 456.184 110.236)
+		(at 457.454 110.236)
 		(uuid "299ed64c-750f-4277-8056-8d65c3d5d89e")
 	)
 	(no_connect
@@ -9021,7 +9078,7 @@
 		(uuid "38c0dd50-7d2c-4353-adc3-943ecb6f539b")
 	)
 	(no_connect
-		(at 456.184 115.316)
+		(at 457.2 115.316)
 		(uuid "696d6651-c800-4103-8469-9509a815803e")
 	)
 	(no_connect
@@ -10346,6 +10403,16 @@
 	)
 	(wire
 		(pts
+			(xy 457.454 110.236) (xy 456.184 110.236)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edfb7da-a6e0-466c-ab42-71057f87f1c7")
+	)
+	(wire
+		(pts
 			(xy 112.014 268.986) (xy 112.014 270.51)
 		)
 		(stroke
@@ -10653,6 +10720,16 @@
 			(type default)
 		)
 		(uuid "55fc153f-4673-41f9-91f8-dc9c790c2919")
+	)
+	(wire
+		(pts
+			(xy 457.2 115.316) (xy 456.184 115.316)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560d0eae-bd4b-44f2-a620-fceded46d943")
 	)
 	(wire
 		(pts
@@ -28144,7 +28221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_687108183722_reversible-Joystick"
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
 			(at 126.06 437.134 0)
 			(effects
 				(font
@@ -28250,7 +28327,7 @@
 		(pin "7"
 			(uuid "da392eaf-3a2b-4202-8df4-8df713a5a6c4")
 		)
-		(pin "5"
+		(pin "8"
 			(uuid "18751a2d-f149-446b-bf7c-39eb2e8d169d")
 		)
 		(instances
@@ -29139,7 +29216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:SKRHAAE010-5ways-Handsoldering"
+		(property "Footprint" "SKRHAAE010"
 			(at 209.296 581.076 0)
 			(effects
 				(font
@@ -29235,6 +29312,12 @@
 		)
 		(pin "4"
 			(uuid "a5395780-f960-4d0c-ab85-f25a41aec721")
+		)
+		(pin "7"
+			(uuid "461cc0e3-da30-4b88-a750-29c91e19b71d")
+		)
+		(pin "8"
+			(uuid "f489ac9a-37d3-449a-92bd-9099eca41385")
 		)
 		(instances
 			(project ""
@@ -30163,6 +30246,9 @@
 		)
 		(pin "A"
 			(uuid "0a76d7ea-dcae-40b3-90d9-475e1b8e51de")
+		)
+		(pin "MP"
+			(uuid "6fccb11d-7f36-4d78-a0c4-9fabf0cb033f")
 		)
 		(instances
 			(project "chocofi"
