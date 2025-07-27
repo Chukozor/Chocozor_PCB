@@ -1250,6 +1250,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Chukozor_symbols:FPC_8pins_SPECIAL-joystick"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "FPC_8pins_SPECIAL-joystick"
+				(at 0 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.3"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-687108183722"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "687108183722"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FPC_8pins_SPECIAL-joystick_1_1"
+				(rectangle
+					(start -8.636 2.54)
+					(end 8.636 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 2.54 0)
+					(length 2)
+					(hide yes)
+					(name "MP2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -8.89 90)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -8.89 90)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -8.89 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 2)
+					(hide yes)
+					(name "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-HIGH-687108183722"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9136,6 +9398,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.978 421.894) (xy 212.09 421.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107c1c45-9f56-4bd8-9398-f0159540f304")
+	)
+	(wire
+		(pts
 			(xy 221.234 402.844) (xy 221.996 402.844)
 		)
 		(stroke
@@ -9796,16 +10068,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.058 414.274) (xy 220.726 414.274)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346f80be-dc69-4958-98a6-e2a8396394ac")
-	)
-	(wire
-		(pts
 			(xy 383.794 241.554) (xy 381.254 241.554)
 		)
 		(stroke
@@ -9946,6 +10208,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.376 421.894) (xy 203.962 421.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba68cc4-bd2f-4c86-974b-a7251ead8a34")
+	)
+	(wire
+		(pts
 			(xy 112.014 270.51) (xy 152.908 270.51)
 		)
 		(stroke
@@ -10023,16 +10295,6 @@
 			(type default)
 		)
 		(uuid "405afe83-84a3-4c84-938c-d3a1fb679f43")
-	)
-	(wire
-		(pts
-			(xy 234.696 418.084) (xy 236.728 418.084)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4195d51a-4895-4711-909e-2dafebf5afa5")
 	)
 	(wire
 		(pts
@@ -10216,6 +10478,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 420.624) (xy 212.09 419.354)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7c25fc-5164-40ed-a4c1-8686da314fa6")
+	)
+	(wire
+		(pts
 			(xy 139.446 362.204) (xy 140.208 362.204)
 		)
 		(stroke
@@ -10233,6 +10505,16 @@
 			(type default)
 		)
 		(uuid "4fe857ae-5736-4d41-9aae-bd548c21bd6d")
+	)
+	(wire
+		(pts
+			(xy 128.27 419.354) (xy 207.264 419.354)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ec2d59-49de-478c-b10c-bd664e064665")
 	)
 	(wire
 		(pts
@@ -10546,6 +10828,16 @@
 	)
 	(wire
 		(pts
+			(xy 169.164 416.814) (xy 209.042 416.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643d3e04-c279-4a83-b9d7-4d6d236d459b")
+	)
+	(wire
+		(pts
 			(xy 71.882 206.502) (xy 66.802 206.502)
 		)
 		(stroke
@@ -10716,16 +11008,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.726 421.894) (xy 87.376 421.894)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6efbc257-533f-4e76-b7bb-cafb513be730")
-	)
-	(wire
-		(pts
 			(xy 164.338 76.454) (xy 164.338 77.978)
 		)
 		(stroke
@@ -10733,6 +11015,16 @@
 			(type default)
 		)
 		(uuid "6f23c42c-1db2-49df-a83f-f5f9a0cb847d")
+	)
+	(wire
+		(pts
+			(xy 207.264 419.354) (xy 207.264 424.434)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f480080-7ca6-4a7e-a233-1a686214833e")
 	)
 	(wire
 		(pts
@@ -10806,7 +11098,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.482 424.434) (xy 220.726 424.434)
+			(xy 46.482 424.434) (xy 204.978 424.434)
 		)
 		(stroke
 			(width 0)
@@ -10893,6 +11185,16 @@
 			(type default)
 		)
 		(uuid "75d95e6e-f9c8-4a02-bb6f-ce52ccb1cd9d")
+	)
+	(wire
+		(pts
+			(xy 210.058 382.524) (xy 210.058 411.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767b2635-397c-4450-a4cb-07a3cec99a4c")
 	)
 	(wire
 		(pts
@@ -11123,6 +11425,16 @@
 			(type default)
 		)
 		(uuid "818303e7-71db-476b-80f1-1a3501411874")
+	)
+	(wire
+		(pts
+			(xy 209.042 414.274) (xy 212.09 414.274)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8217bbfb-f471-43bd-96e7-142ab6160e7c")
 	)
 	(wire
 		(pts
@@ -11646,6 +11958,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.042 416.814) (xy 209.042 414.274)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb25042-c9d6-421c-a02f-041d20995ab4")
+	)
+	(wire
+		(pts
+			(xy 207.264 424.434) (xy 212.09 424.434)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d04d309-06a9-4c16-a6e9-fd679a51ac3a")
+	)
+	(wire
+		(pts
 			(xy 105.156 223.52) (xy 105.156 203.2)
 		)
 		(stroke
@@ -12166,6 +12498,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.728 416.814) (xy 236.728 418.084)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6523e4a-5613-4b6e-bf63-082cacdc1c24")
+	)
+	(wire
+		(pts
 			(xy 74.422 275.844) (xy 99.314 275.844)
 		)
 		(stroke
@@ -12326,6 +12668,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 416.814) (xy 236.728 416.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14cec88-ef1b-4c1f-9235-4f03ec96eb03")
+	)
+	(wire
+		(pts
 			(xy 210.058 301.244) (xy 219.456 301.244)
 		)
 		(stroke
@@ -12396,13 +12748,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.726 419.354) (xy 128.27 419.354)
+			(xy 203.962 421.894) (xy 203.962 420.624)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5062cb7-9f7d-4c70-842c-cd8f3049c070")
+		(uuid "c45a623b-00ba-4cdb-88d0-73738a39f385")
 	)
 	(wire
 		(pts
@@ -12513,6 +12865,16 @@
 			(type default)
 		)
 		(uuid "c8d8f644-f5cb-4717-831e-93b834fe0f1a")
+	)
+	(wire
+		(pts
+			(xy 203.962 420.624) (xy 212.09 420.624)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9be197c-26d6-4caf-91c4-be6e330ddf72")
 	)
 	(wire
 		(pts
@@ -12836,13 +13198,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.726 416.814) (xy 169.164 416.814)
+			(xy 210.058 411.734) (xy 212.09 411.734)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0bfe111-4e87-4272-b738-cd142be2bd9a")
+		(uuid "e111659e-75ec-42d1-ac85-e1d697a2dd5d")
 	)
 	(wire
 		(pts
@@ -12973,16 +13335,6 @@
 			(type default)
 		)
 		(uuid "e978be79-85a2-45f0-9f8c-8c617001c0b3")
-	)
-	(wire
-		(pts
-			(xy 210.058 382.524) (xy 210.058 414.274)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9bb7bba-135b-4549-b6ae-99f69c35691f")
 	)
 	(wire
 		(pts
@@ -13313,6 +13665,16 @@
 			(type default)
 		)
 		(uuid "f7f2270c-7b60-4e77-abd0-b916468f6aa1")
+	)
+	(wire
+		(pts
+			(xy 204.978 424.434) (xy 204.978 421.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81b79eb-5fd2-45d3-86fe-05f0d779fb66")
 	)
 	(wire
 		(pts
@@ -20472,85 +20834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:6_pins-ways-switch")
-		(at 227.076 418.084 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "304636c3-1095-4906-8659-800829fb593f")
-		(property "Reference" "SW31"
-			(at 227.33 411.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 227.076 418.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:Joystick-6-ways-wires"
-			(at 227.076 418.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.076 418.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.076 418.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eab2758a-812d-4dd8-bf24-8342323c92f9")
-		)
-		(pin "5"
-			(uuid "8e4a1b99-02d8-4ab9-8162-25a24128f51e")
-		)
-		(pin "4"
-			(uuid "2a27e99a-238b-4bef-b0c2-bdd2a37537a8")
-		)
-		(pin "3"
-			(uuid "4ecf0319-4ec2-4413-bf66-f916cc9ae986")
-		)
-		(pin "2"
-			(uuid "85d3d075-03dc-497f-9db7-82ad17aa71b7")
-		)
-		(pin "6"
-			(uuid "a2cfc222-56fe-496b-84bf-439d0e99a5d8")
-		)
-		(instances
-			(project ""
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "SW31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Chukozor_symbols:straight-line")
 		(at 367.538 175.768 0)
 		(unit 1)
@@ -21269,6 +21552,85 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chukozor_symbols:6_pins-ways-switch")
+		(at 244.602 474.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40a9346e-0a8c-47b6-a673-07c6440254a2")
+		(property "Reference" "SW32"
+			(at 244.856 468.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 244.602 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Joystick-6-ways-wires"
+			(at 244.602 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 244.602 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 244.602 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16174968-cc56-4d19-b4cc-b84274072d35")
+		)
+		(pin "5"
+			(uuid "330fef62-881e-44cf-aba3-9802953f01bf")
+		)
+		(pin "4"
+			(uuid "506f1dae-a990-4739-b953-ec65cd64bebd")
+		)
+		(pin "3"
+			(uuid "d8b2e151-d8af-4713-a196-717483d62188")
+		)
+		(pin "2"
+			(uuid "10faf499-5dd2-4c9e-8073-5a3c5c8ad0bc")
+		)
+		(pin "6"
+			(uuid "830e9cb3-23a2-4ba8-99c6-98773c37d8be")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -27772,6 +28134,145 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-joystick")
+		(at 220.98 418.084 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4d185a5-4df1-4e9b-8112-684609dee50d")
+		(property "Reference" "K7"
+			(at 224.028 418.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPC_8pins_687108183722"
+			(at 224.282 414.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+			(at 126.06 437.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
+			(at 26.06 437.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
+			(at 232.664 418.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
+			(at -173.94 437.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-687108183722"
+			(at -273.94 437.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
+			(at -373.94 437.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at -473.94 437.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "687108183722"
+			(at -573.94 437.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP1"
+			(uuid "96e14b5a-fce9-4779-8b90-1e03837343d3")
+		)
+		(pin "6"
+			(uuid "965ad533-ba45-431a-9c81-15dfd6d1de24")
+		)
+		(pin "4"
+			(uuid "7b1a99a0-bd02-42ff-9599-aea00dc9bf91")
+		)
+		(pin "3"
+			(uuid "7893a3cd-4bc8-4021-aa48-acae59342d8b")
+		)
+		(pin "2"
+			(uuid "28c447ad-96c6-4c3f-91cc-4741d7aaa385")
+		)
+		(pin "MP2"
+			(uuid "38c9ce3e-159f-4f3d-aa38-7e717670a7c3")
+		)
+		(pin "5"
+			(uuid "26338482-1363-4365-bf5a-3de5bd7d9d2c")
+		)
+		(pin "1"
+			(uuid "86096bdc-270e-4265-83f2-8fa5e4d7cd75")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "K7")
 					(unit 1)
 				)
 			)
