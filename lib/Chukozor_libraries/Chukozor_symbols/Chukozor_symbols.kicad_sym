@@ -2197,6 +2197,25 @@
 				)
 			)
 			(pin passive line
+				(at -2.54 7.62 270)
+				(length 5.08)
+				(hide yes)
+				(name "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -1.27 -8.89 90)
 				(length 5.08)
 				(name "4"
@@ -2210,6 +2229,25 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 7.62 270)
+				(length 5.08)
+				(hide yes)
+				(name "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
 						)
 					)
 				)

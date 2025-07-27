@@ -1419,6 +1419,25 @@
 					)
 				)
 				(pin passive line
+					(at -2.54 7.62 270)
+					(length 5.08)
+					(hide yes)
+					(name "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -1.27 -8.89 90)
 					(length 5.08)
 					(name "4"
@@ -1432,6 +1451,25 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 7.62 270)
+					(length 5.08)
+					(hide yes)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -20356,7 +20394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
 			(at 50.292 466.598 0)
 			(effects
 				(font
@@ -28106,7 +28144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_687108183722_reversible-Joystick"
 			(at 126.06 437.134 0)
 			(effects
 				(font
@@ -28208,6 +28246,12 @@
 		)
 		(pin "1"
 			(uuid "86096bdc-270e-4265-83f2-8fa5e4d7cd75")
+		)
+		(pin "7"
+			(uuid "da392eaf-3a2b-4202-8df4-8df713a5a6c4")
+		)
+		(pin "5"
+			(uuid "18751a2d-f149-446b-bf7c-39eb2e8d169d")
 		)
 		(instances
 			(project "chocofi"
