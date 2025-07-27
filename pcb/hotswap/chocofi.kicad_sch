@@ -11468,7 +11468,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.518 211.328) (xy 466.852 211.328)
+			(xy 461.518 211.328) (xy 478.282 211.328)
 		)
 		(stroke
 			(width 0)
@@ -12475,16 +12475,6 @@
 			(type default)
 		)
 		(uuid "b415152b-84b4-4e16-83c5-cc2ed9c435a2")
-	)
-	(wire
-		(pts
-			(xy 474.472 211.328) (xy 478.282 211.328)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b448bcf2-2480-425d-8838-2a02449b22f8")
 	)
 	(wire
 		(pts
@@ -23877,74 +23867,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 470.662 211.328 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "741c26a6-bafa-43d6-8351-7d5a41e58cf5")
-		(property "Reference" "JP6"
-			(at 470.408 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Sol-Pin"
-			(at 468.376 208.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:SB-small"
-			(at 470.662 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 470.662 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 470.662 211.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e858b3c9-aebc-4b09-b67d-1048d49b3dae")
-		)
-		(pin "2"
-			(uuid "cf0e3534-318f-4005-8c05-389470050d06")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "JP6")
 					(unit 1)
 				)
 			)
