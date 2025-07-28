@@ -1,0 +1,90 @@
+(footprint "Mounting-hole-M2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b787a8a1-8cff-48ce-bc1e-47ee5433912e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mounting-hole-M2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d21373f4-74dc-49d9-a89b-d891c52d6d5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "928fa30c-4c0c-4893-9938-385dea1e106a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65b1368f-b504-436b-b079-ac7a20ef79e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.05 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "01e8a594-2f96-42aa-899e-3b0509485b6a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(layer "Dwgs.User")
+		(uuid "4c06fb70-23a5-4e71-953a-bb29f38c6195")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 0.2)
+		(uuid "68e0860d-d613-4311-829e-1ca0cc7f906f")
+	)
+	(embedded_fonts no)
+)
