@@ -20099,6 +20099,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.384 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e57b90d-1337-4bee-9106-4ba09eea16ac")
+		(property "Reference" "M1.6-5"
+			(at 27.178 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 27.178 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 24.384 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.384 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 24.384 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
 		(at 142.24 194.31 0)
 		(unit 1)
@@ -23849,7 +23913,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.352 54.356 0)
+		(at 24.638 84.328 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23858,7 +23922,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ae2f686-b05b-4b86-a9c8-83780961df95")
 		(property "Reference" "M2-1"
-			(at 24.892 53.0859 0)
+			(at 27.178 83.0579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23867,7 +23931,7 @@
 			)
 		)
 		(property "Value" "MountingHoleM2"
-			(at 24.892 55.6259 0)
+			(at 27.178 85.5979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23876,7 +23940,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2"
-			(at 22.352 54.356 0)
+			(at 24.638 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23885,7 +23949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.352 54.356 0)
+			(at 24.638 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23894,7 +23958,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.352 54.356 0)
+			(at 24.638 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25322,6 +25386,70 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.784 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b5ec317-5073-4b9e-9a02-51e1b2940141")
+		(property "Reference" "M1.6-6"
+			(at 52.578 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 52.578 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 49.784 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.784 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.784 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-6")
 					(unit 1)
 				)
 			)
@@ -27760,6 +27888,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.638 49.276 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c80cee0b-4952-4749-888c-9d2534f98ebe")
+		(property "Reference" "M1.6-7"
+			(at 27.432 48.0059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 27.432 50.5459 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 24.638 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.638 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 24.638 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "chocofi-rescue:GND-power")
 		(at 151.13 275.844 90)
 		(unit 1)
@@ -29227,6 +29419,70 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.038 49.276 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddeedbd7-df94-4e17-a4ef-0fa20749483a")
+		(property "Reference" "M1.6-8"
+			(at 52.832 48.0059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 52.832 50.5459 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 50.038 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.038 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.038 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-8")
 					(unit 1)
 				)
 			)
