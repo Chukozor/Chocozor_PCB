@@ -1,4 +1,4 @@
-(footprint "FPC_8pins_687108183722_reversible-Joystick"
+(footprint "FPC_8pins_687108183722_reversible-Joystick-IN"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FPC_8pins_687108183722_reversible-Joystick"
+	(property "Value" "FPC_8pins_687108183722_reversible-Joystick-IN"
 		(at 0 -0.575 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -464,7 +464,7 @@
 		(uuid "6c147615-88ce-4ffa-8315-4fae6ed39915")
 	)
 	(fp_text user "IN"
-		(at 0.31 2.53 0)
+		(at 0 2.53 0)
 		(layer "F.SilkS")
 		(uuid "7c8c53f2-861d-4cff-b197-eefe766dea7e")
 		(effects
@@ -488,7 +488,7 @@
 		)
 	)
 	(fp_text user "IN"
-		(at 0.31 2.53 0)
+		(at 0 2.53 0)
 		(layer "B.SilkS")
 		(uuid "82a01acd-c2f4-4a82-8d71-c93fb779a453")
 		(effects

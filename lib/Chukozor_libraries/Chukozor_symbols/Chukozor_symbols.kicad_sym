@@ -2131,8 +2131,8 @@
 		)
 		(symbol "FPC_8pins_SPECIAL-joystick_1_1"
 			(rectangle
-				(start -8.636 2.54)
-				(end 8.636 -3.81)
+				(start -12.7 2.54)
+				(end 7.62 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2142,7 +2142,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 2.54 0)
+				(at -11.43 7.62 0)
 				(length 2)
 				(hide yes)
 				(name "MP2"
@@ -2153,6 +2153,61 @@
 					)
 				)
 				(number "MP2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -11.43 5.08 0)
+				(length 2)
+				(hide yes)
+				(name "MP1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -8.89 90)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -8.89 90)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1 1)
@@ -2196,25 +2251,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -2.54 7.62 270)
-				(length 5.08)
-				(hide yes)
-				(name "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -1.27 -8.89 90)
 				(length 5.08)
@@ -2229,25 +2265,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 1.27 7.62 270)
-				(length 5.08)
-				(hide yes)
-				(name "8"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
 						)
 					)
 				)
@@ -2302,25 +2319,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 2.54 180)
-				(length 2)
-				(hide yes)
-				(name "MP1"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "MP1"
-					(effects
-						(font
-							(size 1 1)
 						)
 					)
 				)
@@ -6372,25 +6370,7 @@
 				)
 			)
 			(pin passive line
-				(at 9.85 0 180)
-				(length 3.5)
-				(name "COM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.104 2.54 180)
+				(at 10.16 2.54 180)
 				(length 3.5)
 				(name "B"
 					(effects
@@ -6408,7 +6388,25 @@
 				)
 			)
 			(pin passive line
-				(at 10.104 -2.54 180)
+				(at 10.16 0 180)
+				(length 3.5)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
 				(length 3.5)
 				(name "D"
 					(effects
