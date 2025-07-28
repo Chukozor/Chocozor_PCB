@@ -20547,8 +20547,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:FPC_connector-4p")
-		(at 50.292 466.598 90)
-		(mirror x)
+		(at 52.832 466.598 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20571,8 +20570,8 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
-			(at 50.292 466.598 0)
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN"
+			(at 52.832 466.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20581,7 +20580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.292 466.598 0)
+			(at 52.832 466.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20590,7 +20589,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.292 466.598 0)
+			(at 52.832 466.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22591,7 +22590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-OUT"
 			(at 109.982 377.444 0)
 			(effects
 				(font
@@ -23032,6 +23031,70 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 29.972 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b5a538c-33b0-413f-b0e4-5a0c25e92947")
+		(property "Reference" "M1.6-4"
+			(at 52.324 28.7019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 52.324 31.2419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 49.53 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-4")
 					(unit 1)
 				)
 			)
@@ -25080,7 +25143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-OUT"
 			(at 150.368 377.444 0)
 			(effects
 				(font
@@ -27489,6 +27552,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 29.972 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a88acc-c96e-40a6-9de8-b3d6c08153cb")
+		(property "Reference" "M1.6-3"
+			(at 26.924 28.7019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 26.924 31.2419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 24.13 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 24.13 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:SW_Chuk_LED")
 		(at 104.394 260.604 0)
 		(unit 1)
@@ -29648,7 +29775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN-AND-OUT"
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-OUT"
 			(at 68.58 377.444 0)
 			(effects
 				(font

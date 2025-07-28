@@ -1,4 +1,4 @@
-(footprint "FPC_4pins_Horizontal-PULL-IN-AND-OUT"
+(footprint "FPC_4pins_Horizontal-PULL-OUT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FPC_4pins_Horizontal-PULL-IN-AND-OUT"
+	(property "Value" "FPC_4pins_Horizontal-PULL-OUT"
 		(at 0 -0.575 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -94,26 +94,6 @@
 		(uuid "c079446a-d5c3-4a2a-b146-5db64cf9f1ca")
 	)
 	(fp_line
-		(start -3.005 2.12)
-		(end -3.245 2.33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "99129e70-3d2d-4450-91a7-7373293f0a91")
-	)
-	(fp_line
-		(start -3.005 2.12)
-		(end -2.765 2.33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "342d0080-196e-4423-92e0-f9e6449d445e")
-	)
-	(fp_line
 		(start -3 2.125)
 		(end -3 2.9)
 		(stroke
@@ -152,26 +132,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "8af2b820-a78a-4755-8390-dc45489408d1")
-	)
-	(fp_line
-		(start 2.955 2.12)
-		(end 2.715 2.33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7c3d8ac8-d559-434c-9427-d173c64d2d78")
-	)
-	(fp_line
-		(start 2.955 2.12)
-		(end 3.195 2.33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "666c7373-2af3-443e-b48c-bcc24e54af5f")
 	)
 	(fp_line
 		(start 2.96 2.12)
@@ -264,26 +224,6 @@
 		(uuid "d3c4adad-2327-4a21-a47c-2e5946b80a6a")
 	)
 	(fp_line
-		(start -3.005 2.12)
-		(end -3.245 2.33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "d6ef8f7c-748f-48c6-b012-00bfe4f27469")
-	)
-	(fp_line
-		(start -3.005 2.12)
-		(end -2.765 2.33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "47a19306-3abe-4e65-ac90-80afe4843727")
-	)
-	(fp_line
 		(start -3 2.125)
 		(end -3 2.9)
 		(stroke
@@ -322,26 +262,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "4cecd66f-8e47-4517-a19e-a680feace0df")
-	)
-	(fp_line
-		(start 2.955 2.12)
-		(end 2.715 2.33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "0ff04c7e-59bb-493c-8917-9a16e1b1d4df")
-	)
-	(fp_line
-		(start 2.955 2.12)
-		(end 3.195 2.33)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "2608212a-f735-4cad-b8c3-0b9993a260c1")
 	)
 	(fp_line
 		(start 2.96 2.15)
@@ -473,7 +393,7 @@
 		(layer "F.Fab")
 		(uuid "6c147615-88ce-4ffa-8315-4fae6ed39915")
 	)
-	(fp_text user "IN/OUT"
+	(fp_text user "OUT"
 		(at 0 2.52 0)
 		(layer "F.SilkS")
 		(uuid "ed687f9e-7f12-4e34-9120-b878c9eab9dc")
@@ -497,7 +417,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "IN/OUT"
+	(fp_text user "OUT"
 		(at 0 2.52 0)
 		(layer "B.SilkS")
 		(uuid "885d686c-a7c5-4ebe-8318-c76652bc32de")
