@@ -155,7 +155,7 @@
 		(uuid "dbd734bd-508c-4b90-8423-3076c9e9a34a")
 	)
 	(fp_text user "SCL"
-		(at -1.3 -1.8 0)
+		(at 1.25 -1.8 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
 		(uuid "7b7eeeeb-de00-4044-99c4-2695f5be3270")
@@ -168,7 +168,7 @@
 		)
 	)
 	(fp_text user "VI2C"
-		(at 1.24 -1.8 0)
+		(at -1.3 -1.8 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
 		(uuid "d9a63b22-6abb-465b-b5bd-0175d23167bd")
@@ -181,7 +181,7 @@
 		)
 	)
 	(fp_text user "SDA"
-		(at -3.86 -1.79 0)
+		(at 3.78 -1.8 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
 		(uuid "dabe3ed1-9b3d-4f2f-ad93-daad8e88c9af")
@@ -194,7 +194,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 3.79 -1.8 0)
+		(at -3.85 -1.8 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
 		(uuid "dd65f36c-527c-43db-93f3-350329b61e0e")
@@ -207,7 +207,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 3.79 -1.8 0)
+		(at -3.85 -1.8 0)
 		(unlocked yes)
 		(layer "B.SilkS" knockout)
 		(uuid "003a34b4-8fc2-46cd-b37b-63c72a07d2c3")
@@ -221,7 +221,7 @@
 		)
 	)
 	(fp_text user "VI2C"
-		(at 1.24 -1.8 0)
+		(at -1.3 -1.8 0)
 		(unlocked yes)
 		(layer "B.SilkS" knockout)
 		(uuid "241e839d-b745-41da-af48-baf3e8dfcf5f")
@@ -235,7 +235,7 @@
 		)
 	)
 	(fp_text user "SDA"
-		(at -3.84 -1.79 0)
+		(at 3.8 -1.8 0)
 		(unlocked yes)
 		(layer "B.SilkS" knockout)
 		(uuid "7b460959-851b-4855-932f-17568e236550")
@@ -249,7 +249,7 @@
 		)
 	)
 	(fp_text user "SCL"
-		(at -1.3 -1.8 0)
+		(at 1.25 -1.8 0)
 		(unlocked yes)
 		(layer "B.SilkS" knockout)
 		(uuid "c3ddab68-5b3b-4ff1-8bf4-aa017e1feed9")
@@ -274,7 +274,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at 3.78 0)
+		(at -3.88 0)
 		(size 1.397 1.778)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
@@ -293,7 +293,7 @@
 		(uuid "fc95fabb-535a-48ae-9a0a-c37fd8f7d81b")
 	)
 	(pad "2" thru_hole oval
-		(at 1.24 0)
+		(at -1.34 0)
 		(size 1.397 1.778)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
@@ -312,7 +312,7 @@
 		(uuid "c68df3a8-5eab-49ec-b728-854292682696")
 	)
 	(pad "3" thru_hole oval
-		(at -1.3 0)
+		(at 1.2 0)
 		(size 1.397 1.778)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
@@ -331,7 +331,7 @@
 		(uuid "79c47f26-d9b9-4bdb-88e5-0023d0721463")
 	)
 	(pad "4" thru_hole oval
-		(at -3.84 0)
+		(at 3.74 0)
 		(size 1.397 1.778)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
