@@ -9056,10 +9056,6 @@
 		(uuid "299ed64c-750f-4277-8056-8d65c3d5d89e")
 	)
 	(no_connect
-		(at 52.07 474.472)
-		(uuid "2a2992af-0c6f-4cea-b0d4-be37e3b5c5f1")
-	)
-	(no_connect
 		(at 275.082 189.23)
 		(uuid "2a37ec1f-0d07-4fa2-8b78-4fdca7edc332")
 	)
@@ -9388,6 +9384,16 @@
 			(type default)
 		)
 		(uuid "08b457e7-09d4-4c1a-a280-711dadfe7546")
+	)
+	(wire
+		(pts
+			(xy 52.07 474.472) (xy 52.07 482.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ca973e-0715-42f2-984d-4300b9dd4884")
 	)
 	(wire
 		(pts
@@ -9848,6 +9854,16 @@
 			(type default)
 		)
 		(uuid "26381b89-2ac5-4b41-a0ff-38de60c20167")
+	)
+	(wire
+		(pts
+			(xy 52.07 482.346) (xy 57.912 482.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2676dbbf-bbb0-4d33-a727-e45937f38a4c")
 	)
 	(wire
 		(pts
@@ -11451,16 +11467,6 @@
 	)
 	(wire
 		(pts
-			(xy 254.508 88.9) (xy 254.508 100.838)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b76dc0a-46b5-46c9-9c1a-d544caa8e0da")
-	)
-	(wire
-		(pts
 			(xy 250.952 341.884) (xy 260.35 341.884)
 		)
 		(stroke
@@ -11691,6 +11697,16 @@
 	)
 	(wire
 		(pts
+			(xy 254.508 88.9) (xy 254.508 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b28f8a-b89b-45d6-bf9a-6553e2bf7268")
+	)
+	(wire
+		(pts
 			(xy 275.59 268.986) (xy 275.59 270.51)
 		)
 		(stroke
@@ -11918,6 +11934,16 @@
 			(type default)
 		)
 		(uuid "936eeb88-7c48-485b-9b02-993ac7a7af9d")
+	)
+	(wire
+		(pts
+			(xy 57.912 482.346) (xy 57.912 477.266)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9492771c-f5f1-41de-aed9-03c370224947")
 	)
 	(wire
 		(pts
@@ -15624,7 +15650,25 @@
 			"AHAAYQBuAGQAZQBkAEYAbwBvAHQAZQByAFQAZQB4AHQATABpAG4AawApACIAPgANAA0ACgA8AGMA"
 			"YwBzAHkAcwBsAGkAbgBrAA0ADQAKAGYAbwBuAHQAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAg"
 			"ACAAIAA9ACAAIgBnAHQAZgAoAFQAYQBzAGsARABpAGEAbABvAGcAUwB0AHkAbABlACwAIAAxADgA"
-			"LAAgAA=="
+			"LAAgAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBKAEQAYwBnAG4ASAA4AGYAdwBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBEAEQAUgBlADAARQBVAGcANgBVAEEAUQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AC8ALwAvAC8ALwB3AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQB4AGMAeABTAGcAdwBCAEMAQgBZAEMAUQAzAEkASgB4AC8ASAA4AEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAbwBpAEwAcwBCAEcAVQBoAG0AdwBFAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"UAAvAC8ALwAvADgAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAFAAbgBNAGIAbwBNAEEAUQB3AFcAQQBrAE4AeQBDAGMAZgB4AC8AQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAFgANAA1AEEAVAA1AC8ANABvAEIAQQBBAEEAQQBBAEEAQQBBAEEAQQBE"
+			"AC8ALwAvAC8ALwBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEARAA5AHoARwBxAEQAQQBFAFEARgBnAEoARABjAGcAbgBIADgAZgB3AEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAUwBzACsAWQBFADYAZQBtAEoAQQBRAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"LwAvAC8ALwAvAHcAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBADgAYwB4AG0AZwB3AEIARgBCAFkAQwBRADMASQBKAHgALwBIADgAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQArAFYAdgBwAEIAUABuAC8AaQBnAEUAQQBBAEEAQQBBAEEAQQBBAEEAQQBQ"
+			"AC8ALwAvAC8AOABBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAUABYAE0AWQBvAE0AQQBSAGcAVwBBAGsATgB5AEMAYwBmAHgALwBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAdABLADcAUQBUAG4AOQBwAE0AQgBBAEEAQQBBAEEAQQBBAEEAQQBBAEQA"
+			"LwAvAA=="
 		)
 	)
 	(global_label "col3"
@@ -16740,6 +16784,28 @@
 			)
 		)
 	)
+	(global_label "GND_mobile_Flick1"
+		(shape input)
+		(at 254.508 100.838 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f6a75ff-8bee-4588-b2be-0f54ca89baee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.508 121.6636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TOPSWITCHES_vik-GND"
 		(shape input)
 		(at 314.452 482.6 90)
@@ -17148,6 +17214,28 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_mobile_Pull1"
+		(shape input)
+		(at 57.912 477.266 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ee81a8b-691f-4933-a704-8528231be317")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.0117 477.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18191,6 +18279,28 @@
 			)
 		)
 	)
+	(global_label "GND_mobile_Flick2"
+		(shape input)
+		(at 207.772 97.536 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e614d621-5fbb-43be-a2ad-28e028308ebc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.772 76.7104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_Solenoid_side"
 		(shape input)
 		(at 478.282 207.772 0)
@@ -18309,6 +18419,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_mobile_Flick3"
+		(shape input)
+		(at 161.798 77.978 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f40a07b4-2128-4b5b-bbfa-3d5b446bad0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.798 57.1524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
