@@ -1250,12 +1250,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsAND-joystick-OUT"
+		(symbol "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsOR-joystick"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 6.604 19.05 0)
+				(at 3.81 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1263,8 +1263,8 @@
 					(justify top)
 				)
 			)
-			(property "Value" "FPC_8pins_SPECIAL-thumbs"
-				(at 2.286 14.224 0)
+			(property "Value" "FPC_8p_SPECIAL-thumbs-or-joystick"
+				(at 2.794 14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1272,7 +1272,7 @@
 					(justify top)
 				)
 			)
-			(property "Footprint" "FPC_8pins_SPECIAL-thumbsAND-joystick-IN-AND-OUT"
+			(property "Footprint" ""
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -1351,7 +1351,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FPC_8pins_SPECIAL-thumbsAND-joystick-OUT_1_1"
+			(symbol "FPC_8pins_SPECIAL-thumbsOR-joystick_1_1"
 				(rectangle
 					(start -5.08 10.16)
 					(end 15.24 -3.81)
@@ -6286,692 +6286,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FPC_8pins_SPECIAL-thumbsAND-joystick-OUT_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 3.81 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "FPC_8pins_SPECIAL-thumbs"
-				(at 2.794 14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "FPC_8pins_SPECIAL-thumbsAND-joystick-IN-AND-OUT"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 6.604 20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.3"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" ""
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" ""
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "FPC_8pins_SPECIAL-thumbsAND-joystick-OUT_1_1_1"
-				(rectangle
-					(start -5.08 10.16)
-					(end 15.24 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 0 10.16)
-					(end 15.24 -3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 0 194 194 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "JOYSTICK"
-					(at 7.62 8.128 0)
-					(effects
-						(font
-							(size 2 2)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 16.51 0)
-					(length 2)
-					(hide yes)
-					(name "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 15.24 0)
-					(length 2)
-					(hide yes)
-					(name "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -8.89 90)
-					(length 5.08)
-					(name "8_COL5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -8.89 90)
-					(length 5.08)
-					(name "7_ROW3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -8.89 90)
-					(length 5.08)
-					(name "COM_(ROW5)"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -8.89 90)
-					(length 5.08)
-					(name "5_COL4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 90)
-					(length 5.08)
-					(name "4_COL3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -8.89 90)
-					(length 5.08)
-					(name "3_COL1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -8.89 90)
-					(length 5.08)
-					(name "2_COL0"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -8.89 90)
-					(length 5.08)
-					(name "1_COL2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FPC_8pins_SPECIAL-thumbsAND-joystick-OUT_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 3.81 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "FPC_8pins_SPECIAL-thumbs"
-				(at 2.794 14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "FPC_8pins_SPECIAL-thumbsAND-joystick-IN-AND-OUT"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 6.604 20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.3"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" ""
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" ""
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "FPC_8pins_SPECIAL-thumbsAND-joystick-OUT_2_1_1"
-				(rectangle
-					(start -5.08 10.16)
-					(end 15.24 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 0 10.16)
-					(end 15.24 -3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 0 194 194 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "JOYSTICK"
-					(at 7.62 8.128 0)
-					(effects
-						(font
-							(size 2 2)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 16.51 0)
-					(length 2)
-					(hide yes)
-					(name "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 15.24 0)
-					(length 2)
-					(hide yes)
-					(name "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -8.89 90)
-					(length 5.08)
-					(name "8_COL5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -8.89 90)
-					(length 5.08)
-					(name "7_ROW3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -8.89 90)
-					(length 5.08)
-					(name "COM_(ROW5)"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -8.89 90)
-					(length 5.08)
-					(name "5_COL4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 90)
-					(length 5.08)
-					(name "4_COL3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -8.89 90)
-					(length 5.08)
-					(name "3_COL1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -8.89 90)
-					(length 5.08)
-					(name "2_COL0"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -8.89 90)
-					(length 5.08)
-					(name "1_COL2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -28766,8 +28080,7 @@
 		)
 	)
 	(symbol
-		(lib_name "FPC_8pins_SPECIAL-thumbsAND-joystick-OUT_1")
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsAND-joystick-OUT")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsOR-joystick")
 		(at 352.044 376.428 90)
 		(mirror x)
 		(unit 1)
@@ -28794,7 +28107,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8p-reversible-ThumbORJoystick-IN"
+		(property "Footprint" ""
 			(at 446.964 395.478 0)
 			(effects
 				(font
@@ -28981,8 +28294,7 @@
 		)
 	)
 	(symbol
-		(lib_name "FPC_8pins_SPECIAL-thumbsAND-joystick-OUT_2")
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsAND-joystick-OUT")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsOR-joystick")
 		(at 255.016 457.2 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29008,7 +28320,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8p-reversible-ThumbORJoystick-OUT"
+		(property "Footprint" ""
 			(at 160.096 476.25 0)
 			(effects
 				(font
@@ -31040,7 +30352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsAND-joystick-OUT")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsOR-joystick")
 		(at 354.838 434.086 0)
 		(mirror y)
 		(unit 1)
@@ -31067,7 +30379,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8p-reversible-ThumbORJoystick-IN"
+		(property "Footprint" ""
 			(at 335.788 529.006 0)
 			(effects
 				(font
@@ -31521,8 +30833,7 @@
 		)
 	)
 	(symbol
-		(lib_name "FPC_8pins_SPECIAL-thumbsAND-joystick-OUT_2")
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsAND-joystick-OUT")
+		(lib_id "Chukozor_symbols:FPC_8pins_SPECIAL-thumbsOR-joystick")
 		(at 255.016 424.434 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31548,7 +30859,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8p-reversible-ThumbORJoystick-OUT"
+		(property "Footprint" ""
 			(at 160.096 443.484 0)
 			(effects
 				(font
