@@ -1,4 +1,4 @@
-(footprint "FPC_8pins_687108183722_reversible-Joystick-IN"
+(footprint "FPC_8p-reversible-ThumbORJoystick-OUT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FPC_8pins_687108183722_reversible-Joystick-IN"
+	(property "Value" "FPC_8p-reversible-Thumb/Joystick-OUT"
 		(at 0 -0.575 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -94,34 +94,34 @@
 		(uuid "c079446a-d5c3-4a2a-b146-5db64cf9f1ca")
 	)
 	(fp_line
-		(start -3.21 2.27)
-		(end -3.45 2.48)
+		(start -3.21 2.21)
+		(end -3.21 2.73)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d16d912c-cfda-4e56-a440-eefffc654bfb")
+		(uuid "c44a545a-6e3f-4848-af30-959442e2c86d")
 	)
 	(fp_line
-		(start -3.21 2.27)
-		(end -2.97 2.48)
+		(start -3.21 2.73)
+		(end -3.45 2.52)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7094c659-f620-49ac-86d4-ef5d22c22d61")
+		(uuid "34e69c7e-ef46-42ee-a1c7-bf7d7f0530d7")
 	)
 	(fp_line
-		(start -3.21 2.79)
-		(end -3.21 2.27)
+		(start -3.21 2.73)
+		(end -2.97 2.52)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cbe1a10b-bc9f-4fb2-af54-2ff52e1f66cc")
+		(uuid "261fe0bb-a16c-4986-909b-83802837fc1e")
 	)
 	(fp_line
 		(start 2.5 -1.9)
@@ -134,34 +134,34 @@
 		(uuid "8af2b820-a78a-4755-8390-dc45489408d1")
 	)
 	(fp_line
-		(start 3.21 2.27)
-		(end 2.97 2.48)
+		(start 3.21 2.21)
+		(end 3.21 2.73)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "261fe0bb-a16c-4986-909b-83802837fc1e")
+		(uuid "cbe1a10b-bc9f-4fb2-af54-2ff52e1f66cc")
 	)
 	(fp_line
-		(start 3.21 2.27)
-		(end 3.45 2.48)
+		(start 3.21 2.73)
+		(end 2.97 2.52)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "34e69c7e-ef46-42ee-a1c7-bf7d7f0530d7")
+		(uuid "7094c659-f620-49ac-86d4-ef5d22c22d61")
 	)
 	(fp_line
-		(start 3.21 2.79)
-		(end 3.21 2.27)
+		(start 3.21 2.73)
+		(end 3.45 2.52)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c44a545a-6e3f-4848-af30-959442e2c86d")
+		(uuid "d16d912c-cfda-4e56-a440-eefffc654bfb")
 	)
 	(fp_line
 		(start 4.85 -1.9)
@@ -224,34 +224,34 @@
 		(uuid "d3c4adad-2327-4a21-a47c-2e5946b80a6a")
 	)
 	(fp_line
-		(start -3.21 2.27)
-		(end -3.45 2.48)
+		(start -3.21 2.21)
+		(end -3.21 2.73)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "fc3e5646-513f-4b5e-98b1-8ecb77325015")
+		(uuid "fd330cf4-7969-4af9-893c-3502ff051bc0")
 	)
 	(fp_line
-		(start -3.21 2.27)
-		(end -2.97 2.48)
+		(start -3.21 2.73)
+		(end -3.45 2.52)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "a7917b7d-e2f4-4141-b445-a240eb78d0b1")
+		(uuid "4266d3af-3ede-4916-9315-b7d5a79ba9af")
 	)
 	(fp_line
-		(start -3.21 2.79)
-		(end -3.21 2.27)
+		(start -3.21 2.73)
+		(end -2.97 2.52)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "b3ddc64b-6df3-49c3-99ae-69e473bc743b")
+		(uuid "38fda305-b91e-4c70-ba8e-1cb5a1a887a8")
 	)
 	(fp_line
 		(start 2.5 -1.9)
@@ -264,34 +264,34 @@
 		(uuid "4cecd66f-8e47-4517-a19e-a680feace0df")
 	)
 	(fp_line
-		(start 3.21 2.27)
-		(end 2.97 2.48)
+		(start 3.21 2.21)
+		(end 3.21 2.73)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "38fda305-b91e-4c70-ba8e-1cb5a1a887a8")
+		(uuid "b3ddc64b-6df3-49c3-99ae-69e473bc743b")
 	)
 	(fp_line
-		(start 3.21 2.27)
-		(end 3.45 2.48)
+		(start 3.21 2.73)
+		(end 2.97 2.52)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "4266d3af-3ede-4916-9315-b7d5a79ba9af")
+		(uuid "a7917b7d-e2f4-4141-b445-a240eb78d0b1")
 	)
 	(fp_line
-		(start 3.21 2.79)
-		(end 3.21 2.27)
+		(start 3.21 2.73)
+		(end 3.45 2.52)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "fd330cf4-7969-4af9-893c-3502ff051bc0")
+		(uuid "fc3e5646-513f-4b5e-98b1-8ecb77325015")
 	)
 	(fp_line
 		(start 4.85 -1.9)
@@ -315,13 +315,23 @@
 	)
 	(fp_line
 		(start -0.745 3.87)
-		(end 0 3.2)
+		(end 0 4.54)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "e32101b5-cf27-444b-a174-db05f1c6f52a")
+		(uuid "16fb1b7f-07da-4e3e-bec4-f38bf9a36c06")
+	)
+	(fp_line
+		(start -0.34 3.4)
+		(end -0.34 3.87)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "51e16022-ff0b-4e05-b563-bb94881e727a")
 	)
 	(fp_line
 		(start -0.34 3.87)
@@ -331,27 +341,27 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "c9fcc5d3-0006-460e-9997-ffb9560730c0")
+		(uuid "34559aed-1d0e-4425-a45b-f5554fd7133a")
 	)
 	(fp_line
-		(start -0.34 4.34)
-		(end -0.34 3.87)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "03e61a30-b76a-411b-b2af-7833a8a39bef")
-	)
-	(fp_line
-		(start -0.34 4.34)
-		(end 0.34 4.34)
+		(start 0.34 3.4)
+		(end -0.34 3.4)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Dwgs.User")
 		(uuid "e4330ac7-d199-4a24-a949-6060f6a1c963")
+	)
+	(fp_line
+		(start 0.34 3.4)
+		(end 0.34 3.87)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "03e61a30-b76a-411b-b2af-7833a8a39bef")
 	)
 	(fp_line
 		(start 0.34 3.87)
@@ -361,27 +371,17 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "34559aed-1d0e-4425-a45b-f5554fd7133a")
-	)
-	(fp_line
-		(start 0.34 4.34)
-		(end 0.34 3.87)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "51e16022-ff0b-4e05-b563-bb94881e727a")
+		(uuid "c9fcc5d3-0006-460e-9997-ffb9560730c0")
 	)
 	(fp_line
 		(start 0.745 3.87)
-		(end 0 3.2)
+		(end 0 4.54)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "16fb1b7f-07da-4e3e-bec4-f38bf9a36c06")
+		(uuid "e32101b5-cf27-444b-a174-db05f1c6f52a")
 	)
 	(fp_line
 		(start -5.85 -4.05)
@@ -463,7 +463,7 @@
 		(layer "F.Fab")
 		(uuid "6c147615-88ce-4ffa-8315-4fae6ed39915")
 	)
-	(fp_text user "IN"
+	(fp_text user "OUT"
 		(at 0 2.53 0)
 		(layer "F.SilkS")
 		(uuid "7c8c53f2-861d-4cff-b197-eefe766dea7e")
@@ -487,7 +487,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "IN"
+	(fp_text user "OUT"
 		(at 0 2.53 0)
 		(layer "B.SilkS")
 		(uuid "82a01acd-c2f4-4a82-8d71-c93fb779a453")
