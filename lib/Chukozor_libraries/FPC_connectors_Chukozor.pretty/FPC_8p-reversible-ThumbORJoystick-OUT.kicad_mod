@@ -383,45 +383,16 @@
 		(layer "Dwgs.User")
 		(uuid "e32101b5-cf27-444b-a174-db05f1c6f52a")
 	)
-	(fp_line
-		(start -5.85 -4.05)
-		(end 5.85 -4.05)
+	(fp_rect
+		(start -4.975 -1.95)
+		(end 4.95 3.55)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6412efa4-92e6-4a02-8781-9efc8d0bea5c")
-	)
-	(fp_line
-		(start -5.85 2.9)
-		(end -5.85 -4.05)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "dfeee3ab-77d1-4831-956d-c93d606e84ef")
-	)
-	(fp_line
-		(start 5.85 -4.05)
-		(end 5.85 2.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "a1c2c123-c815-42c2-8b60-5aa8be5004b8")
-	)
-	(fp_line
-		(start 5.85 2.9)
-		(end -5.85 2.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "baec1f2e-bc24-49db-b83e-254114bd98cd")
+		(uuid "0175e76d-cac8-40c6-b4f7-57ca5eb07fa8")
 	)
 	(fp_line
 		(start -4.85 -1.9)

@@ -55,7 +55,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr exclude_from_bom allow_missing_courtyard)
 	(fp_text user "${VALUE}"
 		(at 0 -1.1 0)
 		(unlocked yes)
