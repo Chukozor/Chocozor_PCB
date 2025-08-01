@@ -5265,93 +5265,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Chukozor_symbols:straight-line"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "line"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "straight-line_1_1"
-				(pin bidirectional line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 -1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Chukozor_symbols:vik-clic"
 			(pin_names
 				(offset 1)
@@ -6116,6 +6029,132 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10249,6 +10288,16 @@
 	)
 	(wire
 		(pts
+			(xy 357.886 166.37) (xy 361.696 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a977e4-90ed-4b85-b015-601885390c2c")
+	)
+	(wire
+		(pts
 			(xy 178.054 123.698) (xy 178.054 109.474)
 		)
 		(stroke
@@ -10859,16 +10908,6 @@
 	)
 	(wire
 		(pts
-			(xy 417.576 201.422) (xy 419.608 201.422)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a50cd3-ee1e-48f5-8e4d-3657fd37a390")
-	)
-	(wire
-		(pts
 			(xy 491.998 199.644) (xy 501.142 199.644)
 		)
 		(stroke
@@ -11279,16 +11318,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.998 182.626) (xy 367.03 182.626)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "376bfa7e-6fa8-4af8-bfb0-0c955140b7cd")
-	)
-	(wire
-		(pts
 			(xy 262.128 362.204) (xy 262.89 362.204)
 		)
 		(stroke
@@ -11306,16 +11335,6 @@
 			(type default)
 		)
 		(uuid "388cf3dd-ca1d-4059-ad0a-177896faec73")
-	)
-	(wire
-		(pts
-			(xy 370.078 177.038) (xy 371.602 177.038)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a0ff36d-9f0b-44c0-aef2-57ba5b64a8e3")
 	)
 	(wire
 		(pts
@@ -11616,6 +11635,16 @@
 			(type default)
 		)
 		(uuid "4b44a7eb-a44e-4891-8185-864c91299e3a")
+	)
+	(wire
+		(pts
+			(xy 358.394 182.372) (xy 360.426 182.372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd3f8c1-37e7-4cee-9fcb-fca03d8241c1")
 	)
 	(wire
 		(pts
@@ -12236,16 +12265,6 @@
 			(type default)
 		)
 		(uuid "71155528-95fd-4b73-9518-6bc848fdd748")
-	)
-	(wire
-		(pts
-			(xy 362.712 177.038) (xy 364.998 177.038)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71220183-ddfc-4e92-8de0-c9252c74dc9b")
 	)
 	(wire
 		(pts
@@ -13526,6 +13545,16 @@
 			(type default)
 		)
 		(uuid "af4dec95-7024-4bc0-a1a8-d14181655a72")
+	)
+	(wire
+		(pts
+			(xy 358.14 173.99) (xy 360.172 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6553b3-9029-4f07-81da-086cd8d0424c")
 	)
 	(wire
 		(pts
@@ -16998,7 +17027,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAA=="
+			"AAAAAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBB"
+			"AEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEA"
+			"QQBBAA=="
 		)
 	)
 	(global_label "col3"
@@ -17700,6 +17747,27 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND-VIK"
+		(shape passive)
+		(at 360.426 182.372 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "3a250ee7-371d-4402-8827-73018e6dae44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.426 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -18916,7 +18984,7 @@
 	)
 	(global_label "3.3V-VIK"
 		(shape input)
-		(at 371.602 177.038 0)
+		(at 361.696 166.37 0)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -18925,7 +18993,7 @@
 		)
 		(uuid "9bebfc27-76b6-4bbb-b966-eb1beb2c5661")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.602 177.038 0)
+			(at 361.696 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19555,27 +19623,6 @@
 			)
 		)
 	)
-	(global_label "GND-VIK"
-		(shape passive)
-		(at 424.688 201.422 0)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left)
-		)
-		(uuid "cd4695f4-02f3-44b8-a0d1-0a2744fc1326")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 424.688 201.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RING2"
 		(shape input)
 		(at 502.158 301.498 180)
@@ -19890,7 +19937,7 @@
 	)
 	(global_label "GND-VIK"
 		(shape passive)
-		(at 372.11 182.626 0)
+		(at 360.172 173.99 0)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -19899,7 +19946,7 @@
 		)
 		(uuid "e4974c01-0764-4773-a3e1-e0fb9b0551b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 372.11 182.626 0)
+			(at 360.172 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21704,73 +21751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:straight-line")
-		(at 369.57 181.356 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bb15f61-c043-4308-9a88-dd57aa4725f5")
-		(property "Reference" "line1"
-			(at 369.824 183.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 369.57 181.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:straight-line"
-			(at 369.57 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 369.57 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d66cf43f-fab2-4f7c-989b-8d001ca2381d")
-		)
-		(pin "1"
-			(uuid "59d85060-c6b9-4e75-96ce-2f2a02662f96")
-		)
-		(instances
-			(project ""
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "line1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "chocofi-rescue:GND-power")
 		(at 69.342 275.844 90)
 		(unit 1)
@@ -22706,6 +22686,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 355.346 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b63bc98-d39e-457f-8306-9370481e63ce")
+		(property "Reference" "NT2"
+			(at 355.346 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 355.346 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:NetTie-2_SMD_Pad0.5mm-long"
+			(at 355.346 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.346 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 355.346 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c58a28f-e7c0-48a7-8157-5c4c9639f01c")
+		)
+		(pin "1"
+			(uuid "5f56fe99-156b-4ac4-a797-326d62a9f6e5")
+		)
+		(instances
+			(project ""
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
 		(at 224.028 194.31 0)
 		(unit 1)
@@ -23047,73 +23095,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "Insert-M2-outer3.2-5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:straight-line")
-		(at 367.538 175.768 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "313e680d-4646-4670-95c7-f8178c9d468f")
-		(property "Reference" "line3"
-			(at 367.792 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 367.538 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:straight-line"
-			(at 367.538 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.538 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 367.538 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d572e28e-ccae-48d5-98e8-7a128e39682e")
-		)
-		(pin "1"
-			(uuid "e07b5913-0520-47a5-bef8-3f4c6c80cb82")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "line3")
 					(unit 1)
 				)
 			)
@@ -24266,6 +24247,71 @@
 		)
 	)
 	(symbol
+		(lib_id "chocofi-rescue:GND-power")
+		(at 353.314 182.372 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4853e592-df0c-43b2-86af-82736f4ca4da")
+		(property "Reference" "#PWR025"
+			(at 346.964 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.504 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.314 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.314 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 353.314 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "672d922d-efd0-4885-a154-51274292d3e0")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_2")
 		(lib_id "Device:R")
 		(at 366.522 209.931 90)
@@ -24713,6 +24759,74 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 355.6 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52785439-ccd0-4195-abb2-ed80f55d9899")
+		(property "Reference" "NT1"
+			(at 355.6 168.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 355.6 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38fac296-b394-4bfb-a2f7-097bb1923314")
+		)
+		(pin "1"
+			(uuid "70dfa1c0-0036-4d09-aacf-218e1732ec57")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -27062,6 +27176,74 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 355.854 182.372 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82edc4ba-6874-4cbd-9360-2c393629f7f3")
+		(property "Reference" "NT3"
+			(at 355.854 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 355.854 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:NetTie-2_SMD_Pad0.5mm-long"
+			(at 355.854 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.854 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 355.854 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93cf5f83-6eb2-4caf-8c64-c983a15106b4")
+		)
+		(pin "1"
+			(uuid "89347d3f-7d4a-48e4-b4b5-177e01bb6882")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -29753,7 +29935,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:VCC-power")
-		(at 362.712 177.038 90)
+		(at 352.806 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29761,7 +29943,7 @@
 		(dnp no)
 		(uuid "c11a0e5e-634e-4a4a-9168-0b3985a7de9b")
 		(property "Reference" "#PWR023"
-			(at 366.522 177.038 0)
+			(at 356.616 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29770,7 +29952,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 358.902 177.038 0)
+			(at 348.996 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29778,7 +29960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 362.712 177.038 0)
+			(at 352.806 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29787,7 +29969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 362.712 177.038 0)
+			(at 352.806 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29796,7 +29978,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 362.712 177.038 0)
+			(at 352.806 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32404,71 +32586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:GND-power")
-		(at 417.576 201.422 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4024c46-9e60-40fd-89f1-5909a1a609b1")
-		(property "Reference" "#PWR054"
-			(at 411.226 201.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 413.766 201.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 417.576 201.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 417.576 201.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 417.576 201.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80952295-4a03-40ab-a445-0fa3435498df")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Chukozor_symbols:SKRHACE010-5-ways-switches")
 		(at 345.44 466.344 0)
 		(unit 1)
@@ -32833,75 +32950,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:straight-line")
-		(at 422.148 200.152 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6598197-a2d5-46fe-a239-9c3d7c0d92cf")
-		(property "Reference" "line2"
-			(at 422.402 202.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 422.148 199.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:straight-line"
-			(at 422.148 200.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 422.148 200.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 422.148 200.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd95dc9e-8983-4005-9711-9681e7d9dcaf")
-		)
-		(pin "1"
-			(uuid "f9b7bcc6-192a-49d7-9612-fe7b2e5c932c")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "line2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "chocofi-rescue:GND-power")
-		(at 364.998 182.626 270)
+		(at 353.06 173.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32909,7 +32959,7 @@
 		(dnp no)
 		(uuid "e7ac0cd1-6004-4cad-ad8b-e4f15e59d47a")
 		(property "Reference" "#PWR024"
-			(at 358.648 182.626 0)
+			(at 346.71 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32918,7 +32968,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.188 182.626 0)
+			(at 349.25 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32926,7 +32976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.998 182.626 0)
+			(at 353.06 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32935,7 +32985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.998 182.626 0)
+			(at 353.06 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32944,7 +32994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.998 182.626 0)
+			(at 353.06 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
