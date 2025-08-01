@@ -316,8 +316,8 @@
 		(layer "F.Fab")
 		(uuid "fe9d62b8-c669-40f7-9f74-a73c83a94bab")
 	)
-	(fp_text user "R.HAND"
-		(at 0 -1 0)
+	(fp_text user "R.HAND ${VALUE}"
+		(at 2 -1.3 0)
 		(layer "F.SilkS")
 		(uuid "5d8a6387-0c24-4dda-bfce-01a84513c259")
 		(effects
@@ -328,8 +328,8 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "L.HAND"
-		(at -0.01 -0.96 180)
+	(fp_text user "L.HAND ${VALUE}"
+		(at 1.99 -1.26 180)
 		(layer "B.SilkS")
 		(uuid "d759ebe7-f739-4085-bfce-05c8d90e313c")
 		(effects
