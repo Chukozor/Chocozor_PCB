@@ -66,15 +66,16 @@
 		(uuid "af07a287-a669-4d5c-a09a-d4abf0d3dc6f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 2.2 1.68 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "B.SilkS")
 		(uuid "f7dea976-7bfb-4586-9ee9-6e79236930ad")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.16)
 			)
+			(justify mirror)
 		)
 	)
 	(pad "1" thru_hole roundrect

@@ -1,0 +1,135 @@
+(footprint "1pin-GND"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Connecteur 6 pins")
+	(tags "CONN DEV")
+	(property "Reference" "J2"
+		(at 0 4.2 180)
+		(layer "F.Fab")
+		(uuid "aadbbc49-b728-4642-9a4a-3c2f654295b0")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GND"
+		(at 0 3.05 0)
+		(layer "User.1")
+		(uuid "b7fb7564-a004-4cb5-a8f8-bbc01f8f3b46")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.84 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4656842a-fd48-44fc-b0c2-fae6035f5bb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -3.84 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8403c8c-83bb-4e6d-9da5-952950b94b8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files allow_missing_courtyard)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6fae5418-1e4b-4eb9-ba84-819b3efd10be")
+	)
+	(fp_text user "GND"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "dd65f36c-527c-43db-93f3-350329b61e0e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "003a34b4-8fc2-46cd-b37b-63c72a07d2c3")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 1.397 1.778)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "fc95fabb-535a-48ae-9a0a-c37fd8f7d81b")
+	)
+	(embedded_fonts no)
+	(model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/pin-header-1x4.step"
+		(offset
+			(xyz 3.8 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step"
+		(offset
+			(xyz 3.8 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
