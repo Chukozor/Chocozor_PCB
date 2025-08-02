@@ -62377,7 +62377,7 @@
 	(footprint "Switches_Chukozor:Mounting-hole-M2"
 		(layer "F.Cu")
 		(uuid "6767e639-da02-421b-a0c9-6590d0ad8db0")
-		(at 309.11 220.9)
+		(at 307.54 220.23)
 		(property "Reference" "M2-5"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -106995,9 +106995,9 @@
 		(uuid "18451bae-0938-487b-86e2-a5cfe179c359")
 	)
 	(gr_arc
-		(start 267.235 205.825)
-		(mid 286.176889 212.475854)
-		(end 303.80307 222.085575)
+		(start 267.234752 205.825926)
+		(mid 288.48997 213.533897)
+		(end 308 224.96)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -107096,7 +107096,7 @@
 		(start 263.885 207.05)
 		(end 247.21 204.175)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -107558,10 +107558,10 @@
 		(uuid "54e7f3c1-11fe-4380-bc27-2906b7f01f2e")
 	)
 	(gr_line
-		(start 267.234997 205.825)
-		(end 263.885 207.05)
+		(start 267.234751 205.825926)
+		(end 263.909751 206.965926)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -107930,9 +107930,9 @@
 	)
 	(gr_line
 		(start 250.035 187.925)
-		(end 251.335 180.35)
+		(end 251.101873 181.719105)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -108023,6 +108023,16 @@
 		(uuid "960b1190-3927-4868-bfd4-17df5e3e8c1f")
 	)
 	(gr_line
+		(start 325.038969 211.673733)
+		(end 315.43 224.51)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "965d2a50-e59a-4f8e-951b-a216c617a496")
+	)
+	(gr_line
 		(start 201.37351 197.579915)
 		(end 198.16 203.15)
 		(stroke
@@ -108068,7 +108078,7 @@
 		(mid 243.055507 191.597241)
 		(end 250.035 187.925)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -108191,6 +108201,17 @@
 		(uuid "a944b878-4526-4718-9a00-35d8bb88f0f2")
 	)
 	(gr_arc
+		(start 251.101873 181.71913)
+		(mid 290.167494 191.520214)
+		(end 325.038969 211.673731)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "aefbd0dc-f510-4106-bda1-904790d2cad8")
+	)
+	(gr_arc
 		(start 123.367359 86.9)
 		(mid 124.515418 87.128348)
 		(end 125.48868 87.77868)
@@ -108295,10 +108316,10 @@
 		(uuid "ba3bed61-4098-4924-a9ad-c047c9aafde1")
 	)
 	(gr_line
-		(start 247.210836 204.184829)
+		(start 247.21 204.175)
 		(end 248.385836 197.409829)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
