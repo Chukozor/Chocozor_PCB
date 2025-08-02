@@ -53,19 +53,18 @@
 	)
 	(attr through_hole exclude_from_pos_files allow_missing_courtyard)
 	(fp_rect
-		(start -1.6 -1.25)
-		(end 1.6 1.25)
+		(start -0.79 -0.975)
+		(end 0.79 0.975)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "6fae5418-1e4b-4eb9-ba84-819b3efd10be")
+		(uuid "d37df7d9-68e5-4067-8595-2998706ecbfc")
 	)
 	(fp_text user "GND"
-		(at 0 -1.8 0)
-		(unlocked yes)
+		(at 0.01 -1.56 0)
 		(layer "F.SilkS" knockout)
 		(uuid "dd65f36c-527c-43db-93f3-350329b61e0e")
 		(effects
@@ -77,8 +76,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 0 -1.8 0)
-		(unlocked yes)
+		(at 0.01 -1.56 0)
 		(layer "B.SilkS" knockout)
 		(uuid "003a34b4-8fc2-46cd-b37b-63c72a07d2c3")
 		(effects

@@ -9051,7 +9051,7 @@
 	(text_box "JOYSTICK PCB"
 		(exclude_from_sim no)
 		(at 316.992 413.512 0)
-		(size 78.486 62.738)
+		(size 99.314 62.738)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -18371,6 +18371,26 @@
 			)
 		)
 	)
+	(global_label "GND-joystick"
+		(shape input)
+		(at 397.002 428.244 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "76ebe86d-7a2d-4a8c-bb72-cb4e1cf2c816")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.002 418.719 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SS (CS)"
 		(shape input)
 		(at 394.208 199.644 180)
@@ -19031,7 +19051,27 @@
 	)
 	(global_label "GND-joystick"
 		(shape input)
-		(at 377.19 423.418 0)
+		(at 397.002 440.182 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "aa02adff-7137-47fb-995e-d3f7045a47e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.002 430.657 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND-joystick"
+		(shape input)
+		(at 397.256 422.402 0)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -19040,7 +19080,7 @@
 		)
 		(uuid "ad01af12-abde-401e-ae06-26d69c0c910d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.19 413.893 90)
+			(at 397.256 412.877 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19145,6 +19185,26 @@
 		(uuid "b5889f74-5434-4356-ade9-50fbb23da012")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.601 468.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND-joystick"
+		(shape input)
+		(at 397.002 433.832 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "b7230e49-dbe4-4253-a739-fc092a299b9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.002 424.307 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21975,6 +22035,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 391.922 428.244 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21022ce2-707e-4945-8023-1a75c2a4eb1f")
+		(property "Reference" "J9"
+			(at 392.557 423.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 392.557 426.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:1pin-GND"
+			(at 391.922 428.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.922 428.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 391.922 428.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "089b2575-dee7-453a-825f-8eeb0d5f3226")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
 		(at 142.24 194.31 0)
 		(unit 1)
@@ -23942,7 +24067,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 372.11 423.418 0)
+		(at 392.176 422.402 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23951,7 +24076,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f475082-f033-4e9d-8475-cb577fb3bfda")
 		(property "Reference" "J8"
-			(at 372.745 418.846 0)
+			(at 392.811 417.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23959,7 +24084,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 372.745 421.386 0)
+			(at 392.811 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23967,7 +24092,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:1pin-GND"
-			(at 372.11 423.418 0)
+			(at 392.176 422.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23976,7 +24101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 423.418 0)
+			(at 392.176 422.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23985,7 +24110,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 372.11 423.418 0)
+			(at 392.176 422.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24167,6 +24292,71 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 391.922 433.832 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4114d5c3-0eb1-4e25-93ab-b4455c39bf0b")
+		(property "Reference" "J10"
+			(at 392.557 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 392.557 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:1pin-GND"
+			(at 391.922 433.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.922 433.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 391.922 433.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b9faf72-049b-4733-bb76-94e732d62346")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -31802,6 +31992,71 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 391.922 440.182 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42f825a-e50b-4cfb-9499-dc29a82ee91b")
+		(property "Reference" "J11"
+			(at 392.557 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 392.557 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:1pin-GND"
+			(at 391.922 440.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.922 440.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 391.922 440.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5517e38a-ed47-4a80-8f23-ce0eeb10abb5")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "J11")
 					(unit 1)
 				)
 			)
