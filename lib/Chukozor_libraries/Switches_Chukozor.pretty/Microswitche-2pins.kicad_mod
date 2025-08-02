@@ -1,10 +1,10 @@
-(footprint "Clic"
+(footprint "Microswitche-2pins"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.25 1.475 0)
+		(at 2.2 1.68 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f37e51e8-2189-405c-b510-b9c447b7fc76")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Clic"
+	(property "Value" "Microswitche-2pins"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,15 +55,15 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -3.5 -0.75)
-		(end 3.5 0.75)
+		(start -6.475 -2.975)
+		(end 6.475 2.975)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "af6a6498-d386-4300-8883-212f3f963c0b")
+		(uuid "af07a287-a669-4d5c-a09a-d4abf0d3dc6f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -78,9 +78,9 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at -2.45 0)
-		(size 2.1 1.5)
-		(drill oval 1.3 0.7)
+		(at 0 0)
+		(size 2.2 1.5)
+		(drill oval 1.35 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.5)
@@ -99,9 +99,9 @@
 		(uuid "9a04dc6f-e15f-4f45-829e-6c095c0a8a3a")
 	)
 	(pad "2" thru_hole roundrect
-		(at 2.45 0)
-		(size 2.1 1.5)
-		(drill oval 1.3 0.7)
+		(at 4.95 0)
+		(size 2.2 1.5)
+		(drill oval 1.35 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.5)
