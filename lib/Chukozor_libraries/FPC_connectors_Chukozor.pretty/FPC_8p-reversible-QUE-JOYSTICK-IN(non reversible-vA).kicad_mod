@@ -183,6 +183,17 @@
 		(layer "F.SilkS")
 		(uuid "7f42a6e6-75f4-4fbb-b95f-e1f02f90df79")
 	)
+	(fp_circle
+		(center 2.973 -2.55)
+		(end 3.1 -2.55)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b68845b3-d807-46bc-88e5-3e8c20af0436")
+	)
 	(fp_line
 		(start -0.745 3.87)
 		(end 0 3.2)
@@ -399,7 +410,7 @@
 			)
 		)
 	)
-	(fp_text user "CABLE-FACE-AVANT-ET-ARRIERE"
+	(fp_text user "CABLE-MONO-FACE"
 		(at 0.03 5.26 0)
 		(layer "Dwgs.User")
 		(uuid "0e2c5806-4a4b-4e05-9f9e-f61ce90b34bd")
