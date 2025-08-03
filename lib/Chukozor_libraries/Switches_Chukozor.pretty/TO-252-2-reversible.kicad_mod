@@ -6,7 +6,7 @@
 	(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 	(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 	(property "Reference" "REF**"
-		(at 0 -4.5 0)
+		(at -3.46 0 90)
 		(layer "F.SilkS")
 		(uuid "a253ddd9-de2d-46f0-b75b-587cfd3c5629")
 		(effects
@@ -230,7 +230,7 @@
 		(uuid "7ac823d6-f1a3-4604-a564-412af1fd10ec")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at -4.58 0 90)
 		(layer "F.Fab")
 		(uuid "fcdf7eea-b1db-4dfb-9e55-7d68663c3158")
 		(effects
@@ -241,6 +241,13 @@
 		)
 	)
 	(pad "" smd roundrect
+		(at -0.43 -1.53)
+		(size 3.05 2.75)
+		(layers "B.Paste")
+		(roundrect_rratio 0.090909)
+		(uuid "48ec58d6-ac87-40cf-bb0f-e12e60b10bd5")
+	)
+	(pad "" smd roundrect
 		(at -0.425 -1.525)
 		(size 3.05 2.75)
 		(layers "F.Paste")
@@ -248,11 +255,32 @@
 		(uuid "f2ddf5da-60aa-422b-910e-53cb5369cc59")
 	)
 	(pad "" smd roundrect
+		(at -0.42 1.52)
+		(size 3.05 2.75)
+		(layers "B.Paste")
+		(roundrect_rratio 0.090909)
+		(uuid "ff7d7e3d-1b07-403b-8e89-5e04681e15c2")
+	)
+	(pad "" smd roundrect
 		(at -0.415 1.525)
 		(size 3.05 2.75)
 		(layers "F.Paste")
 		(roundrect_rratio 0.090909)
 		(uuid "93c661c4-cc74-4c55-90e2-a99d32913bc9")
+	)
+	(pad "" smd roundrect
+		(at 2.93 -1.53)
+		(size 3.05 2.75)
+		(layers "B.Paste")
+		(roundrect_rratio 0.090909)
+		(uuid "b72c0da3-d8a1-428e-abb3-071706546537")
+	)
+	(pad "" smd roundrect
+		(at 2.93 1.52)
+		(size 3.05 2.75)
+		(layers "B.Paste")
+		(roundrect_rratio 0.090909)
+		(uuid "16954d91-656f-4bc8-b9f1-e5b24ba2ab3f")
 	)
 	(pad "" smd roundrect
 		(at 2.935 -1.525)
