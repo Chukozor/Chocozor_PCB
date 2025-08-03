@@ -45732,7 +45732,7 @@
 	(footprint "Switches_Chukozor:1pin-GND"
 		(layer "F.Cu")
 		(uuid "28e60496-61d3-46d4-88a7-903f6d0029c6")
-		(at 128.41 221.3 180)
+		(at 140.81 225.2 180)
 		(descr "Connecteur 6 pins")
 		(tags "CONN DEV")
 		(property "Reference" "J10"
@@ -45871,11 +45871,11 @@
 	(footprint "Switches_Chukozor:SMD_SOD_123_for_assembly"
 		(layer "F.Cu")
 		(uuid "3122f710-528f-4647-9c36-58c584539cd0")
-		(at 131.195258 225.69666 180)
+		(at 128.71 228.8 -90)
 		(descr "Resitance 3 pas")
 		(tags "R")
 		(property "Reference" "D32"
-			(at 0 -1.5 180)
+			(at 0 -1.5 90)
 			(layer "F.Fab")
 			(uuid "d7390e02-32ad-4696-a717-00907133b636")
 			(effects
@@ -45887,7 +45887,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at -0.55 0 180)
+			(at -0.55 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be10c026-1c91-4687-bf06-e99672d2b188")
@@ -45899,7 +45899,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "96de3894-a07b-4f9d-912b-675303125164")
@@ -45911,7 +45911,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8e77830-46bc-4000-90e4-fbefc4a71971")
@@ -45923,7 +45923,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c17c003-b61b-4db6-917e-d3216a6de5f8")
@@ -45935,7 +45935,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5d8072f6-959e-418d-a70f-5c3979433d69")
@@ -45952,6 +45952,26 @@
 		(sheetfile "chocofi.kicad_sch")
 		(attr through_hole)
 		(fp_line
+			(start -2.57 0.87)
+			(end -2.14 1.11)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f0f57855-9818-4a3a-a9c7-fc73dbad1359")
+		)
+		(fp_line
+			(start -2.56 0.85)
+			(end 2.55 0.85)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c85553f-218f-4113-904f-49c03b6a7d33")
+		)
+		(fp_line
 			(start 2.55 0.85)
 			(end 2.55 -0.85)
 			(stroke
@@ -45962,16 +45982,6 @@
 			(uuid "26225a35-80ea-4754-93a0-491e218890c3")
 		)
 		(fp_line
-			(start 2.55 -0.85)
-			(end -2.56 -0.85)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "43acd30e-6eff-4b0f-9ec0-0702a61cf441")
-		)
-		(fp_line
 			(start 0.5 0.5)
 			(end -0.4 0)
 			(stroke
@@ -45980,16 +45990,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b201b680-05df-4c29-8718-8d72f3d1182a")
-		)
-		(fp_line
-			(start 0.5 -0.5)
-			(end 0.5 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "22745cdb-4a61-4803-8930-901c7be60fb5")
 		)
 		(fp_line
 			(start -0.4 0)
@@ -46012,14 +46012,14 @@
 			(uuid "48c9e556-0a06-44ca-9942-94779a473680")
 		)
 		(fp_line
-			(start -2.56 0.85)
-			(end 2.55 0.85)
+			(start 0.5 -0.5)
+			(end 0.5 0.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4c85553f-218f-4113-904f-49c03b6a7d33")
+			(uuid "22745cdb-4a61-4803-8930-901c7be60fb5")
 		)
 		(fp_line
 			(start -2.56 -0.85)
@@ -46032,14 +46032,14 @@
 			(uuid "6d4bcf71-b72f-4fb9-a54f-4b32ebe5ec1b")
 		)
 		(fp_line
-			(start -2.57 0.87)
-			(end -2.14 1.11)
+			(start 2.55 -0.85)
+			(end -2.56 -0.85)
 			(stroke
-				(width 0.1)
-				(type default)
+				(width 0.15)
+				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f0f57855-9818-4a3a-a9c7-fc73dbad1359")
+			(uuid "43acd30e-6eff-4b0f-9ec0-0702a61cf441")
 		)
 		(fp_line
 			(start -2.58 -0.86)
@@ -46052,6 +46052,26 @@
 			(uuid "0079a59d-c63f-40cb-85e2-a4a8f1c9ca98")
 		)
 		(fp_line
+			(start -2.57 0.87)
+			(end -2.14 1.11)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "B.SilkS")
+			(uuid "e275cbca-bd85-46d5-9e08-9cf2d68e4aaf")
+		)
+		(fp_line
+			(start -2.56 0.85)
+			(end 2.55 0.85)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ba09f3fd-eeb2-4427-88cb-e73ff7163f0b")
+		)
+		(fp_line
 			(start 2.55 0.85)
 			(end 2.55 -0.85)
 			(stroke
@@ -46062,16 +46082,6 @@
 			(uuid "8da4d8cb-2a47-4af7-a99d-9b71b33e1cc6")
 		)
 		(fp_line
-			(start 2.55 -0.85)
-			(end -2.56 -0.85)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "321bb658-81a7-43aa-ac38-3c91b6b59971")
-		)
-		(fp_line
 			(start 0.5 0.5)
 			(end -0.4 0)
 			(stroke
@@ -46080,16 +46090,6 @@
 			)
 			(layer "B.SilkS")
 			(uuid "1f0456db-f2c3-4ac4-b2c3-428cc8a5cadd")
-		)
-		(fp_line
-			(start 0.5 -0.5)
-			(end 0.5 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "aaacec9f-2ac4-4dcf-b386-b25683494f2e")
 		)
 		(fp_line
 			(start -0.4 0)
@@ -46112,14 +46112,14 @@
 			(uuid "a0722fec-da24-44d7-9088-c6c789823dca")
 		)
 		(fp_line
-			(start -2.56 0.85)
-			(end 2.55 0.85)
+			(start 0.5 -0.5)
+			(end 0.5 0.5)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ba09f3fd-eeb2-4427-88cb-e73ff7163f0b")
+			(uuid "aaacec9f-2ac4-4dcf-b386-b25683494f2e")
 		)
 		(fp_line
 			(start -2.56 -0.85)
@@ -46132,14 +46132,14 @@
 			(uuid "3d58987e-e5c3-4198-96a5-0d150387b620")
 		)
 		(fp_line
-			(start -2.57 0.87)
-			(end -2.14 1.11)
+			(start 2.55 -0.85)
+			(end -2.56 -0.85)
 			(stroke
-				(width 0.1)
-				(type default)
+				(width 0.15)
+				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "e275cbca-bd85-46d5-9e08-9cf2d68e4aaf")
+			(uuid "321bb658-81a7-43aa-ac38-3c91b6b59971")
 		)
 		(fp_line
 			(start -2.58 -0.86)
@@ -46163,7 +46163,7 @@
 			(uuid "a056b6fd-e5bd-48e8-98a0-64d58a38d149")
 		)
 		(pad "1" thru_hole circle
-			(at -2.97 0 180)
+			(at -2.97 0 270)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -46185,7 +46185,7 @@
 			(uuid "c8bb33e0-7e51-4be5-bb93-2cc783270d8c")
 		)
 		(pad "1" smd custom
-			(at -1.775 0 180)
+			(at -1.775 0 270)
 			(size 0.95 0.95)
 			(layers "F.Cu")
 			(net 249 "Net-(D32-K)")
@@ -46228,7 +46228,7 @@
 			(uuid "d77d8198-a269-42f5-a7e8-b7ab853e578e")
 		)
 		(pad "1" smd custom
-			(at -1.775 0 180)
+			(at -1.775 0 270)
 			(size 0.95 0.95)
 			(layers "B.Cu")
 			(net 249 "Net-(D32-K)")
@@ -46271,7 +46271,7 @@
 			(uuid "3e09f4ad-6182-432d-842a-b4ecbb154738")
 		)
 		(pad "1" smd roundrect
-			(at -1.775 0 180)
+			(at -1.775 0 270)
 			(size 1.3 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -46292,7 +46292,7 @@
 			(uuid "66506ea4-847b-4100-befc-51c2a55aa379")
 		)
 		(pad "1" smd roundrect
-			(at -1.775 0 180)
+			(at -1.775 0 270)
 			(size 1.3 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -46313,7 +46313,7 @@
 			(uuid "3755bbbe-e059-46f9-8af4-2f93d6573a30")
 		)
 		(pad "1" smd roundrect
-			(at -1.775 0 180)
+			(at -1.775 0 270)
 			(size 1.3 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -46334,7 +46334,7 @@
 			(uuid "d44d9f58-7328-41a1-a740-6aed2e66106d")
 		)
 		(pad "2" smd custom
-			(at 1.775 0 180)
+			(at 1.775 0 270)
 			(size 0.95 0.95)
 			(layers "F.Cu")
 			(net 73 "Net-(D32-A)")
@@ -46377,7 +46377,7 @@
 			(uuid "93bbee8f-1d48-454c-997a-753c529aae26")
 		)
 		(pad "2" smd custom
-			(at 1.775 0 180)
+			(at 1.775 0 270)
 			(size 0.95 0.95)
 			(layers "B.Cu")
 			(net 73 "Net-(D32-A)")
@@ -46420,7 +46420,7 @@
 			(uuid "4fcf7b2f-578b-43fb-b542-db0167ac33cd")
 		)
 		(pad "2" smd roundrect
-			(at 1.775 0 180)
+			(at 1.775 0 270)
 			(size 1.3 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
@@ -46441,7 +46441,7 @@
 			(uuid "f9168915-4ed4-42a6-9c6b-ab065db27483")
 		)
 		(pad "2" smd roundrect
-			(at 1.775 0 180)
+			(at 1.775 0 270)
 			(size 1.3 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -46462,7 +46462,7 @@
 			(uuid "4ed5c846-28b5-4972-9494-8880f946e0e0")
 		)
 		(pad "2" smd roundrect
-			(at 1.775 0 180)
+			(at 1.775 0 270)
 			(size 1.3 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -46483,7 +46483,7 @@
 			(uuid "b6e78587-0205-4080-9005-a550be28b591")
 		)
 		(pad "2" thru_hole circle
-			(at 2.97 0 180)
+			(at 2.97 0 270)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
@@ -49678,15 +49678,16 @@
 		)
 	)
 	(footprint "Switches_Chukozor:Mounting-hole-M1.6"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3ee05493-08ec-4169-8064-16cad796229f")
-		(at 143.999344 227.662983)
+		(at 144.035258 227.63666)
 		(property "Reference" "M1.6-10"
 			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9f215d68-3b16-49e4-b715-e7bf14ef20e4")
+			(uuid "5b2f9d4e-7792-4b5f-957b-ad4a3fdb3b1f")
 			(effects
 				(font
 					(size 1 1)
@@ -49699,7 +49700,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1cd4f80a-c7e3-4b79-82ab-193cddf9e3d2")
+			(uuid "eea07941-c3f2-4fb3-8256-56dd5ba25f16")
 			(effects
 				(font
 					(size 1 1)
@@ -49712,7 +49713,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5bad2cf-40c4-4864-89be-e7e5f7cc5430")
+			(uuid "1ed4fa88-1147-439f-96aa-3ee04f973d02")
 			(effects
 				(font
 					(size 1 1)
@@ -49725,7 +49726,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bab67e20-ce7d-47dd-889b-523d3d6b1299")
+			(uuid "c72776e6-7152-438c-85c8-bc440d11f5a1")
 			(effects
 				(font
 					(size 1 1)
@@ -59324,7 +59325,7 @@
 		(property "Reference" "T4"
 			(at 0 -3.81 0)
 			(layer "F.SilkS")
-			(uuid "f6a8a0a4-62b6-44ba-aabe-4eeb7d0cfff7")
+			(uuid "7ed8dd91-b360-4973-9476-13953034e973")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59336,7 +59337,7 @@
 			(at 0 -0.575 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a63c1ac6-8ebd-452a-8dac-d0447ce72176")
+			(uuid "e43a663f-8a82-4f9b-b88b-84334c06d1fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59348,7 +59349,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d6c01b7-8740-4932-b573-236b2c7b3933")
+			(uuid "b911495b-a0f7-4a8c-bd27-4e8d3b182a8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59360,7 +59361,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bed1484-e8f4-4ed3-8962-6c467ac07a49")
+			(uuid "7cb59567-1f5e-43dc-a7a3-503c302aef90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59914,15 +59915,16 @@
 		)
 	)
 	(footprint "Switches_Chukozor:Mounting-hole-M1.6"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5ae68cf9-5155-42e2-96fe-d8846b4dc54d")
-		(at 129.449344 241.862983)
+		(at 129.035258 242.23666)
 		(property "Reference" "M1.6-9"
 			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d3c5a764-b076-4881-b158-8cf67a9516e8")
+			(uuid "ec96c70c-0530-44e6-bbb3-7f53a5178c02")
 			(effects
 				(font
 					(size 1 1)
@@ -59935,7 +59937,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "608081c0-0661-40bc-a2aa-04092c20b1fa")
+			(uuid "e9adf71f-8cf6-4f9d-ae95-d013f2a1870c")
 			(effects
 				(font
 					(size 1 1)
@@ -59948,7 +59950,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91978dac-eda3-4224-b7e2-210a4723580a")
+			(uuid "c63daa7e-f2c3-46f5-be7c-8193f7923a4a")
 			(effects
 				(font
 					(size 1 1)
@@ -59961,7 +59963,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "443c6a7e-7b5f-4de0-b0ea-a1deca778016")
+			(uuid "0f1adb35-7425-406f-a8a8-fb202d2fb42d")
 			(effects
 				(font
 					(size 1 1)
@@ -95248,6 +95250,7 @@
 		)
 	)
 	(footprint "Switches_Chukozor:QUE-JOYSTICK-UNE-FACE(non reversible-pourvA)"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d4455cf8-789f-41f4-87a5-128c02aa9f08")
 		(at 136.535258 234.93666 135)
@@ -140475,6 +140478,30 @@
 			(font
 				(size 1 1)
 				(thickness 0.16)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "TOP JOYSTICK"
+		(at 136.61 224.7 0)
+		(layer "B.SilkS")
+		(uuid "31912f95-0da4-4cfb-8329-843aaf59b0e1")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "BOTTOM JOYSTICK"
+		(at 136.81 245.3 0)
+		(layer "B.SilkS")
+		(uuid "d4ce2844-0100-4f81-a389-923744bb6cc6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
 			)
 			(justify mirror)
 		)
