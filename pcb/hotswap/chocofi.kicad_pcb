@@ -105127,11 +105127,11 @@
 	(footprint "Switches_Chukozor:1pin-GND"
 		(layer "F.Cu")
 		(uuid "fa853232-a658-4c9c-aaca-14035fac46f0")
-		(at 165.23 164.48)
+		(at 166.71 164.75 180)
 		(descr "Connecteur 6 pins")
 		(tags "CONN DEV")
 		(property "Reference" "J6"
-			(at 0 4.2 180)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "f5ce5113-9afa-4290-b495-be0ed1716e39")
 			(effects
@@ -105218,7 +105218,7 @@
 			)
 		)
 		(pad "1" thru_hole oval
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.397 1.778)
 			(drill 0.8128)
 			(layers "*.Cu" "*.Mask")
@@ -110222,7 +110222,7 @@
 		(uuid "ffc4e989-c8d6-41af-b03d-4ca36b67cf5d")
 	)
 	(image
-		(at 226.02 132.399606)
+		(at 378.585001 129.525)
 		(layer "F.Cu")
 		(scale 0.158944)
 		(data "iVBORw0KGgoAAAANSUhEUgAAAngAAAKhCAIAAABMxESKAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -118971,7 +118971,7 @@
 		(uuid "1a48bec7-a047-43a6-85cd-fd62a20b1226")
 	)
 	(image
-		(at 216.98 136.469606)
+		(at 369.545001 133.595)
 		(layer "F.Cu")
 		(scale 0.263644)
 		(data "iVBORw0KGgoAAAANSUhEUgAAAY4AAAGkCAIAAACpUVV7AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -122375,7 +122375,7 @@
 		(uuid "518272ca-21cd-46ad-96d0-69bc5f5e0ef5")
 	)
 	(image
-		(at 249.89 136)
+		(at 402.455001 133.125394)
 		(layer "F.Cu")
 		(scale 0.153701)
 		(data "iVBORw0KGgoAAAANSUhEUgAAAoMAAANiCAIAAACVY1RKAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
