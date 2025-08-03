@@ -139524,50 +139524,15 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "SI MAIN GAUCHE"
-		(at 135.51 224.7 0)
-		(layer "B.SilkS")
-		(uuid "31912f95-0da4-4cfb-8329-843aaf59b0e1")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "ALORS : TOP JOYSTICK"
-		(at 136.51 245.2 180)
-		(layer "B.SilkS")
-		(uuid "3ff3d0bc-1c51-4c9d-9caa-8db54c1c7c03")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "ALORS : TOP JOYSTICK"
-		(at 135.61 225.6 0)
+	(gr_text "TOP JOYSTICK"
+		(at 136.51 224.9 0)
 		(layer "B.SilkS")
 		(uuid "a2088733-2100-4766-b9fa-290dd478cb06")
 		(effects
 			(font
 				(size 0.7 0.7)
-				(thickness 0.1)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "SI MAIN DROITE"
-		(at 136.61 246.1 180)
-		(layer "B.SilkS")
-		(uuid "d8bb215d-25db-45fc-9a6b-442596c5d689")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
+				(thickness 0.14)
+				(bold yes)
 			)
 			(justify mirror)
 		)
