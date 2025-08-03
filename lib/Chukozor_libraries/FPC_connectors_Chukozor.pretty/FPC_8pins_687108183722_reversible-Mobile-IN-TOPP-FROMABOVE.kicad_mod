@@ -183,6 +183,17 @@
 		(layer "F.SilkS")
 		(uuid "7f42a6e6-75f4-4fbb-b95f-e1f02f90df79")
 	)
+	(fp_circle
+		(center 3.123 3.4)
+		(end 3.25 3.4)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "167d19c3-32f5-433b-b734-f54382718e85")
+	)
 	(fp_line
 		(start -4.85 -1.9)
 		(end -2.5 -1.9)
@@ -312,6 +323,17 @@
 		)
 		(layer "B.SilkS")
 		(uuid "046b5f77-2a6c-4491-a29d-ab5e943659f6")
+	)
+	(fp_circle
+		(center 3.123 3.4)
+		(end 3.25 3.4)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "e4db2ead-71a4-4183-b937-01dbdd589d65")
 	)
 	(fp_line
 		(start -0.745 -4.32)
@@ -497,17 +519,6 @@
 				(thickness 0.1)
 			)
 			(justify mirror)
-		)
-	)
-	(fp_text user "CABLE-FACE-AVANT-ET-ARRIERE"
-		(at 0.03 5.26 0)
-		(layer "Dwgs.User")
-		(uuid "0e2c5806-4a4b-4e05-9f9e-f61ce90b34bd")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-			)
 		)
 	)
 	(fp_text user "${REFERENCE}"
