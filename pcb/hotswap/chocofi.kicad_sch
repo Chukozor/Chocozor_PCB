@@ -9379,7 +9379,7 @@
 		(uuid "010ad840-14af-4fde-8b44-d2cea2a04b33")
 	)
 	(junction
-		(at 357.886 443.738)
+		(at 357.886 445.516)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04b18211-a0e5-42ab-831c-b40f365ff148")
@@ -9391,7 +9391,7 @@
 		(uuid "162990f5-aeb5-439d-b8af-e2a2b3d57400")
 	)
 	(junction
-		(at 351.536 434.848)
+		(at 351.536 436.626)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19b83002-d6bc-4038-bc54-9122c2c21777")
@@ -9415,7 +9415,7 @@
 		(uuid "228766d6-ec52-4a67-b2d6-a5d83a3da18c")
 	)
 	(junction
-		(at 362.458 456.438)
+		(at 362.458 458.216)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23a7fe85-56cc-4a11-8748-d28883da326d")
@@ -9493,7 +9493,7 @@
 		(uuid "4b9a4d4a-487b-4e4b-b785-e6fe6cd4901f")
 	)
 	(junction
-		(at 359.41 446.278)
+		(at 359.41 448.056)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5091e689-77b7-4498-a862-4672bcad176a")
@@ -9553,7 +9553,7 @@
 		(uuid "7530633c-5496-488a-a4d6-b5eeb82c1e5d")
 	)
 	(junction
-		(at 356.616 438.658)
+		(at 356.616 440.436)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "789f3024-03ed-4c5c-a2a9-b10b3ae4bd2f")
@@ -9745,7 +9745,7 @@
 		(uuid "f0f597a5-a048-425b-80ef-82352201465d")
 	)
 	(junction
-		(at 360.934 453.898)
+		(at 360.934 455.676)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f281b136-7e2f-444a-a0f2-da40ca2fe226")
@@ -9791,6 +9791,10 @@
 		(uuid "0ebbca89-03d2-437b-bafc-8b29a1db963f")
 	)
 	(no_connect
+		(at 351.536 453.136)
+		(uuid "159c203f-d63f-417c-a57b-2a974b11a73b")
+	)
+	(no_connect
 		(at 66.04 382.524)
 		(uuid "284ac103-6ad0-4d43-ad56-b13819ab8f25")
 	)
@@ -9807,12 +9811,28 @@
 		(uuid "2bb022e6-76a4-4481-983d-8a4aa5d50019")
 	)
 	(no_connect
+		(at 351.79 418.846)
+		(uuid "32129997-1da8-4af3-8667-cb6090966dce")
+	)
+	(no_connect
 		(at 193.294 189.23)
 		(uuid "36c7ffdd-cdb3-423f-a7f7-0f67c417e033")
 	)
 	(no_connect
+		(at 350.774 513.334)
+		(uuid "382e3480-8dc7-44f7-acc6-c75ba00602da")
+	)
+	(no_connect
 		(at 152.4 189.23)
 		(uuid "38c0dd50-7d2c-4353-adc3-943ecb6f539b")
+	)
+	(no_connect
+		(at 351.536 442.976)
+		(uuid "3f2d560b-ae3e-4164-96cd-017b6c7fedff")
+	)
+	(no_connect
+		(at 351.79 411.226)
+		(uuid "465ff69a-c935-48d2-8f5b-efcd8ffb8332")
 	)
 	(no_connect
 		(at 186.944 443.992)
@@ -9833,6 +9853,10 @@
 	(no_connect
 		(at 739.394 60.198)
 		(uuid "78cea9b3-59ff-4e67-8e13-72f23c35d236")
+	)
+	(no_connect
+		(at 353.314 513.334)
+		(uuid "7b7a4b30-b2a1-4bce-9f43-6be801c6a40a")
 	)
 	(no_connect
 		(at 150.368 382.524)
@@ -9927,8 +9951,16 @@
 		(uuid "effd14d6-616f-41a3-abae-42d9a556c7a6")
 	)
 	(no_connect
+		(at 351.536 450.596)
+		(uuid "f1522629-5883-4712-a709-7da5ee0a956e")
+	)
+	(no_connect
 		(at 132.08 189.23)
 		(uuid "f3e5e5dd-1a51-4929-b638-50bf9aeed685")
+	)
+	(no_connect
+		(at 351.79 421.386)
+		(uuid "f70b6855-337c-468f-a93c-9b24d22068da")
 	)
 	(no_connect
 		(at 107.442 382.524)
@@ -10310,7 +10342,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.698 426.72) (xy 377.698 453.898)
+			(xy 377.698 426.72) (xy 377.698 455.676)
 		)
 		(stroke
 			(width 0)
@@ -10377,16 +10409,6 @@
 			(type default)
 		)
 		(uuid "167c6297-81c6-44d1-b851-09acc9f511ae")
-	)
-	(wire
-		(pts
-			(xy 357.886 413.766) (xy 357.886 443.738)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16b09462-27ee-4461-83a3-c4ebd8c29ae1")
 	)
 	(wire
 		(pts
@@ -10477,6 +10499,16 @@
 			(type default)
 		)
 		(uuid "192d7068-00ca-4bcc-9e56-272f2a884b37")
+	)
+	(wire
+		(pts
+			(xy 382.778 429.768) (xy 382.778 448.056)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b94b0f3-926b-4b3d-8c53-040bc3026fd7")
 	)
 	(wire
 		(pts
@@ -10850,16 +10882,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 416.306) (xy 359.41 446.278)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca4580f-5545-4883-bdfc-2968af4d9ce1")
-	)
-	(wire
-		(pts
 			(xy 128.27 341.884) (xy 128.27 382.524)
 		)
 		(stroke
@@ -11180,7 +11202,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.934 423.926) (xy 360.934 453.898)
+			(xy 360.934 423.926) (xy 360.934 455.676)
 		)
 		(stroke
 			(width 0)
@@ -11360,7 +11382,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.536 453.898) (xy 360.934 453.898)
+			(xy 351.536 455.676) (xy 360.934 455.676)
 		)
 		(stroke
 			(width 0)
@@ -11650,6 +11672,16 @@
 	)
 	(wire
 		(pts
+			(xy 357.886 413.766) (xy 357.886 445.516)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b74ef13-5dde-4b6c-9287-a82320dbc5b9")
+	)
+	(wire
+		(pts
 			(xy 337.82 524.002) (xy 337.82 539.242)
 		)
 		(stroke
@@ -11820,7 +11852,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.208 450.088) (xy 394.208 456.438)
+			(xy 394.208 450.088) (xy 394.208 458.216)
 		)
 		(stroke
 			(width 0)
@@ -11880,7 +11912,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 446.278) (xy 351.536 446.278)
+			(xy 359.41 448.056) (xy 351.536 448.056)
 		)
 		(stroke
 			(width 0)
@@ -12027,16 +12059,6 @@
 			(type default)
 		)
 		(uuid "6cf64747-b58f-4baa-9dc6-a25e7940ec3f")
-	)
-	(wire
-		(pts
-			(xy 397.51 443.738) (xy 397.51 440.182)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd65439-aab6-4dd0-94d8-97fd99d95501")
 	)
 	(wire
 		(pts
@@ -12410,7 +12432,7 @@
 	)
 	(wire
 		(pts
-			(xy 362.458 456.438) (xy 394.208 456.438)
+			(xy 362.458 458.216) (xy 394.208 458.216)
 		)
 		(stroke
 			(width 0)
@@ -12600,7 +12622,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.616 438.658) (xy 351.536 438.658)
+			(xy 356.616 440.436) (xy 351.536 440.436)
 		)
 		(stroke
 			(width 0)
@@ -12667,16 +12689,6 @@
 			(type default)
 		)
 		(uuid "8c318473-da03-4add-88b1-c3e6b74ce122")
-	)
-	(wire
-		(pts
-			(xy 356.616 408.686) (xy 356.616 438.658)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d453640-9baf-4c32-b7c2-752a30c8fbdb")
 	)
 	(wire
 		(pts
@@ -12850,7 +12862,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.934 453.898) (xy 377.698 453.898)
+			(xy 360.934 455.676) (xy 377.698 455.676)
 		)
 		(stroke
 			(width 0)
@@ -12930,7 +12942,7 @@
 	)
 	(wire
 		(pts
-			(xy 366.776 434.848) (xy 366.776 403.606)
+			(xy 366.776 403.606) (xy 366.776 436.626)
 		)
 		(stroke
 			(width 0)
@@ -13170,7 +13182,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.536 433.578) (xy 351.536 434.848)
+			(xy 351.536 435.356) (xy 351.536 436.626)
 		)
 		(stroke
 			(width 0)
@@ -13240,7 +13252,7 @@
 	)
 	(wire
 		(pts
-			(xy 357.886 443.738) (xy 397.51 443.738)
+			(xy 357.886 445.516) (xy 397.51 445.516)
 		)
 		(stroke
 			(width 0)
@@ -13400,6 +13412,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 440.182) (xy 397.51 445.516)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace49fc5-dfea-4a3c-88d8-08d2112213fa")
+	)
+	(wire
+		(pts
 			(xy 471.17 455.422) (xy 471.932 455.422)
 		)
 		(stroke
@@ -13450,7 +13472,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.536 434.848) (xy 366.776 434.848)
+			(xy 351.536 436.626) (xy 366.776 436.626)
 		)
 		(stroke
 			(width 0)
@@ -13750,7 +13772,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.588 438.658) (xy 356.616 438.658)
+			(xy 386.588 440.436) (xy 356.616 440.436)
 		)
 		(stroke
 			(width 0)
@@ -13767,16 +13789,6 @@
 			(type default)
 		)
 		(uuid "ba7d61bc-a44c-4a16-b063-507266106048")
-	)
-	(wire
-		(pts
-			(xy 362.458 426.466) (xy 362.458 456.438)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0570fd-63aa-4631-9c43-fcba54f2b487")
 	)
 	(wire
 		(pts
@@ -13857,6 +13869,16 @@
 			(type default)
 		)
 		(uuid "c142962e-28fa-43ec-843c-9c85eea8af45")
+	)
+	(wire
+		(pts
+			(xy 362.458 426.466) (xy 362.458 458.216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f77684-a421-4a64-827e-8949b52593aa")
 	)
 	(wire
 		(pts
@@ -14160,7 +14182,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.934 454.152) (xy 360.934 453.898)
+			(xy 360.934 455.93) (xy 360.934 455.676)
 		)
 		(stroke
 			(width 0)
@@ -14187,16 +14209,6 @@
 			(type default)
 		)
 		(uuid "d1b97686-2af2-4133-92f9-f218feb37a2c")
-	)
-	(wire
-		(pts
-			(xy 382.778 429.768) (xy 382.778 446.278)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1dde315-8112-494e-9535-61cc3f36c7a6")
 	)
 	(wire
 		(pts
@@ -14240,7 +14252,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.536 443.738) (xy 357.886 443.738)
+			(xy 351.536 445.516) (xy 357.886 445.516)
 		)
 		(stroke
 			(width 0)
@@ -14270,7 +14282,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.536 434.848) (xy 351.536 436.118)
+			(xy 351.536 436.626) (xy 351.536 437.896)
 		)
 		(stroke
 			(width 0)
@@ -14300,7 +14312,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 446.278) (xy 382.778 446.278)
+			(xy 359.41 448.056) (xy 382.778 448.056)
 		)
 		(stroke
 			(width 0)
@@ -14560,7 +14572,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.588 463.804) (xy 386.588 438.658)
+			(xy 386.588 463.804) (xy 386.588 440.436)
 		)
 		(stroke
 			(width 0)
@@ -14940,6 +14952,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 416.306) (xy 359.41 448.056)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78afa31-e7d0-4f7a-bff4-3e6e4308c9a8")
+	)
+	(wire
+		(pts
 			(xy 87.376 341.884) (xy 87.376 382.524)
 		)
 		(stroke
@@ -14990,7 +15012,7 @@
 	)
 	(wire
 		(pts
-			(xy 362.458 456.438) (xy 351.536 456.438)
+			(xy 362.458 458.216) (xy 351.536 458.216)
 		)
 		(stroke
 			(width 0)
@@ -15077,6 +15099,16 @@
 			(type default)
 		)
 		(uuid "fb50b846-b71b-4345-8418-8f3a5c8825d3")
+	)
+	(wire
+		(pts
+			(xy 356.616 408.686) (xy 356.616 440.436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaf1a56-4064-4fc3-9342-92daa6eb8e4f")
 	)
 	(wire
 		(pts
@@ -22190,7 +22222,7 @@
 		(dnp no)
 		(uuid "1d586e37-aa10-40f9-a93a-bb5796ed8d5f")
 		(property "Reference" "T3-bis1"
-			(at 345.186 404.622 90)
+			(at 345.44 399.796 90)
 			(effects
 				(font
 					(size 2 2)
@@ -22207,7 +22239,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_10p-reversible-ThumbORJoystick-IN"
 			(at 437.82 431.546 0)
 			(effects
 				(font
@@ -29473,7 +29505,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:FPC_10pins_SPECIAL-thumbsOR-joystick")
-		(at 342.646 442.468 90)
+		(at 342.646 444.246 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29482,7 +29514,7 @@
 		(dnp no)
 		(uuid "9c57e1b4-4b0f-477c-9ede-41bacc71f503")
 		(property "Reference" "T3"
-			(at 341.122 434.848 90)
+			(at 340.868 432.308 90)
 			(effects
 				(font
 					(size 2 2)
@@ -29491,7 +29523,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_SPECIAL-thumbs"
-			(at 341.376 458.724 90)
+			(at 341.376 460.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29499,8 +29531,8 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
-			(at 437.566 461.518 0)
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_10p-reversible-ThumbORJoystick-IN"
+			(at 437.566 463.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29510,7 +29542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 537.566 461.518 0)
+			(at 537.566 463.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29520,7 +29552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.072 449.072 0)
+			(at 322.072 450.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29529,7 +29561,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at 737.566 461.518 0)
+			(at 737.566 463.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29539,7 +29571,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 837.566 461.518 0)
+			(at 837.566 463.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29549,7 +29581,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 937.566 461.518 0)
+			(at 937.566 463.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29559,7 +29591,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 1037.566 461.518 0)
+			(at 1037.566 463.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29569,7 +29601,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 1137.566 461.518 0)
+			(at 1137.566 463.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29718,7 +29750,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_10p-reversible-ThumbORJoystick-OUT"
 			(at 158.826 489.712 0)
 			(effects
 				(font
@@ -31911,7 +31943,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_10p-reversible-ThumbORJoystick-IN"
 			(at 345.694 599.364 0)
 			(effects
 				(font
@@ -32397,7 +32429,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FPC_connectors_Chukozor:FPC_10p-reversible-ThumbORJoystick-OUT"
 			(at 158.826 456.946 0)
 			(effects
 				(font
