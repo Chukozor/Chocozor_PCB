@@ -542,6 +542,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FPC-solution",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -690,27 +707,27 @@
         "pattern": "SCK"
       },
       {
-        "netclass": "Rows",
+        "netclass": "FPC-solution",
         "pattern": "row0"
       },
       {
-        "netclass": "Rows",
+        "netclass": "FPC-solution",
         "pattern": "row1"
       },
       {
-        "netclass": "Rows",
+        "netclass": "FPC-solution",
         "pattern": "row2"
       },
       {
-        "netclass": "Rows",
+        "netclass": "FPC-solution",
         "pattern": "row3"
       },
       {
-        "netclass": "Rows",
+        "netclass": "FPC-solution",
         "pattern": "row4"
       },
       {
-        "netclass": "Rows",
+        "netclass": "FPC-solution",
         "pattern": "row5"
       },
       {
@@ -780,6 +797,14 @@
       {
         "netclass": "8pins-switches",
         "pattern": "Net-(D30-A)"
+      },
+      {
+        "netclass": "FPC-solution",
+        "pattern": "Net-(S2-B)"
+      },
+      {
+        "netclass": "FPC-solution",
+        "pattern": "Net-(S2-D)"
       }
     ]
   },
