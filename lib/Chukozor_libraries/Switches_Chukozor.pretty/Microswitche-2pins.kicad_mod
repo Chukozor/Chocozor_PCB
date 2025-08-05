@@ -55,6 +55,17 @@
 	)
 	(attr through_hole)
 	(fp_rect
+		(start 1.35 -1.45)
+		(end 2.55 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "76af339e-9b51-48d9-b43a-a36d8159b5a5")
+	)
+	(fp_rect
 		(start -6.475 -2.975)
 		(end 6.475 2.975)
 		(stroke
