@@ -45610,14 +45610,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Switches_Chukozor:Microswitche-2pins"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2c82e014-f0b2-4bb5-a106-1089a482668f")
-		(at 105.17 223.95 -90)
+		(at 105.06 224.49 -90)
 		(property "Reference" "Pull2"
 			(at 2.2 1.68 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ce8eef78-34a8-41ef-b2d9-a38d18f1508c")
+			(uuid "5449c935-c520-4dbc-8bdc-52e41ee2f673")
 			(effects
 				(font
 					(size 1 1)
@@ -45629,7 +45630,7 @@
 			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "144a7895-6be8-49bb-8543-94fcb1ea0c8f")
+			(uuid "b14760fd-415e-40f7-9857-4ad587224e0c")
 			(effects
 				(font
 					(size 1 1)
@@ -45642,7 +45643,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a9135a2-ec63-48d4-9271-04f608d8d1c7")
+			(uuid "9b82fd18-2ba7-47f9-9e15-fbc5049bd1ca")
 			(effects
 				(font
 					(size 1 1)
@@ -45655,7 +45656,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "035ac035-f52b-4497-a0e1-2e6fa553a38e")
+			(uuid "280fe750-e9c2-447e-b018-73e45bd881ae")
 			(effects
 				(font
 					(size 1 1)
@@ -84413,6 +84414,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a3410151-0481-4de7-b0af-e0396626ba5b")
 		(at 105.06 211.49 180)
