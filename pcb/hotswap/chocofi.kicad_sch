@@ -9924,7 +9924,7 @@
 		(uuid "86918f1a-9d68-4d43-aa65-73428d729404")
 	)
 	(no_connect
-		(at 90.932 191.77)
+		(at 91.186 191.77)
 		(uuid "86d966f7-37e1-4b4d-a506-8b9f89aa2fce")
 	)
 	(no_connect
@@ -18618,26 +18618,6 @@
 		(uuid "563f8295-9755-4451-a2db-d47375b65b1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.704 270.129 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 740.664 78.74 0)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left)
-		)
-		(uuid "59dbd9f7-db12-40ee-8e14-88c9822cfacb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 740.664 69.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28567,71 +28547,6 @@
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 735.584 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89746537-bc0f-479b-8049-2a85bba8ba9d")
-		(property "Reference" "J5"
-			(at 736.219 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 736.219 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:1pin-GND"
-			(at 735.584 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 735.584 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 735.584 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8342df7-7fd6-485e-801c-20cd7464ed47")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "J5")
 					(unit 1)
 				)
 			)
