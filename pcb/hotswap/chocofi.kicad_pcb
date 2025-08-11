@@ -39295,7 +39295,7 @@
 			(pinfunction "3V3")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "07ba3f04-0447-4a7a-9cf4-4e782ccbf7c8")
+			(uuid "a778365f-4e4e-4740-b4f8-479267776c83")
 		)
 		(pad "2" smd rect
 			(at -2.25 -2.038 90)
@@ -39315,7 +39315,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "59269c4b-274a-4fc4-aa08-c113f7e1291f")
+			(uuid "8f764daa-6d04-4754-804d-eee8bf734220")
 		)
 		(pad "3" smd rect
 			(at -1.75 -2.038 90)
@@ -39335,7 +39335,7 @@
 			(pinfunction "SDA")
 			(pintype "bidirectional")
 			(clearance 0.2)
-			(uuid "fefb60f3-8489-4adc-98c3-c1adf83d36c0")
+			(uuid "7137a2d5-b81e-493e-912d-a0efe9b4a25f")
 		)
 		(pad "4" smd rect
 			(at -1.25 -2.038 90)
@@ -39355,7 +39355,7 @@
 			(pinfunction "SCL")
 			(pintype "bidirectional")
 			(clearance 0.2)
-			(uuid "a3c00635-0d88-485d-b91c-4460c995b101")
+			(uuid "8b7190d3-bc5b-4bd4-b00a-f25638129a05")
 		)
 		(pad "5" smd rect
 			(at -0.75 -2.038 90)
@@ -39375,7 +39375,7 @@
 			(pinfunction "RGB_DO")
 			(pintype "input+no_connect")
 			(clearance 0.2)
-			(uuid "ea981165-5589-4542-8e3a-873fbfddd6b0")
+			(uuid "9ef18810-1e09-4ec7-b846-5c2e8a9dbba3")
 		)
 		(pad "6" smd rect
 			(at -0.25 -2.038 90)
@@ -39395,7 +39395,7 @@
 			(pinfunction "5V")
 			(pintype "power_in")
 			(clearance 0.2)
-			(uuid "bd99a36d-4782-49aa-8c7d-c756dcb615e0")
+			(uuid "db61dd00-25f8-4ec4-8ad9-2a5d89e6a5bb")
 		)
 		(pad "7" smd rect
 			(at -0.25 -2.043 270)
@@ -39415,7 +39415,7 @@
 			(pinfunction "GP_AD1")
 			(pintype "bidirectional")
 			(clearance 0.2)
-			(uuid "2d5def1c-c9be-4280-bc29-0651bb7a4d5a")
+			(uuid "d98ca092-362e-4652-9afb-041f52a5f0f8")
 		)
 		(pad "8" smd rect
 			(at -0.75 -2.043 270)
@@ -39435,7 +39435,7 @@
 			(pinfunction "MOSI")
 			(pintype "input")
 			(clearance 0.2)
-			(uuid "2eedefc4-a934-45ff-b56b-bd22477c8bb9")
+			(uuid "58a66f81-f14e-4c76-ac3a-187c9903b05b")
 		)
 		(pad "9" smd rect
 			(at -1.25 -2.043 270)
@@ -39455,7 +39455,7 @@
 			(pinfunction "GP_AD2")
 			(pintype "bidirectional")
 			(clearance 0.2)
-			(uuid "ff9efa9e-e548-4142-bb8b-ac1546b9ab9b")
+			(uuid "5d983ef7-ae46-4ac3-a560-73d5fde3a86a")
 		)
 		(pad "10" smd rect
 			(at -1.75 -2.043 270)
@@ -39475,7 +39475,7 @@
 			(pinfunction "SPI_CS")
 			(pintype "input")
 			(clearance 0.2)
-			(uuid "cfc2e5c1-d008-45e5-a8b7-1399f0ddadf0")
+			(uuid "f7e9d1f5-7bce-4187-b0d3-44e8cad35b9a")
 		)
 		(pad "11" smd rect
 			(at -2.25 -2.043 270)
@@ -39495,7 +39495,7 @@
 			(pinfunction "MISO")
 			(pintype "tri_state")
 			(clearance 0.2)
-			(uuid "eda3e650-fc1e-44cf-9134-fb3a72e7795a")
+			(uuid "837b86f1-d43c-4ed0-8ffa-add65cf3acf3")
 		)
 		(pad "12" smd rect
 			(at -2.75 -2.043 270)
@@ -39515,7 +39515,7 @@
 			(pinfunction "SCLK")
 			(pintype "input")
 			(clearance 0.2)
-			(uuid "743cfa59-a899-4092-9043-fb0bb490baeb")
+			(uuid "e58d3dc2-33f4-448a-8c9a-a5bf1faab88b")
 		)
 		(pad "13" smd rect
 			(at -4.55 0.681 270)
@@ -39533,7 +39533,7 @@
 			(net 124 "unconnected-(VIK1-HOLDER-Pad13)_1")
 			(pinfunction "HOLDER")
 			(pintype "input+no_connect")
-			(uuid "a4e420b5-ad09-4fa5-8bf7-833159ca924a")
+			(uuid "3dead743-bbb9-4fd9-918c-df75ce1c2329")
 		)
 		(pad "14" smd rect
 			(at -4.55 0.686 90)
@@ -39551,7 +39551,7 @@
 			(net 125 "unconnected-(VIK1-HOLDER-Pad14)_1")
 			(pinfunction "HOLDER")
 			(pintype "input+no_connect")
-			(uuid "b5d1e806-f714-49c8-9bd2-f93534e88117")
+			(uuid "535ec8c2-4e77-4dd2-ab82-34f6c560c483")
 		)
 		(embedded_fonts no)
 		(model "../../kicad/3dmodels/vik-connector-horizontal.stp"
@@ -102283,8 +102283,8 @@
 		(uuid "f03bbdc1-c942-4b93-aad1-c50df306a9df")
 	)
 	(gr_rect
-		(start 266.85 117.36)
-		(end 347.1 174.71)
+		(start 164.135 84.625)
+		(end 221.485 164.875)
 		(stroke
 			(width 0.15)
 			(type solid)
