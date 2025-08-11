@@ -8576,12 +8576,6 @@
 		(uuid "a713d1e1-4367-4626-80fa-7b6929862307")
 	)
 	(junction
-		(at 241.554 451.358)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a875484c-88cc-44ee-9ecc-062d12adee5d")
-	)
-	(junction
 		(at 46.482 260.604)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9758,16 +9752,6 @@
 			(type default)
 		)
 		(uuid "2f2ae6cd-9e4a-4c35-9e10-3d25079e5071")
-	)
-	(wire
-		(pts
-			(xy 240.03 451.358) (xy 241.554 451.358)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f609141-32c5-47b9-9596-5eef6150cc2d")
 	)
 	(wire
 		(pts
@@ -11578,16 +11562,6 @@
 			(type default)
 		)
 		(uuid "936eeb88-7c48-485b-9b02-993ac7a7af9d")
-	)
-	(wire
-		(pts
-			(xy 241.554 451.358) (xy 241.554 453.898)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "948c6b50-62a0-48e8-b5e0-e8127c2cf4a4")
 	)
 	(wire
 		(pts
@@ -16278,26 +16252,6 @@
 			)
 		)
 	)
-	(global_label "row3"
-		(shape input)
-		(at 241.554 474.218 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "241cf131-b3a0-495d-8bfd-c8fbb05c7e5b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.029 474.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 348.107 376.555 0)
@@ -16603,26 +16557,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 240.03 451.358 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "45afea0e-5b33-410b-a8bc-287e2054df00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 441.833 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 380.492 277.368 180)
@@ -16808,26 +16742,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col2"
-		(shape input)
-		(at 241.554 466.598 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "5396cbf2-a43b-4d1a-b048-cf5b1d4df01f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.029 466.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -17424,26 +17338,6 @@
 			)
 		)
 	)
-	(global_label "col0"
-		(shape input)
-		(at 241.554 458.978 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "89873492-2326-4b96-bdac-9bb5f89eb298")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.029 458.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND_mobile_Pull1"
 		(shape input)
 		(at 99.314 476.25 0)
@@ -17508,26 +17402,6 @@
 			)
 		)
 	)
-	(global_label "col3"
-		(shape input)
-		(at 241.554 461.518 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "915456b5-89ca-41d4-9fcd-7e1adfd4b85b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.029 461.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 221.234 362.204 180)
@@ -17546,26 +17420,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col5"
-		(shape input)
-		(at 241.554 471.678 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "98ccd4dd-c653-4271-943b-9ad45922b064")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.554 481.203 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -18119,26 +17973,6 @@
 		(uuid "c34256a6-31bc-4155-802f-261cac11b23a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.296 270.129 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col1"
-		(shape input)
-		(at 241.554 469.138 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "c367cc84-a692-4197-b50a-9a87aea7037c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.029 469.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18774,26 +18608,6 @@
 			)
 		)
 	)
-	(global_label "col4"
-		(shape input)
-		(at 241.554 464.058 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "fc2d7613-34f0-4492-9935-e9e1ec4777c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.029 464.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col5"
 		(shape input)
 		(at 250.952 397.764 270)
@@ -18806,26 +18620,6 @@
 		(uuid "fd82853b-b463-4045-8f88-5a92b1b6647e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 260.477 397.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row5"
-		(shape input)
-		(at 241.554 456.438 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "fde6588e-db9c-4134-9524-719bca280f20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.029 456.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29763,157 +29557,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:FPC_10pins_SPECIAL-thumbsOR-joystick")
-		(at 250.444 460.248 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4d185a5-4df1-4e9b-8112-684609dee50d")
-		(property "Reference" "T1"
-			(at 251.206 447.802 90)
-			(effects
-				(font
-					(size 2 2)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FPC_8pins_SPECIAL-thumbs"
-			(at 255.016 476.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_10p-reversible-ThumbORJoystick-OUT"
-			(at 155.524 479.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.524 479.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.018 466.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at -144.476 479.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -244.476 479.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -344.476 479.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at -444.476 479.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at -544.476 479.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP1"
-			(uuid "96e14b5a-fce9-4779-8b90-1e03837343d3")
-		)
-		(pin "6"
-			(uuid "965ad533-ba45-431a-9c81-15dfd6d1de24")
-		)
-		(pin "4"
-			(uuid "7b1a99a0-bd02-42ff-9599-aea00dc9bf91")
-		)
-		(pin "3"
-			(uuid "7893a3cd-4bc8-4021-aa48-acae59342d8b")
-		)
-		(pin "2"
-			(uuid "28c447ad-96c6-4c3f-91cc-4741d7aaa385")
-		)
-		(pin "MP2"
-			(uuid "38c9ce3e-159f-4f3d-aa38-7e717670a7c3")
-		)
-		(pin "5"
-			(uuid "26338482-1363-4365-bf5a-3de5bd7d9d2c")
-		)
-		(pin "1"
-			(uuid "86096bdc-270e-4265-83f2-8fa5e4d7cd75")
-		)
-		(pin "7"
-			(uuid "da392eaf-3a2b-4202-8df4-8df713a5a6c4")
-		)
-		(pin "8"
-			(uuid "18751a2d-f149-446b-bf7c-39eb2e8d169d")
-		)
-		(pin "10"
-			(uuid "a0330683-a9bf-43d4-8196-8039c0b9b8db")
-		)
-		(pin "9"
-			(uuid "23b3cab5-fe3d-45b8-a888-44137c5b78e0")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "T1")
 					(unit 1)
 				)
 			)
