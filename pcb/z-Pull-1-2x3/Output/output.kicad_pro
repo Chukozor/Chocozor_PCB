@@ -1,0 +1,2757 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.15,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": true,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 0.7,
+        "silk_text_size_v": 0.7,
+        "silk_text_thickness": 0.1,
+        "silk_text_upright": true,
+        "zones": {
+          "45_degree_only": false,
+          "min_clearance": 0.0
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "filename": "board_design_settings.json",
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "warning",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "warning",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "warning",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "warning",
+        "padstack": "warning",
+        "pth_inside_courtyard": "warning",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "ignore",
+        "starved_thermal": "error",
+        "text_height": "ignore",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "ignore",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.005,
+        "min_clearance": 0.127,
+        "min_connection": 0.127,
+        "min_copper_edge_clearance": 0.2,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 1,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.005,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": false,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": false,
+          "td_ontrackend": true,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 1.0
+        }
+      ],
+      "track_widths": [
+        0.0
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "output.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "8pins-switches",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-8pins-switches",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Cols",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-FPC-solution",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Rows",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-Solenoid-Pin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_0-VIK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-8pins-switches",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-Cols",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-FPC-solution",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-Rows",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-Solenoid-Pin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_1-VIK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-8pins-switches",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-Cols",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-FPC-solution",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-Rows",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-Solenoid-Pin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_2-VIK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-8pins-switches",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-Cols",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-FPC-solution",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-Rows",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-Solenoid-Pin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_3-VIK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-8pins-switches",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-Cols",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-FPC-solution",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-Rows",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-Solenoid-Pin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_4-VIK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-8pins-switches",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-Cols",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-FPC-solution",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-Rows",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-Solenoid-Pin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Board_5-VIK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Cols",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FPC-solution",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.23,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Rows",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Solenoid-Pin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VIK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D34-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(FF1-Pin_4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF2-PadMP1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D33-K)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF1-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF2-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF1-PadMP1)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(FF2-Pin_4)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D34-K)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF1-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF1-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF2-PadMP2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF2-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF1-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF1-PadMP2)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(D33-A)"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF2-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-unconnected-(FF2-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_0-PWR",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-PWR",
+        "pattern": "Board_0-VCC"
+      },
+      {
+        "netclass": "Board_0-PWR",
+        "pattern": "Board_0-Net-(J*"
+      },
+      {
+        "netclass": "Board_0-PWR",
+        "pattern": "Board_0-RAW"
+      },
+      {
+        "netclass": "Board_0-PWR",
+        "pattern": "Board_0-VBUS"
+      },
+      {
+        "netclass": "Board_0-SPI",
+        "pattern": "Board_0-MOSI (TX)"
+      },
+      {
+        "netclass": "Board_0-SPI",
+        "pattern": "Board_0-DR"
+      },
+      {
+        "netclass": "Board_0-SPI",
+        "pattern": "Board_0-SS (CS)"
+      },
+      {
+        "netclass": "Board_0-SPI",
+        "pattern": "Board_0-MISO (RX)"
+      },
+      {
+        "netclass": "Board_0-SPI",
+        "pattern": "Board_0-SCK"
+      },
+      {
+        "netclass": "Board_0-FPC-solution",
+        "pattern": "Board_0-row0"
+      },
+      {
+        "netclass": "Board_0-FPC-solution",
+        "pattern": "Board_0-row1"
+      },
+      {
+        "netclass": "Board_0-FPC-solution",
+        "pattern": "Board_0-row2"
+      },
+      {
+        "netclass": "Board_0-FPC-solution",
+        "pattern": "Board_0-row3"
+      },
+      {
+        "netclass": "Board_0-FPC-solution",
+        "pattern": "Board_0-row4"
+      },
+      {
+        "netclass": "Board_0-FPC-solution",
+        "pattern": "Board_0-row5"
+      },
+      {
+        "netclass": "Board_0-Cols",
+        "pattern": "Board_0-col0"
+      },
+      {
+        "netclass": "Board_0-Cols",
+        "pattern": "Board_0-col1"
+      },
+      {
+        "netclass": "Board_0-Cols",
+        "pattern": "Board_0-col2"
+      },
+      {
+        "netclass": "Board_0-Cols",
+        "pattern": "Board_0-col3"
+      },
+      {
+        "netclass": "Board_0-Cols",
+        "pattern": "Board_0-col4"
+      },
+      {
+        "netclass": "Board_0-Cols",
+        "pattern": "Board_0-col5"
+      },
+      {
+        "netclass": "Board_0-I2C",
+        "pattern": "Board_0-SDA"
+      },
+      {
+        "netclass": "Board_0-I2C",
+        "pattern": "Board_0-SCL"
+      },
+      {
+        "netclass": "Board_0-8pins-switches",
+        "pattern": "Board_0-5V-VIK"
+      },
+      {
+        "netclass": "Board_0-8pins-switches",
+        "pattern": "Board_0-3.3V-VIK"
+      },
+      {
+        "netclass": "Board_0-8pins-switches",
+        "pattern": "Board_0-GND-VIK"
+      },
+      {
+        "netclass": "Board_0-8pins-switches",
+        "pattern": "Board_0-VIK_GP1"
+      },
+      {
+        "netclass": "Board_0-8pins-switches",
+        "pattern": "Board_0-RGB-VIK"
+      },
+      {
+        "netclass": "Board_0-8pins-switches",
+        "pattern": "Board_0-VI2C-VIK"
+      },
+      {
+        "netclass": "Board_0-I2C",
+        "pattern": "Board_0-VI2C-OLED"
+      },
+      {
+        "netclass": "Board_0-Solenoid-Pin",
+        "pattern": "Board_0-SolenoidPin"
+      },
+      {
+        "netclass": "Board_0-8pins-switches",
+        "pattern": "Board_0-Net-(D30-A)"
+      },
+      {
+        "netclass": "Board_0-FPC-solution",
+        "pattern": "Board_0-Net-(S2-B)"
+      },
+      {
+        "netclass": "Board_0-FPC-solution",
+        "pattern": "Board_0-Net-(S2-D)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D33-A)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D34-A)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF2-PadMP1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF1-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF1-PadMP2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(FF2-Pin_4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D34-K)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(D33-K)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF2-PadMP2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF1-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF2-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF2-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF2-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF2-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF1-PadMP1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-Net-(FF1-Pin_4)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF1-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(FF1-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_1-PWR",
+        "pattern": "Board_1-GND"
+      },
+      {
+        "netclass": "Board_1-PWR",
+        "pattern": "Board_1-VCC"
+      },
+      {
+        "netclass": "Board_1-PWR",
+        "pattern": "Board_1-Net-(J*"
+      },
+      {
+        "netclass": "Board_1-PWR",
+        "pattern": "Board_1-RAW"
+      },
+      {
+        "netclass": "Board_1-PWR",
+        "pattern": "Board_1-VBUS"
+      },
+      {
+        "netclass": "Board_1-SPI",
+        "pattern": "Board_1-MOSI (TX)"
+      },
+      {
+        "netclass": "Board_1-SPI",
+        "pattern": "Board_1-DR"
+      },
+      {
+        "netclass": "Board_1-SPI",
+        "pattern": "Board_1-SS (CS)"
+      },
+      {
+        "netclass": "Board_1-SPI",
+        "pattern": "Board_1-MISO (RX)"
+      },
+      {
+        "netclass": "Board_1-SPI",
+        "pattern": "Board_1-SCK"
+      },
+      {
+        "netclass": "Board_1-FPC-solution",
+        "pattern": "Board_1-row0"
+      },
+      {
+        "netclass": "Board_1-FPC-solution",
+        "pattern": "Board_1-row1"
+      },
+      {
+        "netclass": "Board_1-FPC-solution",
+        "pattern": "Board_1-row2"
+      },
+      {
+        "netclass": "Board_1-FPC-solution",
+        "pattern": "Board_1-row3"
+      },
+      {
+        "netclass": "Board_1-FPC-solution",
+        "pattern": "Board_1-row4"
+      },
+      {
+        "netclass": "Board_1-FPC-solution",
+        "pattern": "Board_1-row5"
+      },
+      {
+        "netclass": "Board_1-Cols",
+        "pattern": "Board_1-col0"
+      },
+      {
+        "netclass": "Board_1-Cols",
+        "pattern": "Board_1-col1"
+      },
+      {
+        "netclass": "Board_1-Cols",
+        "pattern": "Board_1-col2"
+      },
+      {
+        "netclass": "Board_1-Cols",
+        "pattern": "Board_1-col3"
+      },
+      {
+        "netclass": "Board_1-Cols",
+        "pattern": "Board_1-col4"
+      },
+      {
+        "netclass": "Board_1-Cols",
+        "pattern": "Board_1-col5"
+      },
+      {
+        "netclass": "Board_1-I2C",
+        "pattern": "Board_1-SDA"
+      },
+      {
+        "netclass": "Board_1-I2C",
+        "pattern": "Board_1-SCL"
+      },
+      {
+        "netclass": "Board_1-8pins-switches",
+        "pattern": "Board_1-5V-VIK"
+      },
+      {
+        "netclass": "Board_1-8pins-switches",
+        "pattern": "Board_1-3.3V-VIK"
+      },
+      {
+        "netclass": "Board_1-8pins-switches",
+        "pattern": "Board_1-GND-VIK"
+      },
+      {
+        "netclass": "Board_1-8pins-switches",
+        "pattern": "Board_1-VIK_GP1"
+      },
+      {
+        "netclass": "Board_1-8pins-switches",
+        "pattern": "Board_1-RGB-VIK"
+      },
+      {
+        "netclass": "Board_1-8pins-switches",
+        "pattern": "Board_1-VI2C-VIK"
+      },
+      {
+        "netclass": "Board_1-I2C",
+        "pattern": "Board_1-VI2C-OLED"
+      },
+      {
+        "netclass": "Board_1-Solenoid-Pin",
+        "pattern": "Board_1-SolenoidPin"
+      },
+      {
+        "netclass": "Board_1-8pins-switches",
+        "pattern": "Board_1-Net-(D30-A)"
+      },
+      {
+        "netclass": "Board_1-FPC-solution",
+        "pattern": "Board_1-Net-(S2-B)"
+      },
+      {
+        "netclass": "Board_1-FPC-solution",
+        "pattern": "Board_1-Net-(S2-D)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D34-K)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(FF2-Pin_4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF2-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF2-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF1-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF1-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF1-PadMP2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF2-PadMP2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D33-K)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D33-A)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF1-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF2-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF1-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF1-PadMP1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(FF1-Pin_4)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF2-PadMP1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(D34-A)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(FF2-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_2-PWR",
+        "pattern": "Board_2-GND"
+      },
+      {
+        "netclass": "Board_2-PWR",
+        "pattern": "Board_2-VCC"
+      },
+      {
+        "netclass": "Board_2-PWR",
+        "pattern": "Board_2-Net-(J*"
+      },
+      {
+        "netclass": "Board_2-PWR",
+        "pattern": "Board_2-RAW"
+      },
+      {
+        "netclass": "Board_2-PWR",
+        "pattern": "Board_2-VBUS"
+      },
+      {
+        "netclass": "Board_2-SPI",
+        "pattern": "Board_2-MOSI (TX)"
+      },
+      {
+        "netclass": "Board_2-SPI",
+        "pattern": "Board_2-DR"
+      },
+      {
+        "netclass": "Board_2-SPI",
+        "pattern": "Board_2-SS (CS)"
+      },
+      {
+        "netclass": "Board_2-SPI",
+        "pattern": "Board_2-MISO (RX)"
+      },
+      {
+        "netclass": "Board_2-SPI",
+        "pattern": "Board_2-SCK"
+      },
+      {
+        "netclass": "Board_2-FPC-solution",
+        "pattern": "Board_2-row0"
+      },
+      {
+        "netclass": "Board_2-FPC-solution",
+        "pattern": "Board_2-row1"
+      },
+      {
+        "netclass": "Board_2-FPC-solution",
+        "pattern": "Board_2-row2"
+      },
+      {
+        "netclass": "Board_2-FPC-solution",
+        "pattern": "Board_2-row3"
+      },
+      {
+        "netclass": "Board_2-FPC-solution",
+        "pattern": "Board_2-row4"
+      },
+      {
+        "netclass": "Board_2-FPC-solution",
+        "pattern": "Board_2-row5"
+      },
+      {
+        "netclass": "Board_2-Cols",
+        "pattern": "Board_2-col0"
+      },
+      {
+        "netclass": "Board_2-Cols",
+        "pattern": "Board_2-col1"
+      },
+      {
+        "netclass": "Board_2-Cols",
+        "pattern": "Board_2-col2"
+      },
+      {
+        "netclass": "Board_2-Cols",
+        "pattern": "Board_2-col3"
+      },
+      {
+        "netclass": "Board_2-Cols",
+        "pattern": "Board_2-col4"
+      },
+      {
+        "netclass": "Board_2-Cols",
+        "pattern": "Board_2-col5"
+      },
+      {
+        "netclass": "Board_2-I2C",
+        "pattern": "Board_2-SDA"
+      },
+      {
+        "netclass": "Board_2-I2C",
+        "pattern": "Board_2-SCL"
+      },
+      {
+        "netclass": "Board_2-8pins-switches",
+        "pattern": "Board_2-5V-VIK"
+      },
+      {
+        "netclass": "Board_2-8pins-switches",
+        "pattern": "Board_2-3.3V-VIK"
+      },
+      {
+        "netclass": "Board_2-8pins-switches",
+        "pattern": "Board_2-GND-VIK"
+      },
+      {
+        "netclass": "Board_2-8pins-switches",
+        "pattern": "Board_2-VIK_GP1"
+      },
+      {
+        "netclass": "Board_2-8pins-switches",
+        "pattern": "Board_2-RGB-VIK"
+      },
+      {
+        "netclass": "Board_2-8pins-switches",
+        "pattern": "Board_2-VI2C-VIK"
+      },
+      {
+        "netclass": "Board_2-I2C",
+        "pattern": "Board_2-VI2C-OLED"
+      },
+      {
+        "netclass": "Board_2-Solenoid-Pin",
+        "pattern": "Board_2-SolenoidPin"
+      },
+      {
+        "netclass": "Board_2-8pins-switches",
+        "pattern": "Board_2-Net-(D30-A)"
+      },
+      {
+        "netclass": "Board_2-FPC-solution",
+        "pattern": "Board_2-Net-(S2-B)"
+      },
+      {
+        "netclass": "Board_2-FPC-solution",
+        "pattern": "Board_2-Net-(S2-D)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF2-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D33-A)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D34-K)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF1-PadMP1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D34-A)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(FF2-Pin_4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF1-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF1-PadMP2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(FF1-Pin_4)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF1-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF2-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF2-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF1-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(D33-K)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF2-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF2-PadMP2)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF1-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(FF2-PadMP1)"
+      },
+      {
+        "netclass": "Board_3-PWR",
+        "pattern": "Board_3-GND"
+      },
+      {
+        "netclass": "Board_3-PWR",
+        "pattern": "Board_3-VCC"
+      },
+      {
+        "netclass": "Board_3-PWR",
+        "pattern": "Board_3-Net-(J*"
+      },
+      {
+        "netclass": "Board_3-PWR",
+        "pattern": "Board_3-RAW"
+      },
+      {
+        "netclass": "Board_3-PWR",
+        "pattern": "Board_3-VBUS"
+      },
+      {
+        "netclass": "Board_3-SPI",
+        "pattern": "Board_3-MOSI (TX)"
+      },
+      {
+        "netclass": "Board_3-SPI",
+        "pattern": "Board_3-DR"
+      },
+      {
+        "netclass": "Board_3-SPI",
+        "pattern": "Board_3-SS (CS)"
+      },
+      {
+        "netclass": "Board_3-SPI",
+        "pattern": "Board_3-MISO (RX)"
+      },
+      {
+        "netclass": "Board_3-SPI",
+        "pattern": "Board_3-SCK"
+      },
+      {
+        "netclass": "Board_3-FPC-solution",
+        "pattern": "Board_3-row0"
+      },
+      {
+        "netclass": "Board_3-FPC-solution",
+        "pattern": "Board_3-row1"
+      },
+      {
+        "netclass": "Board_3-FPC-solution",
+        "pattern": "Board_3-row2"
+      },
+      {
+        "netclass": "Board_3-FPC-solution",
+        "pattern": "Board_3-row3"
+      },
+      {
+        "netclass": "Board_3-FPC-solution",
+        "pattern": "Board_3-row4"
+      },
+      {
+        "netclass": "Board_3-FPC-solution",
+        "pattern": "Board_3-row5"
+      },
+      {
+        "netclass": "Board_3-Cols",
+        "pattern": "Board_3-col0"
+      },
+      {
+        "netclass": "Board_3-Cols",
+        "pattern": "Board_3-col1"
+      },
+      {
+        "netclass": "Board_3-Cols",
+        "pattern": "Board_3-col2"
+      },
+      {
+        "netclass": "Board_3-Cols",
+        "pattern": "Board_3-col3"
+      },
+      {
+        "netclass": "Board_3-Cols",
+        "pattern": "Board_3-col4"
+      },
+      {
+        "netclass": "Board_3-Cols",
+        "pattern": "Board_3-col5"
+      },
+      {
+        "netclass": "Board_3-I2C",
+        "pattern": "Board_3-SDA"
+      },
+      {
+        "netclass": "Board_3-I2C",
+        "pattern": "Board_3-SCL"
+      },
+      {
+        "netclass": "Board_3-8pins-switches",
+        "pattern": "Board_3-5V-VIK"
+      },
+      {
+        "netclass": "Board_3-8pins-switches",
+        "pattern": "Board_3-3.3V-VIK"
+      },
+      {
+        "netclass": "Board_3-8pins-switches",
+        "pattern": "Board_3-GND-VIK"
+      },
+      {
+        "netclass": "Board_3-8pins-switches",
+        "pattern": "Board_3-VIK_GP1"
+      },
+      {
+        "netclass": "Board_3-8pins-switches",
+        "pattern": "Board_3-RGB-VIK"
+      },
+      {
+        "netclass": "Board_3-8pins-switches",
+        "pattern": "Board_3-VI2C-VIK"
+      },
+      {
+        "netclass": "Board_3-I2C",
+        "pattern": "Board_3-VI2C-OLED"
+      },
+      {
+        "netclass": "Board_3-Solenoid-Pin",
+        "pattern": "Board_3-SolenoidPin"
+      },
+      {
+        "netclass": "Board_3-8pins-switches",
+        "pattern": "Board_3-Net-(D30-A)"
+      },
+      {
+        "netclass": "Board_3-FPC-solution",
+        "pattern": "Board_3-Net-(S2-B)"
+      },
+      {
+        "netclass": "Board_3-FPC-solution",
+        "pattern": "Board_3-Net-(S2-D)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(FF1-Pin_4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF1-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D33-A)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D34-A)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF1-PadMP1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF2-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D33-K)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF2-PadMP2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF1-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(FF2-Pin_4)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF2-PadMP1)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF1-PadMP2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF1-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF2-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(D34-K)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF2-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF2-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(FF1-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_4-PWR",
+        "pattern": "Board_4-GND"
+      },
+      {
+        "netclass": "Board_4-PWR",
+        "pattern": "Board_4-VCC"
+      },
+      {
+        "netclass": "Board_4-PWR",
+        "pattern": "Board_4-Net-(J*"
+      },
+      {
+        "netclass": "Board_4-PWR",
+        "pattern": "Board_4-RAW"
+      },
+      {
+        "netclass": "Board_4-PWR",
+        "pattern": "Board_4-VBUS"
+      },
+      {
+        "netclass": "Board_4-SPI",
+        "pattern": "Board_4-MOSI (TX)"
+      },
+      {
+        "netclass": "Board_4-SPI",
+        "pattern": "Board_4-DR"
+      },
+      {
+        "netclass": "Board_4-SPI",
+        "pattern": "Board_4-SS (CS)"
+      },
+      {
+        "netclass": "Board_4-SPI",
+        "pattern": "Board_4-MISO (RX)"
+      },
+      {
+        "netclass": "Board_4-SPI",
+        "pattern": "Board_4-SCK"
+      },
+      {
+        "netclass": "Board_4-FPC-solution",
+        "pattern": "Board_4-row0"
+      },
+      {
+        "netclass": "Board_4-FPC-solution",
+        "pattern": "Board_4-row1"
+      },
+      {
+        "netclass": "Board_4-FPC-solution",
+        "pattern": "Board_4-row2"
+      },
+      {
+        "netclass": "Board_4-FPC-solution",
+        "pattern": "Board_4-row3"
+      },
+      {
+        "netclass": "Board_4-FPC-solution",
+        "pattern": "Board_4-row4"
+      },
+      {
+        "netclass": "Board_4-FPC-solution",
+        "pattern": "Board_4-row5"
+      },
+      {
+        "netclass": "Board_4-Cols",
+        "pattern": "Board_4-col0"
+      },
+      {
+        "netclass": "Board_4-Cols",
+        "pattern": "Board_4-col1"
+      },
+      {
+        "netclass": "Board_4-Cols",
+        "pattern": "Board_4-col2"
+      },
+      {
+        "netclass": "Board_4-Cols",
+        "pattern": "Board_4-col3"
+      },
+      {
+        "netclass": "Board_4-Cols",
+        "pattern": "Board_4-col4"
+      },
+      {
+        "netclass": "Board_4-Cols",
+        "pattern": "Board_4-col5"
+      },
+      {
+        "netclass": "Board_4-I2C",
+        "pattern": "Board_4-SDA"
+      },
+      {
+        "netclass": "Board_4-I2C",
+        "pattern": "Board_4-SCL"
+      },
+      {
+        "netclass": "Board_4-8pins-switches",
+        "pattern": "Board_4-5V-VIK"
+      },
+      {
+        "netclass": "Board_4-8pins-switches",
+        "pattern": "Board_4-3.3V-VIK"
+      },
+      {
+        "netclass": "Board_4-8pins-switches",
+        "pattern": "Board_4-GND-VIK"
+      },
+      {
+        "netclass": "Board_4-8pins-switches",
+        "pattern": "Board_4-VIK_GP1"
+      },
+      {
+        "netclass": "Board_4-8pins-switches",
+        "pattern": "Board_4-RGB-VIK"
+      },
+      {
+        "netclass": "Board_4-8pins-switches",
+        "pattern": "Board_4-VI2C-VIK"
+      },
+      {
+        "netclass": "Board_4-I2C",
+        "pattern": "Board_4-VI2C-OLED"
+      },
+      {
+        "netclass": "Board_4-Solenoid-Pin",
+        "pattern": "Board_4-SolenoidPin"
+      },
+      {
+        "netclass": "Board_4-8pins-switches",
+        "pattern": "Board_4-Net-(D30-A)"
+      },
+      {
+        "netclass": "Board_4-FPC-solution",
+        "pattern": "Board_4-Net-(S2-B)"
+      },
+      {
+        "netclass": "Board_4-FPC-solution",
+        "pattern": "Board_4-Net-(S2-D)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF2-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF1-PadMP2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF2-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF1-PadMP1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF2-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D33-A)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D33-K)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF1-Pin_3-Pad2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF1-PadMP2)_1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF1-Pin_3-Pad2)_1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF2-PadMP1)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF2-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(FF1-Pin_4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF2-PadMP2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(FF2-Pin_4)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D34-K)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(D34-A)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-unconnected-(FF1-PadMP1)_1"
+      },
+      {
+        "netclass": "Board_5-PWR",
+        "pattern": "Board_5-GND"
+      },
+      {
+        "netclass": "Board_5-PWR",
+        "pattern": "Board_5-VCC"
+      },
+      {
+        "netclass": "Board_5-PWR",
+        "pattern": "Board_5-Net-(J*"
+      },
+      {
+        "netclass": "Board_5-PWR",
+        "pattern": "Board_5-RAW"
+      },
+      {
+        "netclass": "Board_5-PWR",
+        "pattern": "Board_5-VBUS"
+      },
+      {
+        "netclass": "Board_5-SPI",
+        "pattern": "Board_5-MOSI (TX)"
+      },
+      {
+        "netclass": "Board_5-SPI",
+        "pattern": "Board_5-DR"
+      },
+      {
+        "netclass": "Board_5-SPI",
+        "pattern": "Board_5-SS (CS)"
+      },
+      {
+        "netclass": "Board_5-SPI",
+        "pattern": "Board_5-MISO (RX)"
+      },
+      {
+        "netclass": "Board_5-SPI",
+        "pattern": "Board_5-SCK"
+      },
+      {
+        "netclass": "Board_5-FPC-solution",
+        "pattern": "Board_5-row0"
+      },
+      {
+        "netclass": "Board_5-FPC-solution",
+        "pattern": "Board_5-row1"
+      },
+      {
+        "netclass": "Board_5-FPC-solution",
+        "pattern": "Board_5-row2"
+      },
+      {
+        "netclass": "Board_5-FPC-solution",
+        "pattern": "Board_5-row3"
+      },
+      {
+        "netclass": "Board_5-FPC-solution",
+        "pattern": "Board_5-row4"
+      },
+      {
+        "netclass": "Board_5-FPC-solution",
+        "pattern": "Board_5-row5"
+      },
+      {
+        "netclass": "Board_5-Cols",
+        "pattern": "Board_5-col0"
+      },
+      {
+        "netclass": "Board_5-Cols",
+        "pattern": "Board_5-col1"
+      },
+      {
+        "netclass": "Board_5-Cols",
+        "pattern": "Board_5-col2"
+      },
+      {
+        "netclass": "Board_5-Cols",
+        "pattern": "Board_5-col3"
+      },
+      {
+        "netclass": "Board_5-Cols",
+        "pattern": "Board_5-col4"
+      },
+      {
+        "netclass": "Board_5-Cols",
+        "pattern": "Board_5-col5"
+      },
+      {
+        "netclass": "Board_5-I2C",
+        "pattern": "Board_5-SDA"
+      },
+      {
+        "netclass": "Board_5-I2C",
+        "pattern": "Board_5-SCL"
+      },
+      {
+        "netclass": "Board_5-8pins-switches",
+        "pattern": "Board_5-5V-VIK"
+      },
+      {
+        "netclass": "Board_5-8pins-switches",
+        "pattern": "Board_5-3.3V-VIK"
+      },
+      {
+        "netclass": "Board_5-8pins-switches",
+        "pattern": "Board_5-GND-VIK"
+      },
+      {
+        "netclass": "Board_5-8pins-switches",
+        "pattern": "Board_5-VIK_GP1"
+      },
+      {
+        "netclass": "Board_5-8pins-switches",
+        "pattern": "Board_5-RGB-VIK"
+      },
+      {
+        "netclass": "Board_5-8pins-switches",
+        "pattern": "Board_5-VI2C-VIK"
+      },
+      {
+        "netclass": "Board_5-I2C",
+        "pattern": "Board_5-VI2C-OLED"
+      },
+      {
+        "netclass": "Board_5-Solenoid-Pin",
+        "pattern": "Board_5-SolenoidPin"
+      },
+      {
+        "netclass": "Board_5-8pins-switches",
+        "pattern": "Board_5-Net-(D30-A)"
+      },
+      {
+        "netclass": "Board_5-FPC-solution",
+        "pattern": "Board_5-Net-(S2-B)"
+      },
+      {
+        "netclass": "Board_5-FPC-solution",
+        "pattern": "Board_5-Net-(S2-D)"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [],
+  "text_variables": {}
+}
