@@ -2071,284 +2071,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Value" "FPC_8pins_SPECIALswitches-OUT-687108183722"
-				(at 0 14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "Switches_Chukozor:FPC_8pins_687108183722"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-				(at 0 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.3"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-687108183722"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "687108183722"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "FPC_8pins_SPECIALswitches-OUT-687108183722_1_1"
-				(rectangle
-					(start -8.636 7.112)
-					(end 8.636 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2)
-					(name "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2)
-					(name "osef"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -8.89 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -8.89 90)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -8.89 90)
-					(length 5.08)
-					(name "LED<-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -8.89 90)
-					(length 5.08)
-					(name "LED->"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -8.89 90)
-					(length 5.08)
-					(name "Col2Switch"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 90)
-					(length 5.08)
-					(name "Diode2Switch"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2)
-					(name "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Chukozor_symbols:FPC_connector-4p"
 			(pin_names
 				(offset 1.016)
@@ -8256,7 +7978,7 @@
 	)
 	(text_box "PULL 2 (separate PCB)"
 		(exclude_from_sim no)
-		(at 101.092 495.554 0)
+		(at 97.79 517.906 0)
 		(size 45.974 56.388)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8401,7 +8123,7 @@
 	)
 	(text_box "PULL 1 (separate PCB)"
 		(exclude_from_sim no)
-		(at 79.248 424.688 0)
+		(at 75.946 447.04 0)
 		(size 45.974 57.912)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8473,7 +8195,7 @@
 	)
 	(text_box "BREAKABLE"
 		(exclude_from_sim no)
-		(at 155.448 425.196 0)
+		(at 152.146 447.548 0)
 		(size 38.862 25.654)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8644,12 +8366,6 @@
 		(uuid "1a10c716-4582-4161-ac6c-7ff0dafc4dc9")
 	)
 	(junction
-		(at 71.882 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e2f5d74-656f-4460-95de-a4b5646235a6")
-	)
-	(junction
 		(at 193.802 392.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8674,10 +8390,22 @@
 		(uuid "2b4ab282-16e0-4c48-b281-67d24b3364e7")
 	)
 	(junction
-		(at 244.856 461.772)
+		(at 241.554 484.124)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "319eb15c-af87-4476-b637-a4f836a390cb")
+	)
+	(junction
+		(at 46.482 382.524)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "370ba249-ed65-4673-b511-d0f109ac4427")
+	)
+	(junction
+		(at 87.376 382.524)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "387dcd0a-1b55-4c01-833a-beff0c528fad")
 	)
 	(junction
 		(at 87.376 341.884)
@@ -8728,16 +8456,22 @@
 		(uuid "4b0bb46b-60d3-4d71-9ba1-5f4461dec29c")
 	)
 	(junction
-		(at 112.522 392.43)
+		(at 128.27 382.524)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b9a4d4a-487b-4e4b-b785-e6fe6cd4901f")
+		(uuid "4c68b579-dc3a-4919-b9fc-49f18ba05e25")
 	)
 	(junction
 		(at 359.41 448.056)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5091e689-77b7-4498-a862-4672bcad176a")
+	)
+	(junction
+		(at 71.12 392.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "520ff571-ceaa-4e47-907e-795bae417366")
 	)
 	(junction
 		(at 210.058 260.604)
@@ -8762,12 +8496,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68ce7776-6cca-4338-b902-deacdf4e9891")
-	)
-	(junction
-		(at 112.776 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f0e4e64-7fd8-4a14-ad24-99844653713f")
 	)
 	(junction
 		(at 348.742 86.106)
@@ -8800,12 +8528,6 @@
 		(uuid "789f3024-03ed-4c5c-a2a9-b10b3ae4bd2f")
 	)
 	(junction
-		(at 87.376 382.524)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d24992a-bdcf-4b9c-bfce-d41d16f13e9e")
-	)
-	(junction
 		(at 112.014 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8822,12 +8544,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9048f237-395c-459f-83ac-1e1723af2b91")
-	)
-	(junction
-		(at 194.564 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92b5e6e9-7b18-47dd-b6b4-d19e6eb96169")
 	)
 	(junction
 		(at 354.076 91.186)
@@ -8860,7 +8576,7 @@
 		(uuid "a713d1e1-4367-4626-80fa-7b6929862307")
 	)
 	(junction
-		(at 244.856 429.006)
+		(at 241.554 451.358)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a875484c-88cc-44ee-9ecc-062d12adee5d")
@@ -8870,12 +8586,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b49e73b3-5006-4ca5-b709-d5e5fb33622d")
-	)
-	(junction
-		(at 46.482 382.524)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4dd78e2-e083-485d-b18f-f774964249ab")
 	)
 	(junction
 		(at 46.482 301.244)
@@ -8896,40 +8606,16 @@
 		(uuid "bdb14815-ad6b-4193-9884-183cba1be55b")
 	)
 	(junction
-		(at 153.67 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c09a58cb-efc2-452c-9061-9d561e32ea67")
-	)
-	(junction
 		(at 337.312 374.015)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c189b375-7f59-459b-b214-e329b9abab97")
 	)
 	(junction
-		(at 128.27 382.524)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3e2285a-4c46-4a93-a3e4-c2fbbf9d7a7e")
-	)
-	(junction
 		(at 234.696 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5e4b153-6318-489f-a476-e2afe202300e")
-	)
-	(junction
-		(at 152.908 392.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb21ae8f-5acd-4f90-a23f-5e3dd4f5f997")
-	)
-	(junction
-		(at 235.458 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccd52637-1b7b-48b0-bedd-f910dfc0a5db")
 	)
 	(junction
 		(at 250.952 260.604)
@@ -8968,12 +8654,6 @@
 		(uuid "e37f47e1-7806-43c9-ab66-6d2ac4cd268c")
 	)
 	(junction
-		(at 71.12 392.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e76461e7-12c7-473d-86ad-a5d91bccc441")
-	)
-	(junction
 		(at 210.058 341.884)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8998,10 +8678,22 @@
 		(uuid "f2f63725-0bdb-4481-a111-98d8e4646d45")
 	)
 	(junction
+		(at 112.014 392.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f384c9dd-8718-4900-a1e6-173df4f09a6a")
+	)
+	(junction
 		(at 193.802 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4f3c849-5a86-4af7-b8be-d7b0428bf1af")
+	)
+	(junction
+		(at 152.908 392.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f681c3b7-6390-4e88-af3f-ff08793c8ca7")
 	)
 	(junction
 		(at 234.696 351.79)
@@ -9028,28 +8720,12 @@
 		(uuid "fcd80c21-173f-4cdd-a15b-03f8a8022562")
 	)
 	(no_connect
-		(at 254.762 189.23)
-		(uuid "0ebbca89-03d2-437b-bafc-8b29a1db963f")
-	)
-	(no_connect
 		(at 351.536 453.136)
 		(uuid "159c203f-d63f-417c-a57b-2a974b11a73b")
 	)
 	(no_connect
-		(at 50.292 191.77)
-		(uuid "27e86ff8-4cbe-4bf6-b4dd-e6c9e3217fbe")
-	)
-	(no_connect
-		(at 66.04 382.524)
-		(uuid "284ac103-6ad0-4d43-ad56-b13819ab8f25")
-	)
-	(no_connect
-		(at 187.198 438.912)
+		(at 183.896 461.264)
 		(uuid "299ed64c-750f-4277-8056-8d65c3d5d89e")
-	)
-	(no_connect
-		(at 275.082 189.23)
-		(uuid "2a37ec1f-0d07-4fa2-8b78-4fdca7edc332")
 	)
 	(no_connect
 		(at 126.238 45.466)
@@ -9060,7 +8736,7 @@
 		(uuid "2bb022e6-76a4-4481-983d-8a4aa5d50019")
 	)
 	(no_connect
-		(at 117.602 519.938)
+		(at 114.3 542.29)
 		(uuid "2c1c8642-72ef-4d20-8fb6-82b6bf8c6b6b")
 	)
 	(no_connect
@@ -9068,32 +8744,16 @@
 		(uuid "32129997-1da8-4af3-8667-cb6090966dce")
 	)
 	(no_connect
-		(at 193.294 189.23)
-		(uuid "36c7ffdd-cdb3-423f-a7f7-0f67c417e033")
-	)
-	(no_connect
 		(at 350.774 513.334)
 		(uuid "382e3480-8dc7-44f7-acc6-c75ba00602da")
-	)
-	(no_connect
-		(at 152.4 189.23)
-		(uuid "38c0dd50-7d2c-4353-adc3-943ecb6f539b")
 	)
 	(no_connect
 		(at 114.808 56.896)
 		(uuid "3af1f40d-7dc0-471d-bb64-84161972da9b")
 	)
 	(no_connect
-		(at 213.868 191.77)
-		(uuid "3ca08968-efbd-4294-b35b-c195927850eb")
-	)
-	(no_connect
 		(at 351.536 442.976)
 		(uuid "3f2d560b-ae3e-4164-96cd-017b6c7fedff")
-	)
-	(no_connect
-		(at 172.974 191.77)
-		(uuid "4131bc1c-d9f8-4136-b7b6-aa656d79022f")
 	)
 	(no_connect
 		(at 351.79 411.226)
@@ -9108,11 +8768,7 @@
 		(uuid "66f62d45-c4b4-48f4-abfb-de4c6e36e792")
 	)
 	(no_connect
-		(at 254.762 191.77)
-		(uuid "6756a0f7-945f-43c4-a0e0-879b100d4a3d")
-	)
-	(no_connect
-		(at 186.944 443.992)
+		(at 183.642 466.344)
 		(uuid "696d6651-c800-4103-8469-9509a815803e")
 	)
 	(no_connect
@@ -9132,40 +8788,12 @@
 		(uuid "7b7a4b30-b2a1-4bce-9f43-6be801c6a40a")
 	)
 	(no_connect
-		(at 150.368 382.524)
-		(uuid "7bbc79aa-7172-4f5e-9fb2-c2c71230c273")
-	)
-	(no_connect
 		(at 159.004 69.85)
 		(uuid "7d7b566d-e2bd-4a61-97b8-f71cb588704f")
 	)
 	(no_connect
-		(at 111.506 189.23)
-		(uuid "7e21e663-4d43-4f36-b0ac-29f2e926f726")
-	)
-	(no_connect
-		(at 234.188 189.23)
-		(uuid "841509fc-1d75-47bf-aef1-f8d5153be617")
-	)
-	(no_connect
 		(at 259.334 94.996)
 		(uuid "86918f1a-9d68-4d43-aa65-73428d729404")
-	)
-	(no_connect
-		(at 91.186 191.77)
-		(uuid "86d966f7-37e1-4b4d-a506-8b9f89aa2fce")
-	)
-	(no_connect
-		(at 109.982 382.524)
-		(uuid "8cf25207-554f-4825-adc0-4d690d09ca0d")
-	)
-	(no_connect
-		(at 213.868 189.23)
-		(uuid "90fca50f-2860-4917-a344-03515f62a544")
-	)
-	(no_connect
-		(at 172.974 189.23)
-		(uuid "9205804a-79fa-4f0a-8bdc-21493c7b25d6")
 	)
 	(no_connect
 		(at 259.334 97.536)
@@ -9174,18 +8802,6 @@
 	(no_connect
 		(at 279.654 97.536)
 		(uuid "9bf3d1a5-ca6d-4e3a-a0f0-bad50449de58")
-	)
-	(no_connect
-		(at 50.292 189.23)
-		(uuid "9eea34e0-8fe6-4049-9b2c-688cf971235c")
-	)
-	(no_connect
-		(at 59.182 203.2)
-		(uuid "a4d06fcf-2f8e-4b6c-b4c1-9ba5c7edd5dd")
-	)
-	(no_connect
-		(at 132.08 191.77)
-		(uuid "a5f1f038-358a-4d09-944b-06f794fb8199")
 	)
 	(no_connect
 		(at 210.82 65.786)
@@ -9212,23 +8828,7 @@
 		(uuid "db95712d-0cfd-4146-80cf-48db76179538")
 	)
 	(no_connect
-		(at 68.58 382.524)
-		(uuid "e78db4bf-7160-41fe-b7a8-df0c6f7d0078")
-	)
-	(no_connect
-		(at 70.612 189.23)
-		(uuid "ea59b4c2-773b-4b3d-9984-ba0f1773c21e")
-	)
-	(no_connect
-		(at 91.186 189.23)
-		(uuid "eb777367-52ae-46d4-b7db-89b91c14c4f2")
-	)
-	(no_connect
-		(at 147.828 382.524)
-		(uuid "ecd106e9-a343-46db-b6e0-0fb9d066643e")
-	)
-	(no_connect
-		(at 94.234 451.104)
+		(at 90.932 473.456)
 		(uuid "effd14d6-616f-41a3-abae-42d9a556c7a6")
 	)
 	(no_connect
@@ -9236,16 +8836,8 @@
 		(uuid "f1522629-5883-4712-a709-7da5ee0a956e")
 	)
 	(no_connect
-		(at 132.08 189.23)
-		(uuid "f3e5e5dd-1a51-4929-b638-50bf9aeed685")
-	)
-	(no_connect
 		(at 351.79 421.386)
 		(uuid "f70b6855-337c-468f-a93c-9b24d22068da")
-	)
-	(no_connect
-		(at 107.442 382.524)
-		(uuid "fbac8dd2-a918-4b3f-9408-d8e9029d17fd")
 	)
 	(wire
 		(pts
@@ -9279,6 +8871,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.908 392.43) (xy 193.802 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023d14a4-79a6-4238-9f93-2fdc17bf3236")
+	)
+	(wire
+		(pts
 			(xy 341.122 527.304) (xy 341.122 534.162)
 		)
 		(stroke
@@ -9289,13 +8891,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.376 223.52) (xy 87.376 260.604)
+			(xy 71.12 390.906) (xy 71.12 392.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "027bbe6e-3170-42d6-af9e-7d3f91e0a200")
+		(uuid "0291880c-1108-4b4b-b44d-065e309dd12f")
 	)
 	(wire
 		(pts
@@ -9379,6 +8981,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 382.524) (xy 128.27 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061a3c0b-be06-4079-92bf-cc5babbc2b07")
+	)
+	(wire
+		(pts
 			(xy 176.784 104.14) (xy 176.784 89.916)
 		)
 		(stroke
@@ -9396,16 +9008,6 @@
 			(type default)
 		)
 		(uuid "067ef777-68b4-4df6-852b-d5e02f6de3e7")
-	)
-	(wire
-		(pts
-			(xy 112.776 206.502) (xy 107.696 206.502)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "068ca492-4a40-4ae9-8502-32df42753e3a")
 	)
 	(wire
 		(pts
@@ -9449,13 +9051,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.774 451.104) (xy 96.774 458.978)
+			(xy 93.472 473.456) (xy 93.472 481.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08ca973e-0715-42f2-984d-4300b9dd4884")
+	)
+	(wire
+		(pts
+			(xy 278.638 362.204) (xy 278.638 370.586)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f4fe86-a650-4716-8b2c-f49bb3e496b2")
 	)
 	(wire
 		(pts
@@ -9469,16 +9081,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.322 392.43) (xy 71.12 392.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c2de029-2fea-453b-8eea-b31ea5b614d0")
-	)
-	(wire
-		(pts
 			(xy 323.596 93.472) (xy 323.596 102.87)
 		)
 		(stroke
@@ -9486,16 +9088,6 @@
 			(type default)
 		)
 		(uuid "0c4bbed2-adf8-4eb8-a2dd-d0957c7ae0dd")
-	)
-	(wire
-		(pts
-			(xy 235.458 206.502) (xy 230.378 206.502)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6a2e1d-5677-4a75-86c0-4f77870bb5df")
 	)
 	(wire
 		(pts
@@ -9569,16 +9161,6 @@
 	)
 	(wire
 		(pts
-			(xy 268.732 223.52) (xy 268.732 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1004462d-da08-4ff5-b866-ce2e324004bb")
-	)
-	(wire
-		(pts
 			(xy 348.742 86.106) (xy 348.742 91.186)
 		)
 		(stroke
@@ -9599,7 +9181,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 519.938) (xy 115.062 519.938)
+			(xy 115.316 397.764) (xy 140.208 397.764)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1118803f-4ef4-4cb6-9abe-84d214dc4921")
+	)
+	(wire
+		(pts
+			(xy 106.934 542.29) (xy 111.76 542.29)
 		)
 		(stroke
 			(width 0)
@@ -9779,16 +9371,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 248.666) (xy 53.34 275.844)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "192d7068-00ca-4bcc-9e56-272f2a884b37")
-	)
-	(wire
-		(pts
 			(xy 382.778 429.768) (xy 382.778 448.056)
 		)
 		(stroke
@@ -9799,16 +9381,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 223.52) (xy 146.05 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c0af970-964c-47ff-b667-681f4ecc6f72")
-	)
-	(wire
-		(pts
 			(xy 228.092 94.996) (xy 228.092 103.124)
 		)
 		(stroke
@@ -9816,6 +9388,26 @@
 			(type default)
 		)
 		(uuid "1c0fe8e0-e0ce-442d-83e1-98813189790a")
+	)
+	(wire
+		(pts
+			(xy 150.368 397.764) (xy 151.13 397.764)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c243dd8-0c3f-4051-906e-06b0d778fe1d")
+	)
+	(wire
+		(pts
+			(xy 273.05 362.204) (xy 278.638 362.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4420cb-050b-4ccb-a05d-694509abffc5")
 	)
 	(wire
 		(pts
@@ -9836,16 +9428,6 @@
 			(type default)
 		)
 		(uuid "1dc16023-f843-4c87-bc91-01b8bde56953")
-	)
-	(wire
-		(pts
-			(xy 36.576 241.3) (xy 71.882 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc383b7-cd2c-43b1-9e09-f1d28e010242")
 	)
 	(wire
 		(pts
@@ -9949,17 +9531,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.352 206.502) (xy 276.352 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25cedd4b-a9e0-4580-a8a6-7626c8a549b9")
-	)
-	(wire
-		(pts
-			(xy 125.984 527.812) (xy 125.984 522.732)
+			(xy 122.682 550.164) (xy 122.682 545.084)
 		)
 		(stroke
 			(width 0)
@@ -9979,7 +9551,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.774 458.978) (xy 102.616 458.978)
+			(xy 93.472 481.33) (xy 99.314 481.33)
 		)
 		(stroke
 			(width 0)
@@ -10009,16 +9581,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.058 223.52) (xy 227.838 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2739c013-8bae-4024-9a2e-f6ca801360e3")
-	)
-	(wire
-		(pts
 			(xy 354.076 91.186) (xy 363.22 91.186)
 		)
 		(stroke
@@ -10029,17 +9591,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.482 223.52) (xy 64.262 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2829eb4a-f9ae-49df-8070-af5e5b799e5f")
-	)
-	(wire
-		(pts
-			(xy 161.798 441.452) (xy 170.688 441.452)
+			(xy 158.496 463.804) (xy 167.386 463.804)
 		)
 		(stroke
 			(width 0)
@@ -10059,6 +9611,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 402.844) (xy 74.422 402.844)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28dcd3bc-391f-4ce8-899e-2597832395c2")
+	)
+	(wire
+		(pts
 			(xy 169.164 260.604) (xy 169.164 301.244)
 		)
 		(stroke
@@ -10066,16 +9628,6 @@
 			(type default)
 		)
 		(uuid "28f8fa26-7cca-445d-b272-d661a480eddd")
-	)
-	(wire
-		(pts
-			(xy 250.952 223.52) (xy 268.732 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29687a90-1033-47b3-9fc6-67d915b2cc59")
 	)
 	(wire
 		(pts
@@ -10149,16 +9701,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.482 382.524) (xy 46.482 399.034)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b76b24f-fa75-418c-ba0f-16d1e4885ebc")
-	)
-	(wire
-		(pts
 			(xy 128.27 301.244) (xy 137.668 301.244)
 		)
 		(stroke
@@ -10169,26 +9711,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.952 223.52) (xy 250.952 260.604)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c43eb76-a091-4ee0-82c0-84f02cc844ef")
-	)
-	(wire
-		(pts
-			(xy 128.27 341.884) (xy 128.27 382.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cba5f6a-ff45-49b4-b3d3-5301ad5de64a")
-	)
-	(wire
-		(pts
 			(xy 52.578 289.306) (xy 52.578 316.484)
 		)
 		(stroke
@@ -10196,6 +9718,16 @@
 			(type default)
 		)
 		(uuid "2d3768fe-288d-4e21-9d87-da65e934b1fe")
+	)
+	(wire
+		(pts
+			(xy 109.474 402.844) (xy 115.316 402.844)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7bb7fc-9bd7-4973-ad6b-86503a70506b")
 	)
 	(wire
 		(pts
@@ -10229,7 +9761,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.332 429.006) (xy 244.856 429.006)
+			(xy 240.03 451.358) (xy 241.554 451.358)
 		)
 		(stroke
 			(width 0)
@@ -10256,26 +9788,6 @@
 			(type default)
 		)
 		(uuid "302301cb-959d-4a2f-acd8-fb18fa371556")
-	)
-	(wire
-		(pts
-			(xy 46.482 382.524) (xy 63.5 382.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30796a5d-c532-4de2-8cea-068ba2040f7a")
-	)
-	(wire
-		(pts
-			(xy 289.052 248.666) (xy 289.052 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30dd810e-abe4-4bbc-9a88-6f0b966cecce")
 	)
 	(wire
 		(pts
@@ -10309,16 +9821,6 @@
 	)
 	(wire
 		(pts
-			(xy 225.298 211.074) (xy 263.652 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "324581fb-0762-458a-8561-14c19330dc88")
-	)
-	(wire
-		(pts
 			(xy 150.368 362.204) (xy 156.21 362.204)
 		)
 		(stroke
@@ -10326,16 +9828,6 @@
 			(type default)
 		)
 		(uuid "3297f82d-e774-4528-8948-042905e7b774")
-	)
-	(wire
-		(pts
-			(xy 46.482 341.884) (xy 46.482 382.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335881dd-1d59-4e30-9849-9c58c1225e50")
 	)
 	(wire
 		(pts
@@ -10369,16 +9861,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 211.074) (xy 181.864 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35cee9d6-da75-403e-bc06-d3f5e80007d0")
-	)
-	(wire
-		(pts
 			(xy 351.79 423.926) (xy 360.934 423.926)
 		)
 		(stroke
@@ -10399,16 +9881,6 @@
 	)
 	(wire
 		(pts
-			(xy 112.776 241.3) (xy 153.67 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36895cf0-dd9c-4c64-9871-61af35702f59")
-	)
-	(wire
-		(pts
 			(xy 383.032 91.186) (xy 401.32 91.186)
 		)
 		(stroke
@@ -10416,16 +9888,6 @@
 			(type default)
 		)
 		(uuid "37382739-0773-43b7-95e0-5e17a4ed8412")
-	)
-	(wire
-		(pts
-			(xy 112.522 382.524) (xy 112.522 392.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3740a663-dcb2-42fb-86de-af7948b3d174")
 	)
 	(wire
 		(pts
@@ -10439,13 +9901,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 382.524) (xy 145.288 382.524)
+			(xy 278.638 370.586) (xy 52.578 370.586)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "388cf3dd-ca1d-4059-ad0a-177896faec73")
+		(uuid "3830ed9b-939e-47c8-868a-0b940f0b1c27")
 	)
 	(wire
 		(pts
@@ -10549,7 +10011,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.198 438.912) (xy 185.928 438.912)
+			(xy 183.896 461.264) (xy 182.626 461.264)
 		)
 		(stroke
 			(width 0)
@@ -10569,13 +10031,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 442.468) (xy 102.87 443.484)
+			(xy 99.568 464.82) (xy 99.568 465.836)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "423cb515-e210-48d7-95d9-943fd24606ef")
+	)
+	(wire
+		(pts
+			(xy 74.422 397.764) (xy 99.314 397.764)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425d0dab-3240-4f89-93ef-77441546cba0")
 	)
 	(wire
 		(pts
@@ -10609,16 +10081,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.272 206.502) (xy 271.272 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "456af3f6-71f8-4ced-8933-ad1dda61a581")
-	)
-	(wire
-		(pts
 			(xy 273.05 321.564) (xy 278.638 321.564)
 		)
 		(stroke
@@ -10636,16 +10098,6 @@
 			(type default)
 		)
 		(uuid "45a366bf-0c3e-4c8e-9440-fd6cff12760b")
-	)
-	(wire
-		(pts
-			(xy 107.696 206.502) (xy 107.696 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45b1e597-b003-4fff-9ccf-3f66932fe745")
 	)
 	(wire
 		(pts
@@ -10749,16 +10201,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.564 206.502) (xy 189.484 206.502)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b44a7eb-a44e-4891-8185-864c91299e3a")
-	)
-	(wire
-		(pts
 			(xy 343.154 346.964) (xy 345.186 346.964)
 		)
 		(stroke
@@ -10829,16 +10271,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.482 223.52) (xy 46.482 260.604)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "516a7bc4-0ecd-4beb-aab0-b52423e4a78a")
-	)
-	(wire
-		(pts
 			(xy 210.058 341.884) (xy 219.456 341.884)
 		)
 		(stroke
@@ -10859,16 +10291,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.484 206.502) (xy 189.484 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53d38c43-c431-471f-9964-16218a492872")
-	)
-	(wire
-		(pts
 			(xy 156.21 275.844) (xy 181.102 275.844)
 		)
 		(stroke
@@ -10876,6 +10298,16 @@
 			(type default)
 		)
 		(uuid "53eb7908-7c2e-4522-8142-26444d5bd736")
+	)
+	(wire
+		(pts
+			(xy 46.482 341.884) (xy 46.482 382.524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54519eab-b740-4553-afce-7b4f5bf455e4")
 	)
 	(wire
 		(pts
@@ -10899,7 +10331,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.944 443.992) (xy 185.928 443.992)
+			(xy 183.642 466.344) (xy 182.626 466.344)
 		)
 		(stroke
 			(width 0)
@@ -11009,16 +10441,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 275.844) (xy 58.42 275.844)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1478cf-9f26-4b7b-ab2a-53bc9f863b65")
-	)
-	(wire
-		(pts
 			(xy 206.502 103.124) (xy 206.502 77.978)
 		)
 		(stroke
@@ -11096,16 +10518,6 @@
 			(type default)
 		)
 		(uuid "60e2292c-c0e8-4fb8-8a41-3616224fdf4c")
-	)
-	(wire
-		(pts
-			(xy 225.298 203.2) (xy 225.298 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60fdd66f-5a19-4b56-82b4-23804d8a9a59")
 	)
 	(wire
 		(pts
@@ -11189,27 +10601,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.882 206.502) (xy 66.802 206.502)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6470a968-cc4e-4d46-bdbc-630d72156bc2")
-	)
-	(wire
-		(pts
-			(xy 169.164 223.52) (xy 169.164 260.604)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658c88cb-46c9-456c-ab20-800aad3ea6ae")
-	)
-	(wire
-		(pts
-			(xy 169.164 382.524) (xy 169.164 399.034)
+			(xy 169.164 382.524) (xy 169.164 421.64)
 		)
 		(stroke
 			(width 0)
@@ -11279,16 +10671,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.564 241.3) (xy 235.458 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ef0fa9-8f0b-4634-a0f8-7b7a4b9e31b6")
-	)
-	(wire
-		(pts
 			(xy 366.014 521.716) (xy 366.014 513.334)
 		)
 		(stroke
@@ -11296,26 +10678,6 @@
 			(type default)
 		)
 		(uuid "6aced466-eb87-475c-8856-7fb0a8ee7bf1")
-	)
-	(wire
-		(pts
-			(xy 87.376 382.524) (xy 104.902 382.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b032061-7235-4918-92f9-dcefb767b3e0")
-	)
-	(wire
-		(pts
-			(xy 64.262 223.52) (xy 64.262 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b334590-8d91-4098-9480-4b2250816594")
 	)
 	(wire
 		(pts
@@ -11379,16 +10741,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 382.524) (xy 128.27 399.034)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd9ec0f-cad4-4352-9697-d9cd80276d93")
-	)
-	(wire
-		(pts
 			(xy 153.924 56.896) (xy 153.924 104.902)
 		)
 		(stroke
@@ -11419,13 +10771,13 @@
 	)
 	(wire
 		(pts
-			(xy 61.722 203.2) (xy 61.722 211.074)
+			(xy 46.482 382.524) (xy 46.482 421.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "702806cc-8973-418d-99bd-81c00b1a8e11")
+		(uuid "6f5f7c0d-eea0-41d6-80ac-dfdc899c0d2b")
 	)
 	(wire
 		(pts
@@ -11469,7 +10821,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.332 461.772) (xy 244.856 461.772)
+			(xy 240.03 484.124) (xy 241.554 484.124)
 		)
 		(stroke
 			(width 0)
@@ -11506,6 +10858,16 @@
 			(type default)
 		)
 		(uuid "72e1277b-0119-43f4-9c7b-060dd6337fb2")
+	)
+	(wire
+		(pts
+			(xy 112.014 392.43) (xy 152.908 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7382fe7c-e7c4-43ac-b6ab-2300b323511e")
 	)
 	(wire
 		(pts
@@ -11559,7 +10921,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.314 451.104) (xy 102.87 451.104)
+			(xy 96.012 473.456) (xy 99.568 473.456)
 		)
 		(stroke
 			(width 0)
@@ -11576,6 +10938,16 @@
 			(type default)
 		)
 		(uuid "75d95e6e-f9c8-4a02-bb6f-ce52ccb1cd9d")
+	)
+	(wire
+		(pts
+			(xy 46.482 382.524) (xy 55.88 382.524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765d541a-3d62-4b8d-a24a-3818352e1e00")
 	)
 	(wire
 		(pts
@@ -11609,7 +10981,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 451.104) (xy 91.694 451.104)
+			(xy 84.328 473.456) (xy 88.392 473.456)
 		)
 		(stroke
 			(width 0)
@@ -11649,6 +11021,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 341.884) (xy 128.27 382.524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a730182-e67a-4004-8f3b-a35a4a6ab5a9")
+	)
+	(wire
+		(pts
 			(xy 348.742 82.042) (xy 369.57 82.042)
 		)
 		(stroke
@@ -11679,16 +11061,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.352 206.502) (xy 271.272 206.502)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d09acc6-b4d0-408f-a0bb-75137b389d02")
-	)
-	(wire
-		(pts
 			(xy 174.244 93.726) (xy 174.244 91.44)
 		)
 		(stroke
@@ -11696,16 +11068,6 @@
 			(type default)
 		)
 		(uuid "7d595cd1-345b-475c-b295-46443e026df8")
-	)
-	(wire
-		(pts
-			(xy 153.67 206.502) (xy 153.67 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d6c82f0-16b6-425a-8582-1241db3e5f23")
 	)
 	(wire
 		(pts
@@ -11719,16 +11081,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 392.43) (xy 112.522 392.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f5f63bd-34b5-4233-9612-679fdcd44fee")
-	)
-	(wire
-		(pts
 			(xy 210.058 382.524) (xy 210.058 399.034)
 		)
 		(stroke
@@ -11736,16 +11088,6 @@
 			(type default)
 		)
 		(uuid "7f60b6bf-ecc8-4733-82e5-451fc1d4b0fc")
-	)
-	(wire
-		(pts
-			(xy 102.616 203.2) (xy 102.616 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803a53a3-9a36-4768-bcd8-b65c8a643226")
 	)
 	(wire
 		(pts
@@ -11769,17 +11111,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 223.52) (xy 146.05 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "818303e7-71db-476b-80f1-1a3501411874")
-	)
-	(wire
-		(pts
-			(xy 125.476 511.556) (xy 126.238 511.556)
+			(xy 122.174 533.908) (xy 122.936 533.908)
 		)
 		(stroke
 			(width 0)
@@ -11869,16 +11201,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.864 211.074) (xy 181.864 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84a952be-48f7-4c6f-b361-8cac4d3af476")
-	)
-	(wire
-		(pts
 			(xy 109.474 316.484) (xy 110.236 316.484)
 		)
 		(stroke
@@ -11896,6 +11218,16 @@
 			(type default)
 		)
 		(uuid "85190bea-2426-4743-8042-7b1d8347ed3b")
+	)
+	(wire
+		(pts
+			(xy 152.908 390.906) (xy 152.908 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852dfb0a-c1ab-48cb-9650-9f9b7a89bc76")
 	)
 	(wire
 		(pts
@@ -11969,6 +11301,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.578 397.764) (xy 58.42 397.764)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d90037-37f1-4631-826d-601ef1112e8a")
+	)
+	(wire
+		(pts
 			(xy 383.54 269.494) (xy 387.35 269.494)
 		)
 		(stroke
@@ -11986,16 +11328,6 @@
 			(type default)
 		)
 		(uuid "8b29dd8a-a248-48ef-876f-364df538da78")
-	)
-	(wire
-		(pts
-			(xy 153.67 241.3) (xy 194.564 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b85adac-b568-4f14-a76e-30932756d8ab")
 	)
 	(wire
 		(pts
@@ -12099,16 +11431,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.052 211.074) (xy 266.192 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f425dfa-92e1-464b-a9bc-49c6e5151462")
-	)
-	(wire
-		(pts
 			(xy 362.458 94.996) (xy 363.22 94.996)
 		)
 		(stroke
@@ -12146,6 +11468,16 @@
 			(type default)
 		)
 		(uuid "9083edb4-2e68-4005-a8bc-95bbe6453dcb")
+	)
+	(wire
+		(pts
+			(xy 112.014 390.906) (xy 112.014 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909059c4-14b8-41df-8a58-e59ab681724a")
 	)
 	(wire
 		(pts
@@ -12249,7 +11581,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.856 429.006) (xy 244.856 431.546)
+			(xy 241.554 451.358) (xy 241.554 453.898)
 		)
 		(stroke
 			(width 0)
@@ -12259,7 +11591,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.616 458.978) (xy 102.616 453.898)
+			(xy 99.314 481.33) (xy 99.314 476.25)
 		)
 		(stroke
 			(width 0)
@@ -12276,16 +11608,6 @@
 			(type default)
 		)
 		(uuid "956e50f0-9401-4870-a75e-3f7a223b71c1")
-	)
-	(wire
-		(pts
-			(xy 87.376 382.524) (xy 87.376 399.034)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962f96cc-bdbc-4ab0-b297-0dd330ceeefd")
 	)
 	(wire
 		(pts
@@ -12319,23 +11641,13 @@
 	)
 	(wire
 		(pts
-			(xy 126.238 511.556) (xy 126.238 512.318)
+			(xy 122.936 533.908) (xy 122.936 534.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "971ca887-6136-48be-86a9-726273a30ba7")
-	)
-	(wire
-		(pts
-			(xy 100.076 211.074) (xy 100.076 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97934b4b-6761-4006-b0c6-34e24dd43068")
 	)
 	(wire
 		(pts
@@ -12359,16 +11671,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.404 203.2) (xy 184.404 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98d3024e-de0a-477e-a5b7-85377def0ce9")
-	)
-	(wire
-		(pts
 			(xy 382.016 532.13) (xy 382.016 536.702)
 		)
 		(stroke
@@ -12376,16 +11678,6 @@
 			(type default)
 		)
 		(uuid "999603ec-e1b1-4abf-9252-a7ae37260035")
-	)
-	(wire
-		(pts
-			(xy 87.376 223.52) (xy 105.156 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99aeebcb-1a1e-49e0-a511-94bd612db9fe")
 	)
 	(wire
 		(pts
@@ -12406,6 +11698,16 @@
 			(type default)
 		)
 		(uuid "9a5d3d2b-b861-41e8-8d12-ba9d82fa77b6")
+	)
+	(wire
+		(pts
+			(xy 87.376 382.524) (xy 87.376 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adb0b57-7bb0-40e8-a341-c6e9b5218134")
 	)
 	(wire
 		(pts
@@ -12449,43 +11751,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.192 203.2) (xy 266.192 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c3dde2a-d698-4421-91f9-5c386b6a74d7")
-	)
-	(wire
-		(pts
-			(xy 110.236 511.556) (xy 110.236 519.938)
+			(xy 106.934 533.908) (xy 106.934 542.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d151558-ba32-4db1-a87b-f15497367e86")
-	)
-	(wire
-		(pts
-			(xy 105.156 223.52) (xy 105.156 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dd84c00-0cc3-482e-80b8-904d03335b45")
-	)
-	(wire
-		(pts
-			(xy 230.378 206.502) (xy 230.378 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f15f75c-2c3a-4df1-b7f1-32d9dbb8d109")
 	)
 	(wire
 		(pts
@@ -12579,13 +11851,13 @@
 	)
 	(wire
 		(pts
-			(xy 61.722 211.074) (xy 100.076 211.074)
+			(xy 87.376 341.884) (xy 87.376 382.524)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5f87f31-a82f-4b72-bb29-e3aa403b690b")
+		(uuid "a622c5b1-3ba6-4b95-a92b-ed5b31be0412")
 	)
 	(wire
 		(pts
@@ -12606,16 +11878,6 @@
 			(type default)
 		)
 		(uuid "a75a1ce8-f326-4032-9a04-56e813e5c476")
-	)
-	(wire
-		(pts
-			(xy 186.944 223.52) (xy 186.944 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a772b0ef-54c4-48f6-b3ab-31460dc49e05")
 	)
 	(wire
 		(pts
@@ -12909,7 +12171,7 @@
 	)
 	(wire
 		(pts
-			(xy 244.856 461.772) (xy 244.856 464.312)
+			(xy 241.554 484.124) (xy 241.554 486.664)
 		)
 		(stroke
 			(width 0)
@@ -12999,16 +12261,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 382.524) (xy 71.12 392.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39be37f-495c-4193-8521-99c06a263860")
-	)
-	(wire
-		(pts
 			(xy 74.422 316.484) (xy 99.314 316.484)
 		)
 		(stroke
@@ -13029,13 +12281,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 203.2) (xy 143.51 211.074)
+			(xy 87.376 382.524) (xy 96.774 382.524)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5a2ef1b-a905-4494-85fb-c6368bc226bb")
+		(uuid "b5675e24-bc50-4935-97e9-c578644659c9")
 	)
 	(wire
 		(pts
@@ -13079,16 +12331,6 @@
 	)
 	(wire
 		(pts
-			(xy 112.776 206.502) (xy 112.776 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b69d9d2e-30be-4a7d-ab94-63ee605b1195")
-	)
-	(wire
-		(pts
 			(xy 152.908 351.79) (xy 193.802 351.79)
 		)
 		(stroke
@@ -13106,6 +12348,16 @@
 			(type default)
 		)
 		(uuid "b7a7710b-4cb0-42de-818a-cbfc085a5707")
+	)
+	(wire
+		(pts
+			(xy 74.422 402.844) (xy 74.422 397.764)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8597b22-34b7-474f-83da-a1585260002b")
 	)
 	(wire
 		(pts
@@ -13229,6 +12481,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.316 402.844) (xy 115.316 397.764)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0550f60-f4ef-49eb-8f8b-3a95c2b57395")
+	)
+	(wire
+		(pts
 			(xy 278.638 321.564) (xy 278.638 329.946)
 		)
 		(stroke
@@ -13309,7 +12571,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.682 519.938) (xy 126.238 519.938)
+			(xy 119.38 542.29) (xy 122.936 542.29)
 		)
 		(stroke
 			(width 0)
@@ -13326,16 +12588,6 @@
 			(type default)
 		)
 		(uuid "c3b38286-983b-40dc-8421-8ef58fb47612")
-	)
-	(wire
-		(pts
-			(xy 227.838 223.52) (xy 227.838 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44ce700-c95a-479d-b59c-29db4b3ea4b8")
 	)
 	(wire
 		(pts
@@ -13419,7 +12671,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 451.104) (xy 87.63 442.468)
+			(xy 71.12 392.43) (xy 112.014 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7309793-4854-4214-badd-b28085bcb721")
+	)
+	(wire
+		(pts
+			(xy 84.328 473.456) (xy 84.328 464.82)
 		)
 		(stroke
 			(width 0)
@@ -13436,16 +12698,6 @@
 			(type default)
 		)
 		(uuid "c7502d4d-b662-4cf4-98a3-019f92a84432")
-	)
-	(wire
-		(pts
-			(xy 128.27 223.52) (xy 128.27 260.604)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f17a42-3cd0-4269-8ffd-7bab7bedce91")
 	)
 	(wire
 		(pts
@@ -13489,16 +12741,6 @@
 	)
 	(wire
 		(pts
-			(xy 112.522 392.43) (xy 152.908 392.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc0a5ff1-aa15-40f0-990f-b830ed913a9a")
-	)
-	(wire
-		(pts
 			(xy 210.058 341.884) (xy 210.058 382.524)
 		)
 		(stroke
@@ -13509,7 +12751,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.142 519.938) (xy 120.142 527.812)
+			(xy 116.84 542.29) (xy 116.84 550.164)
 		)
 		(stroke
 			(width 0)
@@ -13599,16 +12841,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.802 206.502) (xy 66.802 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b97686-2af2-4133-92f9-f218feb37a2c")
-	)
-	(wire
-		(pts
 			(xy 57.658 362.204) (xy 58.42 362.204)
 		)
 		(stroke
@@ -13629,6 +12861,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 397.764) (xy 69.342 397.764)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24d46fc-15a0-42f2-ac02-db013073817a")
+	)
+	(wire
+		(pts
 			(xy 210.058 301.244) (xy 210.058 341.884)
 		)
 		(stroke
@@ -13639,16 +12881,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.616 211.074) (xy 140.97 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5562cac-8c51-425a-9dd0-d9903d9a97ae")
-	)
-	(wire
-		(pts
 			(xy 351.536 445.516) (xy 357.886 445.516)
 		)
 		(stroke
@@ -13656,16 +12888,6 @@
 			(type default)
 		)
 		(uuid "d5c88ef4-301a-4e6f-b73a-184e957dd0f8")
-	)
-	(wire
-		(pts
-			(xy 235.458 206.502) (xy 235.458 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d740ab82-1bce-4733-9fae-c49cc7953e18")
 	)
 	(wire
 		(pts
@@ -13729,26 +12951,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.564 206.502) (xy 194.564 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db173e12-32c4-4eb4-b64f-f8947de7f5b1")
-	)
-	(wire
-		(pts
-			(xy 184.404 211.074) (xy 222.758 211.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db3af6a0-17cd-41e5-9578-a3f9ee2ae7d0")
-	)
-	(wire
-		(pts
 			(xy 339.09 279.146) (xy 340.36 279.146)
 		)
 		(stroke
@@ -13766,16 +12968,6 @@
 			(type default)
 		)
 		(uuid "dbe2f537-d5a0-49a3-9504-74706bdf0098")
-	)
-	(wire
-		(pts
-			(xy 148.59 206.502) (xy 148.59 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc3154e4-d598-432d-ac53-a6258af4a8af")
 	)
 	(wire
 		(pts
@@ -13839,16 +13031,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.882 241.3) (xy 112.776 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e098826f-b5fa-4a86-b00e-edb6007dad26")
-	)
-	(wire
-		(pts
 			(xy 219.71 77.216) (xy 219.71 80.772)
 		)
 		(stroke
@@ -13879,23 +13061,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.142 527.812) (xy 125.984 527.812)
+			(xy 116.84 550.164) (xy 122.682 550.164)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e214da68-2da4-4b11-8abe-fbc55a1b95b3")
-	)
-	(wire
-		(pts
-			(xy 263.652 211.074) (xy 263.652 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e25fdf17-d37f-40fd-b629-9d38b9231cf5")
 	)
 	(wire
 		(pts
@@ -13906,26 +13078,6 @@
 			(type default)
 		)
 		(uuid "e2a8d959-bdfe-4df6-a85d-f4adee83343a")
-	)
-	(wire
-		(pts
-			(xy 153.67 206.502) (xy 148.59 206.502)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e336db59-a670-4f69-9eb5-70db737b5838")
-	)
-	(wire
-		(pts
-			(xy 140.97 211.074) (xy 140.97 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3389aa0-adcd-4d94-b67e-23e113c35152")
 	)
 	(wire
 		(pts
@@ -14009,13 +13161,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 248.666) (xy 289.052 248.666)
+			(xy 52.578 370.586) (xy 52.578 397.764)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e978be79-85a2-45f0-9f8c-8c617001c0b3")
+		(uuid "e906c2a6-72d0-4069-a7f9-7805346e041a")
+	)
+	(wire
+		(pts
+			(xy 128.27 382.524) (xy 137.668 382.524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e3883f-18cd-41ee-84ac-707e4c6626a3")
 	)
 	(wire
 		(pts
@@ -14039,16 +13201,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.758 211.074) (xy 222.758 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1f6658-fea7-4039-a8a1-a2ab51ff156a")
-	)
-	(wire
-		(pts
 			(xy 210.058 382.524) (xy 219.456 382.524)
 		)
 		(stroke
@@ -14066,16 +13218,6 @@
 			(type default)
 		)
 		(uuid "ed61b7a8-ac2f-48c5-9d71-63473494e03c")
-	)
-	(wire
-		(pts
-			(xy 210.058 223.52) (xy 210.058 260.604)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed622b6a-ae82-4f2b-8844-da7b71c62254")
 	)
 	(wire
 		(pts
@@ -14126,16 +13268,6 @@
 			(type default)
 		)
 		(uuid "eeec0b17-5861-40c4-8322-258ddca18f71")
-	)
-	(wire
-		(pts
-			(xy 71.882 206.502) (xy 71.882 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeedd5d7-a708-41a7-9bbe-33873c9c3939")
 	)
 	(wire
 		(pts
@@ -14239,13 +13371,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.908 382.524) (xy 152.908 392.43)
+			(xy 109.474 397.764) (xy 110.236 397.764)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f33d5f12-109d-4747-a7f1-d4983e8cf66b")
+		(uuid "f32a4185-f483-44bf-a5ef-015086f51593")
 	)
 	(wire
 		(pts
@@ -14266,16 +13398,6 @@
 			(type default)
 		)
 		(uuid "f3d13b56-f13f-4ef1-8f0d-1d61541510be")
-	)
-	(wire
-		(pts
-			(xy 169.164 223.52) (xy 186.944 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4228c28-822c-4836-bad0-ccdd0446f04e")
 	)
 	(wire
 		(pts
@@ -14349,7 +13471,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.908 392.43) (xy 193.802 392.43)
+			(xy 36.322 392.43) (xy 71.12 392.43)
 		)
 		(stroke
 			(width 0)
@@ -14369,16 +13491,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.376 341.884) (xy 87.376 382.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7f2270c-7b60-4e77-abd0-b916468f6aa1")
-	)
-	(wire
-		(pts
 			(xy 456.184 216.408) (xy 456.184 217.424)
 		)
 		(stroke
@@ -14386,16 +13498,6 @@
 			(type default)
 		)
 		(uuid "f86a92ce-7e37-4ffd-8dd4-254ead0cf905")
-	)
-	(wire
-		(pts
-			(xy 235.458 241.3) (xy 276.352 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8c49370-9f4d-46fb-a13e-ef3eba00f213")
 	)
 	(wire
 		(pts
@@ -16701,7 +15803,7 @@
 	)
 	(global_label "row5"
 		(shape input)
-		(at 244.856 466.852 180)
+		(at 241.554 489.204 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -16710,7 +15812,7 @@
 		)
 		(uuid "00c8f5c4-36b0-4491-8b15-364437d1af37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 466.852 0)
+			(at 232.029 489.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16759,26 +15861,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 94.996 203.2 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "05e2de66-8722-4943-9f27-6eb7e6769d91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.996 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS_Solenoid_side"
 		(shape input)
 		(at 403.86 86.36 0)
@@ -16813,26 +15895,6 @@
 		(uuid "077b9edb-b816-4c32-be07-337e1ab79288")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 373.634 349.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 217.678 203.2 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "0cb837bf-95db-48db-b038-e4cd6c05d8ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.678 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17013,7 +16075,7 @@
 	)
 	(global_label "col4"
 		(shape input)
-		(at 244.856 474.472 180)
+		(at 241.554 496.824 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -17022,7 +16084,7 @@
 		)
 		(uuid "1732b6a2-46d2-4f77-9236-0d82cf9b17b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 474.472 0)
+			(at 232.029 496.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17136,7 +16198,7 @@
 	)
 	(global_label "col0"
 		(shape input)
-		(at 244.856 469.392 180)
+		(at 241.554 491.744 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -17145,7 +16207,7 @@
 		)
 		(uuid "1ed8c900-ef0c-4835-a2d6-f64b61ce34a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 469.392 0)
+			(at 232.029 491.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17170,28 +16232,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 56.642 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "22a8ddb7-a840-487c-9cb5-0e2e921e61dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.642 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17240,7 +16280,7 @@
 	)
 	(global_label "row3"
 		(shape input)
-		(at 244.856 451.866 180)
+		(at 241.554 474.218 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -17249,7 +16289,7 @@
 		)
 		(uuid "241cf131-b3a0-495d-8bfd-c8fbb05c7e5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 451.866 0)
+			(at 232.029 474.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17362,7 +16402,7 @@
 	)
 	(global_label "col1"
 		(shape input)
-		(at 244.856 479.552 180)
+		(at 241.554 501.904 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -17371,7 +16411,7 @@
 		)
 		(uuid "30e30835-9ac2-4991-a6db-34d4aad2df75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 479.552 0)
+			(at 232.029 501.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17382,7 +16422,7 @@
 	)
 	(global_label "row3"
 		(shape input)
-		(at 244.856 484.632 180)
+		(at 241.554 506.984 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -17391,27 +16431,7 @@
 		)
 		(uuid "3326d592-742b-4571-be90-173d187d1d33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 484.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 135.89 203.2 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "3383abf0-71ff-4d1e-be1a-911419ca4c48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 203.2 90)
+			(at 232.029 506.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17458,26 +16478,6 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 54.102 203.2 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "39dbebc0-236c-4291-a8e0-32fd0d8fff81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.102 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -17565,7 +16565,7 @@
 	)
 	(global_label "col0"
 		(shape input)
-		(at 46.482 399.034 270)
+		(at 46.482 421.64 270)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -17574,33 +16574,11 @@
 		)
 		(uuid "44028b50-721c-43fb-8574-35df0c5cc53e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.007 399.034 0)
+			(at 56.007 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 220.218 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "44195443-e835-494a-82ae-b6ea737139f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.218 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17627,7 +16605,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 243.332 429.006 180)
+		(at 240.03 451.358 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -17636,7 +16614,7 @@
 		)
 		(uuid "45afea0e-5b33-410b-a8bc-287e2054df00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.332 419.481 90)
+			(at 240.03 441.833 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17686,28 +16664,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 179.324 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "47d079be-4ce8-4279-ae2b-5b08dd33aa3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.324 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND_mobile_Flick4"
 		(shape input)
 		(at 118.618 45.466 180)
@@ -17732,7 +16688,7 @@
 	)
 	(global_label "ENCA"
 		(shape input)
-		(at 170.688 438.912 180)
+		(at 167.386 461.264 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17742,32 +16698,12 @@
 		)
 		(uuid "486bc573-8595-45e3-be40-dfb0ef841cec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8647 438.912 0)
+			(at 159.5627 461.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED"
-		(shape input)
-		(at 273.05 362.204 0)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left)
-		)
-		(uuid "4af9ed6e-26a3-4345-aa86-a9165337595a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 362.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -17834,6 +16770,28 @@
 	)
 	(global_label "VBUS"
 		(shape input)
+		(at 140.208 402.844 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "5034a203-d4a1-4eca-b8d0-2b89f35cb2ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.7976 402.844 0)
+			(effects
+				(font
+					(size 1.1938 1.1938)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
 		(at 180.34 321.564 180)
 		(fields_autoplaced yes)
 		(effects
@@ -17856,7 +16814,7 @@
 	)
 	(global_label "col2"
 		(shape input)
-		(at 244.856 444.246 180)
+		(at 241.554 466.598 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -17865,27 +16823,7 @@
 		)
 		(uuid "5396cbf2-a43b-4d1a-b048-cf5b1d4df01f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 444.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 176.784 203.2 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "54d005b3-9c10-4def-bb63-6b5f1d0c930d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.784 203.2 90)
+			(at 232.029 466.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18077,31 +17015,9 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 263.652 160.274 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left)
-		)
-		(uuid "67a37536-71d9-48f4-8aae-24d2fde78f02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.652 152.8636 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col1"
 		(shape input)
-		(at 87.376 399.034 270)
+		(at 87.376 421.64 270)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18110,7 +17026,7 @@
 		)
 		(uuid "684475f8-8f01-42c5-9272-02bac1b9da1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.901 399.034 0)
+			(at 96.901 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18242,6 +17158,28 @@
 			)
 		)
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 99.314 402.844 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "700dd6a4-8e18-4daf-8dd3-f9d756ee54cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.9036 402.844 0)
+			(effects
+				(font
+					(size 1.1938 1.1938)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row2"
 		(shape input)
 		(at 374.396 214.376 0)
@@ -18283,28 +17221,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 138.43 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "75a662a6-5058-48fa-b8ee-3d5990976cfc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3.3V-VIK"
 		(shape input)
 		(at 373.634 344.678 180)
@@ -18341,27 +17257,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SolenoidPin"
-		(shape input)
-		(at 266.192 160.274 90)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left)
-		)
-		(uuid "775aa11e-0770-4207-aabf-103299f41a87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.192 160.274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -18408,7 +17303,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 243.332 461.772 180)
+		(at 240.03 484.124 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -18417,7 +17312,7 @@
 		)
 		(uuid "7b4f60f4-05b4-4d61-933e-33bf66671865")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.332 452.247 90)
+			(at 240.03 474.599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18469,7 +17364,7 @@
 	)
 	(global_label "col5"
 		(shape input)
-		(at 244.856 482.092 180)
+		(at 241.554 504.444 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -18478,7 +17373,7 @@
 		)
 		(uuid "7ed276ec-9e4f-4ee9-ba29-b6d1215a0edb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.856 491.617 90)
+			(at 241.554 513.969 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18531,7 +17426,7 @@
 	)
 	(global_label "col0"
 		(shape input)
-		(at 244.856 436.626 180)
+		(at 241.554 458.978 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -18540,7 +17435,7 @@
 		)
 		(uuid "89873492-2326-4b96-bdac-9bb5f89eb298")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 436.626 0)
+			(at 232.029 458.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18551,7 +17446,7 @@
 	)
 	(global_label "GND_mobile_Pull1"
 		(shape input)
-		(at 102.616 453.898 0)
+		(at 99.314 476.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18561,7 +17456,7 @@
 		)
 		(uuid "8ee81a8b-691f-4933-a704-8528231be317")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.7157 453.898 0)
+			(at 119.4137 476.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18615,7 +17510,7 @@
 	)
 	(global_label "col3"
 		(shape input)
-		(at 244.856 439.166 180)
+		(at 241.554 461.518 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -18624,7 +17519,7 @@
 		)
 		(uuid "915456b5-89ca-41d4-9fcd-7e1adfd4b85b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 439.166 0)
+			(at 232.029 461.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18657,7 +17552,7 @@
 	)
 	(global_label "col5"
 		(shape input)
-		(at 244.856 449.326 180)
+		(at 241.554 471.678 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -18666,7 +17561,7 @@
 		)
 		(uuid "98ccd4dd-c653-4271-943b-9ad45922b064")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.856 458.851 90)
+			(at 241.554 481.203 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18799,7 +17694,7 @@
 	)
 	(global_label "ENCB"
 		(shape input)
-		(at 170.688 443.992 180)
+		(at 167.386 466.344 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18809,7 +17704,7 @@
 		)
 		(uuid "9d53dea0-2a1d-429d-9f9b-5eddb0fe46df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6833 443.992 0)
+			(at 159.3813 466.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18839,6 +17734,26 @@
 			)
 		)
 	)
+	(global_label "LED"
+		(shape input)
+		(at 150.368 402.844 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "9f61ad71-f25c-4d46-9fe9-b0de4fe30efd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.368 402.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col2"
 		(shape input)
 		(at 127.254 260.604 180)
@@ -18859,29 +17774,9 @@
 			)
 		)
 	)
-	(global_label "row4"
-		(shape input)
-		(at 36.576 241.3 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "a1715b09-a269-4140-8ce1-358cf1116250")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.051 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col3"
 		(shape input)
-		(at 244.856 471.932 180)
+		(at 241.554 494.284 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -18890,7 +17785,7 @@
 		)
 		(uuid "a173e4e7-8629-4c3f-93a6-d592bf664256")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 471.932 0)
+			(at 232.029 494.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19025,29 +17920,9 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 258.572 203.2 270)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "b0a649cc-bde1-4adb-a136-1a7f55756c91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.572 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col2"
 		(shape input)
-		(at 244.856 477.012 180)
+		(at 241.554 499.364 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -19056,7 +17931,7 @@
 		)
 		(uuid "b253245b-22cb-43e9-8893-ff83f3ec2f2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 477.012 0)
+			(at 232.029 499.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,7 +18129,7 @@
 	)
 	(global_label "col1"
 		(shape input)
-		(at 244.856 446.786 180)
+		(at 241.554 469.138 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -19263,7 +18138,7 @@
 		)
 		(uuid "c367cc84-a692-4197-b50a-9a87aea7037c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 446.786 0)
+			(at 232.029 469.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19379,7 +18254,7 @@
 	)
 	(global_label "col2"
 		(shape input)
-		(at 128.27 399.034 270)
+		(at 128.27 421.64 270)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -19388,7 +18263,7 @@
 		)
 		(uuid "cf5d1f93-380f-4ca6-ac92-d35d6c58adf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.795 399.034 0)
+			(at 137.795 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19418,28 +18293,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 261.112 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "d1749457-5fb8-41ae-b6f9-b7d11c4a5ef5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.112 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "row2"
 		(shape input)
 		(at 36.322 351.79 180)
@@ -19462,7 +18315,7 @@
 	)
 	(global_label "col3"
 		(shape input)
-		(at 169.164 399.034 270)
+		(at 169.164 421.64 270)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -19471,7 +18324,7 @@
 		)
 		(uuid "d3769f9d-10e1-4d7d-b1d6-3e0fb5f35afd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.689 399.034 0)
+			(at 178.689 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19516,27 +18369,6 @@
 			(effects
 				(font
 					(size 1.1938 1.1938)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 261.112 160.274 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5f9d45c-2100-44b7-ac49-29b5c5ecbf92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.1914 152.7688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
@@ -19619,6 +18451,28 @@
 		(uuid "dd1a587b-b46c-4cb9-9bb8-6193e9207a64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254.7176 321.564 0)
+			(effects
+				(font
+					(size 1.1938 1.1938)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 58.42 402.844 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify right)
+		)
+		(uuid "e1405327-2887-4ab5-beba-0496bbc5ce8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.0096 402.844 0)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -19755,7 +18609,7 @@
 	)
 	(global_label "GND_mobile_Pull2"
 		(shape input)
-		(at 125.984 522.732 0)
+		(at 122.682 545.084 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19765,7 +18619,7 @@
 		)
 		(uuid "ee521510-d457-4e49-a04f-a13c828ac77d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.0837 522.732 0)
+			(at 142.7817 545.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19900,28 +18754,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 97.536 203.2 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "fb36fa16-b1ab-49e1-bb98-cc600ceea805")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.536 210.6104 90)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND-sep_thumbs"
 		(shape input)
 		(at 368.808 403.606 0)
@@ -19944,7 +18776,7 @@
 	)
 	(global_label "col4"
 		(shape input)
-		(at 244.856 441.706 180)
+		(at 241.554 464.058 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -19953,7 +18785,7 @@
 		)
 		(uuid "fc2d7613-34f0-4492-9935-e9e1ec4777c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 441.706 0)
+			(at 232.029 464.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19984,7 +18816,7 @@
 	)
 	(global_label "row5"
 		(shape input)
-		(at 244.856 434.086 180)
+		(at 241.554 456.438 180)
 		(effects
 			(font
 				(size 1.1938 1.1938)
@@ -19993,7 +18825,7 @@
 		)
 		(uuid "fde6588e-db9c-4134-9524-719bca280f20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.331 434.086 0)
+			(at 232.029 456.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20509,6 +19341,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Chukozor_symbols:1N4148")
+		(at 71.12 387.096 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "037b701d-8760-40da-a6d9-f4438ef7e401")
+		(property "Reference" "D19"
+			(at 73.152 385.8259 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 73.152 388.3659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
+			(at 60.198 386.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 63.246 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 61.722 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 58.42 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 65.278 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7c95f81-5666-48f6-8ae1-b07e1b9eee17")
+		)
+		(pin "1"
+			(uuid "158c28c0-cde1-4901-a349-f6e5aa7a6160")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-HIGH-687108183722")
 		(at 220.98 68.326 0)
 		(unit 1)
@@ -20644,94 +19564,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "KHigh-1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:1N4148")
-		(at 71.882 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04e766ff-4b44-4e09-a936-043a9949657a")
-		(property "Reference" "D25"
-			(at 73.914 236.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 73.914 238.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
-			(at 60.96 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 64.008 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 62.484 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 59.182 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "380ed1b0-d365-4055-a3eb-23453d6151a1")
-		)
-		(pin "1"
-			(uuid "9e9c19d3-500f-4b65-b995-d401b97269d3")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -20958,6 +19790,71 @@
 		)
 	)
 	(symbol
+		(lib_id "chocofi-rescue:GND-power")
+		(at 151.13 397.764 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c14888b-b77e-4073-8633-af67f134d675")
+		(property "Reference" "#PWR022"
+			(at 157.48 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1657e560-6bb0-42f0-8cdc-fc4d4f1bc9dd")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:Azoteq-Procyon-Manual_soldering")
 		(at 411.226 362.966 0)
 		(unit 1)
@@ -21169,7 +20066,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 83.058 471.932 0)
+		(at 79.756 494.284 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21177,7 +20074,7 @@
 		(dnp no)
 		(uuid "138a063e-2359-48e1-98f6-98691eaab706")
 		(property "Reference" "M1.6-1"
-			(at 85.852 470.6619 0)
+			(at 82.55 493.0139 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21186,7 +20083,7 @@
 			)
 		)
 		(property "Value" "MountingHoleM1.6"
-			(at 85.852 473.2019 0)
+			(at 82.55 495.5539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21195,7 +20092,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
-			(at 83.058 471.932 0)
+			(at 79.756 494.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21204,7 +20101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.058 471.932 0)
+			(at 79.756 494.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21213,7 +20110,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 83.058 471.932 0)
+			(at 79.756 494.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21891,147 +20788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
-		(at 142.24 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21d30654-039e-4478-bc3e-26caec8eeef3")
-		(property "Reference" "K3"
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPC_8pins_687108183722"
-			(at 142.24 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed_STENCIL"
-			(at 161.29 289.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 161.29 389.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 142.24 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at 161.29 589.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-687108183722"
-			(at 161.29 689.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at 161.29 789.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 161.29 889.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "687108183722"
-			(at 161.29 989.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP1"
-			(uuid "1c2d1666-77d4-41be-8496-097c14f66d8d")
-		)
-		(pin "6"
-			(uuid "2c7edfd8-75ae-4ec2-85ff-05e57e8f3b34")
-		)
-		(pin "4"
-			(uuid "5613649e-bec5-47b0-bdcd-d18ace540ad7")
-		)
-		(pin "3"
-			(uuid "dd012d05-45e4-4c7b-b18c-0e127b32f0fd")
-		)
-		(pin "2"
-			(uuid "232afdd4-3170-4607-b56d-840fe59ce7ec")
-		)
-		(pin "MP2"
-			(uuid "2b86e380-a3a9-4f56-8834-64fb69c3d899")
-		)
-		(pin "5"
-			(uuid "cbe1d384-cd95-47a0-8e89-13e25f5f9c23")
-		)
-		(pin "1"
-			(uuid "666f3236-844e-4bd5-a7d5-cf723d64e733")
-		)
-		(pin "7"
-			(uuid "a3859b85-ea1d-4e34-ab3c-40babb941b6d")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Chukozor_symbols:SW_Chuk_-PULL_switches")
 		(at 405.384 440.182 0)
 		(unit 1)
@@ -22408,7 +21164,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:FPC_connector-4p")
-		(at 96.774 456.184 270)
+		(at 93.472 478.536 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22416,7 +21172,7 @@
 		(dnp no)
 		(uuid "25571de8-775e-42da-97b0-e1f796cfb90e")
 		(property "Reference" "FF1"
-			(at 95.504 462.788 90)
+			(at 92.202 485.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22424,7 +21180,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 95.504 460.248 90)
+			(at 92.202 482.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22432,7 +21188,7 @@
 			)
 		)
 		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN_stencil"
-			(at 96.774 456.184 0)
+			(at 93.472 478.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22441,7 +21197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.774 456.184 0)
+			(at 93.472 478.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22450,7 +21206,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.774 456.184 0)
+			(at 93.472 478.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22552,7 +21308,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 108.458 546.1 0)
+		(at 105.156 568.452 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22561,7 +21317,7 @@
 		(fields_autoplaced yes)
 		(uuid "284908c0-02e8-43fb-8bb4-486742df173e")
 		(property "Reference" "M1.6-12"
-			(at 111.252 544.8299 0)
+			(at 107.95 567.1819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22570,7 +21326,7 @@
 			)
 		)
 		(property "Value" "MountingHoleM1.6"
-			(at 111.252 547.3699 0)
+			(at 107.95 569.7219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22579,7 +21335,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
-			(at 108.458 546.1 0)
+			(at 105.156 568.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22588,7 +21344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 108.458 546.1 0)
+			(at 105.156 568.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22597,7 +21353,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 108.458 546.1 0)
+			(at 105.156 568.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22757,147 +21513,6 @@
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "NT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
-		(at 224.028 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b697a9f-d564-447e-8c9e-905c5f95d0ac")
-		(property "Reference" "K5"
-			(at 224.028 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPC_8pins_687108183722"
-			(at 224.028 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed_STENCIL"
-			(at 243.078 289.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 243.078 389.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 224.028 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at 243.078 589.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-687108183722"
-			(at 243.078 689.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at 243.078 789.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 243.078 889.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "687108183722"
-			(at 243.078 989.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP1"
-			(uuid "62195301-7e07-44f5-8faf-5609c476a002")
-		)
-		(pin "6"
-			(uuid "fe08b755-2280-4dd5-98aa-237663397902")
-		)
-		(pin "4"
-			(uuid "f664770c-8a3b-4c30-a4f0-45c001a491b1")
-		)
-		(pin "3"
-			(uuid "5462c689-9404-404a-a4f3-0a8939db1aa5")
-		)
-		(pin "2"
-			(uuid "87b83149-38ca-4a2e-b2a0-5ee141ae73fc")
-		)
-		(pin "MP2"
-			(uuid "3e1479cb-363e-49d5-9593-4bfdf47a0833")
-		)
-		(pin "5"
-			(uuid "817eb197-3fba-433e-9c0f-2a99481ed881")
-		)
-		(pin "1"
-			(uuid "19d6ffb2-ab15-45c0-a1f7-b241f58331b9")
-		)
-		(pin "7"
-			(uuid "285eeefb-9f80-4bbc-a53b-f2bec069d080")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -24164,79 +22779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 263.652 165.354 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "461bd1fe-86fd-4ada-9574-d5bc9c96a24b")
-		(property "Reference" "J1"
-			(at 264.414 168.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 268.986 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:solenoid_ribon_connector"
-			(at 263.652 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 263.652 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 263.652 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96defb6b-fb7d-4663-8f18-7f2553a7cf54")
-		)
-		(pin "1"
-			(uuid "f184d26a-279a-4a87-b9b7-d258ba5a0649")
-		)
-		(pin "3"
-			(uuid "db40db2a-27a2-454c-a216-b5c98be85700")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "chocofi-rescue:GND-power")
 		(at 338.074 346.964 270)
 		(unit 1)
@@ -24459,86 +23001,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_connector-4p")
-		(at 109.982 377.444 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f7bd701-015d-432e-a152-16c9cbbc01f7")
-		(property "Reference" "F2"
-			(at 108.712 370.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 108.712 373.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-OUT_stencil"
-			(at 109.982 377.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.982 377.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 109.982 377.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "24f33f6d-7190-4417-9cb3-9172931d8933")
-		)
-		(pin "2"
-			(uuid "f9cf2516-b8b3-40fa-a600-c3308a7e4275")
-		)
-		(pin "3"
-			(uuid "a2608909-257a-4605-9dd4-ba122a7972be")
-		)
-		(pin "1"
-			(uuid "816235ac-a07e-43ea-b549-8a3404456ba6")
-		)
-		(pin "MP2"
-			(uuid "dcf84a3f-a589-4540-af1e-970dbe2f7374")
-		)
-		(pin "MP1"
-			(uuid "26e52aae-13f6-4c0b-b2ba-eb174c7f3f38")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Chukozor_symbols:TRRS_Chuck")
 		(at 465.074 218.948 0)
 		(unit 1)
@@ -24614,147 +23076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
-		(at 60.452 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51456ae2-07f5-423c-8c24-3bbd742a9864")
-		(property "Reference" "K1"
-			(at 60.452 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPC_8pins_687108183722"
-			(at 60.452 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed_STENCIL"
-			(at 79.502 289.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 79.502 389.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 60.452 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at 79.502 589.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-687108183722"
-			(at 79.502 689.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at 79.502 789.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 79.502 889.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "687108183722"
-			(at 79.502 989.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP1"
-			(uuid "0423d7b2-fa7d-4933-a2e6-bcf485b08eff")
-		)
-		(pin "6"
-			(uuid "9b26663e-3c3d-4d49-a171-4cd558a76dcd")
-		)
-		(pin "4"
-			(uuid "624d1c96-8acf-46aa-b19b-da46b0895c7a")
-		)
-		(pin "3"
-			(uuid "a6bcdbad-060b-4bb1-8006-9edc236649cf")
-		)
-		(pin "2"
-			(uuid "6a3a492b-a8b3-46a8-8e37-a96afe09960b")
-		)
-		(pin "MP2"
-			(uuid "3c8c5350-de1f-4bde-ba32-fadb6b3d5fd7")
-		)
-		(pin "5"
-			(uuid "25be30a7-763a-4245-a22c-a8c5269ae8c7")
-		)
-		(pin "1"
-			(uuid "94b9ff83-e30a-4f17-91dc-dd95fc682cd6")
-		)
-		(pin "7"
-			(uuid "337f2bc7-84c2-4799-a891-d9e7cb303683")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 340.36 333.502 0)
 		(unit 1)
@@ -24822,96 +23143,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:1N4148")
-		(at 153.67 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52f3e275-dd07-4c1d-85f8-e46d8ed10f7d")
-		(property "Reference" "D27"
-			(at 155.702 236.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 155.702 238.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
-			(at 142.748 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 145.796 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 144.272 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 140.97 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 147.828 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40ec0cc9-fe91-448e-bafd-a89aa961428a")
-		)
-		(pin "1"
-			(uuid "009b9731-4ea4-4d78-a763-37ade2d6b8b2")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 108.458 538.734 0)
+		(at 105.156 561.086 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -24920,7 +23153,7 @@
 		(fields_autoplaced yes)
 		(uuid "55064350-7354-439b-9206-ddcf74951822")
 		(property "Reference" "M1.6-11"
-			(at 111.252 537.4639 0)
+			(at 107.95 559.8159 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24929,7 +23162,7 @@
 			)
 		)
 		(property "Value" "MountingHoleM1.6"
-			(at 111.252 540.0039 0)
+			(at 107.95 562.3559 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24938,7 +23171,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
-			(at 108.458 538.734 0)
+			(at 105.156 561.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24947,7 +23180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 108.458 538.734 0)
+			(at 105.156 561.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24956,7 +23189,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 108.458 538.734 0)
+			(at 105.156 561.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25201,7 +23434,7 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
-		(at 117.856 511.556 0)
+		(at 114.554 533.908 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25209,7 +23442,7 @@
 		(dnp no)
 		(uuid "5c8657ef-72d0-4e8d-bb32-165cd599ef79")
 		(property "Reference" "Pull2"
-			(at 121.666 508.762 0)
+			(at 118.364 531.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25217,7 +23450,7 @@
 			)
 		)
 		(property "Value" "Pull"
-			(at 117.856 513.588 0)
+			(at 114.554 535.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25225,7 +23458,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Microswitche-2pins"
-			(at 117.856 511.556 0)
+			(at 114.554 533.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25234,7 +23467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 117.856 511.556 0)
+			(at 114.554 533.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25242,7 +23475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 117.856 511.556 0)
+			(at 114.554 533.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26259,7 +24492,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:SW_Chuk_-PULL_switches")
-		(at 95.25 442.468 0)
+		(at 91.948 464.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26268,7 +24501,7 @@
 		(fields_autoplaced yes)
 		(uuid "72391002-91ef-4923-adf0-7c79e15de1a4")
 		(property "Reference" "Pull1"
-			(at 95.25 435.61 0)
+			(at 91.948 457.962 0)
 			(effects
 				(font
 					(size 3.302 3.302)
@@ -26276,7 +24509,7 @@
 			)
 		)
 		(property "Value" "Pull"
-			(at 95.25 444.5 0)
+			(at 91.948 466.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26285,7 +24518,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_-PULL-simplifiev2"
-			(at 95.25 442.468 0)
+			(at 91.948 464.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26294,7 +24527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 442.468 0)
+			(at 91.948 464.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26303,7 +24536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 442.468 0)
+			(at 91.948 464.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26408,94 +24641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:1N4148")
-		(at 235.458 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72675eb2-29ef-4f4c-9b76-8307b2aeb9b5")
-		(property "Reference" "D29"
-			(at 237.49 236.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 237.49 238.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
-			(at 224.536 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 227.584 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 226.06 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 222.758 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 229.616 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fbc23bd9-2f6c-4b0a-a2c2-5b11ce28bb61")
-		)
-		(pin "1"
-			(uuid "8c1119a8-bf81-480d-b6d3-ae109917c048")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 328.168 93.472 90)
 		(unit 1)
@@ -26558,147 +24703,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
-		(at 101.346 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75c6d45b-c139-40de-a149-aa97a5cf55bd")
-		(property "Reference" "K2"
-			(at 101.346 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPC_8pins_687108183722"
-			(at 101.346 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed_STENCIL"
-			(at 120.396 289.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 120.396 389.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 101.346 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at 120.396 589.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-687108183722"
-			(at 120.396 689.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at 120.396 789.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 120.396 889.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "687108183722"
-			(at 120.396 989.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP1"
-			(uuid "cd54a4d5-9285-4a06-9890-70d757cb3279")
-		)
-		(pin "6"
-			(uuid "2399dad9-4a15-4514-979c-2f213ad906d4")
-		)
-		(pin "4"
-			(uuid "93f44c0a-108d-4bd9-8d06-246912716228")
-		)
-		(pin "3"
-			(uuid "c2957c6b-a061-488c-89b8-9a7ea8194fd4")
-		)
-		(pin "2"
-			(uuid "5120f21a-03d9-4acc-88eb-25f99d66bb72")
-		)
-		(pin "MP2"
-			(uuid "62f94808-2636-43df-9833-44f45a7d48c9")
-		)
-		(pin "5"
-			(uuid "140942dc-46e5-4de3-94dd-567bd06d67c2")
-		)
-		(pin "1"
-			(uuid "28b64e7e-453f-413b-acf0-156319fcbc05")
-		)
-		(pin "7"
-			(uuid "26adeff8-51f9-46f9-a28f-9fe735ad0f51")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -27172,6 +25176,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Chukozor_symbols:1N4148")
+		(at 152.908 387.096 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80f77e34-2619-4c82-aee2-548e8edb11eb")
+		(property "Reference" "D21"
+			(at 154.94 385.8259 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 154.94 388.3659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
+			(at 141.986 386.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 145.034 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 143.51 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 140.208 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.066 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb11fdf3-c47a-4b7f-bd63-30fa0a6e1596")
+		)
+		(pin "1"
+			(uuid "60b1b904-30dc-4ef6-86f8-326df4e2a520")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "chocofi-rescue:VCC-power")
 		(at 353.822 266.7 270)
 		(unit 1)
@@ -27554,33 +25646,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:FPC_connector-4p")
-		(at 150.368 377.444 270)
-		(mirror x)
+		(lib_id "Chukozor_symbols:SW_Chuk_LED")
+		(at 145.288 382.524 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8733d083-a73d-4856-8b79-a8b7769f108a")
-		(property "Reference" "F3"
-			(at 149.098 370.84 90)
+		(fields_autoplaced yes)
+		(uuid "882ca03e-588a-4c20-907a-414a837a8061")
+		(property "Reference" "SW21"
+			(at 145.288 376.174 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.302 3.302)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 149.098 373.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-OUT_stencil"
-			(at 150.368 377.444 0)
+		(property "Value" "SW_Chuk"
+			(at 145.288 384.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27588,8 +25672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 150.368 377.444 0)
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_LED_F_contreMCU"
+			(at 145.288 382.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27597,8 +25681,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 150.368 377.444 0)
+		(property "Datasheet" ""
+			(at 145.288 382.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27606,28 +25690,37 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "c940e5c1-8fa7-4d2b-836d-50dd9a257b38")
+		(property "Description" ""
+			(at 145.288 382.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "ef054153-3e22-48a5-8cff-4734156478de")
+		(pin "6"
+			(uuid "305005d4-f169-4e0a-b1b3-79e6b158636c")
 		)
-		(pin "3"
-			(uuid "22a93850-f04b-43d8-991d-6d7f280524a5")
+		(pin "5"
+			(uuid "69d9ba9a-8af9-4eda-88b3-0ae85f76fe30")
 		)
 		(pin "1"
-			(uuid "1476a2e9-9b3e-40bf-94bc-b5457de88ed9")
+			(uuid "0505a050-5d2e-4008-b911-ea297514d8eb")
 		)
-		(pin "MP2"
-			(uuid "87add6f4-9d4f-40c6-bf1d-12fea75dcba3")
+		(pin "2"
+			(uuid "057545b6-296f-475c-875f-aee4b840f11d")
 		)
-		(pin "MP1"
-			(uuid "efd0c963-1f0a-4786-b196-f760eaedd8ac")
+		(pin "4"
+			(uuid "c23110be-c94d-4b61-af7a-1dc774357ebb")
+		)
+		(pin "3"
+			(uuid "1010f739-0ef8-4177-8d70-97c3732a66d5")
 		)
 		(instances
-			(project ""
+			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "F3")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -28189,94 +26282,6 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:1N4148")
-		(at 194.564 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "946e8131-9e08-4218-b3a4-a8dd9ca7db07")
-		(property "Reference" "D28"
-			(at 196.596 236.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 196.596 238.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
-			(at 183.642 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 186.69 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 185.166 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 181.864 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 188.722 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40787ed3-8ea3-496d-9886-1ca53091bfec")
-		)
-		(pin "1"
-			(uuid "321ca506-5359-4211-9ecd-4adbbb2329e5")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:1N4148")
 		(at 234.696 265.176 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28358,147 +26363,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
-		(at 183.134 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "962150d1-eff9-4963-bc8b-ac7da70f9263")
-		(property "Reference" "K4"
-			(at 183.134 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPC_8pins_687108183722"
-			(at 183.134 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed_STENCIL"
-			(at 202.184 289.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 202.184 389.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 183.134 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at 202.184 589.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-687108183722"
-			(at 202.184 689.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at 202.184 789.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 202.184 889.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "687108183722"
-			(at 202.184 989.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP1"
-			(uuid "06fd5e4f-50f4-4d58-86a1-2fd9ea16cf81")
-		)
-		(pin "6"
-			(uuid "11b16fb1-e770-4f47-a88a-0f1e4a484b67")
-		)
-		(pin "4"
-			(uuid "28c76f5d-f15e-4525-a6f4-28c7f01759cd")
-		)
-		(pin "3"
-			(uuid "67467424-6951-44df-854a-aadc1e5968b4")
-		)
-		(pin "2"
-			(uuid "ca337cdb-0efe-48b1-bfdc-0c240427cd75")
-		)
-		(pin "MP2"
-			(uuid "5088594c-075d-4201-99f9-91e1c98c9baa")
-		)
-		(pin "5"
-			(uuid "929d0767-d679-4a5d-bc0a-7501437c01e6")
-		)
-		(pin "1"
-			(uuid "03f93e23-d0e0-4660-a380-3063fed705f9")
-		)
-		(pin "7"
-			(uuid "424d464f-9796-42d3-91ec-9e5a0a3b6305")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -29247,7 +27111,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:FPC_10pins_SPECIAL-thumbsOR-joystick")
-		(at 253.746 470.662 270)
+		(at 250.444 493.014 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29255,7 +27119,7 @@
 		(dnp no)
 		(uuid "a269a4bb-ac16-4583-bf96-a1f958ab757e")
 		(property "Reference" "T2"
-			(at 255.27 458.47 90)
+			(at 251.968 480.822 90)
 			(effects
 				(font
 					(size 2 2)
@@ -29264,7 +27128,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_SPECIAL-thumbs"
-			(at 258.318 486.918 90)
+			(at 255.016 509.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29273,7 +27137,7 @@
 			)
 		)
 		(property "Footprint" "FPC_connectors_Chukozor:FPC_10p-reversible-ThumbORJoystick-OUT"
-			(at 158.826 489.712 0)
+			(at 155.524 512.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29283,7 +27147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.826 489.712 0)
+			(at 55.524 512.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29293,7 +27157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 477.266 0)
+			(at 271.018 499.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29302,7 +27166,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at -141.174 489.712 0)
+			(at -144.476 512.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29312,7 +27176,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -241.174 489.712 0)
+			(at -244.476 512.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29322,7 +27186,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -341.174 489.712 0)
+			(at -344.476 512.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29332,7 +27196,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at -441.174 489.712 0)
+			(at -444.476 512.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29342,7 +27206,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at -541.174 489.712 0)
+			(at -544.476 512.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29483,94 +27347,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:1N4148")
-		(at 112.776 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abd5b1cb-dc42-4942-bf12-2b8c3e26a4f3")
-		(property "Reference" "D26"
-			(at 114.808 236.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 114.808 238.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
-			(at 101.854 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 104.902 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 103.378 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 100.076 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 106.934 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a82a8cf2-82d7-4540-ab04-b19ddc3b3e1d")
-		)
-		(pin "1"
-			(uuid "c5f2da68-c512-4c6b-a447-60bf906c05fa")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
 		(at 122.936 40.386 0)
 		(unit 1)
@@ -29638,7 +27414,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:1N4148")
-		(at 102.87 447.294 90)
+		(at 99.568 469.646 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29647,7 +27423,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae4eec4f-d87c-4a35-802d-2e667b8424f3")
 		(property "Reference" "D33"
-			(at 104.902 446.0239 90)
+			(at 101.6 468.3759 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29656,7 +27432,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 104.902 448.5639 90)
+			(at 101.6 470.9159 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29665,7 +27441,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:SMD_SOD_123_only_one_face"
-			(at 91.948 447.04 0)
+			(at 88.646 469.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29674,7 +27450,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 94.996 447.294 0)
+			(at 91.694 469.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29683,7 +27459,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 93.472 447.294 0)
+			(at 90.17 469.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29692,7 +27468,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 90.17 447.294 0)
+			(at 86.868 469.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29701,7 +27477,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 97.028 447.294 0)
+			(at 93.726 469.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29726,7 +27502,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:1N4148")
-		(at 126.238 516.128 90)
+		(at 122.936 538.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29735,7 +27511,7 @@
 		(fields_autoplaced yes)
 		(uuid "af4c0b2f-90a4-4108-a38b-a3bde9fc690d")
 		(property "Reference" "D34"
-			(at 128.778 514.8579 90)
+			(at 125.476 537.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29744,7 +27520,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 128.778 517.3979 90)
+			(at 125.476 539.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29753,7 +27529,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
-			(at 115.316 515.874 0)
+			(at 112.014 538.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29762,7 +27538,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 118.364 516.128 0)
+			(at 115.062 538.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29771,7 +27547,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 116.84 516.128 0)
+			(at 113.538 538.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29780,7 +27556,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 113.538 516.128 0)
+			(at 110.236 538.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29789,7 +27565,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.396 516.128 0)
+			(at 117.094 538.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30176,7 +27952,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:FPC_connector-4p")
-		(at 120.142 525.018 270)
+		(at 116.84 547.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30184,7 +27960,7 @@
 		(dnp no)
 		(uuid "ba5970cd-c30a-4e39-a2a1-1a2c0e601d0b")
 		(property "Reference" "FF2"
-			(at 118.872 531.622 90)
+			(at 115.57 553.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30192,7 +27968,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 118.872 529.082 90)
+			(at 115.57 551.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30200,7 +27976,7 @@
 			)
 		)
 		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-IN_stencil"
-			(at 120.142 525.018 0)
+			(at 116.84 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30209,7 +27985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.142 525.018 0)
+			(at 116.84 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30218,7 +27994,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.142 525.018 0)
+			(at 116.84 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30951,7 +28727,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 83.058 478.028 0)
+		(at 79.756 500.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -30960,7 +28736,7 @@
 		(fields_autoplaced yes)
 		(uuid "c579f8ed-12c3-43b0-b632-82373fe97070")
 		(property "Reference" "M1.6-2"
-			(at 85.852 476.7579 0)
+			(at 82.55 499.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30969,7 +28745,7 @@
 			)
 		)
 		(property "Value" "MountingHoleM1.6"
-			(at 85.852 479.2979 0)
+			(at 82.55 501.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30978,7 +28754,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
-			(at 83.058 478.028 0)
+			(at 79.756 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30987,7 +28763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.058 478.028 0)
+			(at 79.756 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30996,7 +28772,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 83.058 478.028 0)
+			(at 79.756 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31199,147 +28975,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "Spot1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-OUT-687108183722")
-		(at 264.922 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb44d734-288c-4715-a77f-1e9821aa6490")
-		(property "Reference" "K6"
-			(at 264.922 182.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPC_8pins_687108183722"
-			(at 264.922 184.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_8pins_VERTICAL_MOUSER-FFC2A3308TR-OUT-routed_STENCIL"
-			(at 283.972 289.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/687108183722.pdf"
-			(at 283.972 389.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact"
-			(at 264.922 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at 283.972 589.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-687108183722"
-			(at 283.972 689.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/687108183722?qs=5aG0NVq1C4xXKc1RTH472A%3D%3D"
-			(at 283.972 789.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 283.972 889.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "687108183722"
-			(at 283.972 989.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP1"
-			(uuid "2d3edc6b-2a96-4ba0-a208-779be6d90210")
-		)
-		(pin "6"
-			(uuid "902272de-c8f2-43b7-b6fa-069fab15b521")
-		)
-		(pin "4"
-			(uuid "b0c5e51f-c17e-4a4a-8d6f-3c9dfd18d97f")
-		)
-		(pin "3"
-			(uuid "275d724a-3940-4801-a948-db0388d48445")
-		)
-		(pin "2"
-			(uuid "9cb2c0ab-3f52-4b9f-bafd-9aa900f81053")
-		)
-		(pin "MP2"
-			(uuid "435b9193-e69e-4944-82d5-9f91315e3362")
-		)
-		(pin "5"
-			(uuid "09dcf648-e4f9-4071-a81c-159ecd0718b5")
-		)
-		(pin "1"
-			(uuid "14d38af8-b2be-45c9-ba23-cb6d76374252")
-		)
-		(pin "7"
-			(uuid "54895733-12a8-490a-a0bd-77fcb3bca663")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -31572,94 +29207,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:1N4148")
-		(at 276.352 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd2d9737-c11b-4875-aa6e-99f93e73d08e")
-		(property "Reference" "D30"
-			(at 278.384 236.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 278.384 238.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
-			(at 265.43 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 268.478 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 266.954 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 263.652 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 270.51 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66b530f0-bcf9-4e14-8679-0a353f2b482c")
-		)
-		(pin "1"
-			(uuid "a089358b-2d7c-44d5-84eb-b499f7080724")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -32223,7 +29770,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:FPC_10pins_SPECIAL-thumbsOR-joystick")
-		(at 253.746 437.896 270)
+		(at 250.444 460.248 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32231,7 +29778,7 @@
 		(dnp no)
 		(uuid "d4d185a5-4df1-4e9b-8112-684609dee50d")
 		(property "Reference" "T1"
-			(at 254.508 425.45 90)
+			(at 251.206 447.802 90)
 			(effects
 				(font
 					(size 2 2)
@@ -32240,7 +29787,7 @@
 			)
 		)
 		(property "Value" "FPC_8pins_SPECIAL-thumbs"
-			(at 258.318 454.152 90)
+			(at 255.016 476.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32249,7 +29796,7 @@
 			)
 		)
 		(property "Footprint" "FPC_connectors_Chukozor:FPC_10p-reversible-ThumbORJoystick-OUT"
-			(at 158.826 456.946 0)
+			(at 155.524 479.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32259,7 +29806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.826 456.946 0)
+			(at 55.524 479.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32269,7 +29816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 444.5 0)
+			(at 271.018 466.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32278,7 +29825,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at -141.174 456.946 0)
+			(at -144.476 479.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32288,7 +29835,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -241.174 456.946 0)
+			(at -244.476 479.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32298,7 +29845,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -341.174 456.946 0)
+			(at -344.476 479.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32308,7 +29855,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at -441.174 456.946 0)
+			(at -444.476 479.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32318,7 +29865,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at -541.174 456.946 0)
+			(at -544.476 479.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32696,6 +30243,87 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chukozor_symbols:SW_Chuk_LED")
+		(at 63.5 382.524 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7faed2a-2d78-49ea-a149-b799d54782fb")
+		(property "Reference" "SW19"
+			(at 63.5 376.174 0)
+			(effects
+				(font
+					(size 3.302 3.302)
+				)
+			)
+		)
+		(property "Value" "SW_Chuk"
+			(at 63.5 384.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_LED_F_contreMCU"
+			(at 63.5 382.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 382.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 382.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a16f252e-57c4-4b79-bd4e-1d4afaf7f170")
+		)
+		(pin "5"
+			(uuid "a547bcab-4f8e-4a4d-a77c-b4e55bcf4d6e")
+		)
+		(pin "1"
+			(uuid "5b9d7f82-7473-4efa-8829-73adc96a84e1")
+		)
+		(pin "2"
+			(uuid "56ca7c1c-0728-42aa-b4e7-1c91d06dd5fb")
+		)
+		(pin "4"
+			(uuid "276ab463-46bc-4209-bfaa-d18346c50a3d")
+		)
+		(pin "3"
+			(uuid "3c1613a4-c6a1-4ad2-9bb6-292530edc24f")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -33187,6 +30815,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Chukozor_symbols:1N4148")
+		(at 112.014 387.096 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e41ee51c-7c8a-4019-80c1-b9cd9878e7ec")
+		(property "Reference" "D20"
+			(at 114.046 385.8259 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 114.046 388.3659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:SMD_SOD_123-stencil"
+			(at 101.092 386.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 104.14 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 102.616 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 99.314 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.172 387.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7572ea0-f1ad-4c30-9f17-b74be03d44ad")
+		)
+		(pin "1"
+			(uuid "105976b9-e3a5-432f-a871-3c44dd9063db")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:SKRHACE010-5-ways-switches")
 		(at 355.346 536.702 0)
 		(unit 1)
@@ -33384,86 +31100,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:FPC_connector-4p")
-		(at 68.58 377.444 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e576b2e6-92da-4386-a0b8-8b1e8d7e31d5")
-		(property "Reference" "F1"
-			(at 67.31 370.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 67.31 373.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FPC_connectors_Chukozor:FPC_4pins_Horizontal-PULL-OUT_stencil"
-			(at 68.58 377.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 377.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 377.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "995eb97f-4abb-440f-81bd-40bcfdb90b2e")
-		)
-		(pin "2"
-			(uuid "949323d7-a1d5-4069-bcc9-b2137edca4c4")
-		)
-		(pin "3"
-			(uuid "c87b688e-c639-4991-be70-c935e502a6a6")
-		)
-		(pin "1"
-			(uuid "5ac9758a-7f96-428b-a36f-36c8131ac85c")
-		)
-		(pin "MP1"
-			(uuid "db712adf-f083-42ae-af21-db263879c181")
-		)
-		(pin "MP2"
-			(uuid "e2b4e1e9-dd54-4375-9ebe-086414b9a426")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -33812,17 +31448,25 @@
 		)
 	)
 	(symbol
-		(lib_id "chocofi-rescue:GND-power")
-		(at 161.798 441.452 270)
-		(mirror x)
+		(lib_id "Chukozor_symbols:SW_Chuk_LED")
+		(at 104.394 382.524 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ef5d0c6c-4654-44b0-b813-b3d039af8d29")
-		(property "Reference" "#PWR044"
-			(at 155.448 441.452 0)
+		(fields_autoplaced yes)
+		(uuid "ed823df9-c98a-4a41-93e8-431ae3e6a4fd")
+		(property "Reference" "SW20"
+			(at 104.394 376.174 0)
+			(effects
+				(font
+					(size 3.302 3.302)
+				)
+			)
+		)
+		(property "Value" "SW_Chuk"
+			(at 104.394 384.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33830,16 +31474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 157.988 441.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.798 441.452 0)
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_LED_F_contreMCU"
+			(at 104.394 382.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33848,7 +31484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.798 441.452 0)
+			(at 104.394 382.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33857,7 +31493,88 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.798 441.452 0)
+			(at 104.394 382.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e24726a4-e635-4e14-9e0f-ca55b6fb6e08")
+		)
+		(pin "5"
+			(uuid "8361f980-3c94-4fae-9559-026155ae44f2")
+		)
+		(pin "1"
+			(uuid "d471d056-b2f0-4dda-9711-53ac4d6d7b39")
+		)
+		(pin "2"
+			(uuid "6cd9c6ab-b31c-4e4c-9723-c985c148cf6c")
+		)
+		(pin "4"
+			(uuid "c7590291-f46f-43c6-874d-ab13ea3b0262")
+		)
+		(pin "3"
+			(uuid "8c8f78b1-4d6c-4117-8b00-70caf19fc3c7")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chocofi-rescue:GND-power")
+		(at 158.496 463.804 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef5d0c6c-4654-44b0-b813-b3d039af8d29")
+		(property "Reference" "#PWR044"
+			(at 152.146 463.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.686 463.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.496 463.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.496 463.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.496 463.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33872,6 +31589,71 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chocofi-rescue:GND-power")
+		(at 110.236 397.764 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1fb5fd3-4b09-47e9-afde-2eb3b8dab7a7")
+		(property "Reference" "#PWR026"
+			(at 116.586 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.046 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.236 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.236 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.236 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dce33a31-64df-4551-848c-ed5c3bcd2c69")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -34175,6 +31957,71 @@
 	)
 	(symbol
 		(lib_id "chocofi-rescue:GND-power")
+		(at 69.342 397.764 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd585ace-0c4c-4104-904c-245f6edf00b6")
+		(property "Reference" "#PWR027"
+			(at 75.692 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.152 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.342 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.342 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.342 397.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b142499d-1de8-4a2f-9e5d-6d2140ecd0b6")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chocofi-rescue:GND-power")
 		(at 192.024 316.484 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34240,7 +32087,7 @@
 	)
 	(symbol
 		(lib_id "Chukozor_symbols:RotaryEncoder_Switch")
-		(at 178.308 441.452 0)
+		(at 175.006 463.804 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34249,7 +32096,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff4de6a6-3292-4293-8de3-a5f03bc69ca8")
 		(property "Reference" "ENC1"
-			(at 178.308 431.8 0)
+			(at 175.006 454.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34257,7 +32104,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 178.308 434.34 0)
+			(at 175.006 456.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34265,7 +32112,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
-			(at 174.498 437.388 0)
+			(at 171.196 459.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34274,7 +32121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 178.308 434.848 0)
+			(at 175.006 457.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34283,7 +32130,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 178.308 441.452 0)
+			(at 175.006 463.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
