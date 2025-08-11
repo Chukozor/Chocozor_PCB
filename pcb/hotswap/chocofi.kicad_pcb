@@ -99512,6 +99512,172 @@
 			)
 		)
 	)
+	(footprint "vik:vik-logo-small"
+		(layer "F.Cu")
+		(uuid "f7ec94f8-2aec-4e16-bd83-0988f7da111b")
+		(at 177.440223 128.730617)
+		(property "Reference" "REF**"
+			(at 0.18 -3.29 0)
+			(unlocked yes)
+			(layer "User.1")
+			(uuid "63c49082-dfd0-46a8-9ef4-a0f4eb760e32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "vik-logo-small"
+			(at 0.05 4.33 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "210b9889-eabf-40f6-a28b-fbb923f69a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eb9a26c-1adc-49b5-9316-e0bdcdf91a26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f266eb6e-d5df-42de-a65c-5ab2ae47ddaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -2.880161 -1.806346)
+			(end -1.892323 -1.805976)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "18b8b437-332c-4263-b98c-5410f43c8ec1")
+		)
+		(fp_line
+			(start -2.383804 -1.52)
+			(end 2.38 -1.52)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "67ebb7cf-efdf-410a-acaa-cebc66493a04")
+		)
+		(fp_line
+			(start -1.815689 0.036813)
+			(end -2.880161 -1.806346)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "03636125-24b4-48bd-a6f7-618390bf427d")
+		)
+		(fp_line
+			(start -0.001902 2.605575)
+			(end -2.383804 -1.52)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98cffc07-d66f-439f-8f30-e1ec3f2bbfba")
+		)
+		(fp_line
+			(start 0.000114 3.195112)
+			(end -0.493459 2.339419)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c0236039-5e06-471e-9624-e1e5355395ab")
+		)
+		(fp_line
+			(start 0.741256 -1.793386)
+			(end 2.869715 -1.793686)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04c9ff73-e426-4401-80eb-d13e50abbe48")
+		)
+		(fp_line
+			(start 1.064084 1.351662)
+			(end 0.000114 3.195112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2a0c69b-9de8-430c-9998-124b4173de1a")
+		)
+		(fp_line
+			(start 2.38 -1.52)
+			(end -0.001902 2.605575)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "85c59646-d6bf-45a7-af09-a2160af5fd3b")
+		)
+		(fp_line
+			(start 2.869715 -1.793686)
+			(end 2.375449 -0.938393)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3c25b6c9-2730-4523-af7d-60fb935a182f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.4 0.21 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a85aec26-3dc1-4ee5-ab77-e3ced76c43c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(group ""
+			(uuid "c3276425-db61-4660-9032-99e26c32354b")
+			(members "03636125-24b4-48bd-a6f7-618390bf427d" "04c9ff73-e426-4401-80eb-d13e50abbe48"
+				"18b8b437-332c-4263-b98c-5410f43c8ec1" "3c25b6c9-2730-4523-af7d-60fb935a182f"
+				"67ebb7cf-efdf-410a-acaa-cebc66493a04" "85c59646-d6bf-45a7-af09-a2160af5fd3b"
+				"98cffc07-d66f-439f-8f30-e1ec3f2bbfba" "a2a0c69b-9de8-430c-9998-124b4173de1a"
+				"c0236039-5e06-471e-9624-e1e5355395ab"
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Switches_Chukozor:solenoid_ribon_connector"
 		(layer "F.Cu")
 		(uuid "fa5345fd-da68-44ef-ab7c-061fcd879e5b")
@@ -133973,6 +134139,18 @@
 			)
 		)
 	)
+	(gr_text "VIK"
+		(at 177.535 128.5 0)
+		(layer "F.SilkS")
+		(uuid "d8100d5c-0e83-40e8-9ff1-adce9b4b713e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "Flick4"
 		(at 53.11 71.1 0)
 		(layer "F.SilkS")
@@ -134041,6 +134219,19 @@
 			(font
 				(size 1 0.8)
 				(thickness 0.1125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "VIK"
+		(at 177.435 128.5 0)
+		(layer "B.SilkS")
+		(uuid "e707eede-5a95-4e8e-9627-6182825702d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify mirror)
 		)
