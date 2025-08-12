@@ -17257,6 +17257,27 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 262.636 158.496 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66e65fbb-7ce0-4042-8783-eede6e38a914")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.7154 150.9908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col1"
 		(shape input)
 		(at 87.376 421.64 270)
@@ -17418,6 +17439,28 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 265.176 158.496 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "70f71a4f-3a45-4b3b-a1ac-6c891affc4d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.176 151.0856 90)
+			(effects
+				(font
+					(size 1.1938 1.1938)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18389,6 +18432,27 @@
 					(size 1.1938 1.1938)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SolenoidPin"
+		(shape input)
+		(at 267.716 158.496 90)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "ca4c3449-b992-4fd0-9165-e3fe01ac45c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.716 158.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23399,6 +23463,79 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 265.176 163.576 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "461bd1fe-86fd-4ada-9574-d5bc9c96a24b")
+		(property "Reference" "J1"
+			(at 265.938 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 270.51 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:solenoid_ribon_connector"
+			(at 265.176 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.176 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.176 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96defb6b-fb7d-4663-8f18-7f2553a7cf54")
+		)
+		(pin "1"
+			(uuid "f184d26a-279a-4a87-b9b7-d258ba5a0649")
+		)
+		(pin "3"
+			(uuid "db40db2a-27a2-454c-a216-b5c98be85700")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "J1")
 					(unit 1)
 				)
 			)
