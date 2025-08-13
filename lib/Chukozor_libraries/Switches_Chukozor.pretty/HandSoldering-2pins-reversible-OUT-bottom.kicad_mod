@@ -1,4 +1,4 @@
-(footprint "soldering-pull_switch"
+(footprint "HandSoldering-2pins-reversible-OUT-bottom"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -53,8 +53,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -7.5 -1.15)
-		(end 7.51 -1.15)
+		(start -6.5 -1.15)
+		(end 6.51 -1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -63,8 +63,8 @@
 		(uuid "9a19e717-843b-46da-9232-7de85cae5482")
 	)
 	(fp_line
-		(start -7.5 1.15)
-		(end -7.5 -1.15)
+		(start -6.5 1.15)
+		(end -6.5 -1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "d3cd9107-973b-469c-98f4-22fcf68939d2")
 	)
 	(fp_line
-		(start -7.5 1.15)
-		(end 7.51 1.15)
+		(start -6.5 1.15)
+		(end 6.51 1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "7ec78072-f992-4a6a-945a-d9bd584351bc")
 	)
 	(fp_line
-		(start -5.07 -1.17)
-		(end -5.07 1.17)
+		(start -4.07 -1.17)
+		(end -4.07 1.17)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -93,8 +93,8 @@
 		(uuid "0683b43d-88bc-4a1a-bf4d-cf5f30aa1e5a")
 	)
 	(fp_line
-		(start -2.53 -1.17)
-		(end -2.53 1.17)
+		(start -1.53 -1.17)
+		(end -1.53 1.17)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -103,8 +103,8 @@
 		(uuid "deb31d9d-fe19-4cae-81a5-44c1276feecd")
 	)
 	(fp_line
-		(start 2.55 -1.17)
-		(end 2.55 1.17)
+		(start 1.55 -1.17)
+		(end 1.55 1.17)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -113,8 +113,8 @@
 		(uuid "389bf6a2-ca1a-45dd-97a0-f40887509065")
 	)
 	(fp_line
-		(start 5.09 -1.17)
-		(end 5.09 1.17)
+		(start 4.09 -1.17)
+		(end 4.09 1.17)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -123,8 +123,8 @@
 		(uuid "c2fde190-0f95-46bd-862d-462583c33168")
 	)
 	(fp_line
-		(start 7.51 -1.15)
-		(end 7.51 1.15)
+		(start 6.51 -1.15)
+		(end 6.51 1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -133,8 +133,8 @@
 		(uuid "158bbd7d-09b1-4a07-a815-bd169115446d")
 	)
 	(fp_rect
-		(start -4.895 1.37)
-		(end -2.745 3.02)
+		(start -3.895 -3.05)
+		(end -1.745 -1.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -144,8 +144,8 @@
 		(uuid "aff7d052-2340-47b6-bfec-f1bfcc01255c")
 	)
 	(fp_rect
-		(start 2.725 1.37)
-		(end 4.875 3.02)
+		(start 1.725 -3.05)
+		(end 3.875 -1.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -156,7 +156,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -4.295 1.745) (xy -4.295 2.67) (xy -3.345 2.67) (xy -3.345 1.745)
+			(xy -3.295 -2.675) (xy -3.295 -1.75) (xy -2.345 -1.75) (xy -2.345 -2.675)
 		)
 		(stroke
 			(width 0.1)
@@ -168,7 +168,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 3.325 1.745) (xy 3.325 2.67) (xy 4.275 2.67) (xy 4.275 1.745)
+			(xy 2.325 -2.675) (xy 2.325 -1.75) (xy 3.275 -1.75) (xy 3.275 -2.675)
 		)
 		(stroke
 			(width 0.1)
@@ -179,8 +179,8 @@
 		(uuid "cafcc59e-4df4-4cf9-ab33-e4181753f20f")
 	)
 	(fp_line
-		(start -7.5 -1.15)
-		(end -7.5 1.15)
+		(start -6.5 -1.15)
+		(end -6.5 1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -189,8 +189,8 @@
 		(uuid "fc5ef554-fe07-4bfa-81da-f60385ac07a8")
 	)
 	(fp_line
-		(start 7.51 -1.15)
-		(end -7.5 -1.15)
+		(start 6.51 -1.15)
+		(end -6.5 -1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -199,8 +199,8 @@
 		(uuid "3f1d2b52-dd52-4f79-a47e-9d4e5464a417")
 	)
 	(fp_line
-		(start 7.51 1.15)
-		(end -7.5 1.15)
+		(start 6.51 1.15)
+		(end -6.5 1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -209,8 +209,8 @@
 		(uuid "aa0ce343-59d7-4565-9664-f7c97c60b0f4")
 	)
 	(fp_line
-		(start 7.51 1.15)
-		(end 7.51 -1.15)
+		(start 6.51 1.15)
+		(end 6.51 -1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -219,8 +219,8 @@
 		(uuid "636d9cee-85e1-48dc-909c-910dd99909a0")
 	)
 	(fp_rect
-		(start -4.89 1.37)
-		(end -2.74 3.02)
+		(start -3.89 -3.05)
+		(end -1.74 -1.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -230,8 +230,8 @@
 		(uuid "2fca5c11-a8a0-431c-945b-62ea970f1ef2")
 	)
 	(fp_rect
-		(start 2.73 1.37)
-		(end 4.88 3.02)
+		(start 1.73 -3.05)
+		(end 3.88 -1.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -242,7 +242,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -4.29 1.745) (xy -4.29 2.67) (xy -3.34 2.67) (xy -3.34 1.745)
+			(xy -3.29 -2.675) (xy -3.29 -1.75) (xy -2.34 -1.75) (xy -2.34 -2.675)
 		)
 		(stroke
 			(width 0.1)
@@ -254,7 +254,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 3.33 1.745) (xy 3.33 2.67) (xy 4.28 2.67) (xy 4.28 1.745)
+			(xy 2.33 -2.675) (xy 2.33 -1.75) (xy 3.28 -1.75) (xy 3.28 -2.675)
 		)
 		(stroke
 			(width 0.1)
@@ -265,8 +265,8 @@
 		(uuid "ac2eb8e0-b539-48c3-9285-d7c6e9a81a46")
 	)
 	(fp_rect
-		(start -7.405 -1.05)
-		(end 7.42 1.075)
+		(start -6.405 -1.05)
+		(end 6.42 1.075)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -276,8 +276,8 @@
 		(uuid "15810a8f-2c25-4256-b77e-cd7171803b58")
 	)
 	(fp_rect
-		(start -7.405 -1.05)
-		(end 7.42 1.075)
+		(start -6.405 -1.05)
+		(end 6.42 1.075)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -287,7 +287,7 @@
 		(uuid "a7d25dd4-d689-49a6-b89f-d82dcd15fd7e")
 	)
 	(fp_text user "*"
-		(at 6.28 2.92 0)
+		(at 5.28 -1.5 0)
 		(layer "F.SilkS" knockout)
 		(uuid "debfdaf7-70f8-4943-91ad-6b2cf6e21a1a")
 		(effects
@@ -298,7 +298,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -6.42 2.945 0)
+		(at -5.42 -1.475 0)
 		(layer "F.SilkS" knockout)
 		(uuid "e0d3d73d-2bbb-4e2e-af67-4fc25f02a126")
 		(effects
@@ -309,7 +309,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -6.415 2.945 0)
+		(at -5.415 -1.475 0)
 		(layer "B.SilkS" knockout)
 		(uuid "11d48c0b-8a06-46b1-b816-2e387ec54fbe")
 		(effects
@@ -317,10 +317,11 @@
 				(size 2.2 2.2)
 				(thickness 0.27)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "*"
-		(at 6.285 2.92 0)
+		(at 5.285 -1.5 0)
 		(layer "B.SilkS" knockout)
 		(uuid "35e3dde8-2c0b-40f7-92f6-275ca19d111e")
 		(effects
@@ -328,9 +329,10 @@
 				(size 2.2 2.2)
 				(thickness 0.27)
 			)
+			(justify mirror)
 		)
 	)
-	(fp_text user "Pull switches"
+	(fp_text user "2pins-reversible"
 		(at -0.15 -2.01 0)
 		(layer "User.1")
 		(uuid "bc306085-0f5b-42f6-9f2e-ddfba602b8a0")
@@ -342,7 +344,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -6.35 0)
+		(at -5.35 0)
 		(size 1.397 1.778)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
@@ -361,7 +363,7 @@
 		(uuid "85cfc31c-8555-42c3-9e8b-c5dfccc85f7c")
 	)
 	(pad "1" thru_hole oval
-		(at 6.35 0)
+		(at 5.35 0)
 		(size 1.397 1.778)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
@@ -380,7 +382,7 @@
 		(uuid "b738afe8-394f-4688-9095-e98a71db553e")
 	)
 	(pad "2" thru_hole oval
-		(at -3.81 0)
+		(at -2.81 0)
 		(size 1.397 1.778)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
@@ -399,7 +401,7 @@
 		(uuid "4c46408d-5dee-49ef-b295-f8c828f2054e")
 	)
 	(pad "2" thru_hole oval
-		(at 3.81 0)
+		(at 2.81 0)
 		(size 1.397 1.778)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
