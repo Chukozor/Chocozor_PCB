@@ -24913,7 +24913,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 30.48 57.15 0)
+		(at 327.914 77.724 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -24922,7 +24922,7 @@
 		(fields_autoplaced yes)
 		(uuid "63a53d0e-64d4-4ec7-955e-9e0c5e662f1a")
 		(property "Reference" "M2-2"
-			(at 33.02 55.8799 0)
+			(at 330.454 76.4539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24931,7 +24931,7 @@
 			)
 		)
 		(property "Value" "MountingHoleM2"
-			(at 33.02 58.4199 0)
+			(at 330.454 78.9939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24940,7 +24940,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2"
-			(at 30.48 57.15 0)
+			(at 327.914 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24949,7 +24949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 57.15 0)
+			(at 327.914 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24958,7 +24958,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 30.48 57.15 0)
+			(at 327.914 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25123,6 +25123,70 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 282.702 378.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "664ced9b-06a2-426f-b2e8-cf0f4b7a47f7")
+		(property "Reference" "M2-hole2.5"
+			(at 285.75 377.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM2"
+			(at 285.75 379.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2-hole2.5"
+			(at 282.702 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 282.702 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 282.702 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M2-hole2.5")
 					(unit 1)
 				)
 			)
@@ -27930,7 +27994,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 59.436 57.404 0)
+		(at 406.4 76.962 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -27939,7 +28003,7 @@
 		(fields_autoplaced yes)
 		(uuid "965bb365-d624-464c-afad-3f93024d0bd6")
 		(property "Reference" "M2-3"
-			(at 61.976 56.1339 0)
+			(at 408.94 75.6919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27948,7 +28012,7 @@
 			)
 		)
 		(property "Value" "MountingHoleM2"
-			(at 61.976 58.6739 0)
+			(at 408.94 78.2319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27957,7 +28021,7 @@
 			)
 		)
 		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2"
-			(at 59.436 57.404 0)
+			(at 406.4 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27966,7 +28030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.436 57.404 0)
+			(at 406.4 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27975,7 +28039,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 59.436 57.404 0)
+			(at 406.4 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
