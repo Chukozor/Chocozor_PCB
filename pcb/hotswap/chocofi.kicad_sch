@@ -5129,44 +5129,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 16.51 0)
-					(length 2)
-					(hide yes)
-					(name "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 15.24 0)
-					(length 2)
-					(hide yes)
-					(name "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -3.81 -10.16 90)
 					(length 5.08)
@@ -5564,6 +5526,235 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18640,6 +18831,26 @@
 			)
 		)
 	)
+	(global_label "row5"
+		(shape input)
+		(at 234.442 409.194 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "c1f06837-3cbb-4b03-ab40-f9a6c21f0d00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.442 409.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 348.107 370.84 0)
@@ -21175,9 +21386,6 @@
 		(pin "4"
 			(uuid "13bd6588-4019-48ff-9243-3f881d4040a5")
 		)
-		(pin "MP2"
-			(uuid "858823ea-a419-44cc-bb71-403de6269245")
-		)
 		(pin "5"
 			(uuid "c5a49fa2-51ff-45c4-b276-e8de37d20355")
 		)
@@ -21186,9 +21394,6 @@
 		)
 		(pin "1"
 			(uuid "c74a25bb-09d5-47e9-8ebf-ad7106f8fd0b")
-		)
-		(pin "MP1"
-			(uuid "6871a49f-67ab-4b7c-aaf3-4c794f58b7f7")
 		)
 		(pin "3"
 			(uuid "fad5b270-e293-4690-9f47-3c89a6b649a6")
@@ -25634,8 +25839,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:Conn_01x04")
-		(at 229.362 414.274 270)
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 229.362 414.274 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25643,7 +25849,7 @@
 		(dnp no)
 		(uuid "6e57eabe-dbf2-49de-a558-5fe18c464fd2")
 		(property "Reference" "J4"
-			(at 228.092 418.084 90)
+			(at 230.632 418.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25651,14 +25857,14 @@
 			)
 		)
 		(property "Value" "Connexion-ThumbSolo"
-			(at 228.092 420.624 90)
+			(at 230.632 420.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Thumbkeys-4pins"
+		(property "Footprint" "Switches_Chukozor:Thumbkeys-5pins"
 			(at 229.362 414.274 0)
 			(effects
 				(font
@@ -25676,7 +25882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 229.362 414.274 0)
 			(effects
 				(font
@@ -25696,6 +25902,9 @@
 		)
 		(pin "4"
 			(uuid "b354b99f-b60f-4e67-b935-7207da905bbb")
+		)
+		(pin "5"
+			(uuid "fe7da1a7-a58e-479d-9e93-7192e45c00c2")
 		)
 		(instances
 			(project "chocofi"
@@ -27255,9 +27464,6 @@
 		(pin "4"
 			(uuid "33fc5eea-23f3-41bd-8348-5ef0dd8494a7")
 		)
-		(pin "MP2"
-			(uuid "cda77c80-add2-42d4-a78e-b8d4654d110e")
-		)
 		(pin "5"
 			(uuid "5db3c8bf-c6a3-4b3d-b508-cf6392de494c")
 		)
@@ -27266,9 +27472,6 @@
 		)
 		(pin "1"
 			(uuid "fef400ba-de4c-44a1-8b9f-a1e57c94c239")
-		)
-		(pin "MP1"
-			(uuid "1c04d662-fd33-44e7-b381-1c371d7745b9")
 		)
 		(pin "3"
 			(uuid "dcfe7a8e-c5d8-4a15-ad00-4ecac7c60eee")
