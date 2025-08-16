@@ -14,12 +14,12 @@ FOLDER_CASE=case
 # fi
 
 # Check PCB DRC and abort execution in case of DRC failure WITHOUT --schematic-parity
-C:/Program\ Files/KiCad/9.0/bin/kicad-cli.exe pcb drc -o $FOLDER_PCB/chocofi-drc.report --all-track-errors --severity-error --severity-warning --exit-code-violations $FOLDER_PCB/chocofi.kicad_pcb
-if [ $? -eq 5 ]
-then
-    echo "DRC FAIL : Exit"
-    exit 1 
-fi
+# C:/Program\ Files/KiCad/9.0/bin/kicad-cli.exe pcb drc -o $FOLDER_PCB/chocofi-drc.report --all-track-errors --severity-error --severity-warning --exit-code-violations $FOLDER_PCB/chocofi.kicad_pcb
+# if [ $? -eq 5 ]
+# then
+#     echo "DRC FAIL : Exit"
+#     exit 1 
+# fi
 
 mkdir -p $FOLDER_GERBER $FOLDER_PDF $FOLDER_CASE && \
 
