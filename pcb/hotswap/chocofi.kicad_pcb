@@ -39703,7 +39703,7 @@
 	(footprint "Switches_Chukozor:Mounting-hole-M1.6"
 		(layer "F.Cu")
 		(uuid "0dbdc371-36f8-47f8-961c-1123711e36e0")
-		(at 213.41 260.2)
+		(at 206.11 253.9)
 		(property "Reference" "M1.6-21"
 			(at 0 -2.5 0)
 			(unlocked yes)
@@ -43690,7 +43690,7 @@
 	(footprint "Switches_Chukozor:Mounting-hole-M1.6"
 		(layer "F.Cu")
 		(uuid "2745ced1-0582-4c75-b97d-fcc5a66095f3")
-		(at 213.41 256.15)
+		(at 224.51 227.4)
 		(property "Reference" "M1.6-20"
 			(at 0 -2.5 0)
 			(unlocked yes)
@@ -100295,6 +100295,17 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "a764acef-f53e-4469-bd12-0cbb604e2242")
+	)
+	(gr_rect
+		(start 203.51 222.8)
+		(end 227.21 256.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a88df018-bb6e-48d0-a189-bee1797149b2")
 	)
 	(gr_line
 		(start 148.41 65.3)
