@@ -408,20 +408,10 @@
 		(uuid "9f766bff-964d-4a89-870a-327deadfcc83")
 	)
 	(embedded_fonts no)
-	(model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/pin-header-1x4.step"
+	(model "${KIPRJMOD}/../../case/V3/tools/Thumb-Connection-FINAL.step"
+		(opacity 0.6800)
 		(offset
-			(xyz 3.8 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
 			(xyz 0 0 0)
-		)
-	)
-	(model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step"
-		(offset
-			(xyz 3.8 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

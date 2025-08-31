@@ -530,15 +530,16 @@
 		(uuid "85cfc31c-8555-42c3-9e8b-c5dfccc85f7c")
 	)
 	(embedded_fonts no)
-	(model "smd\\resistors\\R0603.wrl"
+	(model "${KIPRJMOD}/../../case/V3/tools/Trackpad-Connection-FINAL.step"
+		(opacity 0.7900)
 		(offset
-			(xyz -3.8 0 0.02539999962)
+			(xyz -2.3 -5.65 0)
 		)
 		(scale
-			(xyz 0.5 0.5 0.5)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

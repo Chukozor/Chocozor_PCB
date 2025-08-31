@@ -1623,15 +1623,16 @@
 		(uuid "ecc84e1f-aebb-4faa-aae0-35c9c8548c5e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/cornia-footprints.pretty/3dmodels/RP2040_ProMicro.STEP"
+	(model "${KIPRJMOD}/../../case/V3/tools/MCU-rp2040-BOTTOM-FINAL.step"
+		(opacity 0.7400)
 		(offset
-			(xyz -1.27 0 4.14)
+			(xyz -1.99 -1 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 180 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
