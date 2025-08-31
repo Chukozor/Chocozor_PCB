@@ -420,15 +420,16 @@
 		(uuid "c1d0d38a-1480-4616-b7d4-883c753e12b8")
 	)
 	(embedded_fonts no)
-	(model "smd\\resistors\\R0603.wrl"
+	(model "${KIPRJMOD}/../../case/V3/tools/Mobi-Connection-FINAL.step"
+		(opacity 0.7400)
 		(offset
-			(xyz -3.8 0 0.02539999962)
+			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 0.5 0.5 0.5)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

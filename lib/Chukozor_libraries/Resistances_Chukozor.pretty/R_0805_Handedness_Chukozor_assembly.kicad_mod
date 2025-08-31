@@ -436,7 +436,8 @@
 		(uuid "ed78ffd9-960e-4138-a479-01d6c5032268")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+	(model "${KIPRJMOD}/../../case/V3/tools/0805-FINAL.step"
+		(opacity 0.7800)
 		(offset
 			(xyz 0 0 0)
 		)
