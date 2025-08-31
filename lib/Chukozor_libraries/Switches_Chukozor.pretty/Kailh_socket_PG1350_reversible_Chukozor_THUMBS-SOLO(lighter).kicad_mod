@@ -2168,6 +2168,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../../case/V3/tools/PG1350-socket-NO-LED-FINAL.step"
+		(opacity 0.7900)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -2176,6 +2177,30 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../../case/V3/tools/ThumbSolo-attache-FINAL.step"
+		(opacity 0.7300)
+		(offset
+			(xyz 0 -11.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../../case/V3/tools/Diode-123-FINAL.step"
+		(opacity 0.6800)
+		(offset
+			(xyz 8.13 3.195 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
 		)
 	)
 )
