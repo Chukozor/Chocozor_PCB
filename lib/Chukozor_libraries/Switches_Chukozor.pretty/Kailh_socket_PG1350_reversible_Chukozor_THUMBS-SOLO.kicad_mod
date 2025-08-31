@@ -2469,4 +2469,40 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/../../case/V3/tools/Mobi-Connection-FINAL.step"
+		(opacity 0.6200)
+		(offset
+			(xyz 0 -11.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../../case/V3/tools/Diode-123-FINAL.step"
+		(opacity 0.7100)
+		(offset
+			(xyz 8.2 3.15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/../../case/V3/tools/ThumbSolo-4pConnection-FINAL.step"
+		(opacity 0.7700)
+		(offset
+			(xyz 0.1 11.17 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
