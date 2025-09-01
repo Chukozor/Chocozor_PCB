@@ -392,15 +392,16 @@
 		(uuid "dc558a79-bdbe-49e0-834a-99a4c630f7ce")
 	)
 	(embedded_fonts no)
-	(model "smd\\resistors\\R0603.wrl"
+	(model "${KIPRJMOD}/../../case/V3/tools/solo-bridge-FINAL.step"
+		(opacity 0.5000)
 		(offset
-			(xyz 0 0 0.02539999962)
+			(xyz 0 0 -0.085)
 		)
 		(scale
-			(xyz 0.5 0.5 0.5)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -298,26 +298,16 @@
 		(uuid "79c47f26-d9b9-4bdb-88e5-0023d0721463")
 	)
 	(embedded_fonts no)
-	(model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/pin-header-1x4.step"
+	(model "${KIPRJMOD}/../../case/V3/tools/Solenoid-connection-FINAL.step"
+		(opacity 0.6200)
 		(offset
-			(xyz 3.8 0 0)
+			(xyz -0.05 0 -0.085)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step"
-		(offset
-			(xyz 3.8 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
