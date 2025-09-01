@@ -762,15 +762,16 @@
 		(uuid "e996cd5d-5817-4e54-a7fa-a839bfd6e98a")
 	)
 	(embedded_fonts no)
-	(model "smd\\resistors\\R0603.wrl"
+	(model "${KIPRJMOD}/../../case/V3/tools/Two-bridges-side-FINAL.step"
+		(opacity 0.7300)
 		(offset
-			(xyz 0 0 0.02539999962)
+			(xyz 0 0 -0.085)
 		)
 		(scale
-			(xyz 0.5 0.5 0.5)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
