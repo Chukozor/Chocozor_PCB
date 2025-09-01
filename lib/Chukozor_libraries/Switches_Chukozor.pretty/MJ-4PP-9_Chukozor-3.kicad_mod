@@ -350,4 +350,28 @@
 			(xyz -0 -0 90)
 		)
 	)
+	(model "${KIPRJMOD}/../../case/V3/tools/TRRS-PJ320A-TOP-FINAL.step"
+		(opacity 0.7000)
+		(offset
+			(xyz 0.64 0.86 -4.77)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../../case/V3/tools/TRRS-PJ320A-TOP-FINALsymetrique.step"
+		(opacity 0.7400)
+		(offset
+			(xyz 0.62 -1.22 3.12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
 )

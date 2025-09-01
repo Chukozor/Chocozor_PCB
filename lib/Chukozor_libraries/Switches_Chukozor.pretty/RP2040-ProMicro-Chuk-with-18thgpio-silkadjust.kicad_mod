@@ -1624,9 +1624,21 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../../case/V3/tools/MCU-rp2040-BOTTOM-FINAL.step"
-		(opacity 0.7400)
+		(opacity 0.5300)
 		(offset
 			(xyz -1.99 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../../case/V3/tools/MCU-rp2040-TOP-FINAL.step"
+		(opacity 0.3400)
+		(offset
+			(xyz -1.95 -0.5 1.85)
 		)
 		(scale
 			(xyz 1 1 1)
