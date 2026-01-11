@@ -1,0 +1,314 @@
+(footprint "Kailh_socket_PG1350_reversible_Chukozor_-PULL-simplifiev2-TO-SOLDER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Kailh \"Choc\" PG1350 keyswitch reversible socket mount")
+	(tags "kailh,choc")
+	(property "Reference" "REF**"
+		(at 4.445 -1.905 0)
+		(layer "F.SilkS")
+		(uuid "82e06707-de08-4c39-a414-8889cf3648cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "Kailh_socket_PG1350_reversible_Chukozor_-PULL-simplifiev2-TO-SOLDER"
+		(at 0 8.89 0)
+		(layer "F.Fab")
+		(uuid "75eb9935-6cdd-45f2-b6f3-079bc597bc65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9eec109-8bcf-4967-93d3-432c95ab40b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8fcf069-f499-4a30-ac3b-9be4d47fcd9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.16)
+			)
+		)
+	)
+	(clearance 0.2)
+	(attr smd allow_missing_courtyard)
+	(fp_line
+		(start -7 -7)
+		(end -6 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9289e36d-68a0-40c3-a525-f2105330cb07")
+	)
+	(fp_line
+		(start -7 -6)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8e116df-c478-4614-ab4a-66d4c7a7e68b")
+	)
+	(fp_line
+		(start -7 7)
+		(end -7 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c7a6a00-3ad1-4369-82cb-bf5a5254f894")
+	)
+	(fp_line
+		(start -6 7)
+		(end -7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7534bcde-244c-4236-bcf3-1fbb6fff979e")
+	)
+	(fp_line
+		(start 6 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ee42226-d6a9-4f7d-ad9f-3bb9d63156d6")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 -6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4f66b2f-31e8-451e-b609-21ade007afff")
+	)
+	(fp_line
+		(start 7 5.6)
+		(end 7 6.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28e03fad-5b69-4887-af05-d8fa1cf1ac27")
+	)
+	(fp_line
+		(start 7 6)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d329c1b9-dc83-46cc-9c66-6ef2a4f7ebb3")
+	)
+	(fp_line
+		(start 7 7)
+		(end 6 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73c56d0e-8be4-4936-abb0-b0d1146c161b")
+	)
+	(fp_rect
+		(start -10.5 -10.5)
+		(end 10.5 10.5)
+		(stroke
+			(width 0.1)
+			(type dash_dot_dot)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "5bf71577-43d7-4011-aa1f-ccba1b820521")
+	)
+	(fp_rect
+		(start -9 -8.5)
+		(end 9 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "88567a3c-3229-4058-a359-6330ad264045")
+	)
+	(fp_rect
+		(start -7.5 -7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "08f6d516-dda0-4ac9-9eda-43aa7330efeb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.445 -1.905 0)
+		(layer "B.SilkS")
+		(uuid "f9f0fcf7-5b72-4226-a04c-6d0378b3c635")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3 5 0)
+		(layer "B.Fab")
+		(uuid "9058d9c2-6ece-41c1-a880-4deb687dc56f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${VALUE}"
+		(at 0 8.89 0)
+		(layer "B.Fab")
+		(uuid "f8ca0c17-e7df-4f6c-a4fe-206690845e6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3 5 180)
+		(layer "F.Fab")
+		(uuid "dff434ab-d2df-4222-8565-afc8d69ad35d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.5 0)
+		(size 1.7018 1.7018)
+		(drill 1.7018)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ae7ded6d-772b-4ee0-a645-a842ebb1d627")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.22 -4.2)
+		(size 0.9906 0.9906)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(uuid "af52da65-2279-40be-8a2c-491f962fdd39")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.429 3.429)
+		(drill 3.429)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.1)
+		(clearance 0.3)
+		(uuid "3ff69516-918b-4a94-b3a8-630db86d4de8")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.22 -4.2)
+		(size 0.9906 0.9906)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(uuid "08443864-049d-40ab-b08a-dfb72888c6d6")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.5 0)
+		(size 1.7018 1.7018)
+		(drill 1.7018)
+		(layers "*.Cu" "*.Mask")
+		(uuid "065c0534-f9e3-4f30-8569-30b29f047cf7")
+	)
+	(pad "1" thru_hole circle
+		(at 0 5.9)
+		(size 2.032 2.032)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "fbd81484-de72-425d-bbd2-956da25d2ed6")
+	)
+	(pad "2" thru_hole circle
+		(at -5 3.8)
+		(size 2.032 2.032)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "682464c1-22fd-415d-88ae-5cadef13b89d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../case/V3/tools/PG1350-socket-OnlyOneSide-FINAL.step"
+		(opacity 0.7000)
+		(offset
+			(xyz 0 0 -0.085)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
