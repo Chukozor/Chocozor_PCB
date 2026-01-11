@@ -1,0 +1,220 @@
+(footprint "HandSoldering-2pins-OUT-SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "JP6"
+		(at -3.8 3.1 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f86231c4-41ce-417c-ae9c-1c4f56552547")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" " SDA"
+		(at -3.8 2.06 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d751bdb2-548d-42be-92ab-873021d6705d")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -7.651 -0.183 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce5d3143-66a8-46f7-8ad3-186753bc5265")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -7.651 -0.183 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef75fa8b-bfe5-4b1c-a2c4-72f1ecb4a4a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.2 -1.4)
+		(end -2.2 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "158bbd7d-09b1-4a07-a815-bd169115446d")
+	)
+	(fp_line
+		(start 0.1154 -1.17)
+		(end 0.1154 1.17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0683b43d-88bc-4a1a-bf4d-cf5f30aa1e5a")
+	)
+	(fp_line
+		(start 2.4 -1.4)
+		(end -2.2 -1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a19e717-843b-46da-9232-7de85cae5482")
+	)
+	(fp_line
+		(start 2.4 1.4)
+		(end -2.2 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ec78072-f992-4a6a-945a-d9bd584351bc")
+	)
+	(fp_line
+		(start 2.4 1.4)
+		(end 2.4 -1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3cd9107-973b-469c-98f4-22fcf68939d2")
+	)
+	(fp_rect
+		(start -0.1096 -3.2)
+		(end -2.2596 -1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aff7d052-2340-47b6-bfec-f1bfcc01255c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.7096 -2.825) (xy -0.7096 -1.9) (xy -1.6596 -1.9) (xy -1.6596 -2.825)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e6905d55-8241-4585-8171-75ef300cd5a6")
+	)
+	(fp_rect
+		(start 2.4504 -1.05)
+		(end -2.3096 1.075)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "15810a8f-2c25-4256-b77e-cd7171803b58")
+	)
+	(fp_rect
+		(start 2.4504 -1.05)
+		(end -2.325 1.075)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a7d25dd4-d689-49a6-b89f-d82dcd15fd7e")
+	)
+	(fp_text user "*"
+		(at 1.395 -1.675 0)
+		(layer "F.SilkS" knockout)
+		(uuid "e0d3d73d-2bbb-4e2e-af67-4fc25f02a126")
+		(effects
+			(font
+				(size 2.2 2.2)
+				(thickness 0.27)
+			)
+		)
+	)
+	(fp_text user "2pins-reversible"
+		(at -0.15 -0.09 0)
+		(layer "User.1")
+		(uuid "bc306085-0f5b-42f6-9f2e-ddfba602b8a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.3954 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "85cfc31c-8555-42c3-9e8b-c5dfccc85f7c")
+	)
+	(pad "2" smd roundrect
+		(at -1.1446 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "4c46408d-5dee-49ef-b295-f8c828f2054e")
+	)
+	(embedded_fonts no)
+	(model "smd\\resistors\\R0603.wrl"
+		(offset
+			(xyz -3.8 0 0.02539999962)
+		)
+		(scale
+			(xyz 0.5 0.5 0.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
