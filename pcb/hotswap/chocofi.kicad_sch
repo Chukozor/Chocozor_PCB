@@ -9331,6 +9331,16 @@
 		)
 		(uuid "d85881ad-9fbc-4776-870f-136d5e51988c")
 	)
+	(text "Microswitch"
+		(exclude_from_sim no)
+		(at 109.22 477.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dab4d300-e472-4b26-b7f5-05e3c48f0c4c")
+	)
 	(text "3.3V"
 		(exclude_from_sim no)
 		(at 380.746 267.208 0)
@@ -9340,6 +9350,16 @@
 			)
 		)
 		(uuid "daef4655-b3de-447e-854b-9561265e5275")
+	)
+	(text "Mobil-SW-Mini"
+		(exclude_from_sim no)
+		(at 81.28 543.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dbb60b01-c561-4c7b-93fe-332633da45e9")
 	)
 	(text_box "PULL 2 (separate PCB)"
 		(exclude_from_sim no)
@@ -11370,6 +11390,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.982 465.836) (xy 116.078 465.836)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38488a10-e4fa-4d88-8ded-38498cd32913")
+	)
+	(wire
+		(pts
 			(xy 42.672 460.248) (xy 42.672 461.264)
 		)
 		(stroke
@@ -11437,6 +11467,16 @@
 			(type default)
 		)
 		(uuid "3c534c7a-44ff-43bf-a36c-81b0e4d603ad")
+	)
+	(wire
+		(pts
+			(xy 100.838 465.836) (xy 107.442 465.836)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd03f0c-f2ee-4f49-b6db-11a26da62f53")
 	)
 	(wire
 		(pts
@@ -11527,6 +11567,16 @@
 			(type default)
 		)
 		(uuid "423cb515-e210-48d7-95d9-943fd24606ef")
+	)
+	(wire
+		(pts
+			(xy 100.838 465.836) (xy 100.838 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b8677f-5024-486c-8b97-f7345159adf9")
 	)
 	(wire
 		(pts
@@ -12877,6 +12927,16 @@
 			(type default)
 		)
 		(uuid "8622f537-518d-4226-9e2d-4518fe380345")
+	)
+	(wire
+		(pts
+			(xy 116.078 457.2) (xy 116.078 458.216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866b149a-cf34-40cf-860c-8003183ec1e4")
 	)
 	(wire
 		(pts
@@ -25410,6 +25470,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 107.442 470.916 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "567e53c6-32d6-4adc-9d72-78f4960f22a1")
+		(property "Reference" "HandSoldering2Pins-IN5"
+			(at 119.634 474.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 115.062 472.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:HandSoldering-2pins-OUT-SMD-for-microswitches"
+			(at 107.442 470.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.442 470.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 107.442 470.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcd0e71a-f190-40e5-a07e-bcfd8d8b38d8")
+		)
+		(pin "2"
+			(uuid "ea7a6c78-417e-4bb3-abde-505adc897273")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "HandSoldering2Pins-IN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:1N4148")
 		(at 275.59 265.176 90)
 		(unit 1)
@@ -27098,6 +27228,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Chukozor_symbols:1N4148")
+		(at 116.078 462.026 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72b13968-6a81-468c-b392-0004f5eccaba")
+		(property "Reference" "D26"
+			(at 118.11 460.7559 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 118.11 463.2959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:SMD_SOD_123_only_one_face"
+			(at 105.156 461.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 108.204 462.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 106.68 462.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 103.378 462.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.236 462.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d17436d-0578-4d34-8dfa-9b1bfdb2205f")
+		)
+		(pin "1"
+			(uuid "e23a153b-7c1c-4a6e-b2ca-a98dc6a98912")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 328.168 93.472 90)
 		(unit 1)
@@ -28766,6 +28984,72 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
+		(at 108.458 457.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cbf23e7-3e74-4e0b-8815-c99404c1d3e6")
+		(property "Reference" "MobilSW5"
+			(at 108.458 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pull"
+			(at 108.458 459.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Microswitche-2pins-V3"
+			(at 108.458 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.458 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 108.458 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42cdc309-59ed-4dec-81b4-4b9f9975752c")
+		)
+		(pin "2"
+			(uuid "6d405edf-4479-45ff-8993-7a0fee601446")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "MobilSW5")
 					(unit 1)
 				)
 			)

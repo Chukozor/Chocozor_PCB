@@ -1,4 +1,4 @@
-(footprint "HandSoldering-2pins-OUT-SMD"
+(footprint "HandSoldering-2pins-OUT-SMD-for-microswitches"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -103,8 +103,8 @@
 		(uuid "d3cd9107-973b-469c-98f4-22fcf68939d2")
 	)
 	(fp_rect
-		(start -0.1096 -4.125)
-		(end -2.2596 -2.475)
+		(start -0.1096 -3.1)
+		(end -2.2596 -1.45)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115,7 +115,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.7096 -3.75) (xy -0.7096 -2.825) (xy -1.6596 -2.825) (xy -1.6596 -3.75)
+			(xy -0.7096 -2.725) (xy -0.7096 -1.8) (xy -1.6596 -1.8) (xy -1.6596 -2.725)
 		)
 		(stroke
 			(width 0.1)
@@ -124,18 +124,6 @@
 		(fill yes)
 		(layer "B.SilkS")
 		(uuid "e6905d55-8241-4585-8171-75ef300cd5a6")
-	)
-	(fp_text user "*"
-		(at 1.3 -3.9 0)
-		(layer "B.SilkS" knockout)
-		(uuid "e0d3d73d-2bbb-4e2e-af67-4fc25f02a126")
-		(effects
-			(font
-				(size 2.2 2.2)
-				(thickness 0.27)
-			)
-			(justify top)
-		)
 	)
 	(fp_text user "2pins-reversible"
 		(at -0.15 -0.09 0)
