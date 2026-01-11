@@ -9627,6 +9627,30 @@
 		)
 		(uuid "c63f2291-59fd-40eb-88df-f6ca78193f96")
 	)
+	(text_box "Encoder-separate"
+		(exclude_from_sim no)
+		(at 123.19 536.194 0)
+		(size 50.8 37.592)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 0.8)
+		)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "ccb86da4-4f93-4c95-9ff8-f94d68b6e601")
+	)
 	(text_box "Serial"
 		(exclude_from_sim no)
 		(at 406.908 194.056 0)
@@ -10590,6 +10614,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.556 541.274) (xy 130.556 552.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111e37d0-313d-4d35-9d82-f83bbf92edc8")
+	)
+	(wire
+		(pts
 			(xy 257.302 529.844) (xy 262.128 529.844)
 		)
 		(stroke
@@ -11290,6 +11324,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.432 559.562) (xy 154.432 562.356)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324bf145-e4c6-47d2-9e95-5f313db160e2")
+	)
+	(wire
+		(pts
 			(xy 150.368 362.204) (xy 156.21 362.204)
 		)
 		(stroke
@@ -11427,6 +11471,16 @@
 			(type default)
 		)
 		(uuid "3a7e8cb8-4d23-4539-ac30-f74b179a6861")
+	)
+	(wire
+		(pts
+			(xy 163.322 554.99) (xy 163.322 553.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad53809-b098-44d3-8726-167bce03fa2d")
 	)
 	(wire
 		(pts
@@ -11850,6 +11904,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.192 554.99) (xy 137.922 554.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5399f16e-6e35-4e8c-bef8-5614950a7129")
+	)
+	(wire
+		(pts
+			(xy 163.322 554.99) (xy 154.432 554.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d99072-a23b-4875-8697-40af47c0f218")
+	)
+	(wire
+		(pts
 			(xy 156.21 275.844) (xy 181.102 275.844)
 		)
 		(stroke
@@ -11857,6 +11931,16 @@
 			(type default)
 		)
 		(uuid "53eb7908-7c2e-4522-8142-26444d5bd736")
+	)
+	(wire
+		(pts
+			(xy 156.972 541.274) (xy 156.972 562.356)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54355846-3ded-4070-b70c-b08760ecfa71")
 	)
 	(wire
 		(pts
@@ -12500,6 +12584,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.192 549.91) (xy 135.128 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749a1d90-8ca0-42e4-99d4-77fb3cf4e1b0")
+	)
+	(wire
+		(pts
 			(xy 178.308 102.362) (xy 178.308 80.518)
 		)
 		(stroke
@@ -12960,6 +13054,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.556 552.45) (xy 139.192 552.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8726b0f0-d1f2-4dea-a020-ea195fa07e83")
+	)
+	(wire
+		(pts
+			(xy 135.128 549.91) (xy 135.128 543.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87943a25-af18-44c8-a7d3-66ab0e1ff86c")
+	)
+	(wire
+		(pts
 			(xy 363.22 91.186) (xy 365.252 91.186)
 		)
 		(stroke
@@ -13240,6 +13354,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.322 549.91) (xy 163.322 551.434)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9327c165-7566-49c0-b7e5-30171316d1f7")
+	)
+	(wire
+		(pts
 			(xy 128.27 301.244) (xy 128.27 341.884)
 		)
 		(stroke
@@ -13410,6 +13534,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.922 554.99) (xy 137.922 559.562)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6874c0-96cb-4028-9c29-75ee6a79f3f3")
+	)
+	(wire
+		(pts
 			(xy 109.474 275.844) (xy 110.236 275.844)
 		)
 		(stroke
@@ -13460,6 +13594,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.556 541.274) (xy 156.972 541.274)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca400b5-bef5-4a13-b4f0-845db0ff6849")
+	)
+	(wire
+		(pts
 			(xy 342.9 412.242) (xy 358.648 412.242)
 		)
 		(stroke
@@ -13487,6 +13631,16 @@
 			(type default)
 		)
 		(uuid "9dd06dbb-bd25-4f60-ae3a-8116f44d3880")
+	)
+	(wire
+		(pts
+			(xy 159.512 543.814) (xy 159.512 562.356)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5b7ac6-0826-44c6-9d1c-49e3c1241def")
 	)
 	(wire
 		(pts
@@ -13927,6 +14081,16 @@
 			(type default)
 		)
 		(uuid "afbad8e7-5f6a-4356-9b52-43d58334f8f7")
+	)
+	(wire
+		(pts
+			(xy 135.128 543.814) (xy 159.512 543.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff1d787-0ee8-4dac-9329-7657944061b1")
 	)
 	(wire
 		(pts
@@ -14660,6 +14824,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.922 559.562) (xy 154.432 559.562)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7541dc3-50cf-4b6b-bc61-0b77624ab8e1")
+	)
+	(wire
+		(pts
 			(xy 263.144 71.374) (xy 262.128 71.374)
 		)
 		(stroke
@@ -15287,6 +15461,16 @@
 			(type default)
 		)
 		(uuid "f86a92ce-7e37-4ffd-8dd4-254ead0cf905")
+	)
+	(wire
+		(pts
+			(xy 154.432 549.91) (xy 163.322 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8835e81-e0d0-42f8-b6e3-336c1b1a152d")
 	)
 	(wire
 		(pts
@@ -24199,6 +24383,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 128.524 559.308 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "395bfcd6-4a38-48cb-8191-5329c9b80e89")
+		(property "Reference" "M1.6-24"
+			(at 131.318 558.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 131.318 560.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 128.524 559.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.524 559.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 128.524 559.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:SW_Chuk_LED")
 		(at 227.076 260.604 0)
 		(unit 1)
@@ -24760,6 +25007,79 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 156.972 567.436 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45b4245a-d6a7-4662-8075-3e461f720e4e")
+		(property "Reference" "J6"
+			(at 157.734 570.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 162.306 572.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:EC12_ribon_connector"
+			(at 156.972 567.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.972 567.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.972 567.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "327f3e0f-adc6-4e08-893f-b5afbf45e340")
+		)
+		(pin "1"
+			(uuid "35c49130-825f-4277-abdc-1fb373648a28")
+		)
+		(pin "3"
+			(uuid "1c7e488a-de1c-4664-b67c-61b84cd2014a")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -26095,6 +26415,70 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 128.524 565.404 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f8a9e08-a211-4ca1-9639-d98f5547e3cf")
+		(property "Reference" "M1.6-25"
+			(at 131.318 564.1339 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 131.318 566.6739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 128.524 565.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.524 565.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 128.524 565.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-25")
 					(unit 1)
 				)
 			)
@@ -28664,6 +29048,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Chukozor_symbols:RotaryEncoder_Switch")
+		(at 146.812 552.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87039c00-f194-4adb-8e6f-3ebc10389f7b")
+		(property "Reference" "ENC2"
+			(at 146.812 542.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 146.812 545.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
+			(at 143.002 548.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.812 545.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 146.812 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S2"
+			(uuid "53d34c13-6de6-42bb-ba40-dbcb631f684b")
+		)
+		(pin "B"
+			(uuid "c0e63c93-f594-493f-ba5f-3b8352db15ff")
+		)
+		(pin "C"
+			(uuid "43efdff0-2f56-42bd-92b8-c850c26a1a29")
+		)
+		(pin "S1"
+			(uuid "0de0615d-1d4b-46e2-bb7c-3baaecf5f6f2")
+		)
+		(pin "A"
+			(uuid "d76ce9bb-3895-4f6b-93e1-0381e42e9cc7")
+		)
+		(pin "MP"
+			(uuid "29a3d449-2001-4d3f-919d-de784121b4aa")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "ENC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "chocofi-rescue:GND-power")
 		(at 393.192 212.598 0)
 		(unit 1)
@@ -29206,6 +29670,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 102.362 481.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d7e2cb2-fe6e-48af-b4e2-764bb5b0415c")
+		(property "Reference" "M1.6-26"
+			(at 105.156 480.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 105.156 482.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 102.362 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.362 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 102.362 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "chocofi-rescue:GND-power")
 		(at 232.918 357.124 90)
 		(unit 1)
@@ -29677,6 +30204,75 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 168.402 551.434 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "947d316d-98ef-47a5-b895-87ee94bad0e7")
+		(property "Reference" "HandSoldering2Pins-OUT10"
+			(at 171.958 563.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 170.434 559.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:EC12_ribon_connector_bis2pins"
+			(at 168.402 551.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.402 551.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 168.402 551.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dd778f6-ec18-4dd3-b2f7-eaa4554338e3")
+		)
+		(pin "2"
+			(uuid "d646bc41-8691-4ea4-bdd0-bc3ad1f0021d")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "HandSoldering2Pins-OUT10")
 					(unit 1)
 				)
 			)
