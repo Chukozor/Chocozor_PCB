@@ -32548,6 +32548,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:TIP120")
+		(at 337.566 116.586 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1e16d58-c4e6-4356-b9ef-751216b7fea1")
+		(property "Reference" "Q2"
+			(at 342.9 115.3159 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLR7843TRPBF"
+			(at 342.9 117.8559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:D-PAK(TO252)"
+			(at 342.646 118.491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF"
+			(at 337.566 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220"
+			(at 337.566 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c50d34fe-54d5-4bfd-9dcb-bd5026e04bb6")
+		)
+		(pin "2"
+			(uuid "1184bcef-db35-4d4e-a5ed-005b625ddff9")
+		)
+		(pin "3"
+			(uuid "527385f5-ceef-4924-847e-f316a1124825")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:1N4148")
 		(at 88.646 527.304 90)
 		(unit 1)
