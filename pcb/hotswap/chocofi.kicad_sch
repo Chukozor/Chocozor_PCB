@@ -9991,7 +9991,7 @@
 		)
 		(uuid "852de057-8f2e-470f-b89f-94b41de5e8d2")
 	)
-	(text_box "SOLENOID (separate PCB)"
+	(text_box "SOLENOID (integrated PCB)"
 		(exclude_from_sim no)
 		(at 322.326 69.342 0)
 		(size 103.632 37.592)
@@ -10227,12 +10227,6 @@
 			(justify top)
 		)
 		(uuid "dcc77e15-521c-4154-bb67-1f51ce890331")
-	)
-	(junction
-		(at 363.22 91.186)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "010ad840-14af-4fde-8b44-d2cea2a04b33")
 	)
 	(junction
 		(at 524.764 436.372)
@@ -10487,12 +10481,6 @@
 		(uuid "9522283d-a017-42af-ae72-2b3bd4c34a9c")
 	)
 	(junction
-		(at 354.076 91.186)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "979f9999-dc8c-4467-a251-12fc24307e4e")
-	)
-	(junction
 		(at 71.12 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10589,6 +10577,12 @@
 		(uuid "ccd6a174-796d-4490-be39-629511f98863")
 	)
 	(junction
+		(at 363.22 91.186)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d284c7f9-4c6f-4aaf-a4c2-547a02d0a7fd")
+	)
+	(junction
 		(at 169.164 341.884)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10611,6 +10605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db130d22-b9f5-4698-88f1-72cd9b7fd407")
+	)
+	(junction
+		(at 354.076 91.186)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db8f8746-7996-4dbe-ad01-43bcf110b0e8")
 	)
 	(junction
 		(at 413.004 450.088)
@@ -11734,16 +11734,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.076 91.186) (xy 363.22 91.186)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27f5f9cb-05e3-46c0-8fb7-ad634245ac99")
-	)
-	(wire
-		(pts
 			(xy 25.654 518.16) (xy 32.258 518.16)
 		)
 		(stroke
@@ -12411,6 +12401,16 @@
 			(type default)
 		)
 		(uuid "43d73791-a45d-4ce3-811c-5ffa157fbf4d")
+	)
+	(wire
+		(pts
+			(xy 354.076 91.186) (xy 363.22 91.186)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446b28a8-e8cd-4731-bde8-f3c90fba7f78")
 	)
 	(wire
 		(pts
@@ -13201,6 +13201,16 @@
 			(type default)
 		)
 		(uuid "6763a795-19c6-42f4-9ed6-de4af2705001")
+	)
+	(wire
+		(pts
+			(xy 363.22 91.186) (xy 365.252 91.186)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a00afa-60a5-4480-b490-5d7461779e2b")
 	)
 	(wire
 		(pts
@@ -14031,16 +14041,6 @@
 			(type default)
 		)
 		(uuid "8726b0f0-d1f2-4dea-a020-ea195fa07e83")
-	)
-	(wire
-		(pts
-			(xy 363.22 91.186) (xy 365.252 91.186)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87fd495d-0ad2-43bc-83a6-484a07fe4869")
 	)
 	(wire
 		(pts
@@ -18974,7 +18974,7 @@
 			)
 		)
 	)
-	(global_label "VBUS_Solenoid_side"
+	(global_label "VBUS"
 		(shape input)
 		(at 403.86 86.36 0)
 		(fields_autoplaced yes)
@@ -18986,7 +18986,7 @@
 		)
 		(uuid "07300ec8-5c2f-48bc-86e5-1bfeaabb2af0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 424.4024 86.36 0)
+			(at 411.2704 86.36 0)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -19142,28 +19142,6 @@
 			)
 		)
 	)
-	(global_label "VBUS_Solenoid_side"
-		(shape input)
-		(at 405.892 100.076 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "1259fb88-92b0-4655-8b4d-533662b533f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 385.3496 100.076 0)
-			(effects
-				(font
-					(size 1.1938 1.1938)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 139.446 321.564 180)
@@ -19202,27 +19180,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SolenoidPin_Solenoid_side"
-		(shape input)
-		(at 405.892 102.616 180)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify right)
-		)
-		(uuid "1b2d1e1a-e477-427d-961f-96903915b78b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 405.892 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20854,27 +20811,6 @@
 			)
 		)
 	)
-	(global_label "GND_Solenoid_side"
-		(shape input)
-		(at 405.892 97.536 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8d4e3d3-4be6-4f3d-aa78-542182d7ad78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 398.3868 97.6154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCK"
 		(shape input)
 		(at 373.634 372.618 180)
@@ -20937,7 +20873,7 @@
 			)
 		)
 	)
-	(global_label "SolenoidPin_Solenoid_side"
+	(global_label "SolenoidPin"
 		(shape input)
 		(at 340.36 102.87 0)
 		(effects
@@ -21396,7 +21332,7 @@
 			)
 		)
 	)
-	(global_label "GND_Solenoid_side"
+	(global_label "GND"
 		(shape input)
 		(at 340.36 99.314 0)
 		(effects
@@ -22142,79 +22078,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "HandSoldering2Pins-OUT8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 410.972 100.076 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01a8eb1a-4215-4766-ac2b-75512fce328a")
-		(property "Reference" "J3"
-			(at 413.258 98.8059 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 413.258 101.3459 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:solenoid_ribon_connector"
-			(at 410.972 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 410.972 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 410.972 100.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d38cb95c-d9dc-4596-baf5-536e51bcf50f")
-		)
-		(pin "1"
-			(uuid "054ca4c0-e241-4653-90f3-4a4559db30ef")
-		)
-		(pin "3"
-			(uuid "a9bcfa66-34f5-4a4c-ada9-6ef4d654a833")
-		)
-		(instances
-			(project ""
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -23764,7 +23627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:TO-252-2-reversible"
+		(property "Footprint" "Switches_Chukozor:D-PAK(TO252)(improved-and-reversible)"
 			(at 342.9 95.377 0)
 			(effects
 				(font
@@ -29835,6 +29698,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 59.436 57.404 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7defcc12-b447-488e-8ff7-22928d50309f")
+		(property "Reference" "M2-7"
+			(at 61.976 56.1339 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Large_MountingHoleM3"
+			(at 61.976 58.6739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2-hole3"
+			(at 59.436 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.436 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 59.436 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M2-7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "chocofi-rescue:VCC-power")
 		(at 334.772 374.015 90)
 		(unit 1)
@@ -31815,7 +31742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHoleM2"
+		(property "Value" "Large_MountingHoleM3"
 			(at 61.976 58.6739 0)
 			(effects
 				(font
@@ -31824,7 +31751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2"
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2-hole3"
 			(at 59.436 57.404 0)
 			(effects
 				(font
@@ -36722,6 +36649,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 59.436 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7b63e35-8293-4377-954c-53eb66be8040")
+		(property "Reference" "M2-9"
+			(at 61.976 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Large_MountingHoleM3"
+			(at 61.976 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2-hole3"
+			(at 59.436 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.436 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 59.436 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M2-9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:1N4148")
 		(at 234.696 305.816 90)
 		(unit 1)
@@ -38035,6 +38026,70 @@
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "Spot3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 59.436 62.992 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee1497fb-c42a-4a2d-b770-b69913d1fb9e")
+		(property "Reference" "M2-8"
+			(at 61.976 61.7219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Large_MountingHoleM3"
+			(at 61.976 64.2619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2-hole3"
+			(at 59.436 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.436 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 59.436 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M2-8")
 					(unit 1)
 				)
 			)
