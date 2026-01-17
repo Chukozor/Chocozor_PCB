@@ -52,110 +52,41 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -3.94 -1.15)
-		(end 3.7 -1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a2ec9ca4-9887-4804-a145-8505172e4cb3")
-	)
-	(fp_line
-		(start -3.94 1.15)
-		(end -3.94 -1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "adbe6ee1-e426-4624-96ba-b45a4a620af0")
-	)
-	(fp_line
-		(start -3.94 1.15)
-		(end 3.7 1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a51e66d5-1d52-443c-9336-c601a7f7238e")
-	)
-	(fp_line
-		(start 3.7 -1.15)
-		(end 3.7 1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d01984f2-1c30-4d20-a7b8-30d4cba1c0ee")
-	)
-	(fp_line
-		(start -3.92 -1.15)
-		(end 3.72 -1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "c32ccc9c-5b0e-4fad-8dbd-1f2470fd808e")
-	)
-	(fp_line
-		(start -3.92 1.15)
-		(end -3.92 -1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "91272c10-b14b-48fe-aac2-7218871a9008")
-	)
-	(fp_line
-		(start -3.92 1.15)
-		(end 3.72 1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "74b45822-9d7b-4675-9996-209a34a3c99d")
-	)
-	(fp_line
-		(start 3.72 -1.15)
-		(end 3.72 1.15)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "4b92327e-f13b-4ea5-8cb3-51eff5c2e392")
-	)
 	(fp_rect
-		(start -3.815 -1.0525)
-		(end 3.59 1.0725)
+		(start -4 -2.35)
+		(end 4 2.35)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(fill no)
-		(layer "B.CrtYd")
-		(uuid "971f5e8a-0ae5-4aea-847f-e1db9efda856")
+		(layer "F.SilkS")
+		(uuid "723a919f-e2ff-49fa-a275-b9913b93f340")
 	)
 	(fp_rect
-		(start -3.815 -1.0525)
-		(end 3.6 1.0725)
+		(start -4 -2.35)
+		(end 4 2.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "147b6ca1-c8f7-46c5-8819-b123c22628c4")
+	)
+	(fp_rect
+		(start -4 -2.35)
+		(end 4 2.35)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "dbd734bd-508c-4b90-8423-3076c9e9a34a")
+		(uuid "fa96e10f-e2e7-4337-989d-b80c47142055")
 	)
 	(fp_text user "GND"
-		(at 0 -5.14 0)
+		(at -0.02 -3.81 0)
 		(layer "F.SilkS" knockout)
 		(uuid "9c18d9bc-ca59-499e-acf9-1fedcf48b653")
 		(effects
@@ -164,10 +95,11 @@
 				(thickness 0.15)
 				(bold yes)
 			)
+			(justify bottom)
 		)
 	)
 	(fp_text user "GND"
-		(at 0 -5.14 0)
+		(at -0.02 -3.81 0)
 		(layer "B.SilkS" knockout)
 		(uuid "dd65f36c-527c-43db-93f3-350329b61e0e")
 		(effects
@@ -176,11 +108,11 @@
 				(thickness 0.15)
 				(bold yes)
 			)
-			(justify mirror)
+			(justify bottom mirror)
 		)
 	)
 	(fp_text user "EC12"
-		(at -0.01 -5.3 0)
+		(at -0.02 -3.25 0)
 		(layer "User.1")
 		(uuid "546a7e9a-9866-4d99-965e-9a201be0662f")
 		(effects
@@ -191,9 +123,26 @@
 		)
 	)
 	(pad "1" smd oval
-		(at 2.54 0)
-		(size 1.5 2)
+		(at 2.54 -0.01)
+		(size 1.5 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "4790e937-06eb-4971-84be-70dba3683f7d")
+	)
+	(pad "1" smd oval
+		(at 2.54 0)
+		(size 1.5 3.5)
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -207,10 +156,10 @@
 		)
 		(uuid "fc95fabb-535a-48ae-9a0a-c37fd8f7d81b")
 	)
-	(pad "1" smd oval
-		(at 2.54 0)
-		(size 1.5 2)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+	(pad "2" smd oval
+		(at 0 0)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -222,12 +171,12 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "e34d268d-a5af-48a9-b804-cd7890ed4607")
+		(uuid "5338c302-c6b5-4f62-afdd-85b1cb1418f8")
 	)
 	(pad "2" smd oval
 		(at 0 0)
-		(size 1.5 2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(size 1.5 3.5)
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -241,26 +190,9 @@
 		)
 		(uuid "c68df3a8-5eab-49ec-b728-854292682696")
 	)
-	(pad "2" smd oval
-		(at 0 0)
-		(size 1.5 2)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges yes)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "f4507854-6f2f-4920-9f70-efa63baebe97")
-	)
 	(pad "3" smd oval
 		(at -2.54 0)
-		(size 1.5 2)
+		(size 1.5 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
 			(best_length_ratio 0.5)
@@ -277,7 +209,7 @@
 	)
 	(pad "3" smd oval
 		(at -2.54 0)
-		(size 1.5 2)
+		(size 1.5 3.5)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(teardrops
 			(best_length_ratio 0.5)
@@ -290,7 +222,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "bb0ff362-5a25-4101-ae2b-f2f55051caf5")
+		(uuid "ced7c2de-2220-49a8-bc5d-7a5bad667991")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../../case/V3/tools/Solenoid-connection-FINAL.step"

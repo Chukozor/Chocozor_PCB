@@ -4686,6 +4686,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Chukozor_symbols:RotaryEncoder_Switch-True-EC12"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ENC"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch-True-EC12"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch-True-EC12_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch-True-EC12_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 6.35 270)
+					(length 2.54)
+					(hide yes)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Chukozor_symbols:SB-x2-small"
 			(pin_names
 				(offset 0)
@@ -10683,10 +10984,6 @@
 		(uuid "159c203f-d63f-417c-a57b-2a974b11a73b")
 	)
 	(no_connect
-		(at 187.198 438.912)
-		(uuid "299ed64c-750f-4277-8056-8d65c3d5d89e")
-	)
-	(no_connect
 		(at 126.238 45.466)
 		(uuid "2b3bbf43-957e-4f2d-b863-7a2a297ea73e")
 	)
@@ -10725,10 +11022,6 @@
 	(no_connect
 		(at 121.158 45.466)
 		(uuid "66f62d45-c4b4-48f4-abfb-de4c6e36e792")
-	)
-	(no_connect
-		(at 186.944 443.992)
-		(uuid "696d6651-c800-4103-8469-9509a815803e")
 	)
 	(no_connect
 		(at 231.14 63.246)
@@ -11744,16 +12037,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.798 441.452) (xy 170.688 441.452)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "283d9560-8954-4bee-9008-b508ea6e848b")
-	)
-	(wire
-		(pts
 			(xy 422.402 429.768) (xy 422.402 440.182)
 		)
 		(stroke
@@ -12164,16 +12447,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.322 554.99) (xy 163.322 553.974)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ad53809-b098-44d3-8726-167bce03fa2d")
-	)
-	(wire
-		(pts
 			(xy 152.908 270.51) (xy 193.802 270.51)
 		)
 		(stroke
@@ -12281,16 +12554,6 @@
 			(type default)
 		)
 		(uuid "3e751726-d1cc-4a5e-a40e-acfc2019031f")
-	)
-	(wire
-		(pts
-			(xy 187.198 438.912) (xy 185.928 438.912)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3edfb7da-a6e0-466c-ab42-71057f87f1c7")
 	)
 	(wire
 		(pts
@@ -12734,16 +12997,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.322 554.99) (xy 154.432 554.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53d99072-a23b-4875-8697-40af47c0f218")
-	)
-	(wire
-		(pts
 			(xy 156.21 275.844) (xy 181.102 275.844)
 		)
 		(stroke
@@ -12801,16 +13054,6 @@
 			(type default)
 		)
 		(uuid "55fc153f-4673-41f9-91f8-dc9c790c2919")
-	)
-	(wire
-		(pts
-			(xy 186.944 443.992) (xy 185.928 443.992)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560d0eae-bd4b-44f2-a620-fceded46d943")
 	)
 	(wire
 		(pts
@@ -14331,16 +14574,6 @@
 			(type default)
 		)
 		(uuid "92c4c557-0a75-4b98-ae1e-6fb46e0b81ba")
-	)
-	(wire
-		(pts
-			(xy 163.322 549.91) (xy 163.322 551.434)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9327c165-7566-49c0-b7e5-30171316d1f7")
 	)
 	(wire
 		(pts
@@ -16581,16 +16814,6 @@
 			(type default)
 		)
 		(uuid "f86a92ce-7e37-4ffd-8dd4-254ead0cf905")
-	)
-	(wire
-		(pts
-			(xy 154.432 549.91) (xy 163.322 549.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8835e81-e0d0-42f8-b6e3-336c1b1a152d")
 	)
 	(wire
 		(pts
@@ -30341,7 +30564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Chukozor_symbols:RotaryEncoder_Switch")
+		(lib_id "Chukozor_symbols:RotaryEncoder_Switch-True-EC12")
 		(at 146.812 552.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30351,22 +30574,24 @@
 		(fields_autoplaced yes)
 		(uuid "87039c00-f194-4adb-8e6f-3ebc10389f7b")
 		(property "Reference" "ENC2"
-			(at 146.812 542.798 0)
+			(at 153.67 551.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 146.812 545.338 0)
+			(at 153.67 553.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
+		(property "Footprint" "Switches_Chukozor:True_EC12"
 			(at 143.002 548.386 0)
 			(effects
 				(font
@@ -30393,17 +30618,11 @@
 				(hide yes)
 			)
 		)
-		(pin "S2"
-			(uuid "53d34c13-6de6-42bb-ba40-dbcb631f684b")
-		)
 		(pin "B"
 			(uuid "c0e63c93-f594-493f-ba5f-3b8352db15ff")
 		)
 		(pin "C"
 			(uuid "43efdff0-2f56-42bd-92b8-c850c26a1a29")
-		)
-		(pin "S1"
-			(uuid "0de0615d-1d4b-46e2-bb7c-3baaecf5f6f2")
 		)
 		(pin "A"
 			(uuid "d76ce9bb-3895-4f6b-93e1-0381e42e9cc7")
@@ -31561,75 +31780,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 168.402 551.434 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "947d316d-98ef-47a5-b895-87ee94bad0e7")
-		(property "Reference" "HandSoldering2Pins-OUT10"
-			(at 171.958 563.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 170.434 559.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:EC12_ribon_connector_bis2pins"
-			(at 168.402 551.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.402 551.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.402 551.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dd778f6-ec18-4dd3-b2f7-eaa4554338e3")
-		)
-		(pin "2"
-			(uuid "d646bc41-8691-4ea4-bdd0-bc3ad1f0021d")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "HandSoldering2Pins-OUT10")
 					(unit 1)
 				)
 			)
@@ -38971,86 +39121,6 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Chukozor_symbols:RotaryEncoder_Switch")
-		(at 178.308 441.452 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff4de6a6-3292-4293-8de3-a5f03bc69ca8")
-		(property "Reference" "ENC1"
-			(at 178.308 431.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 178.308 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switches_Chukozor:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm"
-			(at 174.498 437.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 178.308 434.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 178.308 441.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S2"
-			(uuid "ea9278a4-024c-4d49-a2b3-14c6b0708a1f")
-		)
-		(pin "B"
-			(uuid "82019568-8e7b-4cc5-aea8-cb2012f80fbc")
-		)
-		(pin "C"
-			(uuid "dd56f66d-ee2d-447d-93b8-da0fb8d1595e")
-		)
-		(pin "S1"
-			(uuid "843686d7-eb47-4abb-bdf5-a152e6b18f5e")
-		)
-		(pin "A"
-			(uuid "0a76d7ea-dcae-40b3-90d9-475e1b8e51de")
-		)
-		(pin "MP"
-			(uuid "6fccb11d-7f36-4d78-a0c4-9fabf0cb033f")
-		)
-		(instances
-			(project "chocofi"
-				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "ENC1")
 					(unit 1)
 				)
 			)
