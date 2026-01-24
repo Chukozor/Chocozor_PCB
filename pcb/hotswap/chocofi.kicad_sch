@@ -28710,7 +28710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "664ced9b-06a2-426f-b2e8-cf0f4b7a47f7")
-		(property "Reference" "M2-hole2.5"
+		(property "Reference" "M2-hole2"
 			(at 293.37 387.6039 0)
 			(effects
 				(font
@@ -28728,7 +28728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2-hole2.5"
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M2"
 			(at 290.322 388.874 0)
 			(effects
 				(font
@@ -28758,7 +28758,7 @@
 		(instances
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
-					(reference "M2-hole2.5")
+					(reference "M2-hole2")
 					(unit 1)
 				)
 			)
