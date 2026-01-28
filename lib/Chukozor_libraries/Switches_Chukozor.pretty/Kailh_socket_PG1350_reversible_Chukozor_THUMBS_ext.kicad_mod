@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 4.43 -2.32 0)
 		(layer "F.SilkS")
-		(uuid "82e06707-de08-4c39-a414-8889cf3648cb")
+		(uuid "104ea725-e865-42a9-9713-ce7bf13ceab6")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Kailh_socket_PG1350_reversible_Chukozor_THUMBS_ext"
 		(at 0 8.89 0)
 		(layer "F.Fab")
-		(uuid "75eb9935-6cdd-45f2-b6f3-079bc597bc65")
+		(uuid "d2cdd3c1-5882-4597-99a5-61c2a8c04e2c")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9eec109-8bcf-4967-93d3-432c95ab40b4")
+		(uuid "a4c9ca40-5ea9-4b00-ba6c-0d5967c70fb6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d8fcf069-f499-4a30-ac3b-9be4d47fcd9e")
+		(uuid "454c6445-0d57-4294-b3d0-f0a19775b838")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1099,13 +1099,6 @@
 		(uuid "ae7ded6d-772b-4ee0-a645-a842ebb1d627")
 	)
 	(pad "" np_thru_hole circle
-		(at -5.22 -4.2)
-		(size 0.9906 0.9906)
-		(drill 0.9906)
-		(layers "*.Cu" "*.Mask")
-		(uuid "af52da65-2279-40be-8a2c-491f962fdd39")
-	)
-	(pad "" np_thru_hole circle
 		(at -5 3.75)
 		(size 3 3)
 		(drill 3)
@@ -1134,13 +1127,6 @@
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(uuid "6eeda740-0ca3-4499-bf18-0b88350c5203")
-	)
-	(pad "" np_thru_hole circle
-		(at 5.22 -4.2)
-		(size 0.9906 0.9906)
-		(drill 0.9906)
-		(layers "*.Cu" "*.Mask")
-		(uuid "08443864-049d-40ab-b08a-dfb72888c6d6")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.5 0)
