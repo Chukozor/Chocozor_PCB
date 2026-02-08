@@ -10039,6 +10039,16 @@
 		)
 		(uuid "2cc76890-9957-4117-9078-db2339442fb3")
 	)
+	(text "Mobil-SW-Mini"
+		(exclude_from_sim no)
+		(at 74.422 566.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "306a49e4-f8c6-40d0-a165-604fb14bfe18")
+	)
 	(text "VIK TRACKPAD"
 		(exclude_from_sim no)
 		(at 377.444 337.312 0)
@@ -12132,6 +12142,16 @@
 			(type default)
 		)
 		(uuid "073a6cdc-3190-42e9-9844-c91b4e95c65c")
+	)
+	(wire
+		(pts
+			(xy 81.788 546.1) (xy 81.788 547.116)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07601db0-6e62-476b-9b2d-41811da9e931")
 	)
 	(wire
 		(pts
@@ -14265,6 +14285,16 @@
 	)
 	(wire
 		(pts
+			(xy 75.692 554.736) (xy 81.788 554.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f190c8-6310-4174-9a6d-89662ead20e8")
+	)
+	(wire
+		(pts
 			(xy 169.164 382.524) (xy 169.164 395.732)
 		)
 		(stroke
@@ -14362,6 +14392,16 @@
 			(type default)
 		)
 		(uuid "69b160d3-aa1e-4032-a8ef-e6e15fb62774")
+	)
+	(wire
+		(pts
+			(xy 66.548 554.736) (xy 73.152 554.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d1f921-b36d-4810-b81c-58040005f730")
 	)
 	(wire
 		(pts
@@ -16772,6 +16812,16 @@
 			(type default)
 		)
 		(uuid "c8d8f644-f5cb-4717-831e-93b834fe0f1a")
+	)
+	(wire
+		(pts
+			(xy 66.548 554.736) (xy 66.548 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f25c01-3359-408f-9803-86087ff10f55")
 	)
 	(wire
 		(pts
@@ -23185,6 +23235,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Chukozor_symbols:SW_Chuk_-PULL_switches")
+		(at 74.168 546.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03c5eef6-e602-4ab9-bbb4-7eb7d691e3c7")
+		(property "Reference" "MobilSW6"
+			(at 74.168 542.036 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(property "Value" "Pull"
+			(at 74.168 548.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Kailh_socket_PG1350_reversible_Chukozor_-PULL-simplifiev2-TO-SOLDER"
+			(at 74.168 546.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.168 546.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.168 546.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "216201b0-c492-4fd8-b62b-2106ed5ae339")
+		)
+		(pin "1"
+			(uuid "c936e543-c8f0-4035-8c17-f82d59c53c0f")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "MobilSW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:FPC_8pins_SPECIALswitches-IN-HIGH-687108183722")
 		(at 220.98 68.326 0)
 		(unit 1)
@@ -28048,6 +28166,76 @@
 			(project "chocofi"
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 73.152 559.816 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c7b713b-0912-4eaf-99e4-70ce82eae7d5")
+		(property "Reference" "HandSoldering2Pins-IN8"
+			(at 85.344 563.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 80.772 561.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:HandSoldering-2pins-OUT-SMD"
+			(at 73.152 559.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.152 559.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.152 559.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1e59d06-d1ec-4608-a14c-1e76a4a65ec6")
+		)
+		(pin "2"
+			(uuid "9b75608c-da91-4b23-95b5-4ee94171ab50")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "HandSoldering2Pins-IN8")
 					(unit 1)
 				)
 			)
@@ -35912,6 +36100,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 90.17 557.784 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b815a523-f4cf-4669-b87d-9f1f6487c2a3")
+		(property "Reference" "M1.6-30"
+			(at 92.964 556.5139 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHoleM1.6"
+			(at 92.964 559.0539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:Mounting-hole-M1.6"
+			(at 90.17 557.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 557.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 90.17 557.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "M1.6-30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Chukozor_symbols:FPC_connector-4p")
 		(at 267.208 534.924 270)
 		(unit 1)
@@ -40959,6 +41210,94 @@
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "HandSoldering2Pins-IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Chukozor_symbols:1N4148")
+		(at 81.788 550.926 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f013206e-226a-4d1f-8faf-90f97fd9d8bb")
+		(property "Reference" "D27"
+			(at 83.82 549.6559 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 83.82 552.1959 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:SMD_SOD_123_only_one_face"
+			(at 70.866 550.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 73.914 550.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 72.39 550.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.088 550.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 75.946 550.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "018a74c8-2132-4558-97e6-4c78e5040f9a")
+		)
+		(pin "1"
+			(uuid "841cce01-90d1-4037-93cb-bd7cd67d254a")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "D27")
 					(unit 1)
 				)
 			)
