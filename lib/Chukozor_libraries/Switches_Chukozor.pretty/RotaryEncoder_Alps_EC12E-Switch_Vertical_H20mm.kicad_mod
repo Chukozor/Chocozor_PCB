@@ -6,7 +6,7 @@
 	(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF")
 	(tags "rotary encoder")
 	(property "Reference" "REF**"
-		(at -4.725 7.275 0)
+		(at -3.95 5.55 0)
 		(layer "F.SilkS")
 		(uuid "3230eb40-7bc6-4e5e-9d9e-ed2d003f678f")
 		(effects
@@ -206,6 +206,127 @@
 		(uuid "df367f70-b410-4873-ad4b-63a9c86a05ca")
 	)
 	(fp_line
+		(start -6.7 -6.3)
+		(end -6.7 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a5eb8b09-931c-4e2e-90d3-c6fb363b99a7")
+	)
+	(fp_line
+		(start -6.7 6.3)
+		(end -6.7 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b397d4b4-5cbe-4410-afcc-4807cdb7358f")
+	)
+	(fp_line
+		(start -1.9 -6.3)
+		(end -6.7 -6.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "85654c5b-dbc3-4ffa-9c26-6f007fb4d27b")
+	)
+	(fp_line
+		(start -1.8 6.3)
+		(end -6.7 6.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "fe0828a1-570b-4a2f-9eaf-f8885e5e5171")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "30595b16-ef77-4509-a101-f1dc7921e589")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "99938975-bfa7-42ee-8003-7280b96a3494")
+	)
+	(fp_line
+		(start 1.8 -6.3)
+		(end 6.7 -6.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "60a4ad33-4998-43d2-a3ed-e7205f07ff32")
+	)
+	(fp_line
+		(start 6.7 -6.3)
+		(end 6.7 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e35264ad-2534-4f25-b1d2-04df47aa15e9")
+	)
+	(fp_line
+		(start 6.7 -1.2)
+		(end 6.7 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "9749f5ac-c1d2-42ec-872b-490fbab33e26")
+	)
+	(fp_line
+		(start 6.7 3.8)
+		(end 6.7 6.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a161e8d7-ed0c-4ad6-acf2-ef640925512f")
+	)
+	(fp_line
+		(start 6.7 6.3)
+		(end 1.8 6.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "1bdc61b0-5258-4b46-8dd1-0621434d2580")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "69f6ebb9-912f-4905-bc02-17ecf994bedb")
+	)
+	(fp_line
 		(start -6.6 -6.2)
 		(end -6.6 6.2)
 		(stroke
@@ -336,6 +457,19 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "d01cf6cc-cdf5-474c-821e-d1e0f067b877")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.35 5.55 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "18cea221-a5ff-4dec-82bc-d05612747fac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify mirror)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 4 4.1 0)
