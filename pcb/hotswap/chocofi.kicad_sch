@@ -13814,6 +13814,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 423.926) (xy 137.668 423.926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc6c1c1-8e5a-4482-9a38-d27879b43c72")
+	)
+	(wire
+		(pts
 			(xy 71.12 311.15) (xy 112.014 311.15)
 		)
 		(stroke
@@ -15694,6 +15704,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 421.386) (xy 137.668 421.386)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889676b3-cc60-4c5e-aa9c-15992e3ea834")
+	)
+	(wire
+		(pts
 			(xy 383.54 269.494) (xy 387.35 269.494)
 		)
 		(stroke
@@ -17281,6 +17301,16 @@
 			(type default)
 		)
 		(uuid "c67d272c-d869-4386-8555-8b89acecd7eb")
+	)
+	(wire
+		(pts
+			(xy 136.144 426.466) (xy 137.668 426.466)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6918152-c7ec-4264-8fb3-e601d13fad56")
 	)
 	(wire
 		(pts
@@ -20904,6 +20934,28 @@
 			)
 		)
 	)
+	(global_label "ENCA"
+		(shape input)
+		(at 134.62 421.386 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "156bd7bf-b923-495f-9390-ef37cbe49e7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7967 421.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 408.686 356.616 180)
@@ -21147,6 +21199,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENCB"
+		(shape input)
+		(at 136.144 426.466 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2eb6e385-0b71-4a8f-8451-a6cbeb470956")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.1393 426.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -36198,6 +36272,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 142.748 423.926 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6b76362-afa4-481a-bcf5-25cf5ac3c71f")
+		(property "Reference" "J10"
+			(at 145.796 423.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 148.082 418.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switches_Chukozor:EC12_ribon_connector"
+			(at 142.748 423.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.748 423.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.748 423.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf3f5f3e-9a19-40aa-89b1-197b7cf874a2")
+		)
+		(pin "1"
+			(uuid "8b6bbcac-9b32-46f5-aabf-f011c107d9cb")
+		)
+		(pin "3"
+			(uuid "38dff67d-c88a-4130-bd3b-8d1a27c31d26")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "chocofi-rescue:SW_PUSH-kbd-corne-light-rescue")
 		(at 122.936 40.386 0)
 		(unit 1)
@@ -42415,6 +42562,72 @@
 			(project ""
 				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
 					(reference "HandSoldering2Pins-IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "chocofi-rescue:GND-power")
+		(at 129.54 423.926 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef9370a9-156e-40a9-8b79-cabf08b339c5")
+		(property "Reference" "#PWR026"
+			(at 123.19 423.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 423.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 423.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 423.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 423.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb77e3e-c202-47c8-bd18-4a7169c73d03")
+		)
+		(instances
+			(project "chocofi"
+				(path "/4976ae50-9ae0-4449-9f0b-b92cb3fc915b"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
